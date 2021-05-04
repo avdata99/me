@@ -1,0 +1,10 @@
+id_prov;prov;var1;var2;svar1;svar2;value;value_abs;covar
+94;Tierra del Fuego;P__01_02_PORC;V__URP_01_PORC;Cónyuge o pareja PORC;Area Urbano PORC;0.732;0.732;99.693
+94;Tierra del Fuego;P__01_02_PORC;H__19C_01_PORC;Cónyuge o pareja PORC;Con teléfono celular PORC;0.726;0.726;55.463
+94;Tierra del Fuego;P__01_02_PORC;P__01_03_PORC;Cónyuge o pareja PORC;Hijo(a) / Hijastro(a) PORC;0.776;0.776;36.076
+94;Tierra del Fuego;P__01_02_PORC;P__02_02_PORC;Cónyuge o pareja PORC;Mujer PORC;0.820;0.820;35.352
+94;Tierra del Fuego;P__01_02_PORC;P__08_01_PORC;Cónyuge o pareja PORC;Asiste PORC;0.743;0.743;28.126
+94;Tierra del Fuego;P__01_02_PORC;P__12_01_PORC;Cónyuge o pareja PORC;Si tiliza computadora PORC;0.842;0.842;64.855
+78;Santa Cruz;P__01_02_PORC;P__02_02_PORC;Cónyuge o pareja PORC;Mujer PORC;0.794;0.794;48.309
+78;Santa Cruz;P__01_02_PORC;P__12_01_PORC;Cónyuge o pareja PORC;Si tiliza computadora PORC;0.735;0.735;64.526
+78;Santa Cruz;P__01_02_PORC;P__02_01_PORC;Cónyuge o pareja PORC;Hombre PORC;-0.794;0.794;-48.309

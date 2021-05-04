@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Radios Córdoba ciudad, 2010</title>
+      <meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Andres Vazquez">
+<meta property=”og:title” content=""/>
+<meta property=”og:description” content=""/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #info {margin: 5px;}
+      #map-canvas { height: 90%; padding: 10px; }
+    </style>
+    <script type="text/javascript" src="resources/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">  
+      var radios = []; // son fracciones en realidad
+      var map;
+      var infowindow = {};
+      var urlBase = "https://andresvazquez.com.ar/data/CEPyD-Cordoba-Capital-2010";
+      //var urlBase = "http://localhost/andres/devs/andresvazquez/data/CEPyD-Cordoba-Capital-2010";
+      
+      var getP = {}; //GET parameters
+      var refs = {}; // min and max values for all variables
+      function initialize() {
+      
+var styleMap = [
+{"featureType": "water","elementType": "geometry","stylers": [{"visibility": "on"},{"color": "#aee2e0"}]},
+{"featureType": "landscape","elementType": "geometry.fill","stylers": [{"color": "#abce83"}]},
+{"featureType": "poi","elementType": "geometry.fill","stylers": [{"color": "#769E72"}]},
+{"featureType": "poi","elementType": "labels.text.fill","stylers": [{"color": "#7B8758"}]},
+{"featureType": "poi","elementType": "labels.text.stroke","stylers": [{"color": "#EBF4A4"}]},
+{"featureType": "poi.park","elementType": "geometry","stylers": [{"visibility": "simplified"},{"color": "#8dab68"}]},
+{"featureType": "road","elementType": "geometry.fill","stylers": [{"visibility": "simplified"}]},
+{"featureType": "road","elementType": "labels.text.fill","stylers": [{"color": "#5B5B3F"}]},
+{"featureType": "road","elementType": "labels.text.stroke","stylers": [{"color": "#ABCE83"}]},
+{"featureType": "road","elementType": "labels.icon","stylers": [{"visibility": "off"}]},
+{"featureType": "road.local","elementType": "geometry","stylers": [{"color": "#A4C67D"}]},
+{"featureType": "road.arterial","elementType": "geometry","stylers": [{"color": "#9BBF72"}]},
+{"featureType": "road.highway","elementType": "geometry","stylers": [{"color": "#EBF4A4"}]},
+{"featureType": "transit","stylers": [{"visibility": "off"}]},
+{"featureType": "administrative","elementType": "geometry.stroke","stylers": [{"visibility": "on"},{"color": "#87ae79"}]},
+{"featureType": "administrative","elementType": "geometry.fill","stylers": [{"color": "#7f2200"},{"visibility": "off"}]},
+{"featureType": "administrative","elementType": "labels.text.stroke","stylers": [{"color": "#ffffff"},{"visibility": "on"},{"weight": 4.1}]},
+{"featureType": "administrative","elementType": "labels.text.fill","stylers": [{"color": "#495421"}]},
+{"featureType": "administrative.neighborhood","elementType": "labels","stylers": [{"visibility": "off"}]}];
+
+        // read GET parametrers
+        
+        location.search.substr(1).split("&").forEach(function(item) {getP[item.split("=")[0]] = item.split("=")[1];});
+        if (undefined === getP.l1) getP.l1 = -31.41284242489261;
+        if (undefined === getP.l2) getP.l2 = -64.28866644433593;
+        if (undefined === getP.z) getP.z = 11;
+        else getP.z = parseInt(getP.z);
+        if (undefined === getP.dato) getP.dato = "ANALF_15";
+        
+        var mapOptions = {zoom: getP.z, center: new google.maps.LatLng(getP.l1,getP.l2)
+            , mapTypeId: google.maps.MapTypeId.TERRAIN
+            , styles: styleMap};
+        map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+        //google.maps.event.addListener(map, 'dragend', showData);
+        google.maps.event.addListener(map, 'center_changed', upUrl);
+        google.maps.event.addListener(map, 'zoom_changed', upUrl);      
+        
+        var infod = document.createElement('div');
+        $(infod).attr("id", "info");
+        $(infod).html("<div style='margin: 15px; padding: 35px; background-color: white; border-radius: 5px'><h1>Cargando ...</h1></div>");
+        
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(infod);
+        
+        var info = "<div style='margin: 15px; max-width: 1250px;background-color: rgba(68, 70, 49, 0.9); padding: 15px; color: white; border-radius: 15px;'>";
+        info += "<h3 style='margin-top: -5px;'>Escolarizacion en Cordoba</h3> ";
+        
+        //filtro de servicios de DNS
+        var content = [];
+        content.push('A mostrar: ');
+        //content.push('<select id="seldata" onchange="changeData(this.value, $(\'#selheat\').is(\':checked\'));">');
+        content.push('<select id="seldata" onChange="showData()">');
+        
+        flds ={"ANALF_15": "Tasa de analfabetismo <15"
+            ,"ASI611": "Asistencia escolar de 6-11"
+            ,"ASI1217":"Asistencia escolar de 12-17"
+            ,"ASI1824":"Asistencia escolar de 18-24"
+            ,"ESCOLPRI":"Tasa neta de escolaridad primaria"
+            ,"ESCOLSEC":"Tasa neta de escolaridad secundaria"
+            ,"ESCOLSUP":"Tasa neta de escolaridad superior"};
+        
+        $.each( flds, function( i, item ) {
+            var sel = (i == getP.dato) ? "selected='selected'" : "";
+            content.push("<option value='"+i+"' " + sel +">" + item + "</option>");
+            });
+            
+        content.push('</select>');
+             
+        content.push("<div id='helpp'>");
+        //content.push("<h3>Descripcion de los datos</h3>");
+        content.push("<br/>Mapa desarrollado por <a style='color:white' target='_blank' href='https://andresvazquez.com.ar'>Andres Vazquez</a>");
+        content.push("<br/>con datos del <a style='color:white' target='_blank' href='http://www.cepyd.org.ar/'>Centro de Estudios de Poblacion y Desarrollo</a>");
+        
+        content.push("</div>");
+        content.push("<div id='proc'>");
+        content.push("</div>");
+        
+        content.push("</div>");
+        info += content.join('');
+
+        $(infod).html(info);
+        loadRadios(urlBase + "/resources/fracciones-cba.geojson", "#000000", 0.5, 2, 0.01, "#0F0F0F", 0);
+        
+      }
+      function loadRadios(json, strokeColor, strokeOpacity, strokeWeight, fillOpacity, fillColor, start_id)
+        {
+        var xr = $.getJSON(json);
+        xr.done( function(data) {
+            
+            
+            if (refs["ANALF_15"] === undefined) {refs["ANALF_15"] = {"max":0, "min":0, "values":[]}};
+            if (refs["ASI611"] === undefined) {refs["ASI611"] = {"max":0, "min":0, "values":[]}};
+            if (refs["ASI1217"] === undefined) {refs["ASI1217"] = {"max":0, "min":0, "values":[]}};
+            if (refs["ASI1824"] === undefined) {refs["ASI1824"] = {"max":0, "min":0, "values":[]}};
+            if (refs["ESCOLPRI"] === undefined) {refs["ESCOLPRI"] = {"max":0, "min":0, "values":[]}};
+            if (refs["ESCOLSEC"] === undefined) {refs["ESCOLSEC"] = {"max":0, "min":0, "values":[]}};
+            if (refs["ESCOLSUP"] === undefined) {refs["ESCOLSUP"] = {"max":0, "min":0, "values":[]}};
+            
+            for (r=0; r < data.features.length; r++)
+                {
+                updateProc("Loading " + r + " ...");
+        
+                var i = start_id + r;
+                radios[i] = data.features[r];
+                var ifo = ""; //<div style='padding: 10px; max-height: 300px; overflow:auto; float:left;'>";
+                ifo += "Fraccion " + radios[i].properties.CLAVE_UNIC;
+                
+                var ANALF_15 = parseFloat(radios[i].properties.ANALF_15).toFixed(2);
+                var ASI611 = parseFloat(radios[i].properties.ASI611).toFixed(2);
+                var ASI1217 = parseFloat(radios[i].properties.ASI1217).toFixed(2);
+                var ASI1824 = parseFloat(radios[i].properties.ASI1824).toFixed(2);
+                var ESCOLPRI = parseFloat(radios[i].properties.ESCOLPRI).toFixed(2);
+                var ESCOLSEC = parseFloat(radios[i].properties.ESCOLSEC).toFixed(2);
+                var ESCOLSUP = parseFloat(radios[i].properties.ESCOLSUP).toFixed(2);
+                
+                refs.ANALF_15.values.push(parseFloat(radios[i].properties.ANALF_15));
+                refs.ASI611.values.push(parseFloat(radios[i].properties.ASI611));
+                refs.ASI1217.values.push(parseFloat(radios[i].properties.ASI1217));
+                refs.ASI1824.values.push(parseFloat(radios[i].properties.ASI1824));
+                refs.ESCOLPRI.values.push(parseFloat(radios[i].properties.ESCOLPRI));
+                refs.ESCOLSEC.values.push(parseFloat(radios[i].properties.ESCOLSEC));
+                refs.ESCOLSUP.values.push(parseFloat(radios[i].properties.ESCOLSUP));
+                
+                ifo += "<br/>Tasa de analfabetismo <15: <b>"+ANALF_15+"</b>";
+                ifo += "<br/>Asistencia escolar de 6-11: <b>"+ASI611+"</b>";
+                ifo += "<br/>Asistencia escolar de 12-17: <b>"+ASI1217+"</b>";
+                ifo += "<br/>Asistencia escolar de 18-24: <b>"+ASI1824+"</b>";
+                ifo += "<br/>Tasa neta de escolaridad primaria: <b>"+ESCOLPRI+"</b>";
+                ifo += "<br/>Tasa neta de escolaridad secundaria: <b>"+ESCOLSEC+"</b>";
+                ifo += "<br/>Tasa neta de escolaridad superior: <b>"+ESCOLSUP+"</b>";
+                ifo += "</div>";
+                infowindow = new google.maps.InfoWindow({content: ifo});
+                
+                var coords = data.features[r].geometry.coordinates[0]; // TODO un radio puede ser mas de un polygono (algunos tienen huecos dentro)
+                var path = [];
+                for (p=0; p < coords.length; p++)
+                    {
+                    var pos = new google.maps.LatLng(coords[p][1], coords[p][0]);
+                    path.push(pos);
+                    }
+                radios[i]["poly"] = new google.maps.Polygon({
+                    idx: i, path: path,
+                    strokeColor: strokeColor, strokeOpacity: strokeOpacity,strokeWeight: strokeWeight,
+                    fillOpacity: fillOpacity,fillColor: fillColor,draggable: true
+                    });
+                radios[i]["poly"].setMap(map);
+                radios[i]["infow"] = infowindow;
+                
+                google.maps.event.addListener(radios[i]["poly"], 'click', function(ev){
+                    radios[this.idx]["infow"].setPosition(ev.latLng);
+                    radios[this.idx]["infow"].open(map);
+                    });
+                }
+                
+                refs.ANALF_15.max = Math.max.apply(Math,refs.ANALF_15.values);
+                refs.ASI611.max = Math.max.apply(Math,refs.ASI611.values);
+                refs.ASI1217.max = Math.max.apply(Math,refs.ASI1217.values);
+                refs.ASI1824.max = Math.max.apply(Math,refs.ASI1824.values);
+                refs.ESCOLPRI.max = Math.max.apply(Math,refs.ESCOLPRI.values);
+                refs.ESCOLSEC.max = Math.max.apply(Math,refs.ESCOLSEC.values);
+                refs.ESCOLSUP.max = Math.max.apply(Math,refs.ESCOLSUP.values);
+                
+                refs.ANALF_15.min = Math.min.apply(Math,refs.ANALF_15.values);
+                refs.ASI611.min = Math.min.apply(Math,refs.ASI611.values);
+                refs.ASI1217.min = Math.min.apply(Math,refs.ASI1217.values);
+                refs.ASI1824.min = Math.min.apply(Math,refs.ASI1824.values);
+                refs.ESCOLPRI.min = Math.min.apply(Math,refs.ESCOLPRI.values);
+                refs.ESCOLSEC.min = Math.min.apply(Math,refs.ESCOLSEC.values);
+                refs.ESCOLSUP.min = Math.min.apply(Math,refs.ESCOLSUP.values);
+                
+                updateProc("FIN");
+                showData();
+                
+            });
+        xr.fail( function(data) {
+            alert ("Fallo la carga de datos!");
+            });  
+            
+        }
+        
+        
+     function showData()
+        {
+        if (undefined !== $('#seldata').val()) {
+            getP.dato = $('#seldata').val();
+        }
+        upUrl();
+        
+        for (r=0; r < radios.length; r++)
+            {
+            updateProc("Mapping " + r + " ...");
+            //radios[r]["poly"].setMap(map);
+            var maxv = refs[getP.dato].max;
+            var minv = refs[getP.dato].min;
+            var valv = parseFloat(radios[r].properties[getP.dato]);
+            
+            var topv = maxv - minv;
+            var myv = valv - minv;
+            var opa = myv/topv;
+            var options = {"fillOpacity": opa}
+            
+            radios[r]["poly"].setOptions(options);
+            //strokeColor: strokeColor, strokeOpacity: strokeOpacity,strokeWeight: strokeWeight,fillOpacity: fillOpacity,fillColor: fillColor
+            }
+        updateProc("FIN");
+        }      
+     
+      function upUrl()
+        {
+        var bc = map.getCenter();
+        var bz = map.getZoom();
+        var dato = getP.dato;
+        var newPos = urlBase;
+        newPos += "?dato="+dato+"&z=" + bz + "&l1=" + bc.lat() + "&l2=" + bc.lng();
+        window.history.pushState("Drag map", "Mapa 2", newPos);
+        }
+        
+      function updateProc(txt)
+        {
+        $("#proc").html(txt);
+        if (txt == "FIN") $("#proc").hide(600);
+        else $("#proc").show();
+        }
+     
+      function loadScript() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        //script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDtM2Vw54AOuuqWBnECYdQn15XtxVC1s-c&sensor=false&callback=initialize';
+        //script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize&libraries=visualization';
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC_ljkIs4MnzC82Mmww-K19IE8YSXUgxAU&sensor=false&callback=initialize&libraries=visualization';
+        document.body.appendChild(script);
+      }
+      
+      $(document).ready(
+            function()
+                {
+                loadScript(); 
+                });
+      
+    </script>
+    
+    
+    
+    
+    
+  </head>
+  <body>
+    <div id="map-canvas"/>
+    
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24864140-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+  </body>
+  
+  
+</html>

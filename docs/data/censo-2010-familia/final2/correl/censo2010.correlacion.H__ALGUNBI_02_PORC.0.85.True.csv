@@ -1,0 +1,40 @@
+id_prov;prov;var1;var2;svar1;svar2;value;value_abs;covar
+58;Neuquén;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.891;0.891;-199.630
+62;Río Negro;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.953;0.953;-106.251
+66;Salta;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.852;0.852;284.595
+66;Salta;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.972;0.972;-387.189
+82;Santa Fe;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.887;0.887;-79.628
+86;Santiago del Estero;H__ALGUNBI_02_PORC;H__13_01_PORC;Al menos un indicador NBI PORC;De uso exclusivo del hogar PORC;-0.865;0.865;-206.490
+86;Santiago del Estero;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.933;0.933;213.455
+86;Santiago del Estero;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.947;0.947;-253.271
+86;Santiago del Estero;H__ALGUNBI_02_PORC;H__10_01_PORC;Al menos un indicador NBI PORC;HOGAR SI Tiene baño o letrina PORC;-0.861;0.861;-207.348
+26;Chubut;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.878;0.878;-91.104
+22;Chaco;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.863;0.863;162.538
+22;Chaco;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.986;0.986;-232.248
+46;La Rioja;H__ALGUNBI_02_PORC;H__11_01_PORC;Al menos un indicador NBI PORC;Si tiene cadena y mochila en el baño PORC;-0.858;0.858;-192.641
+46;La Rioja;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.881;0.881;101.106
+46;La Rioja;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-1.000;1.000;-135.188
+46;La Rioja;H__ALGUNBI_02_PORC;H__10_01_PORC;Al menos un indicador NBI PORC;HOGAR SI Tiene baño o letrina PORC;-0.881;0.881;-101.106
+2;CABA;H__ALGUNBI_02_PORC;H__13_02_PORC;Al menos un indicador NBI PORC;Baño compartido PORC;0.855;0.855;68.757
+2;CABA;H__ALGUNBI_02_PORC;H__13_01_PORC;Al menos un indicador NBI PORC;De uso exclusivo del hogar PORC;-0.902;0.902;-84.119
+2;CABA;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.985;0.985;-91.888
+6;Buenos Aires;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.929;0.929;-74.342
+74;San Luis;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.913;0.913;-155.272
+70;San Juan;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.856;0.856;62.948
+70;San Juan;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-1.000;1.000;-98.194
+70;San Juan;H__ALGUNBI_02_PORC;H__10_01_PORC;Al menos un indicador NBI PORC;HOGAR SI Tiene baño o letrina PORC;-0.856;0.856;-62.948
+90;Tucumán;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.901;0.901;-154.261
+94;Tierra del Fuego;H__ALGUNBI_02_PORC;V__01_03_PORC;Al menos un indicador NBI PORC;Casilla PORC;0.955;0.955;295.703
+78;Santa Cruz;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-1.000;1.000;-77.353
+10;Catamarca;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.948;0.948;221.798
+38;Jujuy;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.884;0.884;-225.230
+14;Córdoba;H__ALGUNBI_02_PORC;H__13_01_PORC;Al menos un indicador NBI PORC;De uso exclusivo del hogar PORC;-0.858;0.858;-59.191
+14;Córdoba;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.855;0.855;49.233
+14;Córdoba;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.986;0.986;-75.177
+54;Misiones;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.934;0.934;-193.954
+30;Entre Ríos;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.961;0.961;-135.704
+50;Mendoza;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.857;0.857;45.325
+50;Mendoza;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.877;0.877;-73.104
+34;Formosa;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.882;0.882;203.925
+34;Formosa;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.955;0.955;-274.954
+18;Corrientes;H__ALGUNBI_02_PORC;H__ALGUNBI_01_PORC;Al menos un indicador NBI PORC;Sin NBI PORC;-0.861;0.861;-237.186

@@ -300,6 +300,8 @@ TIMEZONE = "UTC"
 # FILES_FOLDERS = {'files': ''}
 # Which means copy 'files' into 'output'
 
+FILES_FOLDERS = {'custom-statics': '' }
+
 # One or more folders containing code listings to be processed and published on
 # the site. The format is a dictionary of {source: relative destination}.
 # Default is:
@@ -645,7 +647,72 @@ ATOM_FILENAME_BASE = "feed"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [["blog/sobre-mi/index.html", "/blog/pages/sobre-mi.html"], ["blog/proyectos-personales/index.html", "/blog/pages/proyectos-personales.html"], ["blog/serene/index.html", "/blog/pages/serene.html"], ["blog/podcast-cadena-de-datos/index.html", "/blog/pages/podcast-cadena-de-datos.html"], ["blog/anatomia-de-los-censos-en-latinoamerica/index.html", "/blog/posts/anatomia-de-los-censos-en-latinoamerica.html"], ["blog/el-equipo-y-la-tecnologia-de-tu-empresa/index.html", "/blog/posts/el-equipo-y-la-tecnologia-de-tu-empresa.html"], ["blog/medicina-de-datos/index.html", "/blog/posts/medicina-de-datos.html"], ["blog/consideraciones-para-tercerizar-el-desarrollo-de-software/index.html", "/blog/posts/consideraciones-para-tercerizar-el-desarrollo-de-software.html"], ["blog/aprovechando-el-api-de-youtube/index.html", "/blog/posts/aprovechando-el-api-de-youtube.html"], ["blog/ejemplo-de-datos-libres-para-hacer-periodismo/index.html", "/blog/posts/ejemplo-de-datos-libres-para-hacer-periodismo.html"], ["blog/consumo-de-combustibles-en-cordoba-a-un-ano-de-la-implementacion-de-la-tasa-vial/index.html", "/blog/posts/consumo-de-combustibles-en-cordoba-a-un-ano-de-la-implementacion-de-la-tasa-vial.html"], ["blog/cordoba-a-nivel-de-radio-censal/index.html", "/blog/posts/cordoba-a-nivel-de-radio-censal.html"], ["blog/ciencia-reutilizable/index.html", "/blog/posts/ciencia-reutilizable.html"], ["blog/informatizacion-de-los-municipios/index.html", "/blog/posts/informatizacion-de-los-municipios.html"], ["blog/hackathon-electoral-en-cordoba/index.html", "/blog/posts/hackathon-electoral-en-cordoba.html"], ["blog/api-de-dominios-argentinos/index.html", "/blog/posts/api-de-dominios-argentinos.html"], ["blog/siglos-de-fundacion-de-las-ciudades-argentinas/index.html", "/blog/posts/siglos-de-fundacion-de-las-ciudades-argentinas.html"], ["blog/las-tapas-del-diario-comercio-y-justicia/index.html", "/blog/posts/las-tapas-del-diario-comercio-y-justicia.html"], ["blog/municipedia/index.html", "/blog/posts/municipedia.html"], ["blog/los-municipios-de-cordoba-no-existen/index.html", "/blog/posts/los-municipios-de-cordoba-no-existen.html"], ["blog/escuelas-docentes-y-matriculados-en-cordoba-entre-1998-y-2010/index.html", "/blog/posts/escuelas-docentes-y-matriculados-en-cordoba-entre-1998-y-2010.html"], ["blog/la-coparticipacion-provincial-de-recursos-en-cordoba/index.html", "/blog/posts/la-coparticipacion-provincial-de-recursos-en-cordoba.html"], ["blog/hackatong-programar/index.html", "/blog/posts/hackatong-programar.html"], ["blog/charla-con-radio-universidad-de-la-plata-sobre-opendata/index.html", "/blog/posts/charla-con-radio-universidad-de-la-plata-sobre-opendata.html"], ["blog/datos-abiertos-sobre-dominios-com-argentinos/index.html", "/blog/posts/datos-abiertos-sobre-dominios-com-argentinos.html"], ["blog/en-tedxvillaallende/index.html", "/blog/posts/en-tedxvillaallende.html"], ["blog/dominios-artesanales/index.html", "/blog/posts/dominios-artesanales.html"], ["blog/emprendiendo-en-tecnologia-sin-ser-programador/index.html", "/blog/posts/emprendiendo-en-tecnologia-sin-ser-programador.html"], ["blog/sobre-el-voto-electronico/index.html", "/blog/posts/sobre-el-voto-electronico.html"], ["blog/transparencia-cuando-y-para-que/index.html", "/blog/posts/transparencia-cuando-y-para-que.html"], ["blog/datos-publicos-datos-privados-o-datos-importantes/index.html", "/blog/posts/datos-publicos-datos-privados-o-datos-importantes.html"], ["blog/la-cooperacion-como-estrategia-de-desarrollo/index.html", "/blog/posts/la-cooperacion-como-estrategia-de-desarrollo.html"], ["blog/cuantas-personas-votan-en-cada-domicilio/index.html", "/blog/posts/cuantas-personas-votan-en-cada-domicilio.html"], ["blog/comparando-padrones-electorales/index.html", "/blog/posts/comparando-padrones-electorales.html"], ["blog/elecciones-y-padron/index.html", "/blog/posts/elecciones-y-padron.html"], ["blog/cambios-para-nic-argentina/index.html", "/blog/posts/cambios-para-nic-argentina.html"], ["blog/que-tecnologia-se-usa-en-los-censos-de-latinoamerica/index.html", "/blog/posts/que-tecnologia-se-usa-en-los-censos-de-latinoamerica.html"], ["blog/el-peligro-de-los-datos-abiertos/index.html", "/blog/posts/el-peligro-de-los-datos-abiertos.html"], ["blog/el-arbol-y-el-bosque/index.html", "/blog/posts/el-arbol-y-el-bosque.html"], ["blog/desigualdada-de-genero-segun-sueldos-en-cordoba/index.html", "/blog/posts/desigualdada-de-genero-segun-sueldos-en-cordoba.html"], ["blog/educacion-en-ciudad-de-cordoba-segun-censo-2010/index.html", "/blog/posts/educacion-en-ciudad-de-cordoba-segun-censo-2010.html"], ["blog/una-app-mas/index.html", "/blog/posts/una-app-mas.html"], ["blog/publico-y-libre/index.html", "/blog/posts/publico-y-libre.html"], ["blog/entre-los-datos-y-los-ciudadanos/index.html", "/blog/posts/entre-los-datos-y-los-ciudadanos.html"], ["blog/mapa-de-funcionarios-de-villa-maria/index.html", "/blog/posts/mapa-de-funcionarios-de-villa-maria.html"], ["blog/datos-de-la-programacion-del-canal-encuentro-2013-2016/index.html", "/blog/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016.html"], ["blog/jugando-con-cartas-marinas/index.html", "/blog/posts/jugando-con-cartas-marinas.html"], ["blog/app-para-radio-online/index.html", "/blog/posts/app-para-radio-online.html"], ["blog/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad/index.html", "/blog/posts/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad.html"], ["blog/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba/index.html", "/blog/posts/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba.html"], ["blog/sobre-el-fixture-de-afa-2017-2018/index.html", "/blog/posts/sobre-el-fixture-de-afa-2017-2018.html"], ["blog/blockchain-para-certificar-datos/index.html", "/blog/posts/blockchain-para-certificar-datos.html"], ["blog/chile-si-va-al-mundial/index.html", "/blog/posts/chile-si-va-al-mundial.html"], ["blog/datos-masivos-de-transito-para-tu-ciudad/index.html", "/blog/posts/datos-masivos-de-transito-para-tu-ciudad.html"], ["blog/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/index.html", "/blog/posts/en-el-podcast-de-ilda-los-datos-cerca-del-vecino.html"], ["blog/un-nuevo-indicador-de-datos-abiertos-para-las-ciudades/index.html", "/blog/posts/un-nuevo-indicador-de-datos-abiertos-para-las-ciudades.html"], ["blog/l-app-unta-del-iceberg/index.html", "/blog/posts/l-app-unta-del-iceberg.html"], ["blog/my-bondi-ia/index.html", "/blog/posts/my-bondi-ia.html"], ["blog/cadena-de-datos/index.html", "/blog/posts/cadena-de-datos.html"], ["blog/is4h/index.html", "/blog/posts/is4h.html"]]
+REDIRECTIONS = [
+        ["blog/sobre-mi/", "/pages/sobre-mi/"],
+        ["blog/proyectos-personales/", "/pages/proyectos-personales/"],
+        ["blog/serene/", "/pages/serene/"],
+        ["blog/podcast-cadena-de-datos/", "/pages/podcast-cadena-de-datos/"],
+        ["blog/anatomia-de-los-censos-en-latinoamerica/", "/posts/anatomia-de-los-censos-en-latinoamerica/"],
+        ["blog/el-equipo-y-la-tecnologia-de-tu-empresa/", "/posts/el-equipo-y-la-tecnologia-de-tu-empresa/"],
+        ["blog/medicina-de-datos/", "/posts/medicina-de-datos/"],
+        ["blog/consideraciones-para-tercerizar-el-desarrollo-de-software/", "/posts/consideraciones-para-tercerizar-el-desarrollo-de-software/"],
+        ["blog/aprovechando-el-api-de-youtube/", "/posts/aprovechando-el-api-de-youtube/"],
+        ["blog/ejemplo-de-datos-libres-para-hacer-periodismo/", "/posts/ejemplo-de-datos-libres-para-hacer-periodismo/"],
+        ["blog/consumo-de-combustibles-en-cordoba-a-un-ano-de-la-implementacion-de-la-tasa-vial/", "/posts/consumo-de-combustibles-en-cordoba-a-un-ano-de-la-implementacion-de-la-tasa-vial/"],
+        ["blog/cordoba-a-nivel-de-radio-censal/", "/posts/cordoba-a-nivel-de-radio-censal/"],
+        ["blog/ciencia-reutilizable/", "/posts/ciencia-reutilizable/"],
+        ["blog/informatizacion-de-los-municipios/", "/posts/informatizacion-de-los-municipios/"],
+        ["blog/hackathon-electoral-en-cordoba/", "/posts/hackathon-electoral-en-cordoba/"],
+        ["blog/api-de-dominios-argentinos/", "/posts/api-de-dominios-argentinos/"],
+        ["blog/siglos-de-fundacion-de-las-ciudades-argentinas/", "/posts/siglos-de-fundacion-de-las-ciudades-argentinas/"],
+        ["blog/las-tapas-del-diario-comercio-y-justicia/", "/posts/las-tapas-del-diario-comercio-y-justicia/"],
+        ["blog/municipedia/", "/posts/municipedia/"],
+        ["blog/los-municipios-de-cordoba-no-existen/", "/posts/los-municipios-de-cordoba-no-existen/"],
+        ["blog/escuelas-docentes-y-matriculados-en-cordoba-entre-1998-y-2010/", "/posts/escuelas-docentes-y-matriculados-en-cordoba-entre-1998-y-2010/"],
+        ["blog/la-coparticipacion-provincial-de-recursos-en-cordoba/", "/posts/la-coparticipacion-provincial-de-recursos-en-cordoba/"],
+        ["blog/hackatong-programar/", "/posts/hackatong-programar/"],
+        ["blog/charla-con-radio-universidad-de-la-plata-sobre-opendata/", "/posts/charla-con-radio-universidad-de-la-plata-sobre-opendata/"],
+        ["blog/datos-abiertos-sobre-dominios-com-argentinos/", "/posts/datos-abiertos-sobre-dominios-com-argentinos/"],
+        ["blog/en-tedxvillaallende/", "/posts/en-tedxvillaallende/"],
+        ["blog/dominios-artesanales/", "/posts/dominios-artesanales/"],
+        ["blog/emprendiendo-en-tecnologia-sin-ser-programador/", "/posts/emprendiendo-en-tecnologia-sin-ser-programador/"],
+        ["blog/sobre-el-voto-electronico/", "/posts/sobre-el-voto-electronico/"],
+        ["blog/transparencia-cuando-y-para-que/", "/posts/transparencia-cuando-y-para-que/"],
+        ["blog/datos-publicos-datos-privados-o-datos-importantes/", "/posts/datos-publicos-datos-privados-o-datos-importantes/"],
+        ["blog/la-cooperacion-como-estrategia-de-desarrollo/", "/posts/la-cooperacion-como-estrategia-de-desarrollo/"],
+        ["blog/cuantas-personas-votan-en-cada-domicilio/", "/posts/cuantas-personas-votan-en-cada-domicilio/"],
+        ["blog/comparando-padrones-electorales/", "/posts/comparando-padrones-electorales/"],
+        ["blog/elecciones-y-padron/", "/posts/elecciones-y-padron/"],
+        ["blog/cambios-para-nic-argentina/", "/posts/cambios-para-nic-argentina/"],
+        ["blog/que-tecnologia-se-usa-en-los-censos-de-latinoamerica/", "/posts/que-tecnologia-se-usa-en-los-censos-de-latinoamerica/"],
+        ["blog/el-peligro-de-los-datos-abiertos/", "/posts/el-peligro-de-los-datos-abiertos/"],
+        ["blog/el-arbol-y-el-bosque/", "/posts/el-arbol-y-el-bosque/"],
+        ["blog/desigualdada-de-genero-segun-sueldos-en-cordoba/", "/posts/desigualdada-de-genero-segun-sueldos-en-cordoba/"],
+        ["blog/educacion-en-ciudad-de-cordoba-segun-censo-2010/", "/posts/educacion-en-ciudad-de-cordoba-segun-censo-2010/"],
+        ["blog/una-app-mas/", "/posts/una-app-mas/"],
+        ["blog/publico-y-libre/", "/posts/publico-y-libre/"],
+        ["blog/entre-los-datos-y-los-ciudadanos/", "/posts/entre-los-datos-y-los-ciudadanos/"],
+        ["blog/mapa-de-funcionarios-de-villa-maria/", "/posts/mapa-de-funcionarios-de-villa-maria/"],
+        ["blog/datos-de-la-programacion-del-canal-encuentro-2013-2016/", "/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/"],
+        ["blog/jugando-con-cartas-marinas/", "/posts/jugando-con-cartas-marinas/"],
+        ["blog/app-para-radio-online/", "/posts/app-para-radio-online/"],
+        ["blog/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad/", "/posts/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad/"],
+        ["blog/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba/", "/posts/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba/"],
+        ["blog/sobre-el-fixture-de-afa-2017-2018/", "/posts/sobre-el-fixture-de-afa-2017-2018/"],
+        ["blog/blockchain-para-certificar-datos/", "/posts/blockchain-para-certificar-datos/"],
+        ["blog/chile-si-va-al-mundial/", "/posts/chile-si-va-al-mundial/"],
+        ["blog/datos-masivos-de-transito-para-tu-ciudad/", "/posts/datos-masivos-de-transito-para-tu-ciudad/"],
+        ["blog/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/", "/posts/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/"],
+        ["blog/un-nuevo-indicador-de-datos-abiertos-para-las-ciudades/", "/posts/un-nuevo-indicador-de-datos-abiertos-para-las-ciudades/"],
+        ["blog/l-app-unta-del-iceberg/", "/posts/l-app-unta-del-iceberg/"],
+        ["blog/my-bondi-ia/", "/posts/my-bondi-ia/"],
+        ["blog/cadena-de-datos/", "/posts/cadena-de-datos/"],
+        ["blog/is4h/", "/posts/is4h/"],
+
+        ["hackathons/", "/data/hackathons.html"],
+    ]
+
+
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:

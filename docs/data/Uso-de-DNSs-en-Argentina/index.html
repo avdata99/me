@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+
+	<title>NICathon: DNSs usados en Argentina</title>
+	<link rel="stylesheet" type="text/css" href="media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="resources/syntax/shCore.css">
+	<link rel="stylesheet" type="text/css" href="resources/demo.css">
+	<style type="text/css" class="init">
+
+	</style>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/syntax/shCore.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/demo.js"></script>
+	<script type="text/javascript" language="javascript" class="init"></script>
+        <script type="text/javascript" language="javascript" src="table.js"></script>
+        <script type="text/javascript" language="javascript" src="chart1.js"></script>
+        
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body class="dt-example">
+	<div class="container">
+		<section>
+			<h1>DNSs usados <span>en Argentina</span></h1>
+
+			<div class="info">
+<p>
+    Analizar los datos de los DNSs que usan los sitios webs argentinos (vía
+<a href='http://opendatacordoba.org/NICathon/' target='_blank'>#NICathon</a> de 
+<a href='http://opendatacordoba.org' target='_blank'>OpenDataCordoba</a>) nos 
+permite conocer algunos datos interesantes. </p>
+
+<p>Podemos conocer información del mercado de hosting local y saber que dominios 
+están en venta (via el DNS de la empresa 
+<a target='_blank' href='https://sedo.com/es/?language=es'>SEDO</a>)
+</p>
+<p>
+    La lista de todos los DNSs detectados en este análisis es el siguiente:
+</p>
+</div>
+
+<table id="reservas" class="display" cellspacing="0" width="100%"></table>
+<hr>			
+<div class="info">
+    <p>Muchas empresas de hosting tienen más de un DNS, agrupando a algunas 
+        podemos ver un gráfico un poco más claro. Estos son los proveedores 
+        que detectamos con al menos 1.000 sitios web</p>
+</div>
+<div id="reg_chart" style="width: 100%; height: 600px"></div>
+                        
+<div class="info">
+<p>El mercado esta bastante repartido, a grandes rasgos podemos decir 
+    que el 23% del mercado se reparte entre cuatro grandes proveedores
+    <a target='_blank' href='http://donweb.com/es-ar/'>DonWeb (ex Dattatec)</a>, 
+    <a target='_blank' href='http://www.elserver.com/'>El Server</a>,
+    <a target='_blank' href='http://www.towebs.com/'>ToWebs</a>,
+    y <a target='_blank' href='https://www.nuthost.com/'>Nuthost</a>. 
+    .</p>
+<p>Por otro lado, un 12% de dominios sin ningún uso (sin DNS), el 3.7% de dominios 
+    que estan formalmente en venta vía SEDO y un saldo muy variado de proveedores</p>
+<p>Los datos de este estudio pueden descargarse en <a href='data/DNSs-usados.csv'>CSV</a>.</p>
+</div>
+
+
+
+
+		</section>
+	</div>
+
+<div class="epilogue">
+	<p>Análisis desarrollado por <a href="https://andresvazquez.com.ar">Andrés Vázquez</a>. Marzo de 2015</p>
+	<p class="copyright">DataTables designed and created by <a href="http://www.sprymedia.co.uk">SpryMedia Ltd</a> © 2007-2015<br>
+	DataTables is licensed under the <a href="http://www.datatables.net/mit">MIT license</a>.</p>
+</div>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24864140-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+</body>
+</html>

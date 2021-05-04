@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Mapa. La ruta del dinero en Córdoba</title>
+      <meta name="description" content="La legislacion vigente y la publicación del gasto en municipios de Córdoba - Argentina">
+<meta name="keywords" content="municipios, Cordoba, Argentina, 2014, gasto, coparticipacion, transparencia">
+<meta name="author" content="Andres Vazquez">
+<meta property=”og:title” content="La ruta del dinero en Córdoba"/>
+<meta property=”og:description” content="La legislacion vigente y la publicación del gasto en municipios de Córdoba - Argentina"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #info {margin: 5px;}
+      #map-canvas { height: 90%; padding: 10px; }
+    </style>
+    <script type="text/javascript" src="resources/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    
+    <script type="text/javascript">  
+      var localidades = []; // los aprobados y los pretendidos
+      var map;
+      var infowindow = [];
+      var urlBase = "https://andresvazquez.com.ar/data/ruta-del-dinero-cordobes";
+      //var urlBase = "http://localhost/andres/devs/andresvazquez/data/ruta-del-dinero-cordobes";
+      var getP = {}; //GET parameters
+      var grps = [];
+      function initialize() {
+      
+var styleMap = [
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#e9ebed"
+            },
+            {
+                "saturation": -78
+            },
+            {
+                "lightness": 67
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#ffffff"
+            },
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#bbc0c4"
+            },
+            {
+                "saturation": -93
+            },
+            {
+                "lightness": 31
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#ffffff"
+            },
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 100
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#e9ebed"
+            },
+            {
+                "saturation": -90
+            },
+            {
+                "lightness": -8
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#e9ebed"
+            },
+            {
+                "saturation": 10
+            },
+            {
+                "lightness": 69
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.locality",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#2c2e33"
+            },
+            {
+                "saturation": 7
+            },
+            {
+                "lightness": 19
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "hue": "#bbc0c4"
+            },
+            {
+                "saturation": -93
+            },
+            {
+                "lightness": 31
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "hue": "#bbc0c4"
+            },
+            {
+                "saturation": -93
+            },
+            {
+                "lightness": -2
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    }
+];
+
+        // read GET parametrers
+        
+        location.search.substr(1).split("&").forEach(function(item) 
+            {getP[item.split("=")[0]] = item.split("=")[1];});
+            
+        if (undefined === getP.l1) getP.l1 = -32.41938502643319;
+        if (undefined === getP.l2) getP.l2 = -64.4349219375;
+        if (undefined === getP.z) getP.z = 7;
+        else getP.z = parseInt(getP.z);
+        if (undefined === getP.dato) getP.dato = "coparticipacion";
+        
+        var mapOptions = {zoom: getP.z, center: new google.maps.LatLng(getP.l1,getP.l2)
+            , mapTypeId: google.maps.MapTypeId.HYBRID //| TERRAIN | SATELLITE | ROADMAP
+            , styles: styleMap};
+        map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+        
+        google.maps.event.addListener(map, 'dragend', showData);
+        //google.maps.event.addListener(map, 'center_changed', showData);
+        google.maps.event.addListener(map, 'zoom_changed', showData);
+        
+        
+        var infod = document.createElement('div');
+        $(infod).attr("id", "info");
+        $(infod).html("<div style='margin: 5px; padding: 15px; background-color: white; border-radius: 5px'><h1>Cargando ...</h1></div>");
+        
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(infod);
+        
+        var info = "<div style='margin: 5px; margin-left: -15px; max-width: 190px; background-color: rgba(58, 146, 143, 0.9); padding: 10px; color: white; border-radius: 15px; float:left;'>";
+        info += "<h3 style='margin-top: -5px;'>El reparto de la coparticipacion en Córdoba</h3> ";
+        
+        //filtro de servicios de DNS
+        var content = [];
+        content.push('Mostrar: ');
+        //content.push('<select id="seldata" onchange="changeData(this.value, $(\'#selheat\').is(\':checked\'));">');
+        content.push('<select id="seldata" onchange="showData();">');
+        
+        flds ={"coparticipacion":"Coparticipacion"
+            , "copxhab": "Coparticipacion por habitante"
+            , "poblacion": "Poblacion 2008"
+            , "web": "Tiene web"
+            , "crece": "Crecimiento 2009/2014"};
+        
+        $.each( flds, function( i, item ) {
+            var sel = (i == getP.dato) ? "selected='selected'" : "";
+            content.push("<option value='"+i+"' " + sel +">" + item + "</option>");
+            });
+            
+        content.push('</select>');
+             
+        content.push("<div id='helpp'>");
+        content.push("<h3>Las fuentes de datos y mas detalles sobre el proceso pueden encontrarse en <a href='https://andresvazquez.com.ar/blog/la-coparticipacion-provincial-de-recursos-en-cordoba' target='_blank'> en este post</a></h3>");
+        content.push("<h3>La ciudad de Cordoba (capital) se muestra al este (en Nogoya) para poder mostrarse en escala comparativa a las demas ciudades sin obstruir la vista.</h3>");
+        content.push("<h3>En cualquiera de los graficos puede mover los circulos de lugar simplemente arrastrandolos con el mouse.</h3>");
+        
+        content.push("</div>");
+        content.push("<div id='proc'>");
+        content.push("</div>");
+        
+        content.push("</div>");
+        info += content.join('');
+
+        $(infod).html(info);
+        loadData("/resources/localidades-cordoba.geojson", "#0000FF", 1, 2, 0.1, "#0000FF", 0);
+        
+      }
+      function loadData(json, strokeColor, strokeOpacity, strokeWeight, fillOpacity, fillColor, start_id)
+        {
+        
+        var xr = $.getJSON(urlBase + json);
+        xr.done( function(data) {
+            for (r=0; r < data.features.length; r++)
+                {
+                updateProc("Loading " + r + " ...");
+        
+                var i = start_id + r;
+                localidades[i] = data.features[r];
+                var ifo = "<div style='padding: 10px; max-height: 900px; overflow:auto'>";
+                ifo += "Localidad: <b>"+localidades[i].properties.LOCALIDAD+"</b> ("+localidades[i].properties.TIPO+")<br/>";
+                ifo += "Departamento: <b>"+ localidades[i].properties.Departamento + "</b><br/>";
+                var pop2008 = formatNumber(localidades[i].properties["Pop 2008"]);
+                
+                localidades[i]["poblacion"] = parseInt(localidades[i].properties["Pop 2008"]);
+                localidades[i]["fmtpop"] = {"radius": localidades[i]["poblacion"]/4, "fillColor": "#0011FF", "fillOpacity": 0.6}
+                ifo += "Población 2008: <b>"+ pop2008 + "</b> habitantes<br/>";
+                
+                var hayWeb = (localidades[i].properties["web"].trim() !== "") ? true : false;
+                if (hayWeb)
+                    localidades[i]["fmtweb"] = {"radius": 2900, "fillColor": "#FF00AA", "fillOpacity": 0.7}
+                else
+                    localidades[i]["fmtweb"] = {"radius": 2100, "fillColor": "#FF00AA", "fillOpacity": 0.2}
+            
+                var w = (hayWeb) ? "<a target='_blank' href='"+ localidades[i].properties.web + "'>"+ localidades[i].properties.web + "</a>" : "NO";
+                ifo += "Sitio Web: <b>"+ w + "</b><br/>";
+                
+                var copar_ano = 0;
+                for (x=0; x<12; x++)
+                    {
+                    var mes = 5 + x; if (mes > 12) mes = mes - 12;//desde mayo de 2013
+                    var mess = (mes < 10) ? "0" + mes.toString() : mes.toString();
+                    copar_ano += parseInt(localidades[i].properties[mess+"/13"]);
+                    }
+                    
+                localidades[i]["coparticipacion"] = copar_ano;
+                localidades[i]["fmtcopar"] = {"radius": copar_ano/4000, "fillColor": "#55550A", "fillOpacity": 0.6}
+                
+                coparxhab = copar_ano / parseInt(localidades[i].properties["Pop 2008"]);
+                var crec = (parseInt(localidades[i].properties["04/14"]) / parseInt(localidades[i].properties["01/09"]) - 1) * 100;
+                ifo += "Crecimiento coparticipacion 01/2009 - 04/2014: <b>"+ crec.toFixed(2) + " %</b><br/>";
+                
+                localidades[i]["crece"] = crec;
+                localidades[i]["fmtcrece"] = {"radius": crec * 10, "fillColor": "#AA000A", "fillOpacity": 0.6}
+                
+                localidades[i]["copxhab"] = coparxhab;
+                localidades[i]["fmtcopxhab"] = {"radius": crec * 6, "fillColor": "#00AA11", "fillOpacity": 0.6}
+                
+                coparxhab = formatNumber(coparxhab.toFixed(2));
+                copar_ano = formatNumber(copar_ano);
+                
+                ifo += "Coparticipacion ultimos 12 meses: <b>"+ copar_ano + "</b><br/>";
+                ifo += "Coparticipacion anual por habitante: <b>$ "+ coparxhab + "</b><br/>";
+                
+                ifo += "<div id='graphid_"+i+"' style='width:600px; height:300px'></div>";
+                
+                ifo += "</div>";
+                
+                // {"01/09":"118634","02/09":"139204","03/09":"125941","04/09":"132915","05/09":"143133","06/09":"151856","07/09":"146422","08/09":"141821","09/09":"142724","10/09":"151750","11/09":"145990","12/09":"157301","01/10":"155419","02/10":"172504","03/10":"164056","04/10":"166375","05/10":"199483","06/10":"208807","07/10":"196437","08/10":"190067","09/10":"200136","10/10":"191131","11/10":"203231","12/10":"176913","01/11":"228852","02/11":"226797","03/11":"225773","04/11":"220811","05/11":"272316","06/11":"273279","07/11":"261087","08/11":"266382","09/11":"271442","10/11":"261564","11/11":"291582","12/11":"282244","01/12":"316445","02/12":"273561","03/12":"269165","04/12":"257190","05/12":"336347","06/12":"333552","07/12":"311003","08/12":"332599","09/12":"323187","10/12":"349301,7","11/12":"357365","12/12":"348320,1","01/13":"385252","02/13":"415258","03/13":"366109","04/13":"383006","05/13":"454103","06/13":"461840","07/13":"449614,4","08/13":"457569,6","09/13":"443420,6","10/13":"459888,62","11/13":"478109,96","12/13":"466006,58","01/14":"549148,87","02/14":"584444,78","03/14":"491649,25","04/14":"528057"}},
+                
+                infowindow[i] = new google.maps.InfoWindow({content: ifo});
+                
+                var coords = data.features[r].geometry.coordinates; // TODO un radio puede ser mas de un polygono (algunos tienen huecos dentro)
+                var pos = new google.maps.LatLng(coords[1], coords[0]);
+                var radio = parseInt(localidades[i].properties["coparticipacion"]) / 4000;
+                
+                var pointData = {
+                    strokeColor: "#000000",
+                    strokeOpacity: 0.3,
+                    strokeWeight: 2,
+                    fillColor: "#0099FF",
+                    fillOpacity: 0.35,
+                    map: map,
+                    draggable: true,
+                    center: pos,
+                    radius: radio,
+                    clickable: true,
+                    idx: i
+                  };
+                
+                cityCircle = new google.maps.Circle(pointData);
+                
+                cityCircle.setMap(map);
+                localidades[i]["cityCircle"] = cityCircle;
+                localidades[i]["pointData"] = pointData;
+
+                google.maps.event.addListener(cityCircle, 'click', function(ev){
+                    infowindow[this.idx].setPosition(ev.latLng);
+                    infowindow[this.idx].open(map);
+                    showGraph(this.idx);
+                    });
+                }
+                updateProc("FIN");
+                showData();
+                
+                
+            });
+        xr.fail( function(data) {
+            alert ("Fallo la carga de datos");
+            });  
+            
+        }
+        
+        
+     function showData()
+        {
+        if (undefined !== $('#seldata').val())
+            {
+            getP.dato = $('#seldata').val();
+            upUrl();
+           }
+        for (r=0; r < localidades.length; r++)
+            {
+            updateProc("Mapping " + r + " ...");
+            //check the zoom and resize circles.
+            
+            if (getP.dato == "coparticipacion")
+                dataShow = $.extend({}, localidades[r]["fmtcopar"]);
+            else if (getP.dato == "copxhab")
+                dataShow = $.extend({}, localidades[r]["fmtcopxhab"]);
+            else if (getP.dato == "poblacion")
+                dataShow = $.extend({}, localidades[r]["fmtpop"]);
+            else if (getP.dato == "web")
+                dataShow = $.extend({}, localidades[r]["fmtweb"]);
+            else if (getP.dato == "crece")
+                dataShow = $.extend({}, localidades[r]["fmtcrece"]);
+            
+            var bz = map.getZoom();
+            dataShow["radius"] = 7 / bz  * dataShow["radius"];
+            localidades[r].cityCircle.setOptions(dataShow);
+            
+            }
+        updateProc("FIN");
+        
+        }      
+      function showGraph(id){
+          if (undefined !== grps[id]) 
+                {return;} //already created
+          google.load("visualization", "1", {packages:["corechart"], callback: function(){ drawChart(id); }});
+        }
+        
+      function drawChart(id){
+          var datat = [['Mes', 'Coparticipacion']];
+          for (ano = 2009; ano < 2015; ano++){
+              for (mes = 1; mes < 13; mes ++){
+                    if (mes > 12) mes = mes - 1;//desde mayo de 2013
+                    var mess = (mes < 10) ? "0" + mes.toString() : mes.toString();
+                    var dm = mess + "/" + ano.toString().substr(2);
+                    datat.push([dm, parseFloat(localidades[id].properties[dm])]);
+              }
+          }
+          var data = google.visualization.arrayToDataTable(datat);
+
+          var options = {
+            title: 'Coparticipacion 2009 / 2014',
+            curveType: 'function',
+            legend: { position: 'bottom' }
+          };
+          
+          var obj = "graphid_" + id.toString();
+          var chart = new google.visualization.LineChart(document.getElementById(obj));
+          chart.draw(data, options);  
+          
+      }
+      function upUrl()
+        {
+        var bc = map.getCenter();
+        var bz = map.getZoom();
+        var dato = getP.dato;
+        var newPos = urlBase;
+        newPos += "?dato="+dato+"&z=" + bz + "&l1=" + bc.lat() + "&l2=" + bc.lng();
+        window.history.pushState("Drag map", "Mapa 2", newPos);
+        }
+        
+      function updateProc(txt)
+        {
+        $("#proc").html(txt);
+        if (txt == "FIN") $("#proc").hide(600);
+        else $("#proc").show();
+        }
+     
+     function formatNumber (num) {
+            return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
+        }
+      function loadScript() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        //script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDtM2Vw54AOuuqWBnECYdQn15XtxVC1s-c&sensor=false&callback=initialize';
+        //script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize&libraries=visualization';
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC_ljkIs4MnzC82Mmww-K19IE8YSXUgxAU&sensor=false&callback=initialize&libraries=visualization';
+        document.body.appendChild(script);
+      }
+      
+      $(document).ready(
+            function()
+                {
+                loadScript();
+                });
+      
+    </script>
+    
+    
+    
+    
+    
+  </head>
+  <body>
+    <div id="map-canvas"/>
+    
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24864140-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+  </body>
+  
+  
+</html>
