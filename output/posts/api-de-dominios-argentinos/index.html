@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Api de dominios argentinos | Temimbo'e</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/posts/api-de-dominios-argentinos/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andres Vazquez">
+<link rel="prev" href="../medicina-de-datos/" title="Medicina de datos" type="text/html">
+<link rel="next" href="../el-equipo-y-la-tecnologia-de-tu-empresa/" title="El equipo y la tecnología de tu empresa" type="text/html">
+<meta property="og:site_name" content="Temimbo'e">
+<meta property="og:title" content="Api de dominios argentinos">
+<meta property="og:url" content="https://andresvazquez.com.ar/blog/posts/api-de-dominios-argentinos/">
+<meta property="og:description" content="En el año 2009 note que no había un servicio de whois para los dominios argentinos. No sólo eso, NIC argentina no tenía un API ni la posibilidad de automatizar tareas como registros y alertas más efec">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2013-12-28T20:19:28Z">
+<meta property="article:tag" content="OpenData">
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="../../pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="../../pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="../../archive.html">Archivos</a></li>
+                <li><a href="../../rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Api de dominios argentinos</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2013-12-28T20:19:28Z" itemprop="datePublished" title="2013-12-28 20:19">2013-12-28 20:19</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/api-de-dominios-argentinos.html">Comentarios</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p></p>
+<p>En el año 2009 note que no había un servicio de whois para los dominios argentinos. No sólo eso, <a href="http://nic.ar" target="_blank">NIC argentina</a> no tenía un API ni la posibilidad de automatizar tareas como registros y alertas más efectivas ante la caida de dominios. Decidí entonces tener mi propia base de datos y proveer de algunos servicios sobre dominios .com.ar</p>
+<p>Si no te interesa la historia y quieres ir derecho a la documentación del API, <a href="http://andresvazquez.com.ar/data/nic-argentina/home/especificaciones" target="_blank">dirígete aquí</a></p>
+<p>La única forma de hacer esto en aquel momento (y al día de hoy, finales de 2013, también) es leer directo desde la página web. Para esto desarrollé un pequeño programa que hacia las consultas, leía la página web, tomaba la información y la guardaba en una base de datos.
+No me malinterpreten, no hice esto para robar dominios que personas o empresas descuidaban y perdían o para buscar marcas y despues venderlas. En general todos condenamos esas acciones, yo también.</p>
+<p>Surgió en ese momento otro desafío. ¿Como consigo que dominios buscar, que palabras, que frases?
+Tomar toda la combinatoria posible era imposible, la cantidad estimada era de 38<sup>19</sup>
+Tomé entonces texto aleatorios de la web y fue interesante, las palabras mas comunes empezaron a cargarse. Me di cuenta que no solo tenía que buscar palabras sueltas, cualquier grupo de palabras unidas sin espaciones o sepadas por "-" tambien servían.
+Empezaron a aparecer dominios registrados y datos válidos pero la mayoría seguían siendo dominios no existentes.
+Tome entonces libros argentinos completo en formato TXT y los resultados comenzaron a mejorar, nosotros registramos dominios así como escribimos.
+Fui un poco más alla y cargué un diccionario completo en español (vía <a href="http://www.openoffice.org/es/" target="_blank">OpenOffice</a>) de 70.000 palabras.</p>
+<p>Me di cuenta despues por cuales caminos había mas resultados, mi mayor desafío era no consultar dominios no existentes para no desperdiciar tiempo y esfuerzo del software que realizaba la tarea.
+Tome entonces listas concretas de sustantivos en sus versiones masculinas y femeninas. Las conecte con articulos como prefijos, use listas de adjetivos.
+Me metí en un terreno en el que me hubierá servido mucho saber de análisis semántico y gramatical</p>
+<p>Finalmente todas estas heramientas juntas corrían diariamente en horários específicos y lo suficientemente distanciados en tiempo para que el servidor de NIC no empezara a rechazar mis conexiones. Use un servidor en mi propia casa con IP variable, sin eso no hubiera sido posible.</p>
+<p>Finalmente NIC dejo de atender pedidos y di de baja mi servicio a mediados de 2012 (que se podía consultar en línea). Estimo que yo no era el único y los muchachos del servidor de NIC argentina se cansaron de atender este tipo demanda.</p>
+<p>El resultado final son casi 375.000 dominios encontrados sobre un total de 2.2 millones totales en Argentina (segun datos que me compartieron desde NIC en el año 2012).
+El historial de cambios en los dominios esta guardado, periodicamente hacía pings sobre los dominios, tambien se incluye esta información
+Resguarde la mayoría los datos personales de los dueños de los dominios por cuestiones de privacidad, solo se publican sus nombres.</p>
+<p>Cuento esto y pongo disponible el API porque no quiero tirar esta información, puede ser de utilidad para alguien. Tambien como ejemplo de que no es tan complicado, que NIC argentina debería tener un servicio de whois y un API para empresas que tienen muchos clientes y son responsables de la administración masiva de dominios.</p>
+<p>Finalmente decidí continuar el proyecto y liberé la herramienta que uso. Puede <a href="https://github.com/avdata99/nic.ar.scrape" target="_blank">descargarse aquí</a>. Actualmente los datos se están actualizando manualmente y agregándose a la base de datos.</p>
+<p><a href="http://andresvazquez.com.ar/data/nic-argentina/home/especificaciones"><img class="alignleft size-medium wp-image-52" alt="api para nic.ar" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2013/12/nic.ar_-300x168.jpg" width="300" height="168"></a></p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/opendata/" rel="tag">OpenData</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../medicina-de-datos/" rel="prev" title="Medicina de datos">Publicación anterior</a>
+            </li>
+            <li class="next">
+                <a href="../el-equipo-y-la-tecnologia-de-tu-empresa/" rel="next" title="El equipo y la tecnología de tu empresa">Siguiente publicación</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://andresvazquez.com.ar/blog/posts/api-de-dominios-argentinos/",
+        disqus_title="Api de dominios argentinos",
+        disqus_identifier="cache/posts/api-de-dominios-argentinos.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2021         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Datos de la programación del Canal Encuentro 2013-2016 | Temimbo'e</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andres Vazquez">
+<link rel="prev" href="../mapa-de-funcionarios-de-villa-maria/" title="Mapa de funcionarios de Villa María" type="text/html">
+<link rel="next" href="../jugando-con-cartas-marinas/" title="Jugando con Cartas Marinas" type="text/html">
+<meta property="og:site_name" content="Temimbo'e">
+<meta property="og:title" content="Datos de la programación del Canal Encuentro 2013-2016">
+<meta property="og:url" content="https://andresvazquez.com.ar/blog/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/">
+<meta property="og:description" content="Hasta hace muy pocos días en el sitio web del Canal Encuentro se publicaban archivos PDF con la programación diaria del canal. Bastante feos pero datos al fin.
+
+Uno podía acceder a todos los archivos ">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-11-16T02:40:07Z">
+<meta property="article:tag" content="OpenData">
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="../../pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="../../pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="../../archive.html">Archivos</a></li>
+                <li><a href="../../rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Datos de la programación del Canal Encuentro 2013-2016</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2016-11-16T02:40:07Z" itemprop="datePublished" title="2016-11-16 02:40">2016-11-16 02:40</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016.html">Comentarios</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p></p>
+<p>Hasta hace muy pocos días en el sitio web del <a href="http://www.encuentro.gob.ar/">Canal Encuentro</a> se publicaban archivos PDF con la programación diaria del canal. Bastante feos pero datos al fin.</p>
+<p><a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/grillaPDF/GrillaEncuentro-01-01-2014.pdf"><img class="aligncenter size-full wp-image-337" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_597.png" alt="seleccion_597" width="675" height="275"></a></p>
+<p>Uno podía acceder a todos los archivos PDF simplemente navegando uno por uno todos los días en el almanaque que mostraba. Decidí entonces hacer un pequeño programa de computadora que hiciera el trabajo por mí. Encontré que estos archivos PDF se publicaban desde mayo de 2013. El programa descargo entonces automáticamente los 1286 archivos con datos.</p>
+<p><strong>Lamentablemente y por <em>casualidad</em> el día posterior a descargar los 1286 archivos con datos estos desaparecieron, este análisis no podrá seguirse haciendo. Canal Encuentro al parecer cerró esos datos.
+Hoy la programación se encuentra en <a href="http://www.encuentro.gob.ar/programacion">http://www.encuentro.gob.ar/programacion</a> pero hasta el día que hice este análisis el link era <a href="http://www.encuentro.gob.ar/sitios/encuentro/grilla/index">http://www.encuentro.gob.ar/sitios/encuentro/grilla/index</a> (todavía se redirige).
+</strong></p>
+<p>Transforme a texto esos datos <a href="https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py">con una herramienta</a> disponible y finalmente los organicé con una tabla estructurada. Quedaron entonces dos datasets muy interesantes.</p>
+<p>1.- La programación completa de los tres años y medio de emisiones (2013-2016) en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/final.csv">CSV</a>.
+2 .- Los datos acumulados por programa (sin considerar los capítulos específicos) también en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/acumulado.csv">CSV</a>.</p>
+<p>El primer dataset es más rico, se podrían hacer muchos análisis y visualizaciones con el. El segundo es más general pero también valioso y me permite saber si la programación 2016 (gestión Cambiemos) sigue la línea de los años anteriores (gestión FPV). Ponderando los programas según horario de transmisión (<a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/scrapencuentro.py#L76-L104">a ojo</a>, no soy experto en prime-time, horarios de TV, etc) y tomando los programas más <em>destacados</em> de 2016 puedo conocer cual fue su trayectoria anterior.</p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/"><img class="aligncenter size-large wp-image-338" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_598-1024x457.png" alt="seleccion_598" width="790" height="353"></a></p>
+<p><strong><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/">Click para ampliar</a></strong></p>
+<p>El gráfico muestra lo que cualquier consumidor de este canal de televisión ha podido notar. Hubo (como era de esperar) bastantes cambios en la programación, de los programas más vistos hoy muchos no existían años atrás o se daban con menor relevancia. Sólo algunos programas siguen.</p>
+<p>Análisis detallado de cada programa y sus capítulos a través del tiempo. Ejemplo <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0">Filosofía aquí y ahora</a>:</em></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0"><img class="aligncenter size-medium wp-image-346" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_608-300x141.png" alt="seleccion_608" width="300" height="141"></a></p>
+<p>Puede filtrarse por programa y por año. Ejemplo: <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016">A fondo, 2016</a>:</em></p>
+<p><a href="http://dev/otros/scrapencuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016"><img class="aligncenter size-medium wp-image-347" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_609-300x137.png" alt="seleccion_609" width="300" height="137"></a></p>
+<p>La finalidad de este análisis era también experimentar visualizaciones por lo que deje hechas algunas más.</p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución de la relevancia de los programas más importantes de 2015</a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter wp-image-339 size-medium" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_599-300x136.png" alt="seleccion_599" width="300" height="136"></a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución mensual de los programas más puntuados de toda la serie (2013-2016)</a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter size-medium wp-image-340" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_600-300x138.png" alt="seleccion_600" width="300" height="138"></a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/">Evolución anual de los programas más puntuados de toda la serie (2013-2016)</a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/"><img class="aligncenter size-medium wp-image-341" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_601-300x135.png" alt="seleccion_601" width="300" height="135"></a></p>
+<p>Los datos usados, el código para extraerlo y las visualizaciones quedaron en este repositorio de código abierto:
+<a href="https://github.com/avdata99/ScrapEncuentro">https://github.com/avdata99/ScrapEncuentro</a>. Si te sirven los datos para hacer otros análisis o visualizaciones estaría agradecido que los compartas.</p>
+<p></p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/opendata/" rel="tag">OpenData</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../mapa-de-funcionarios-de-villa-maria/" rel="prev" title="Mapa de funcionarios de Villa María">Publicación anterior</a>
+            </li>
+            <li class="next">
+                <a href="../jugando-con-cartas-marinas/" rel="next" title="Jugando con Cartas Marinas">Siguiente publicación</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://andresvazquez.com.ar/blog/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/",
+        disqus_title="Datos de la programaci\u00f3n del Canal Encuentro 2013-2016",
+        disqus_identifier="cache/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2021         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

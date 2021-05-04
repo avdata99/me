@@ -1,0 +1,22 @@
+<html><body><img class=" size-medium wp-image-192 alignleft" style="padding: 15px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2015/08/mosquera-300x160.png" alt="mosquera" width="300" height="160">Hace poco asistí a una charla de <a href="http://www.marianomosquera.com/" target="_blank">Mariano Mosquera</a> sobre temas de transparencia y licitaciones públicas. En referencia a las disputas que estas acciones disparan dijo algo interesante:
+<blockquote><strong>Vivimos la transparencia como una obligación y no como una estrategia de cooperación </strong></blockquote>
+Cooperación entre competidores, es una idea que no nos es ajena a los programadores, tampoco a los que escucharon algunas teorías de <a href="https://www.youtube.com/watch?v=PSKQ-egVQbM" target="_blank">Nash</a>.
+
+Para los desarrolladores de software esto se vive naturalmente desde hace años, <strong>al momento de comenzar un proyecto elegimos sobre los hombros de que gigantes vamos a apoyarlo</strong>. Desde el lenguaje elegido para programar, las colecciones de utilidades (frameworks y similares), el entorno de desarrollo, el lugar en que guardaremos nuestros datos, el servidor que ejecutará nuestra aplicación, etc. Todo tiene versiones libres, eficientes, seguras y probadas por miles desde hace años. De hecho tan importante como saber programar bien es saber elegir que herramientas usar. Esto ultimo nos ahorra muchas horas de trabajo.
+
+Contado esto a otras comunidades profesionales parece una locura. Todavía en muchas comunidades el secreto es parte la estrategia para ganar dinero. La primera impresión para muchos es que todo esto del <em>software libre</em> es de comunidades de comunistas que viven en la pobreza. Ahora mire a su alrededor y dígame ¿cuantas empresas de software o programadores comunistas viviendo en comunidades pobres conoce? Yo tampoco.
+
+Hace poco gente del <a href="http://www.civiles.org.ar/" target="_blank">Colegio de Ingenieros Civiles</a> nos convocó (al colectivo <a href="http://OpenDataCordoba.org" target="_blank">OpenDataCordoba</a> del que formo parte) a conversar sobro como la apertura de los datos y el conocimiento podría aplicarse o mejorar a la ingeniería civil.
+
+Después de una reunión interesante me lleve la tarea de plantear algo y ensaye lo siguiente (no se nada de ingeniería civil por lo que con seguridad me equivocaré):
+
+Supongamos que al planificar una obra ésta tiene partes que un ingeniero necesita más de una vez. Para los programadores es igual, tenemos módulos o partes que reutilizamos todo el tiempo. Imagino que les pasará lo mismo. Supongo que si un ingeniero necesita replicar algo en una segunda obra va a los planos de la primera obra, lo copia, y lo pega en los nuevos planos. Hasta me imagino que pueden empezar los planos de una segunda obra tomando otra obra completa y sólo haciéndole modificaciones. Si esto pasa así es igual a la forma en la que nosotros construimos software. Nunca es desde cero, siempre sobre algo hecho antes.
+
+Bien, los proyectos completos o las partes mas interesantes por separado se pueden compartir completos. Los mejores productos liberados serán tomados por otros, harán sus propias versiones, propondrán mejoras o correcciones. De esta forma trabajamos nosotros. Incluso tenemos herramientas que permiten que cada quien tenga su propia versión, que la comunidad haga sugerencias, que cada quien tenga su desarrollo comercial por separado.
+
+El resultado de esto pueden ser módulos validados por miles de personas en el mundo. Todos ganan, todos tienen lo mejor a mano para usar. Si les cuesta pensar en compartir trabajos privados piensen primero en los públicos. Las obras de ingeniería nacionales o provinciales ¿no deberían ser abiertas para control o beneficio de la sociedad? No me incluyo aquí los casos donde existan patentes o conocimiento estratégico que debamos conservar. Me refiero a edificios públicos, puentes, tendidos de servicios públicos, etc.
+
+Los recién recibidos contarían con miles de trabajos (por partes o completos) de expertos (validados por la comunidad) para re-usar. Los más expertos pondrían dedicarse a perfeccionar lo que hay, a liderar, a implementar proyectos que ya están definidos adaptándolos para cada caso.
+
+Olviden por un momento la ingeniería civil. <strong>¿Se puede aplicar la cooperación como estrategia para el desarrollo en otras áreas?</strong>
+La ciencia funciona de esa forma (salvo cuando el sistema de patentes lo obstruye) y no le va tan mal.</body></html>

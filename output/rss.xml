@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e</title><link>https://andresvazquez.com.ar/blog/</link><description>blog personal de Andres Vázquez [@avdata99]</description><atom:link href="https://andresvazquez.com.ar/blog/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2021 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Tue, 04 May 2021 13:39:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>is4h</title><link>https://andresvazquez.com.ar/blog/posts/is4h/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Cada vez que vamos a un hospital público o centro de salud en Argentina tengamos o no cobertura social existen resortes legales que le permiten a la institución &lt;a rel="noreferrer noopener" aria-label="recuperar (abre en una nueva pestaña)" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/75000-79999/77280/texact.htm" target="_blank"&gt;recuperar&lt;/a&gt; todo o parte del costo. &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Esto incluye simples consultas, operaciones, internaciones, medicamentos, etc. Todo &lt;a rel="noreferrer noopener" aria-label="esta nomenclado en una tabla de referencia (abre en una nueva pestaña)" href="https://www.sssalud.gob.ar/hospitales/archivos/RES_60_2015_MS.pdf" target="_blank"&gt;esta nomenclado en una tabla de referencia&lt;/a&gt; (&lt;a rel="noreferrer noopener" aria-label="más info técnica (abre en una nueva pestaña)" href="https://www.sssalud.gob.ar/hospitales/archivos/Proceso%20de%20Facturacion%20HPGD%20Oct%202010.pdf" target="_blank"&gt;más info técnica&lt;/a&gt;). &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":535} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/03/image-1.png" alt="" class="wp-image-535"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;&lt;strong&gt;Muchas personas aún teniendo cobertura médica asisten a centros públicos de salud donde son atendidos gratuitamente y si la institución no cumple los pasos requeridos entonces las obras sociales no abonarán (como sería esperado) por esta atención.&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Se requiere entonces que los administradores de hospitales y centros de salud públicos (Municipios y Provincias) cumplan una serie de pasos burocráticos entre los que se encuentra la organización de los datos de los servicios médicos prestados.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Como esta tarea puede ser compleja y existe la posibilidad de generar ingresos interesantes (mas grandes mientras más servicios de salud entregue un gobierno) ya existen empresas que &lt;em&gt;regalan&lt;/em&gt; un software a cambio de una comisión de los montos reintegrados a través de el. Esta comisión puede ser de entre el 30 y el 50%. No todos los municipios lo usan (la Municipalidad de Córdoba hace una gestión propia) pero los que lo hacen &lt;strong&gt;derivan demasiado dinero a esto y quedan sujetos a una dependencia tecnológica no recomendable&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;La &lt;a rel="noreferrer noopener" aria-label="Organización Panamericana de la Salud (OPS) (abre en una nueva pestaña)" href="https://www.paho.org/hq/index.php?option=com_content&amp;amp;view=article&amp;amp;id=91:about-paho&amp;amp;Itemid=220&amp;amp;lang=es" target="_blank"&gt;Organización Panamericana de la Salud (OPS o PAHO)&lt;/a&gt; realizo &lt;a href="http://investigacion.unal.edu.co/boletin/notas-boletin-un-investiga/news/convocatoria-de-candidaturas-para-la-implementacion-del-proyecto-mejora-de-los-sistemas-de-informac/?no_cache=1"&gt;una convocatoria&lt;/a&gt; para crear o mejorar sistemas de información de salud (IS4H - Information Systems for Health) basado en la creencia de que los datos y la informatización van a crear mejores condiciones para definir y monitorear políticas públicas de salud. &lt;strong&gt;El monto ofrecido es de hasta US$ 40.000&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":533} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/03/image.png" alt="" class="wp-image-533"&gt;&lt;figcaption&gt;&lt;a rel="noreferrer noopener" aria-label="Ver documento completo (abre en una nueva pestaña)" href="https://drive.google.com/file/d/1vkHaLizsK684HJmD7Xai-vJ-wA3WuXik/view?usp=sharing" target="_blank"&gt;Ver documento completo&lt;/a&gt;&lt;br&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Después de haber conseguido &lt;a rel="noreferrer noopener" aria-label="10.000 dolares de financiación de CAF (abre en una nueva pestaña)" href="https://andresvazquez.com.ar/blog/l-app-unta-del-iceberg/" target="_blank"&gt;10.000 dolares de financiación de CAF&lt;/a&gt; la idea de &lt;strong&gt;reorganizar toda la gestión de recupero&lt;/strong&gt; parecía algo realizable y sobre todo muy útil para extender a otros gobiernos más pequeños.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Desarrollar algo internamente, que sea abierto a que otros gobiernos (y por que no, empresas) puedan reutilizar y mejorar es acorde a nuestra política de software público libre.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":537} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/03/Selecci%C3%B3n_1587.png" alt="" class="wp-image-537"&gt;&lt;figcaption&gt;&lt;a href="https://github.com/ModernizacionMuniCBA" target="_blank" rel="noreferrer noopener" aria-label="Ir al repositorio (abre en una nueva pestaña)"&gt;Ir al repositorio&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Los equipos de Modernización y Salud de la Municipalidad tuvimos múltiples reuniones donde acordamos que este producto sería de utilidad no solo para nosotros sino para acompañar a decenas de municipios que brindan servicios de salud en toda nuestra provincia.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Si bien hacer esta postulación es una tarea compleja (empezó hace meses) &lt;strong&gt;el esfuerzo valió la pena&lt;/strong&gt; y la OPS/PAHO premió nuestra postulación:&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":534} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/03/Selecci%C3%B3n_1575.png" alt="" class="wp-image-534"&gt;&lt;figcaption&gt;&lt;br&gt;&lt;a rel="noreferrer noopener" aria-label="Ver ganadores (abre en una nueva pestaña)" href="https://www.paho.org/ish/index.php/en/grant-winners" target="_blank"&gt;Ver ganadores&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Es por esto que comenzamos con el proceso de este desarrollo que de no mediar inconvenientes nos dará en los próximos meses &lt;strong&gt;el primer software público y libre para gestión de recupero de gastos de salud&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/is4h/</guid><pubDate>Fri, 08 Mar 2019 14:55:35 GMT</pubDate></item><item><title>L app unta del iceberg</title><link>https://andresvazquez.com.ar/blog/posts/l-app-unta-del-iceberg/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":525,"align":"left","width":116,"height":201,"linkDestination":"custom"} --&gt;
+&lt;div class="wp-block-image"&gt;&lt;figure class="alignleft is-resized"&gt;&lt;a href="https://play.google.com/store/apps/details?id=ar.gob.cordoba.gobiernoabierto.go"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/02/image-3.png" alt="" class="wp-image-525" width="116" height="201"&gt;&lt;/a&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;En octubre de 2018 la Municipalidad de Córdoba lanzó la &lt;a href="https://play.google.com/store/apps/details?id=ar.gob.cordoba.gobiernoabierto.go"&gt;aplicación móvil llamada &lt;/a&gt;&lt;em&gt;&lt;a href="https://play.google.com/store/apps/details?id=ar.gob.cordoba.gobiernoabierto.go"&gt;Go.&lt;/a&gt;&lt;/em&gt; Su finalidad es proveer información precisa de cada unidad del transporte público de pasajeros con la finalidad de mejorar la experiencia de los usuarios de este servicio.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Al momento de su salida había aplicaciones similares en Argentina pero ninguna (que yo conozca) que permita &lt;em&gt;seguir&lt;/em&gt; al colectivo por su GPS en tiempo real. Incluso cuando el colectivo se desvía por cortes de tránsito los usuarios pueden notarlo y re-ubicarse para alcanzarlo.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":526,"linkDestination":"custom"} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;a href="https://twitter.com/JMGonzalez30/status/1070334451186585601" target="_blank" rel="noreferrer noopener"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/02/image-4.png" alt="" class="wp-image-526"&gt;&lt;/a&gt;&lt;figcaption&gt;&lt;strong&gt;Nota: Ese día había protestas en la vía pública &lt;/strong&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Tan difícil de creer que estos datos era reales que este usuario grabó mientras esperaba el colectivo esperando ser defraudado.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:core-embed/youtube {"url":"https://www.youtube.com/watch?v=beszgsTij4k","type":"video","providerNameSlug":"youtube","className":"wp-embed-aspect-4-3 wp-has-aspect-ratio"} --&gt;
+&lt;figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"&gt;&lt;div class="wp-block-embed__wrapper"&gt;
+https://www.youtube.com/watch?v=beszgsTij4k
+&lt;/div&gt;&lt;/figure&gt;
+&lt;!-- /wp:core-embed/youtube --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;&lt;a href="https://andresvazquez.com.ar/blog/una-app-mas/"&gt;Conté hace un tiempo&lt;/a&gt; (con motivo del lanzamiento de otra aplicación) la gran cantidad de trabajo que significa llegar a esto y las oportunidades que se abren luego de estas publicaciones.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;La aplicación &lt;em&gt;Go&lt;/em&gt; representa un esfuerzo particularmente complejo en cuanto a la organización de los datos preexistente: &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:list --&gt;
+&lt;ul&gt;&lt;li&gt;Las ubicación y especificaciones (lineas que la usan) de las paradas&lt;/li&gt;&lt;li&gt;Los recorridos geolocalizados de cada línea.&lt;/li&gt;&lt;li&gt;La flota activa de colectivos.&lt;/li&gt;&lt;li&gt;El geoposicionamiento en tiempo real de las unidades&lt;/li&gt;&lt;/ul&gt;
+&lt;!-- /wp:list --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Estos datos se encontraban algunos en poder de la municipalidad en formatos variados, otros como parte del sistema de gestión de flota de las empresas de transporte. Comenzar a trabajarlos y procesarlos deja ver la parte del &lt;em&gt;iceberg&lt;/em&gt; que una aplicación simple no permite percibir. &lt;strong&gt;Detrás de &lt;/strong&gt;&lt;em&gt;&lt;strong&gt;Go&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt; hay miles de horas de trabajo y sobre todo muchos datos. &lt;/strong&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Esta reorganización de los datos nos permitiría además (todavía no está listo) tener un servicio de datos en formato &lt;a href="https://developers.google.com/transit/gtfs/?hl=es"&gt;GTFS.&lt;/a&gt;* Este formato es el estándar usado en otras ciudades del mundo para compartir datos de transporte y el que usan las aplicaciones más usadas (Google Maps, Apple, etc). &lt;strong&gt;Una ciudad sin GTFS no puede decir que ha terminado de abrir sus datos de transporte.&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Todos estos datos en control municipal, organizados y antes de lanzar &lt;em&gt;Go&lt;/em&gt; nos permitieron &lt;strong&gt;desarrollar tableros de control interno&lt;/strong&gt; que permitían a personal de transporte ver en tiempo real donde estaban las unidades y cuantas de ellas se encontraban prestando servicio. Esto permite mejorar sensiblemente el control de la calidad del servicio subiendo el nivel de datos en poder del municipio en su dialogo con los prestadores del servicio.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Sin embargo la cantidad de datos recibidos ** nos permitían hacer análisis más detallados y complejos que requerían más y mejor equipo del que teníamos.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph {"fontSize":"medium"} --&gt;
+&lt;p class="has-medium-font-size"&gt;Mano en la data&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;&lt;em&gt;&lt;a rel="noreferrer noopener" aria-label='"CAF financiará proyectos que usan la ciencia de datos para el diseño de políticas públicas en la Argentina" (abre en una nueva pestaña)' href="https://www.caf.com/es/actualidad/noticias/2018/10/caf-financiara-proyectos-que-usan-la-ciencia-de-datos-para-el-diseno-de-politicas-publicas-en-argentina/?parent=14258&amp;amp;social=twitter" target="_blank"&gt;"CAF financiará proyectos que usan la ciencia de datos para el diseño de políticas públicas en la Argentina"&lt;/a&gt;&lt;/em&gt; Por suerte encontramos que &lt;a rel="noreferrer noopener" aria-label="CAF (abre en una nueva pestaña)" href="https://www.caf.com/" target="_blank"&gt;CAF&lt;/a&gt; estaba buscando conectar científicos de datos y políticas públicas.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;CAF financiaba con hasta &lt;strong&gt;US$ 10.000&lt;/strong&gt; a 5 equipos que presentaran propuestas. Se presentaron 10 equipos (Ministerios de Nación Argentina y otras ciudades de nuestro país). Luego de mostrar &lt;a rel="noreferrer noopener" aria-label="en un workshop junto a científicos que escucharon nuestros problemas (abre en una nueva pestaña)" href="https://www.lanacion.com.ar/2183447-danza-con-datos-cuando-varias-disciplinas-hablan-un-idioma-141x-118-cm" target="_blank"&gt;en un workshop junto a científicos que escucharon nuestros problemas&lt;/a&gt; (&lt;a rel="noreferrer noopener" aria-label="acompañados por un equipo de la Fundación Sadosky (abre en una nueva pestaña)" href="http://www.fundacionsadosky.org.ar/se-financiaran-proyectos-que-usan-la-ciencia-de-datos-para-el-diseno-de-politicas-publicas-en-la-argentina/" target="_blank"&gt;acompañados por un equipo de la Fundación Sadosky&lt;/a&gt;) el trabajo que estábamos realizando &lt;strong&gt;la Municipalidad de Córdoba fue seleccionada&lt;/strong&gt;. &lt;br&gt;Con esta financiación un equipo de UBA/CONICET trabajó junto a nuestro equipo para sacar mejor provecho de toda la nueva información de transporte que estábamos procesando.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Actualmente estamos integrando todo el trabajo conjunto a nuestras herramientas preexistentes y esperamos publicar (y liberar como software libre para otras ciudades) los resultados finales.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;&lt;strong&gt;Es muy importante destacar que la totalidad de los fondos se invirtieron en tecnología que es propiedad de la Municipalidad y que incrementará las capacidades propias instaladas en los equipos internos.&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph {"fontSize":"medium"} --&gt;
+&lt;p class="has-medium-font-size"&gt;Conclusiones&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;La gestión del sistema de transporte de cualquier ciudad mediana o grande sin datos y análisis es seguramente pobre o incompleta. Mirar todo este cúmulo de datos detenidamente deja ver mucho mejor y a un nivel mucho mas detallado que pasa con este servicio que usan cientos de miles de personas cada día.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph {"customFontSize":12} --&gt;
+&lt;p style="font-size:12px"&gt;*Córdoba tuvo el primer GTFS de Argentina que lamentablemente se discontinuó. Impulsado por un activista de la ciudad, &lt;a rel="noreferrer noopener" aria-label="Gastón Ávila (abre en una nueva pestaña)" href="https://twitter.com/AvilaGas" target="_blank"&gt;Gastón Ávila&lt;/a&gt; (&lt;a rel="noreferrer noopener" aria-label="contó un poco del tema (abre en una nueva pestaña)" href="http://blog.opendatacordoba.org/transporte-publico-y-datos-publicos/" target="_blank"&gt;acá cuenta un poco del tema&lt;/a&gt;).&lt;br&gt;** Por ejemplo la posición GPS cada ~20 segundos de las 900 unidades de transporte&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/l-app-unta-del-iceberg/</guid><pubDate>Wed, 06 Mar 2019 17:07:54 GMT</pubDate></item><item><title>Cadena de datos</title><link>https://andresvazquez.com.ar/blog/posts/cadena-de-datos/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Hace algunas semanas &lt;a rel="noreferrer noopener" aria-label="estuve experimentando con el estándar RSS y XML (abre en una nueva pestaña)" href="https://github.com/avdata99/test-rss-to-all-platforms" target="_blank"&gt;estuve experimentando con el estándar RSS y XML&lt;/a&gt; con la finalidad de publicar podcasts de manera simple y sin las limitaciones de las plataformas gratuitas existentes. Como soporte/hosting usé GitHub (que nos da hosting para sitios estáticos gratuito hasta 1 GB). &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Esta herramienta permite de manera relativamente simple colocando audios, imágenes y descripciones generar un &lt;a rel="noreferrer noopener" aria-label="feed rss (abre en una nueva pestaña)" href="https://www.microsiervos.com/archivo/general/que-es-un-feed-rss.html" target="_blank"&gt;feed rss&lt;/a&gt; compatible con las plataformas de podcasts más usadas. Esto incluye Spotify, Itunes y cualquier lector de podcasts genérico. Todo gratis, simple y &lt;a href="https://github.com/avdata99/cadena-de-datos" target="_blank" rel="noreferrer noopener" aria-label="de código libre para que pueda replicarse (abre en una nueva pestaña)"&gt;de código libre para que pueda replicarse&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph {"backgroundColor":"pale-cyan-blue"} --&gt;
+&lt;p class="has-background has-pale-cyan-blue-background-color"&gt;&lt;strong&gt;La idea de aquel experimento era prepararme para un podcast que quería publicar con entrevistas a los actores principales de los datos abiertos en Argentina. La idea de estas entrevistas es obtener información de calidad para escribir un libro/ensayo/algo sobre la política y los datos abiertos.&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Hice una lista de ~20 personas a las que me gustaría consultar y les escribí un correo a cada uno con la invitación. La mayoría ya me confirmó su participación. Espero que cada uno de ellos me refiera a nuevos especialistas de modo de encadenar las entrevistas según las sugerencias de los protagonistas y no sesgarme con los actores que ya conozco.&lt;br&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt; Sin un orden definido acabo de comenzar con las entrevistas y ya está publicada la primera de ellas a &lt;a rel="noreferrer noopener" aria-label="Andrés Snitcofsky (abre en una nueva pestaña)" href="https://twitter.com/rusosnith" target="_blank"&gt;Andrés Snitcofsky&lt;/a&gt;. Puede verse y oirse &lt;a href="https://avdata99.github.io/cadena-de-datos/ruso.html" target="_blank" rel="noreferrer noopener" aria-label="aquí (abre en una nueva pestaña)"&gt;aquí&lt;/a&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":505,"linkDestination":"custom"} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;a href="https://avdata99.github.io/cadena-de-datos/ruso.html"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/01/Selecci%C3%B3n_1424.png" alt="" class="wp-image-505"&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Quedo formalmente en un podcast que irá sumando entrevistados &lt;a href="https://avdata99.github.io/cadena-de-datos/ruso.html" target="_blank" rel="noreferrer noopener" aria-label="aquí (abre en una nueva pestaña)"&gt;aquí&lt;/a&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":507} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/01/Selecci%C3%B3n_1428.png" alt="" class="wp-image-507"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Como era simple se sumo a la plataforma Spotify. Podés suscribirte &lt;a href="https://open.spotify.com/show/3DyOBY3f7mxnrb3TeI86D8?si=mAJL-u1vTomnbUU1AISrLw" target="_blank" rel="noreferrer noopener" aria-label=" (abre en una nueva pestaña)"&gt;aquí&lt;/a&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":506} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/01/Selecci%C3%B3n_1427-1024x586.png" alt="" class="wp-image-506"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Si usas cualquier otra aplicación para escuchar podcasts podes sumar este podcast con &lt;a href="https://avdata99.github.io/cadena-de-datos/audios-y-rss/audios/podcast_atom.xml" target="_blank" rel="noreferrer noopener" aria-label=" (abre en una nueva pestaña)"&gt;este link&lt;/a&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;El audio (&lt;a rel="noreferrer noopener" aria-label=" (abre en una nueva pestaña)" href="https://github.com/avdata99/cadena-de-datos/blob/master/extras/mp3-to-mp4.sh" target="_blank"&gt;previa conversión a video&lt;/a&gt;) se subió a YouTube y esta plataforma me permite descargar los subtitulos que interpreta automáticamente. Esto me ahorra horas de desgrabación. &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":510} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/01/Selecci%C3%B3n_1429.png" alt="" class="wp-image-510"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:image {"id":511} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/01/Selecci%C3%B3n_1430-1024x414.png" alt="" class="wp-image-511"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/cadena-de-datos/</guid><pubDate>Mon, 14 Jan 2019 00:55:40 GMT</pubDate></item><item><title>Blockchain para certificar datos</title><link>https://andresvazquez.com.ar/blog/posts/blockchain-para-certificar-datos/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Desde los portales de datos abiertos publicamos con frecuencia recursos que pueden ser utilizados por la comunidad para controlar, reutilizar, estudiar o para cualquier otra finalidad. &lt;strong&gt;Los datos generados por los gobiernos no son de su propiedad&lt;/strong&gt; sino que deben ser activos disponibles para la comunidad. &lt;/p&gt;
+&lt;p&gt;Hoy no existe un control de los datos que desaparecen o se modifican. &lt;strong&gt;Si, los datos públicos pueden desaparecer&lt;/strong&gt;. Aunque suene extraño tenemos el caso del portal de datos argentino &lt;em&gt;datospublicos.gob.ar&lt;/em&gt; que &lt;a href="https://www.lanacion.com.ar/1607724-el-gobierno-creo-el-sistema-nacional-de-datos-publicos-para-acceder-a-informacion-oficial"&gt;se lanzo en 2013&lt;/a&gt; y finalmente &lt;a href="http://www.diarioalfil.com.ar/2015/07/20/por-que-desaparecio-datospublicos-gob-ar/"&gt;desapareció en 2015&lt;/a&gt;. &lt;/p&gt;
+
+&lt;!-- wp:image {"id":494} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/12/Selecci%C3%B3n_1307.png" alt="" class="wp-image-494"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Publicar datos implica un compromiso con los usuarios. Aquellos que los consumimos podemos elaborar productos o contar historias con ellos que podrían quedar desacreditados si las fuentes oficiales desaparecen.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Para los usuarios no alcanza con con guardar copias propias si estas no están certificadas de alguna forma. Es por esto que se requiere una solución a este dilema. Sobre todo para los casos que involucran a la justicia donde &lt;strong&gt;borrar un dato es equivalente a deshacerse de evidencia&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;De eso que también parece imposible tenemos un ejemplo: &lt;strong&gt;Tuvieron que &lt;/strong&gt;&lt;a href="https://www.cadena3.com/noticias/politica-economia/por-declaraciones-juradas-accastello-allanan-concejo_21350"&gt;&lt;strong&gt;allanar el Concejo Deliberante de Villa María&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; en 2017 para buscar DDJJ&lt;/strong&gt; de un funcionario. Incluso se &lt;a href="https://www.eldiariocba.com.ar/imputaron-a-un-exempleado-de-la-auditoria-por-las-dd-jj-de-accastello/"&gt;acuso de hurto a un funcionario&lt;/a&gt; por la desaparición de esos papeles.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":495} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/12/image-1-1024x239.png" alt="" class="wp-image-495"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Blockchain se presenta como una posibilidad accesible para resolver esta problemática. Los Boletines Oficiales Argentinos &lt;a href="https://www.boletinoficial.gob.ar/#!estatica/certificacionBlockchain"&gt;ya se resguardan&lt;/a&gt; de esta forma. Es un muy buen ejemplo de uso.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;En la Ciudad de Córdoba pensando en esta problemática también atravesamos nuestra experiencia y &lt;a href="https://gobiernoabierto.cordoba.gob.ar/blockchain/"&gt;la publicamos.&lt;/a&gt; &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":496} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/12/image-2-1024x285.png" alt="" class="wp-image-496"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Nos contactamos con diferentes empresas a las que escuchábamos hablar de Blockchain y nos encontramos con que muchas de ellas hablan de esta tecnología pero en realidad no la usan. &lt;strong&gt;Muchos &lt;/strong&gt;&lt;em&gt;&lt;strong&gt;gurúes&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt; sin experiencia real&lt;/strong&gt;. Finalmente encontramos tres empresas que si estaban en condiciones de acompañarnos en este proceso. &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Buscamos documentos relevante y críticos (por supuesto &lt;a href="https://gobiernoabierto.cordoba.gob.ar/blockchain/documento-en-blockchain/09ce8ae4-fa36-4db9-81f8-ee0be2a63ed6"&gt;incluimos TODAS las Declaraciones Juradas&lt;/a&gt;) y los certificamos en Blockchain. Este proceso implica registrar un identificador único e inviolable de cada documento y dejarlo asentado en blockchain. Para completar este proceso es necesario que desde la comunidad se realicen resguardos con frecuencia de estos datos para en casos que se lo requiera poder reconstruir datos que sean eliminados o modificados.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:quote --&gt;
+&lt;blockquote class="wp-block-quote"&gt;&lt;p&gt;Hecho esto los usuarios de datos públicos contaríamos con una herramienta de certificación externa y limitaría a los gobiernos en su posibilidad de adulterar su propia historia.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;!-- /wp:quote --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Como nos importa el software libre también &lt;a href="https://github.com/ModernizacionMuniCBA/smart-contract-para-certificar-datos-en-blockchain"&gt;dejamos publicado un smart contract que usamos&lt;/a&gt; y también &lt;a href="https://github.com/ModernizacionMuniCBA/hashear-documentos"&gt;la tecnología usada para identificar univocamente a los documentos&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Este paso que dimos quedo documentado y listo para que otros gobiernos repliquen la experiencia. El paso que falta es definir normas que fuercen la certificación (no necesariamente en Blockchain) de datos.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/blockchain-para-certificar-datos/</guid><pubDate>Thu, 06 Dec 2018 22:09:07 GMT</pubDate></item><item><title>My Bondi Ia</title><link>https://andresvazquez.com.ar/blog/posts/my-bondi-ia/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Vivo en Mendiolaza hace 30 años, desde joven recuerdo que había una sola empresa de colectivos, no recuerdo haber viajado muchas veces cómodo en mis viajes a la universidad a finales de los 90's. Si bien éramos pocos ya era un problema el transporte en aquella época.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;La realidad actual cambio mucho, &lt;a href="http://blog.opendatacordoba.org/demografia-con-cartas-marinas/"&gt;la evolución de los padrones electorales&lt;/a&gt; muestran la explosión de Mendiolaza (Córdoba) y toda la zona de Sierras Chicas (las localidades al noroeste de la capital provincial). La cantidad de electores en el padrón de Mendiolaza paso de 4.147 (2007) a   11.529 (2017), 178,01% en 10 años (la población argentina crece 1% anual aprox.)&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":473} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/11/image.png" alt="" class="wp-image-473"&gt;&lt;figcaption&gt;&lt;br&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Aunque ahora existen múltiples empresas de transporte que pasan por mi ciudad todavía es un problema poder contar con un servicio eficiente. &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Vale aclarar que el departamento Colon (donde esta ubicado Mendiolaza) no cuenta con otra vía de transporte público. No hay trenes u otro sistema rápido de transporte ni parece haber un plan para ello. Para recorrer los 20 kilómetros que nos separan de la Capital se requieren entre 50 y 90 minutos.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":474,"align":"left","width":98,"height":90} --&gt;
+&lt;div class="wp-block-image"&gt;&lt;figure class="alignleft is-resized"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/11/image-1.png" alt="" class="wp-image-474" width="98" height="90"&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Trabajo en el Gobierno de la Ciudad de Córdoba donde también el transporte es un tema clave y de alta demanda social. Nos llevó un año pero conseguimos desarrollar la aplicación &lt;em&gt;&lt;strong&gt;&lt;a href="https://play.google.com/store/apps/details?id=ar.gob.cordoba.gobiernoabierto.go" target="_blank" rel="noreferrer noopener" aria-label="Trabajo en el Gobierno de la Ciudad de Córdoba donde también el transporte es un tema clave y de alta demanda social. Nos llevó un año pero conseguimos desarrollar la aplicación Go basada exclusivamente en el GPS que toda unidad de transporte tiene. (abre en una nueva pestaña)"&gt;Go&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; basada exclusivamente en el GPS que toda unidad de transporte tiene.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Este no es un tema menor, si bien la frecuencia es clave, la posibilidad de saber donde esta y cuanto falta para que venga el colectivo es importante para planificar mejor un viaje y perder menos tiempo en esperas. Además es posible saber si la unidad de transporte esta desviada de su recorrido habitual&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":475} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/11/image-2.png" alt="" class="wp-image-475"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":476,"align":"left","width":111,"height":79} --&gt;
+&lt;div class="wp-block-image"&gt;&lt;figure class="alignleft is-resized"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/11/image-3.png" alt="" class="wp-image-476" width="111" height="79"&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Para el transporte interurbano el Gobierno de la Provincia de Córdoba ha dispuesto la aplicación &lt;em&gt;&lt;a href="http://mibondiya.cba.gov.ar/" target="_blank" rel="noreferrer noopener" aria-label="Para el transporte interurbano el Gobierno de la Provincia de Córdoba ha dispuesto la aplicación MiBondiYa que permite saber los horarios de colectivos y en algunos casos la posición GPS en tiempo real en las unidades. Es interesante pero al tratar de usarla me doy con algunos problemas:
+ (abre en una nueva pestaña)"&gt;MiBondiYa&lt;/a&gt;&lt;/em&gt; que permite saber los horarios de colectivos y en algunos casos la posición GPS en tiempo real en las unidades. Es interesante pero al tratar de usarla me doy con algunos problemas:&lt;br&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:list --&gt;
+&lt;ul&gt;&lt;li&gt;No puedo ver a todas las unidades en un mismo mapa. Solo se ve el mapa para una unidad específica de una empresa particular. No hay un mapa integrado con todo.&lt;/li&gt;&lt;li&gt;No puedo consultar según la zona en la que estoy y obtener los resultados de todas las empresas que pasan por aquí, debo hacerlo una vez para cada una de las empresas.&lt;/li&gt;&lt;/ul&gt;
+&lt;!-- /wp:list --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Resueltos estos inconvenientes sería una solución más interesante. En mi caso &lt;strong&gt;saber exactamente donde esta el colectivo que espero podría hacerme decidir si salir de mi casa en auto o no.&lt;/strong&gt; Es por esto que decidí conectarme a los datos de este sistema y mostrarlos de otra forma. &lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Lamentablemente los datos no están expuestos de una forma amigable para que aplicaciones de terceros la reutilicen. De todas formas existen técnicas que se pueden aplicar en estos casos para &lt;em&gt;leer&lt;/em&gt; los datos de un sitio web y transformarlos en información reutilizable.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Tomé el desafió de armar un mapa de colectivos que van desde Mendiolaza hasta Córdoba que muestre todas las unidades (sumando los horarios esperados en los casos donde el GPS no está disponible). Me llevó dos días, es una versión inicial pero entiendo que puede mejorarse.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":485} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/11/image-5.png" alt="" class="wp-image-485"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Como tomé los datos de &lt;strong&gt;TODO&lt;/strong&gt; el sistema de transporte provincia &lt;strong&gt;puede reutilizarse para cualquier otro recorrido interurbano en Córdoba.&lt;/strong&gt; Todo el código utilizado quedó &lt;a href="https://github.com/avdata99/my-bondi-ia"&gt;abierto en un repositorio&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:image {"id":478} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/11/image-4-1024x599.png" alt="" class="wp-image-478"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Finalmente los colectivos Mendiolaza-Córdoba pueden consultarse en este primer beta desde el sitio: &lt;a href="https://bondi.mendiolaza.com.ar/bondis/mapa/"&gt;https://bondi.mendiolaza.com.ar/bondis/mapa/&lt;/a&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;El sistema guarda todos los datos que recoge por lo que podría eventualmente ser de utilidad para analizar datos de frecuencias (solo en los casos donde esta el GPS disponible).&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/my-bondi-ia/</guid><pubDate>Mon, 26 Nov 2018 04:08:15 GMT</pubDate></item><item><title>Público y libre?</title><link>https://andresvazquez.com.ar/blog/posts/publico-y-libre/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;La palabra &lt;em&gt;Libre&lt;/em&gt; en general es bien aceptada en cualquier ámbito salvo en el software. En nuestro rubro genera dudas, desarrolladores dentro de los gobiernos y proveedores externos no están convencidos todavía de los beneficios de &lt;a href="http://andresvazquez.com.ar/blog/la-cooperacion-como-estrategia-de-desarrollo/" target="_blank" rel="noopener"&gt;la cooperación como estrategia para el desarrollo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Los gobiernos nos estamos modernizando e involucrando tecnología en todos nuestros procesos internos. Estamos digitalizando y despapelizando, estamos haciendo aplicaciones &lt;a href="https://andresvazquez.com.ar/blog/my-bondi-ia/"&gt;[1]&lt;/a&gt; &lt;a href="https://andresvazquez.com.ar/blog/una-app-mas/"&gt;[2]&lt;/a&gt; útiles para la ciudadanía, estamos gestionando cada vez más trámites online. &lt;strong&gt;Todos los gobiernos tenemos las mismas necesidades&lt;/strong&gt; y lamentablemente no estamos colaborando de modo de no reinventar la rueda en cada solución que aplicamos.&lt;/p&gt;
+&lt;p&gt;Los desarrolladores de software somos hoy un bien escaso (la demanda a superado ampliamente a la oferta). Esto puede verse en el sector privado pero es muy notorio también en el sector público.&lt;/p&gt;
+&lt;p&gt;Abrir repositorios donde los gobiernos dejemos disponibles los códigos de nuestros desarrollos puede ser un buen primer paso. En esa línea desde la Ciudad de Córdoba hemos abierto en 2016 &lt;a href="https://github.com/ModernizacionMuniCBA"&gt;nuestro repositorio en GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- wp:image {"id":489} --&gt;
+&lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/12/Selecci%C3%B3n_1306-1024x331.png" alt="" class="wp-image-489"&gt;&lt;/figure&gt;
+&lt;!-- /wp:image --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Lamentablemente esta práctica es muy poco común. No existen muchos repositorios públicos abiertos.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Otro aspecto que impide compartir tecnología es la forma en la que los gobiernos compramos la tecnología a proveedores externos. En general &lt;strong&gt;no se solicita la propiedad intelectual del material desarrollado&lt;/strong&gt;. Muchas veces los gobiernos terminan de rehenes de las tecnologías por las cuales han pagado y de la que no son dueños.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+
+&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;Reglamentar normas claras en la compra y el desarrollo de tecnología es el próximo (y necesario) paso.&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/publico-y-libre/</guid><pubDate>Tue, 06 Nov 2018 20:56:23 GMT</pubDate></item><item><title>Un nuevo indicador de datos abiertos para las ciudades</title><link>https://andresvazquez.com.ar/blog/posts/un-nuevo-indicador-de-datos-abiertos-para-las-ciudades/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;La &lt;a href="https://okfn.org/"&gt;fundación Conocimiento Abierto (OKFN)&lt;/a&gt; realiza a nivel de países &lt;a href="https://index.okfn.org/"&gt;un indicador&lt;/a&gt; de apertura de datos. Este indicador evalúa una lista preestablecida de datos (presupuesto, mapas, legislación, propiedad de la tierra entre otros). Argentina &lt;a href="https://index.okfn.org/place/"&gt;aparece hoy en el puesto 17 de este índice.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://index.okfn.org/place/"&gt;&lt;img class="aligncenter size-large wp-image-456" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/08/Selecci%C3%B3n_0667-1024x286.png" alt="" width="625" height="175"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La misma fundación a través de sus filiales en el mundo (&lt;a href="https://www.fcabierto.org/"&gt;ésta es la de Argentina&lt;/a&gt;) replica una medición similar para ciudades. Los sets de datos solicitados son similares pero orientados a datos que los gobiernos municipales deben administrar. En este momento esta caído pero &lt;a href="https://ar-cities.survey.okfn.org/"&gt;en el sitio&lt;/a&gt; se muestran y se explican con detalles los datos solicitados y detalles sobre el formato. Básicamente se pide que cada dato:
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;Este disponible online y sin costo&lt;/li&gt;
+    &lt;li&gt;Pueda descargarse de una vez en conjunto&lt;/li&gt;
+    &lt;li&gt;Tenga una licencia que le permita a los usuarios de reutilizar los datos libremente&lt;/li&gt;
+    &lt;li&gt;Este en formato reutilizable y libre&lt;/li&gt;
+    &lt;li&gt;Sean actuales&lt;/li&gt;
+&lt;/ul&gt;
+Este trabajo inspirado en la experiencia del índice de naciones es exigente y posiblemente el más completo que existe. Sin embargo luego de varias ediciones la realidad del mundo de los datos abiertos ha crecido y existen nuevas exigencias. Pensando en esto la Fundación nos ha enviado a los gobiernos participantes un extenso cuestionario para expresar nuestra opinión en posibles mejoras.
+&lt;p&gt;Completar este formulario me hizo pensar mucho en como mejorarlo y me parece útil hacer públicas estas sugerencias. A continuación algunos de los puntos sobre los cuales envié opinión.&lt;/p&gt;
+&lt;h4&gt;Software libre&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Creo que podemos dar un salto e incluir al &lt;strong&gt;software libre&lt;/strong&gt; como parte de los datos abiertos requeridos. El software liberado revelaría la forma en la que funcionan muchos procesos críticos internos. Podría hacerse una lista de productos de software que cualquier gobierno necesita. &lt;/span&gt;&lt;span style="font-weight: 400;"&gt;Además yo pediría a cada gobierno un repositorio abierto en general (GitHub, GitLab o similar). &lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Visualizaciones&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;De los datos solicitados yo agregaría un nuevo requerimiento:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;span style="font-weight: 400;"&gt;&lt;b style="font-weight: 400;"&gt; ¿Hay una visualización de esos datos de modo que sean más &lt;/b&gt;&lt;b&gt;fáciles&lt;/b&gt;&lt;b style="font-weight: 400;"&gt; de entender por el público no especializado?&lt;/b&gt; &lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Posiblemente sería difícil de medir pero una reforma importante es pensar en que los datos son difíciles y caros de consumir. Cualquier esfuerzo por hacer estos datos más fáciles de comprender es un paso necesario&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Web services (APIs)&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;De los datos solicitados también preguntaría &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;¿Los datos están disponibles en tiempo real como web service? &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;El uso de los datos podría transformarse en un consumo en tiempo real por aplicaciones de terceros. Desde el Gobierno de la Ciudad de Córdoba estamos atravesando experiencias en este sentido y son un desafío interesante (un poco conté &lt;a href="https://andresvazquez.com.ar/blog/datos-masivos-de-transito-para-tu-ciudad/"&gt;aquí&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Además los datos actualizados mensualmente muchas veces terminan en series que se discontinúan en el tiempo o cambian de estructura. Este compromiso daría una señal positiva al ecosistema tecnológico de la ciudad.&lt;/p&gt;
+&lt;h4&gt;Réplicas externas&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Hoy los gobiernos se encarga del alojamiento de los datos abiertos. Esto en general funciona pero hay casos donde un gobierno que se va o el nuevo que viene eliminan todo o parte del material. Es necesario dar garantías externas por lo que yo preguntaría:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt; ¿Los datos están disponibles y verificables en entornos fuera del control del municipio? &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;IPFS, Blockchain* y otras tecnologías podrían ser entornos donde dejar o certificar copias de los datos. Se debe asegurar que los datos queden en el tiempo.&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Ecosistema tecnológico&lt;/h4&gt;
+&lt;p&gt;Hoy no alcanza con liberar los datos, es necesario publicar datos atractivos y de interés para la comunidad. Por eso yo agregaría la pregunta:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;¿Hay empresas u organizaciones usando esos datos activamente y agregándole valor? &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Si los datos están allí sin uso fuera del gobierno entonces falta algo. Los gobiernos deben estimular su uso (lo que colabora mucho con un control externo).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Creo que estas exigencias subirían el nivel de los portales de datos abiertos de las ciudades.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;&lt;em&gt;* Coincido con la crítica general sobre el hype actual que hay alrededor del tema. He conversado con muchas personas que venden estas ideas y realmente no usan o conocen mucho de esta tecnología. Más allá de eso la tecnología podría tener usos interesantes. Hemos hecho &lt;a href="https://gobiernoabierto.cordoba.gob.ar/blockchain/"&gt;nuestra experiencia&lt;/a&gt; en la ciudad de Córdoba y creemos que es un camino interesante a explorar. Update: &lt;a href="https://andresvazquez.com.ar/blog/blockchain-para-certificar-datos/"&gt;mi opinión sobre la utilidad de Blockchain&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/un-nuevo-indicador-de-datos-abiertos-para-las-ciudades/</guid><pubDate>Sun, 05 Aug 2018 00:58:28 GMT</pubDate></item><item><title>En el podcast de ILDA: Los datos cerca del Vecino</title><link>https://andresvazquez.com.ar/blog/posts/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Tuve el gusto de ser invitado para conversar en el podcast de ILDA (Iniciativa Latinoamericana por los Datos Abiertos).&lt;/p&gt;
+&lt;p&gt;Agradezco la invitación a los amigos de ese grupo y comparto por aquí la grabación.&lt;/p&gt;
+&lt;p&gt;[embed]https://andresvazquez.com.ar/data/Podcast_ILDA_S01E03.mp3[/embed]&lt;/p&gt;
+&lt;p&gt;https://idatosabiertos.org/episodio-3-los-datos-cerca-del-vecino/&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/</guid><pubDate>Fri, 20 Jul 2018 00:05:51 GMT</pubDate></item><item><title>Datos masivos de tránsito para tu ciudad</title><link>https://andresvazquez.com.ar/blog/posts/datos-masivos-de-transito-para-tu-ciudad/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;El pasado 3 y 4 de mayo estuve en representación de la Municipalidad de Córdoba en el &lt;em&gt;Waze CCP Summit Latam 2018&lt;/em&gt; organizado por el BID y Waze (Google). El motivo de la participación es que estamos implementando en la Ciudad una intercambio bidireccional de datos con la plataforma Waze. Este intercambio es propuesto por Waze y se denomina &lt;a href="https://www.waze.com/es/ccp"&gt;CCP (Connected Citizens Program).&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Este intercambio es bastante conveniente para las ciudades ya que recibimos muchos datos en tiempo real que serían muy caros de obtener y a cambio entregamos información (que es pública para todos por igual) sobre cortes de tránsito planificados de la Ciudad. Este no es un punto menor, los datos que abrimos a Waze son abiertos para todos. Cualquier emprendimiento tecnológico de la Ciudad puede acceder a los mismos datos (de hecho MiAutobus.com los utilizará también). En este hilo esta explicado:&lt;/p&gt;
+&lt;p&gt;https://twitter.com/GobAbiertoCba/status/992488926639218688&lt;/p&gt;
+&lt;p&gt;Hubo muchas charlas pero destaco y linkeo cada una de las que me pareció más interesante.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/pablocerdeira/"&gt;&lt;span style="font-weight: 400;"&gt;Pablo Cerdeira&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt; es docente de derecho y tecnología en la FGV (Fundação Getulio Vargas) y  fue CDO (Chief Data Officer) de Río de Janeiro entre 2013 y 2016. Es &lt;/span&gt;&lt;a href="https://youtu.be/eXK4F-Plz-k?t=56m31s"&gt;&lt;span style="font-weight: 400;"&gt;su charla&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt; contó como usar los datos que provee Waze y otros para analizar y mejorar el tránsito de su ciudad.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/eXK4F-Plz-k?t=56m31s" target="_blank" rel="noopener"&gt;&lt;img class="aligncenter wp-image-446 size-medium" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/05/Selecci%C3%B3n_0326-300x157.png" alt="" width="300" height="157"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/chrislambertky"&gt;&lt;span style="font-weight: 400;"&gt;Chris Lambert&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;, del gabinete de transporte de &lt;/span&gt;&lt;b&gt;Kentucky&lt;/b&gt;&lt;span style="font-weight: 400;"&gt;. &lt;/span&gt;&lt;a href="https://youtu.be/eXK4F-Plz-k?t=2h11m42s"&gt;&lt;span style="font-weight: 400;"&gt;Su charla aquí. &lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;Si bien toman y graban todo el feed de Waze cuenta que es importante mirar la valoración de los usuarios que registran observaciones en la vía pública. Muestra muchas visualizaciones y análisis de datos interesantes.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/eXK4F-Plz-k?t=2h11m42s" target="_blank" rel="noopener"&gt;&lt;img class="aligncenter wp-image-445 size-medium" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/05/Selecci%C3%B3n_0327-300x157.png" alt="" width="300" height="157"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pe.linkedin.com/in/ericraulpena/en"&gt;&lt;span style="font-weight: 400;"&gt;Eric Pena&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;, líder del área de tecnología de &lt;/span&gt;&lt;b&gt;Miraflores&lt;/b&gt;&lt;span style="font-weight: 400;"&gt;. &lt;/span&gt;&lt;a href="https://youtu.be/eXK4F-Plz-k?t=3h30m51s"&gt;&lt;span style="font-weight: 400;"&gt;Su charla aquí&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;. &lt;/span&gt;&lt;span style="font-weight: 400;"&gt;Tienen &lt;a href="https://github.com/DevMiraflores/cierre-calles"&gt;libre una herramienta&lt;/a&gt;&lt;/span&gt;&lt;span style="font-weight: 400;"&gt; para registrar los cortes y mandar el feed correcto a Waze. Lo usan internamente y está basada en Java. &lt;/span&gt;&lt;span style="font-weight: 400;"&gt;Para guardar los datos que reciben de Waze usan Python + Postgres / Postgis que les ha resultado útil. También usan Shiny-R. &lt;/span&gt;&lt;span style="font-weight: 400;"&gt;Hacen scraping de uno de los mapas que le da Waze por son datos que todavía no están en el feed (Waze promete incluirlos pronto). &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/eXK4F-Plz-k?t=3h30m51s" target="_blank" rel="noopener"&gt;&lt;img class="aligncenter wp-image-440 size-medium" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/05/Selecci%C3%B3n_0325-300x157.png" alt="" width="300" height="157"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Mauricio Carranza y Alejandro Valdés que trabajan en el área de control de semáforos de &lt;/span&gt;&lt;b&gt;Medellín.&lt;/b&gt; &lt;a href="https://youtu.be/eXK4F-Plz-k?t=5h14m10s"&gt;&lt;span style="font-weight: 400;"&gt;Su charla aquí&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;. &lt;/span&gt;&lt;span style="font-weight: 400;"&gt;Me pareció el más interesante tecnológicamente. Usan Logstash para tomar los datos del feed de Waze, Elasticsearch para almacenar los datos y Kibana para analizar y visualizar. Como están en el área de semaforos han logrado que algunos eventos detectados directo en sus sistemas hagan cambiar las frecuencias de los semáforos para agilizar el tránsito en los lugares donde es necesario.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/eXK4F-Plz-k?t=5h14m10s" target="_blank" rel="noopener"&gt;&lt;img class="aligncenter wp-image-443 size-medium" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/05/Selecci%C3%B3n_0329-300x157.png" alt="" width="300" height="157"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GabrielBogo"&gt;Gabriel Medeiros&lt;/a&gt;, de la división de planificación urbana y sostenible de Joinville (Brasil). &lt;a href="https://www.youtube.com/watch?v=eXK4F-Plz-k&amp;amp;feature=youtu.be&amp;amp;t=7h07m05s"&gt;Su charla aquí&lt;/a&gt; (recomiendo bajar la velocidad de reproducción a 0.75x :) ). Agregaron los datos de catastro a su trabajo para que al cruzarlos con Waze supieran que calles son afectadas por los eventos detectados. Usaron Python y Postgres con Postgis. Además buscaron trabajar con estándares por lo que reutilizaron en producto &lt;a href="https://github.com/LouisvilleMetro/WazeCCPProcessor"&gt;WazeCCPProcesor&lt;/a&gt; liberado por el Municipio de Louisville (Kentuky, USA) y &lt;a href="https://www.govintheopen.com/"&gt;usado por más de 60 municipios&lt;/a&gt; que les permita usar los datos de waze y hacer analítica comparable con otras ciudades. Además &lt;a href="https://github.com/GabrielBogo/Joinville-Smart-Mobility"&gt;hay en GitHub&lt;/a&gt; algunos análisis de los datos de Waze.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=eXK4F-Plz-k&amp;amp;feature=youtu.be&amp;amp;t=7h07m05s" target="_blank" rel="noopener"&gt;&lt;img class="aligncenter wp-image-447 size-medium" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/05/Selecci%C3%B3n_0332-300x157.png" alt="" width="300" height="157"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Juanjo Mendez del Gobierno de CABA &lt;a href="https://www.youtube.com/watch?v=eXK4F-Plz-k&amp;amp;feature=youtu.be&amp;amp;t=7h59m45s"&gt;cuenta que están implementando GTFS&lt;/a&gt; para todas las vías de transporte de esa Ciudad.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=eXK4F-Plz-k&amp;amp;feature=youtu.be&amp;amp;t=7h59m45s"&gt;&lt;img class="aligncenter size-medium wp-image-441" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/05/Selecci%C3%B3n_0331-300x157.png" alt="" width="300" height="157"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tomer Shtauber, Ingeniero de Waze tambien &lt;a href="https://youtu.be/p3tookUdMyI?t=55m10s"&gt;dio una charla&lt;/a&gt; general sobre los datos que Waze entrega y recibe. Es bastante técnica pero un buen resumen de como interactuar con Waze.  &lt;span style="font-weight: 400;"&gt;Tuvimos una reunión privada con el para saber más sobre los datos que recibimos de ellos. Resolvimos algunas dudas técnicas y preguntamos también si podemos liberar los datos que recibimos de Waze. Nos indicó que no, que solo puede hacerse en circunstancias especiales y solo para organizaciones específicas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Hay también interesantes charlas del BID. &lt;a href="https://www.youtube.com/watch?v=eXK4F-Plz-k&amp;amp;feature=youtu.be&amp;amp;t=6h31m03s"&gt;Pregunte&lt;/a&gt; &lt;strong&gt;sobre la privacidad de las personas&lt;/strong&gt; en todo este manejo de datos y recibí una respuesta del BID y de Waze que puede ser de interés para los que cubren más estas temáticas. Como funcionario me preocupa recomendar a la ciudadanía usar o contribuir en herramientas que pudiera no cuidar de la privacidad de las personas.&lt;/p&gt;
+&lt;p&gt;Los videos completos de los dos días están disponibles aquí:
+&lt;span style="font-weight: 400;"&gt;Día 1: &lt;/span&gt;&lt;a href="https://www.youtube.com/watch?v=eXK4F-Plz-k"&gt;&lt;span style="font-weight: 400;"&gt;https://www.youtube.com/watch?v=eXK4F-Plz-k
+&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;Día 2: &lt;/span&gt;&lt;a href="https://www.youtube.com/watch?v=p3tookUdMyI"&gt;&lt;span style="font-weight: 400;"&gt;https://www.youtube.com/watch?v=p3tookUdMyI&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/datos-masivos-de-transito-para-tu-ciudad/</guid><pubDate>Sat, 05 May 2018 20:37:51 GMT</pubDate></item><item><title>Chile si va al mundial</title><link>https://andresvazquez.com.ar/blog/posts/chile-si-va-al-mundial/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;... al mundial del Gobierno Abierto. Chile está a la cabeza de los Gobiernos Abiertos por una serie de hechos y políticas interesantes que en general no es totalmente dimensionada por sus ciudadanos. Es muy común en Latinoamérica desmerecer nuestros logros.&lt;/p&gt;
+&lt;p&gt;Chile tiene ya una tradición en políticas de Gobierno Abierto y los demás países de Latinoamérica lo vemos como referente en el tema. Recuerdo su &lt;a href="http://datos.gob.cl/"&gt;portal nacional de datos abiertos&lt;/a&gt; lanzado en 2011 como a uno de los primeros (* inserte aquí referencia a la fecha de creación de los otros países). Trabajo en temas de datos abiertos desde 2012 y siempre Chile, sus instituciones y municipios se destacaron en estos temas. Muchos otros países han avanzado muchísimo en estos temas, no quiero desmerecer a ninguno, solo creo que Chile es destacable. Se me vienen a la memoria además los trabajos de la &lt;a href="https://ciudadanointeligente.org"&gt;Fundación Ciudadano Inteligente&lt;/a&gt; y al prócer académico del Gobierno Abierto &lt;a href="https://twitter.com/redmatriz?lang=es"&gt;Álvaro Ramirez-Alujas&lt;/a&gt; pero seguramente hay mucho más para destacar.&lt;/p&gt;
+&lt;p&gt;Estuvimos (junto a mi compañero de trabajo &lt;a href="https://gobiernoabierto.cordoba.gob.ar/funcionarios/oficina/direccion-de-gobierno-abierto-acceso-a-la-informacion-publica-y-estadisticas-y-censos/298"&gt;Facundo&lt;/a&gt;) durante una semana en Santiago de Chile asistiendo a la Escuela de Gobierno Abierto organizado por &lt;a href="https://gigabierto.org/"&gt;GIGA&lt;/a&gt; (organizado por un muy &lt;a href="https://gigabierto.org/equipo/"&gt;interesante equipo&lt;/a&gt;) y pude verlo un poco de más cerca. En el curso conversamos y aprendimos de algunos de sus funcionarios que se acercaron a contarnos sus experiencias. Comparto un resumen basado en las notas (personales y caóticas) del curso.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Clase 1 - Lunes 9 de abril.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.consejotransparencia.cl/quienes-somos/directores/raul-ferrada-carrasco-director-general/"&gt;Raúl Ferrada Carrasco&lt;/a&gt;, Director General  del &lt;a href="http://www.consejotransparencia.cl"&gt;&lt;em&gt;Concejo para la transparencia&lt;/em&gt;&lt;/a&gt; de Chile vino a contarnos de su trabajo.&lt;/p&gt;
+&lt;p&gt;&lt;img class="aligncenter size-medium wp-image-431" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/raul-300x150.png" alt="" width="300" height="150"&gt;&lt;/p&gt;
+&lt;p&gt;Este Concejo es una institución nacional con una fuerte autonomía. Esta institución &lt;a href="http://www.consejotransparencia.cl/multas-por-incumplimientos-en-transparencia-suman-mas-de-21-millones-e-involucran-principalmente-a-personal-municipal/"&gt;tiene potestad de hacer multas&lt;/a&gt; directas sobre el sueldo del funcionario que no cumple las normas de transparencia. Muestra de esta autonomía es que han llegado poner &lt;a href="http://200.91.44.244/fundamentos-del-cplt-para-solicitar-instruccion-de-sumario-al-comandante-en-jefe-de-la-fach/consejo/2016-07-08/153322.html"&gt;multa al jefe de la Fuerza Aérea de Chile (FACH)&lt;/a&gt; por no entregar información de la lista de personas que bombardearon la casa de la moneda (&lt;a href="http://200.91.44.244/consejo/site/artic/20160708/asocfile/20160708153322/n__006527_contralor_general_de_la_rep__blica__c2713_15_.pdf"&gt;Oficio completo&lt;/a&gt;, no conozco un ente nacional que tenga este poder en otros países del mundo).&lt;/p&gt;
+&lt;p&gt;El Concejo participa también de los compromisos con OGP y sirve como entidad para reclamar la no respuesta en pedidos de acceso a la información (lleva además estadísticas detalladas de esto). Nos contó de su trabajo y de sus desafíos.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Clase 1 - Parte 2 - Acceso a la información pública
+&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/colmanromi?lang=es"&gt;Romina Colman&lt;/a&gt; nos dio una excelente clase sobre pedido de accesos a la información.&lt;/p&gt;
+&lt;p&gt;&lt;img class="aligncenter size-medium wp-image-430" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/romina-300x168.png" alt="" width="300" height="168"&gt;
+Acá hay una versión imperdible en video de una exposición similar de Romina en la Escuela de Periodismo en Chile. Romina es parte del equipo de &lt;a href="https://twitter.com/lndata?lang=es"&gt;La Nación Data&lt;/a&gt;, el mejor de Latinoamérica en periodismo de datos.&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=e1oa3Dv30h4&amp;amp;feature=youtu.be&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Clase 2 - Martes 10 de abril.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/carolburle?lang=es"&gt;Caroline Burle&lt;/a&gt; desde Brasil (por Skype) nos conto de su trabajo en Nic.br y cgi.br en (trabaja con estándares W3C). Lamentablemente el streaming se corto &lt;em&gt;:(&lt;/em&gt; y no pudimos finalizar de aprender sobre web semántica y estándares en datos. &lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clase 3 - Miércoles 11 de abril. Participación Ciudadana con &lt;a href="https://twitter.com/manuelbarrosr"&gt;Manuel Barros&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Manuel es Coordinador de proyectos de Ciudadano Inteligente y vinculado a OGP.&lt;/p&gt;
+&lt;p&gt;&lt;img class="aligncenter size-medium wp-image-432" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/manuel-300x189.png" alt="" width="300" height="189"&gt;&lt;/p&gt;
+&lt;p&gt;Nos dice que sin participación no hay gobierno abierto, si un gobierno dispone herramientas pero no hay nadie que use, valide y colabore realmente no es un gobierno abierto. Hoy hay mucho de herramientas y datos pero todavía poco de participación.&lt;/p&gt;
+&lt;p&gt;Latinobarometro y el Banco Mundial dicen que se incrementa la desconfianza en los gobiernos. Dice Manuel que hablar de Gobierno Abierto &lt;strong&gt;real&lt;/strong&gt; todavía es iluso. La sociedad tiene baja formación ciudadana, hay poco interés en saber, fiscalizar y participar. Propone que la participación tiene que ser vinculante.&lt;/p&gt;
+&lt;p&gt;Manuel dice que no todo es negativo y destaca:
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;En Chile existe la ley 20.500 de participación ciudadana&lt;/li&gt;
+    &lt;li&gt;En ley orgánica de municipios hay 4 o 5 métodos descritos (plebiscitos, consultas públicas, etc)&lt;/li&gt;
+    &lt;li&gt;Hay presupuesto participativo en muchas ciudades&lt;/li&gt;
+    &lt;li&gt;Bolivia, Ecuador, Nicaragua, Venezuela y otros hay seguimiento y participación en presupuestos&lt;/li&gt;
+    &lt;li&gt;Nariño y Bs As ya trabajan con la plataforma Consul de Madrid&lt;/li&gt;
+&lt;/ul&gt;
+Manuel pide tener cuidado con los efectos negativos de la partipación ciudadana:
+&lt;ul&gt;
+    &lt;li&gt;Uso políticos del oficialismo (para neutralizar la oposición con procesos falsos y cosméticos).&lt;/li&gt;
+    &lt;li&gt;Cooptación de los espacios de participación por organizaciones de la sociedad civil o sectores específicos.&lt;/li&gt;
+    &lt;li&gt;Disminución de la eficiencia. La participación es menos eficiente en general. Es más cara y más lenta. A veces detiene iniciativas interesantes.&lt;/li&gt;
+    &lt;li&gt;Falta de la interés en la ciudadanía.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Manuel marca los puntos necesarios para el éxito en la participación ciudadana:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Tiene que haber voluntad política&lt;/li&gt;
+    &lt;li&gt;Existencia de una sociedad civil organizada (esto como regla general, sin esto no hay gobierno abierto posible)&lt;/li&gt;
+    &lt;li&gt;Diseños institucionales flexibles y ligeros (que tenga un pequeño piloto, que avance en etapas, que se pueda modificar por procesos participativos).&lt;/li&gt;
+    &lt;li&gt;Necesidad de capacidades técnicas en los mandos medios para ejecutar los planes de acción participativos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En la experiencia de Ciudadano inteligente implementaron la plataforma Cónsul pero le agregaron etapas posteriores donde los participantes tienen tareas. Estas eran de mantenimiento y fiscalización (control y reclamos) a la implementación del proyecto. No se queda con la participación y compromiso del gobierno de ejecutar, acompaña además todo el proceso posterior. Esto alguna manera &lt;strong&gt;fuerza a la gente a que se comprometa en lo que participó&lt;/strong&gt;. Hicieron procesos vinculantes A CONDICIÓN de que la gente firme su corresponsabilidad en algunas tareas.&lt;/p&gt;
+&lt;p&gt;Manuel nos cuenta que en el tercer plan de acción de Chile se creo una mesa de Gobierno, Academia (Alujas), Sociedad Civil (Manuel Barros) para dar seguimiento. Para el cuarto plan ya están más fortalecidos y habrá espacios de debate en varias regiones de Chile.&lt;/p&gt;
+&lt;p&gt;Algunos tips de Manuel:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;La tecnología civica es clave&lt;/li&gt;
+    &lt;li&gt;Decide Madrir (Consul) es muy potente.&lt;/li&gt;
+    &lt;li&gt;En Montreal se juntan todos los jueves a hacer hackatones y es una buena experiencia.&lt;/li&gt;
+    &lt;li&gt;"Wi the people" en USA (no sabe si sigue) pero fue potente.&lt;/li&gt;
+    &lt;li&gt;Londres el departamento de transporte lanza permanentemente consultas a los usuarios.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Critica a Madrid&lt;/strong&gt;: Solo dos propuestas ciudadanas han llegado al 1% de apoyo requerido y todavía ninguna se ejecutó. &lt;strong&gt;Algo bueno&lt;/strong&gt;: Están probando cosas nuevas. Van a crear una segunda cámara (ademas de los concejales). Esta cámara esta formada por ciudadanos (al azar al parecer).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Recomendación de Manuel&lt;/strong&gt;: Abrir desafíos CONCRETOS sobre políticas específicas. No tanto recibir propuestas cualquiera. Ver que ya tenga presupuesto y solo haya que decidir una vía. Manuel quiere que sea VINCULANTE.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clase 3 - Parte 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Analizamos políticas públicas específicas de participación en equipos y las compartimos a la clase. Muy enriquecedor.&lt;/p&gt;
+&lt;p&gt;&lt;img class="aligncenter size-medium wp-image-433" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/equipos-300x110.png" alt="" width="300" height="110"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Concepto interesante.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Se puede evaluar la participación en 3 o 4 dimensiones (según OCDE)&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Informativo&lt;/li&gt;
+    &lt;li&gt;Consultivo&lt;/li&gt;
+    &lt;li&gt;(Deliberativo)&lt;/li&gt;
+    &lt;li&gt;Participativo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Clase 4 - Jueves 12 de abril - &lt;a href="https://www.linkedin.com/in/juanfelipelopez/"&gt;Juan Felipe López&lt;/a&gt;, Director ejecutivo del &lt;a href="http://www.lab.gob.cl"&gt;Laboratorio de Gobierno de Chile&lt;/a&gt;.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Felipe es historiador e ingreso a este cargo por concurso en la gestión anterior (y aún sigue).&lt;/p&gt;
+&lt;p&gt;&lt;img class="aligncenter size-medium wp-image-434" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/felipe-300x200.png" alt="" width="300" height="200"&gt;&lt;/p&gt;
+&lt;p&gt;Esto se lo pregunté al final ya que me daba mucha curiosidad saber como accedían los funcionarios a puestos tan importantes en Chile.  El Lab le responde a un directorio de ministerios, la &lt;a href="https://www.corfo.cl/sites/cpp/home"&gt;Corfo&lt;/a&gt; y otras instituciones. No tiene vencimiento en su cargo pero el directorio puede sacarlo y designar a otro en cualquier momento.&lt;/p&gt;
+&lt;p&gt;Felipe nos sugiere que &lt;strong&gt;los gobiernos trabajan sobre los ejes de las palabras y los datos&lt;/strong&gt; mientras que &lt;strong&gt;los ciudadanos se manejan sobre los ejes de las historias y las imágenes&lt;/strong&gt;. He ahí una primera desconexión entre gobierno y ciudadanos&lt;/p&gt;
+&lt;p&gt;Una falla principal de los gobiernos es que muchas buenas ideas finalmente no son útiles para las personas. Falta más validación y consulta. Este laboratorio es un lugar para experimentar políticas o herramientas antes de avanzar a fondo en ellas. El lab busca un estado innovador al servicio de las personas y está inspirado en laboratorios de México y Bs As.&lt;/p&gt;
+&lt;p&gt;Tips de Felipe:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Foco en las personas&lt;/li&gt;
+    &lt;li&gt;Foco en la experiencia: todo el ambiente tiene que ser distinto. Los que participan tienen que tener un espacio atractivo y convocante.&lt;/li&gt;
+    &lt;li&gt;Enfoque sistémico: Conocer de todo lo que rodea a lo que se esta elaborando.&lt;/li&gt;
+    &lt;li&gt;Co-creación: Una persona no tiene que hacer todo, tiene que estar abierto a equipos interdisciplinarios y a los usuarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se reviso todo el proceso de definición de políticas públicas. Necesidad - evidencia - planificación - implementación - evaluación (posiblemente me olvidé alguna) y se les agregaron herramientas nuevas a &lt;strong&gt;todas las etapas&lt;/strong&gt;. No se cambia el fondo pero para cada etapa se hacen sugerencias innovadoras. De esta forma el proceso de definición de políticas públicas se enriquece.&lt;/p&gt;
+&lt;p&gt;Toda este proceso de actividades tiene &lt;strong&gt;momentos de divergencia&lt;/strong&gt; donde se puede volar un poco y &lt;strong&gt;etapas de convergencia&lt;/strong&gt; donde se agrupa y se concretan cosas. Esto es clave, no hay que perder el foco.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo: Cuentas claras - simples y transparentes &lt;/strong&gt;junto a la Superintendencia de Electricidad y Combustibles de Chile. Se implemento sobre la boleta de la luz.&lt;/p&gt;
+&lt;p&gt;Problema "El 51% no entiende la boleta de la luz" (en Chile hay 34 empresas eléctricas, 1 de ellas distribuye el 80%).&lt;/p&gt;
+&lt;p&gt;Solución propuesta: Se les instruyo a las empresas para que &lt;strong&gt;AGRANDEN LA LETRA&lt;/strong&gt; de la boleta (?). Demuestra la precariedad y falta de validación de como se toman las decisiones. No se midió el resultado.&lt;/p&gt;
+&lt;p&gt;El laboratorio volvió más atrás en el proceso. Se hicieron &lt;strong&gt;talleres en siete regiones&lt;/strong&gt; sobre cual era su experiencia con la cuenta de la luz.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Notaron que:&lt;/li&gt;
+    &lt;li&gt;La gente no entiende muchas palabras, estaba escrita por abogados&lt;/li&gt;
+    &lt;li&gt;La gente no entiende el servicio (decía sistema troncal y pensaron que era del transporte de pasajeros)&lt;/li&gt;
+    &lt;li&gt;Les daba desconfianza, no creían en las empresas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hicieron:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Preguntaron entonces que datos de la boleta eran clave, se pusieron primero. Se probaron diferentes tipografías.&lt;/li&gt;
+    &lt;li&gt;Unificaron la misma boleta para las 34 empresas.&lt;/li&gt;
+    &lt;li&gt;Hicieron &lt;strong&gt;UN PILOTO&lt;/strong&gt; en tres ciudades&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;MIDIERON&lt;/strong&gt; la confianza en el sistema anterior y el nuevo. Subieron en todas las mediciones.&lt;/li&gt;
+    &lt;li&gt;Le mostraron los resultados al ministro y decidieron extender esto a todo el país.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Todo esto se financió con parte del presupuesto del SEC (ya tenía algo para estos temas) y el laboratorio (que también tiene algo de presupuesto).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Cómo eligen los problemas?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El directorio les asignan las tareas. En general reciben pedidos. También pueden pro-activamente solicitar intervenir en algún área pero se dieron cuenta que si no hay un &lt;strong&gt;dueño político interesado el proceso no funciona&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Es por esto que si no hay un interesado que va a participar voluntariamente es mejor no hacerlo.&lt;/p&gt;
+&lt;p&gt;Este Laboratorio hizo un encuentro de innovación pública (dic 2017 en Santiago) donde &lt;strong&gt;400 funcionarios co-organizando talleres y mesas de debate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TODO lo que hacen y los casos están acá: http://lab.gob.cl/el-lab/publicaciones/&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clase 4 - parte 2 - "Colaboración e Innovación Pública" - &lt;a href="https://twitter.com/okactivist?lang=es"&gt;Silvia Da Rosa&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Silvia es Asesora del Laboratorio de Innovación Pública de AGESIC, docente de la Universidad Católica del Uruguay y miembro de la Organización de Sociedad Civil "Datos Abiertos, Transparencia y Acceso a la Información" (DATA).&lt;/p&gt;
+&lt;p&gt;Trabajamos en equipos para definir correctamente problemas específicos de Gobierno Abierto.&lt;/p&gt;
+&lt;p&gt;Lamentablemente &lt;em&gt;:(&lt;/em&gt; nuestro pasaje de vuelta era antes del horario donde cerrábamos esta clase el viernes por lo que me perdí el final.&lt;/p&gt;&lt;/div&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/chile-si-va-al-mundial/</guid><pubDate>Fri, 20 Apr 2018 00:20:15 GMT</pubDate></item></channel></rss>

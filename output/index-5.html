@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="blog personal de Andres Vázquez [@avdata99]">
+<meta name="viewport" content="width=device-width">
+<title>Temimbo'e (publicaciones antiguas, página 5) | Temimbo'e</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/index-5.html">
+<link rel="prev" href="." type="text/html">
+<link rel="next" href="index-4.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="archive.html">Archivos</a></li>
+                <li><a href="rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/sobre-el-fixture-de-afa-2017-2018/" class="u-url">Sobre el fixture de AFA 2017-2018</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/sobre-el-fixture-de-afa-2017-2018/" rel="bookmark">
+            <time class="published dt-published" datetime="2018-03-04T23:56:57Z" itemprop="datePublished" title="2018-03-04 23:56">2018-03-04 23:56</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/sobre-el-fixture-de-afa-2017-2018/#disqus_thread" data-disqus-identifier="cache/posts/sobre-el-fixture-de-afa-2017-2018.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p>En Argentina sucede desde algún tiempo algo que en otras ligas del mundo no; el fixture no incluye dos partidos contra todos los equipos (uno de local y uno de visitante). Esto implica que la <em>justicia</em> en los partidos que se sorteen no será igual para todos. Lamentablemente <a href="http://www.afa.org.ar/7918/torneos.php">no se publican muchos detalles</a> de los sorteo. En este caso se necesitaría mucho mayor transparencia.
+</p>
+<h3>¿Por que el fixture no es igualitario?</h3>
+Por varios motivos:
+<ul>
+<li>En este caso comenzamos con que son 27 fechas. La mitad de los equipos van a jugar 14 partidos de local y la otra mitad 13. Teniendo en cuenta que en general los locales ganan más de la mitad de los partidos (la otra mitad se reparte entre empates y victorias visitantes) este no es un detalle menor.</li>
+    <li>Como no juego dos veces contra todos los rivales (local y visitante) podrían tocarme todos los partidos mas <em>difíciles</em> de visitante y los más <em>fáciles</em> de local (o alreves).</li>
+</ul>
+<p>Ojo. Que no sea igualitario no quiere decir que estos datos indican una manipulación maliciosa en en sorteo.</p>
+<h3>Datos</h3>
+<p>Comenzamos con <strong>el fixture</strong> de la SuperLiga 2017-2018 sorteados por AFA. Se encuentra <a href="http://www.afa.org.ar/reglamentos/reglamentos_fixture.php">disponible</a> en PDF. No hay mejor version oficial. Por suerte existe <a href="http://tabula.technology/">TabulaPDF</a> y pude <a href="https://github.com/avdata99/fixture-afa-2017-2018/blob/master/datos/tabula-Fixture-Torneo-2017-2018-1ra-Div.csv">pasarlo a CSV.</a></p>
+<p>Por otro lado use una <strong><a href="https://github.com/avdata99/fixture-afa-2017-2018/blob/master/datos/promedios-actuales.csv">tabla de promedios</a></strong> para sumar los datos de las temporadas anteriores.</p>
+<h3>Gráficos</h3>
+<p>La primera pregunta es ¿quienes juegan 14 partidos de local y quienes 13?</p>
+<p><a href="https://docs.google.com/spreadsheets/d/14AY0JiLT3N3eTYOYDIGoZQ7jOcjhKh5raoiR8LObGy4/edit?usp=sharing"><img class="aligncenter size-full wp-image-417" src="blog/wp-content/uploads/2018/03/Selecci%C3%B3n_0085.png" alt="" width="602" height="562"></a>Este es un detalle muy importante, hay una ventaja evidente (no gigante pero si clara) para el que juega 14 partidos de local.</p>
+<p>Por otro lado surge la pregunta. ¿A todos los equipos los rivales mas y menos pesados se les distribuyen parecido en partidos de local y visitante?</p>
+<p>Para saber cuan <em>pesado o fuerte </em>es un equipo use el puntaje de ese equipo el año pasado. La construcción de estos datos se hizo en Python y <a href="https://github.com/avdata99/fixture-afa-2017-2018">quedo abierta</a> en un repositorio.Los datos además se subieron a Google Drive para hacer visualizaciones rápidas. <a href="https://docs.google.com/spreadsheets/d/14AY0JiLT3N3eTYOYDIGoZQ7jOcjhKh5raoiR8LObGy4">Tambien quedó abierto</a>.</p>
+<p>Si calculo el promedio de puntos de los equipos que tiene cada equipo de local y le resto el mismo número de visitante puede estimar el peso que queda de cada lado. Queda esto:</p>
+<p><a href="https://docs.google.com/spreadsheets/d/14AY0JiLT3N3eTYOYDIGoZQ7jOcjhKh5raoiR8LObGy4"><img class="aligncenter size-full wp-image-418" src="blog/wp-content/uploads/2018/03/Selecci%C3%B3n_0086.png" alt="" width="931" height="533"></a></p>
+<p>Aquí se ve como Independiente tiene a los rivales mas <em>pesados</em> de local mientras que Olimpo los tiene de visitante. Pero esto es un promedio, veamos el detalle.</p>
+<h4>Independiente (los rivales mas "fáciles" arriba):</h4>
+<p><img class="aligncenter size-full wp-image-419" src="blog/wp-content/uploads/2018/03/Selecci%C3%B3n_0087.png" alt="" width="386" height="612"></p>
+<p>Como puede verse, de los cinco rivales mas <em>pesados</em> juega cuantro de local. De los cinco mas <em>fáciles</em> juega cuatro de visitante.</p>
+<h4>En el otro extremo, Olimpo:</h4>
+<p><img class="aligncenter size-full wp-image-420" src="blog/wp-content/uploads/2018/03/Selecci%C3%B3n_0088.png" alt="" width="363" height="614"></p>
+<p>Como puede verse, de los cinco rivales más <em>fáciles</em> juega cuatro de local. De los cinco mas <em>pesados</em> juega cuatro de visitante.</p>
+<p>En el repositorio pueden verse las tablas de TODOS los equipos de primera división.</p>
+<h3>Conclusión</h3>
+<p>Las condiciones sobre las que se elabora el fixture hacen que inevitablemente las condiciones no sean iguales para todos. Como pasan los años y no parece ser un problema para nadie no me parece mal marcar el detalle.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba/" class="u-url">Sobre el ejercicio de la informática en la Provincia de Córdoba</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba/" rel="bookmark">
+            <time class="published dt-published" datetime="2017-09-26T00:56:17Z" itemprop="datePublished" title="2017-09-26 00:56">2017-09-26 00:56</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba/#disqus_thread" data-disqus-identifier="cache/posts/sobre-el-ejercicio-de-la-informatica-en-la-provincia-de-cordoba.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p>Actualmente el Consejo Profesional de Ciencias Informáticas de la Provincia de Córdoba (<a href="http://www.cpcipc.org.ar/">CPCIPC</a>) tiene potestad de control de la actividad de todos los informáticos de Córdoba. Esto es así desde 1987, la <a href="http://web2.cba.gov.ar/web/leyes.nsf/0/3427DD4665E7DAED832575D80058794A?OpenDocument">ley 7642</a> lo faculta para regular el ejercicio de la profesión.</p>
+<p>En la realidad el mercado de Córdoba hay miles de programadores sin título o sin matrícula. El<a href="http://www.cordobatechnology.com"> Cluster Córdoba Technology</a> (que agrupa a muchas empresas de software locales) <a href="http://www.cordobatechnology.com/ctc/cluster-prensa/crecimiento-del-software-cordobes-supera-15">indicó en junio de este año que:</a>
+</p>
+<blockquote><i>[...] las empresas de software de la provincia (excluyendo multinacionales) emplearon, durante el primer trimestre de 2017, a 8.025 personas [...]</i></blockquote>
+Por otro lado el Consejo tiene <b>1223</b> (este <a href="http://www.cpcipc.org.ar/content/comunicado-junta-electoral-solicitudes-de-incorporaci%C3%B3n-padrones">parece ser</a> el número) matriculados. En la <a href="http://www.cpcipc.org.ar/content/junta-electoral-resultado-de-las-elecciones-2016">última elección</a> votaron sólo 281 personas, el 23% estimado del padrón.
+<p><a href="http://www.cpcipc.org.ar/content/junta-electoral-resultado-de-las-elecciones-2016"><img class="aligncenter size-full wp-image-395" src="blog/wp-content/uploads/2017/09/Selecci%C3%B3n_0486.png" alt="" width="417" height="151"></a></p>
+<p>Como la ley 7642 obliga a <b>todos</b> los que ejerzan este oficio/profesión a estar matriculados podríamos estimar que hay hoy miles de personas fuera de la ley. Esto sucede desde hace años,<b> el Consejo no ha podido/sabido conducir el ejercicio de la profesión en 30 años de vigencia de la ley</b>.</p>
+<p>Esto le permite entonces discrecionalmente <a href="https://twitter.com/mis2centavos/status/801786139917058048">formular denuncias</a> cada vez que le parece útil. Hoy el número de matriculados vs personas ejerciendo de hecho la profesión parece indicar que el CPCIPC no cuenta con el consenso de la comunidad de desarrolladores de software. La bajísima participación en las elecciones parece apoyar esa hipótesis.</p>
+<p><strong>Ante esta realidad ¿que podemos proponer? ¿seguimos así?</strong></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad/" class="u-url">¿Como empiezo hoy con Gobierno Abierto en mi ciudad?</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad/" rel="bookmark">
+            <time class="published dt-published" datetime="2017-08-11T22:50:19Z" itemprop="datePublished" title="2017-08-11 22:50">2017-08-11 22:50</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad/#disqus_thread" data-disqus-identifier="cache/posts/como-empiezo-hoy-con-gobierno-abierto-en-mi-ciudad.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p><span style="color: #000000;">En varias ocasiones funcionarios de otros gobiernos nos han consultado sugerencias para comenzar con un portal de Gobierno Abierto. Estas son las sugerencias que envié, creo que podrían ser útiles para dar los primeros pasos.</span></p>
+<p><span style="color: #000000;">Esto está escrito desde la perspectiva de alguien que esta aprendiendo y atravesando este proceso (que no se termina) en equipo.</span></p>
+<p><span style="font-weight: 400; color: #000000;">En primer lugar hay que tener en cuenta que los pilares (esto es una versión <em>simplificada</em>) de Gobierno Abierto son:</span></p>
+<p><span style="color: #000000;"><b>Transparencia:</b><span style="font-weight: 400;"> Se refiere a la apertura de datos de gestión.</span></span></p>
+<p><span style="color: #000000;"><b>Participación:</b><span style="font-weight: 400;"> Que los vecinos tengan un espacio donde enviar sus opiniones, sugerencias, dialogar con funcionarios y recibir respuestas.</span></span></p>
+<p><span style="color: #000000;"><b>Colaboración:</b><span style="font-weight: 400;"> Espacios en la que los vecinos (generalmente Universidades, ONGs, Colegios Profesionales, empresas, especialistas de diferentes áreas e incluso otros gobiernos) se sientan a una mesa a opinar e influir sobre las políticas públicas.</span></span></p>
+<p><span style="color: #000000;"><b>En todos los gobiernos ya hay algo de esto siempre. Muchas veces no está centralizado en forma de una oficina de Gobierno Abierto. </b>No hay que empezar desde cero nunca,</span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">El primer paso es </span><b>siempre</b><span style="font-weight: 400;"> ver que es lo que de Gobierno Abierto </span><b>ya hacen</b><span style="font-weight: 400;"> y designar a alguien como responsable u organizador. <strong>No tiene que ser un funcionario nuevo</strong>, puede ser a alguien que tenga la vocación y el deseo de tomar la bandera de la apertura.</span></span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">En el sitio web Municipal pueden abrir una sección llamada </span><i><span style="font-weight: 400;">Gobierno Abierto </span></i><span style="font-weight: 400;">con estos tres pilares como sub-secciones (si no tienen colaboración pueden ser dos).</span></span></p>
+<p><span style="font-weight: 400; color: #000000;">En cada una pueden informar lo que tienen y en lo que están trabajando. El organizador del área tiene que tener contacto y reuniones con todas las áreas para detectar estos contenidos. Es muy importante la sensibilización en estos temas de los funcionarios de todas las áreas. </span></p>
+<h4><span style="color: #000000;"><b>Transparencia</b></span></h4>
+<p><span style="font-weight: 400; color: #000000;">Suban datos que existan. Por ejemplo (cualquiera de estas esta bien para empezar):</span></p>
+<ul>
+<li><span style="font-weight: 400; color: #000000;">La lista de funcionarios <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/funcionarios/funcionarios-en-actividad/42">[*]</a>, sus vías de comunicación <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/funcionarios/comunicacion-con-funcionarios-municipales/150">[*]</a>. </span></li>
+<li><span style="font-weight: 400; color: #000000;">Las Declaraciones Juradas de los funcionarios <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/funcionarios/declaraciones-juradas-de-funcionarios/1">[*]</a><span style="color: #000000;">, sus sueldos </span><a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/funcionarios/sueldo-de-funcionarios/131">[*]</a><span style="color: #000000;">, etc.</span></span></li>
+<li>
+<span style="font-weight: 400; color: #000000;">Mapas con puntos de interés de la ciudad (centros de salud, escuelas, etc). Esto se hace muy fácil con </span><a href="https://www.google.com/mymaps"><span style="font-weight: 400;">Google MyMaps</span></a><span style="font-weight: 400; color: #000000;">. Si cargan varios mapas podrían hacer un mini-portal de mapas, </span><a href="https://modernizacionmunicba.github.io/portal-de-mapas/www/#mapa-4"><span style="font-weight: 400;">Portal de mapas de Córdoba</span></a>.</li>
+<li><span style="font-weight: 400; color: #000000;">Datos generales de cultura <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/cultura">[*]</a>, educación <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/educacion">[*]</a>, salud <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/salud">[*]</a>, transporte <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/transporte">[*]</a>, etc. Lo que tengan a mano y esté ordenado como para compartir.</span></li>
+<li><span style="font-weight: 400; color: #000000;">El Presupuesto municipal <a style="background-color: #ffffff; font-size: 0.9375rem;" href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/economia/presupuestos/14">[*]</a></span></li>
+<li><span style="font-weight: 400; color: #000000;">Visualizaciones de datos si fuera posible <a href="https://modernizacionmunicba.github.io/visualizaciones/dendograma/?radio=700">[*]</a> <a href="https://modernizacionmunicba.github.io/visualizaciones/funcionarios-filtrable">[*]</a>, yo podría colaborar (<a href="http://andresvazquez.com.ar/blog/mapa-de-funcionarios-de-villa-maria/">como hicimos con Villa María</a>). Post: <a href="http://andresvazquez.com.ar/blog/entre-los-datos-y-los-ciudadanos/"><em>Entre los datos y los ciudadanos.</em></a></span></li>
+</ul>
+<p><span style="font-weight: 400; color: #000000;">Hay miles de datos para subir, sugiero que vean nuestra sección de datos:</span></p>
+<p><span style="color: #000000;"><a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos"><span style="font-weight: 400;">https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos</span></a></span></p>
+<p><span style="font-weight: 400; color: #000000;">También pueden ver portales de otras ciudades:</span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">Bahía Blanca: </span><a href="https://www.bahia.gob.ar/transparencia/"><span style="font-weight: 400;">https://www.bahia.gob.ar/transparencia/</span></a><span style="font-weight: 400;"> (pionero y referente en el tema)</span></span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">Villa María: </span><a href="http://datos.villamaria.gob.ar/home"><span style="font-weight: 400;">http://datos.villamaria.gob.ar/home</span></a></span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">Ciudad de Buenos Aires: </span><a href="https://data.buenosaires.gob.ar/"><span style="font-weight: 400;">https://data.buenosaires.gob.ar/</span></a></span></p>
+<p><span style="font-weight: 400; color: #000000;">Con todos los datos debes que tener compromiso de actualización con regularidad.</span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">Siempre que sea posible liberen los datos en </span><b>Excel, OpenOffice o CSV</b><span style="font-weight: 400;"> que permiten su reutilización. Evitar en lo posible PDFs o archivos de word con tablas que no permiten su uso por terceros.</span></span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">A mediano plazo pueden usar herramientas muy interesantes y accesibles para una primera versión del </span><b>portal de datos</b><span style="font-weight: 400;">: </span><a href="http://junar.com"><span style="font-weight: 400;">Junar</span></a><span style="font-weight: 400;"> o </span><a href="https://medium.com/datos-argentina/andino-y-m%C3%A1s-all%C3%A1-c932d40c2fe9"><span style="font-weight: 400;">Andino</span></a></span></p>
+<h4><span style="color: #000000;"><b>Participación</b></span></h4>
+<p><span style="font-weight: 400; color: #000000;">Aquí deben describir canales de participación que ya existan, pueden ser reuniones periódicas con vecinos, presupuesto participativo, etc.</span></p>
+<p><span style="color: #000000;"><span style="font-weight: 400;">Sería muy bueno que agreguen un </span><a href="https://gobiernoabierto.cordoba.gob.ar/propuesta-ciudadana/nueva-idea/"><span style="font-weight: 400;">simple formulario web</span></a><span style="font-weight: 400;"> donde la gente pueda cargar sus sugerencias o ideas. Sería bueno que puedan categorizar esto para hacer alguna estadística que incluso podría publicar periódicamente en la sección de transparencia.</span></span></p>
+<p><span style="font-weight: 400; color: #000000;">Otra idea es que en la lista de funcionarios en la web coloquen las vías de comunicación para que los vecinos se comuniquen. Esto en general ya existe pero no se lo destaca como vía de participación ciudadana.</span></p>
+<h4><span style="color: #000000;"><b>Colaboración</b></span></h4>
+<p><span style="font-weight: 400; color: #000000;">Pueden listar las organizaciones, Universidades, Colegios Profesionales o instituciones con los que mantengan diálogo permanente o específico sobre algún tema. Si tienen convenios de colaboración firmado sería bueno que los publiquen.</span></p>
+<p><span style="font-weight: 400; color: #000000;">Esta quizás sea la parte más difícil de Gobierno Abierto, puede quedar para una versión siguiente.</span></p>
+<h4>Software libre</h4>
+<p><span style="font-weight: 400;">En la gestión 2016-2019 la Secretaría de Modernización de la Municipalidad de Córdoba se trabajó en la política de gobierno abierto haciendo hincapié en que el Software Libre es una política de Gobierno Abierto importante.</span></p>
+<p><span style="font-weight: 400;">La Municipalidad de Córdoba tiene un repositorio de </span><a href="https://github.com/ModernizacionMuniCBA?page=2"><span style="font-weight: 400;">GitHub</span></a><span style="font-weight: 400;"> con todos los códigos que se han abierto. Cualquier municipio que entienda que la tecnología se puede construir con participación ciudadana y de manera transparente debe abrir un espacio similar. </span></p>
+<p><span style="font-weight: 400;">Un resumen de lo que se desarrolló en los últimos 3 años se encuentra en </span><a href="https://gobiernoabierto.cordoba.gob.ar/media/cdn/libro-online.pdf"><span style="font-weight: 400;">esta publicación.</span></a></p>
+<p>Algunos productos de software liberados:</p>
+<h5><b>Dendrograma de funcionarios</b></h5>
+<p><span style="font-weight: 400;">Tener una visualización dinámica y de fácil comprensión de los funcionarios públicos ayuda a entender a la ciudadanía como es la estructura jerárquica de gobierno. Es una forma alternativa a tradicional organigrama.</span></p>
+<p><span style="font-weight: 400;">Dendrograma del municipio de Córdoba:</span></p>
+<p><!-- wp:image {"id":550} --></p>
+<figure class="wp-block-image"><img class="wp-image-550 aligncenter" src="blog/wp-content/uploads/2019/09/dendrograma-1024x530.png" alt=""></figure><p><a href="https://modernizacionmunicba.github.io/visualizaciones/dendograma/?radio=700"><span style="font-weight: 400;">https://modernizacionmunicba.github.io/visualizaciones/dendograma/?radio=700</span></a></p>
+<p><span style="font-weight: 400;">Código: </span><a href="https://github.com/ModernizacionMuniCBA/dendrograma-datos-abiertos-cordoba"><span style="font-weight: 400;">https://github.com/ModernizacionMuniCBA/dendrograma-datos-abiertos-cordoba</span></a></p>
+<p><span style="font-weight: 400;">Otra visualización que toma los datos de los funcionarios públicos es esta:</span></p>
+<p><img class="aligncenter size-large wp-image-552" src="blog/wp-content/uploads/2019/09/Selection_2243-1024x438.png" alt="" width="625" height="267"></p>
+<p><a href="https://modernizacionmunicba.github.io/visualizaciones/funcionarios-filtrable"><span style="font-weight: 400;">https://modernizacionmunicba</span><b>.</b><span style="font-weight: 400;">github.io/visualizaciones/funcionarios-filtrable</span></a><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">Esta visualización permite interactuar con los datos que se recolectan de cada funcionario y principalmente cruzar datos de edad y texto, por cargo. </span></p>
+<p><span style="font-weight: 400;">Código: </span><a href="https://github.com/ModernizacionMuniCBA/visualizaciones/tree/gh-pages/funcionarios-filtrable"><span style="font-weight: 400;">Aquí</span></a></p>
+<h5><b>Portal de mapas</b></h5>
+<p><span style="font-weight: 400;">Esta plataforma usa contenido estático, agrupa capas de mapas hechas en Google MyMpas (muy fácil de usar y gratuito). </span></p>
+<p><img class="aligncenter size-medium wp-image-553" src="blog/wp-content/uploads/2017/08/Selection_2244-300x146.png" alt="" width="300" height="146"></p>
+<p><a href="https://modernizacionmunicba.github.io/portal-de-mapas/www/#mapa-7"><span style="font-weight: 400;">https://modernizacionmunicba.github.io/portal-de-mapas/www/#mapa-7</span></a><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">Código: </span><a href="https://github.com/ModernizacionMuniCBA/portal-de-mapas"><span style="font-weight: 400;">Aquí</span></a></p>
+<h5><b>Aplicaciones móviles</b></h5>
+<hr>
+<p><img class="alignleft wp-image-525 size-full" src="blog/wp-content/uploads/2019/02/image-3.png" alt="" width="171" height="296"><img class="alignleft wp-image-390 " src="blog/wp-content/uploads/2016/09/screen-mobile-01-1.png" alt="" width="171" height="295"></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+<p><span style="font-weight: 400;">El municipio desarrolló varias aplicaciones móviles. Algunas ya se liberaron completas:</span></p>
+<ul>
+<li style="font-weight: 400;">
+<span style="font-weight: 400;">Cuánto tengo: </span><a href="https://github.com/ModernizacionMuniCBA/Cuanto-tengo"><span style="font-weight: 400;">Código</span></a>
+</li>
+<li style="font-weight: 400;">
+<span style="font-weight: 400;">Agenda turística: </span><a href="https://github.com/ModernizacionMuniCBA/eventos-turismo"><span style="font-weight: 400;">Código</span></a>
+</li>
+<li style="font-weight: 400;">
+<span style="font-weight: 400;">Agenda cultural: </span><a href="https://github.com/ModernizacionMuniCBA/agenda-cultural-de-cordoba"><span style="font-weight: 400;">Código</span></a>
+</li>
+<li style="font-weight: 400;">
+<span style="font-weight: 400;">Agenda de la feria del libro: </span><a href="https://github.com/ModernizacionMuniCBA/feria-del-libro"><span style="font-weight: 400;">Código</span></a>
+</li>
+</ul>
+<p><span style="font-weight: 400;">El caso de nuestra primera app, algunas ideas: </span><a href="http://andresvazquez.com.ar/blog/una-app-mas"><span style="font-weight: 400;">http://andresvazquez.com.ar/blog/una-app-mas</span></a></p>
+<h5><b>Presupuesto Abierto Ciudadano</b></h5>
+<p><span style="font-weight: 400;">La municipalidad de Córdoba tiene el dato del presupuesto en su máximo grado de apertura. El presupuesto anual en gastos y recursos se encuentra publicado, en PDF con sus respectivas firmas que lo validan, en .xls permitiendo al ciudadano trabajar con los datos. Finalmente lo tiene explicado de forma interactiva y sin tecnicismo. </span></p>
+<p><img class="aligncenter size-large wp-image-554" src="blog/wp-content/uploads/2017/08/Selection_2245-1024x489.png" alt="" width="625" height="298"></p>
+<p><span style="font-weight: 400;">Este producto es muy utilizado en colegios y universidades para explicar el presupuesto municipal.</span></p>
+<p><span style="font-weight: 400;">El presupuesto abierto ciudadano se encuentra en el siguiente link: </span><a href="https://modernizacionmunicba.github.io/presupuestos-de-cordoba/"><span style="font-weight: 400;">Aquí</span></a></p>
+<p><span style="font-weight: 400;">Nota importante: La base de datos del presupuesto está subido a google drive. El aplicativo toma los datos y los visualiza automáticamente.</span></p>
+<p><span style="font-weight: 400;">Además de la visualización dinámica se puede acceder al los datos brutos en formatos reutilizables.</span></p>
+<p><span style="font-weight: 400;">Datos brutos del presupuesto: </span><a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/presupuesto-anual/presupuesto-anual-de-recursos-y-gastos/14"><span style="font-weight: 400;">Aquí</span></a></p>
+<p><span style="font-weight: 400;">Código en </span><a href="https://github.com/ModernizacionMuniCBA/presupuestos-de-cordoba"><span style="font-weight: 400;">nuestro repositorio de GitHub</span></a></p>
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+<p></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/app-para-radio-online/" class="u-url">App para radio online</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/app-para-radio-online/" rel="bookmark">
+            <time class="published dt-published" datetime="2017-07-14T00:40:04Z" itemprop="datePublished" title="2017-07-14 00:40">2017-07-14 00:40</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/app-para-radio-online/#disqus_thread" data-disqus-identifier="cache/posts/app-para-radio-online.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p>En las últimas semanas me encontré con dos problemas similares:
+</p>
+<ul>
+<li>Colaborar con la <a href="https://www.facebook.com/967-Primera-radio-de-Mendiolaza-1186641901350126/">Radio de Mendiolaza</a> para que su transmisión salga por internet</li>
+    <li>Escuchar la <a href="http://genfm.com.ar/">Radio Gen</a> desde el teléfono. Su app oficial pedía muchos permisos y en el navegador del teléfono me pedía flash instalado</li>
+</ul>
+En  el caso de la Radio de Mendiolaza el problema era más complejo por que no había un stream. Había que crearlo y después embeberlo en una aplicación.
+<p>Despues de mucho aprender quedó el stream funcionando y la aplicación en Google Play. Use IceCast2 para el stream y Cordova para compilar una app super simple. Ambas cosas quedaron en un repositorio por si a alguien más le sirve la experiencia: <a href="https://github.com/avdata99/radio-mendiolaza">[VER REPOSITORIO]</a></p>
+<p><img class="aligncenter size-medium wp-image-363" src="blog/wp-content/uploads/2017/07/Selecci%C3%B3n_607-300x286.png" alt="" width="300" height="286"></p>
+<p>Teniendo el primer proyecto terminado el segundo es más fácil.</p>
+<p>Simplemente replique la aplicación y conecte el stream que la radio ya tiene y publica en su web. Quedó tambien como software libre. <a href="https://github.com/avdata99/Escuchar-radio-la-gen-NO-OFICIAL">[VER REPOSITORIO]</a></p>
+<p><img class="aligncenter size-medium wp-image-362" src="blog/wp-content/uploads/2017/07/Selecci%C3%B3n_603-300x206.png" alt="" width="300" height="206"></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/jugando-con-cartas-marinas/" class="u-url">Jugando con Cartas Marinas</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/jugando-con-cartas-marinas/" rel="bookmark">
+            <time class="published dt-published" datetime="2017-07-14T00:22:55Z" itemprop="datePublished" title="2017-07-14 00:22">2017-07-14 00:22</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/jugando-con-cartas-marinas/#disqus_thread" data-disqus-identifier="cache/posts/jugando-con-cartas-marinas.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p>Hace algunos días estuve trabajando con Cartas Marinas Electorales. Los detalles quedaron <span style="font-size: 0.9375rem;">un resumen disponible en el Blog de Open Data Córdoba:</span></p>
+<p>http://blog.opendatacordoba.org/demografia-con-cartas-marinas/</p>
+<p>Además contamos el caso en <a href="http://radiocut.fm/audiocut/en-nuestra-columna-de-open-data-andres-vazquez/">nuestra columna en Radio La Gen</a>.</p>
+<p>Después de esto se sumaron además los datos de 2007 y 2011, 2013. Están disponibles en el portal de Gobierno Abierto de la Municipalidad de Córdoba <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/sociedad/electores-por-circuito-en-la-provincia-de-cordoba/216">[VER]</a></p>
+<p>Además me encontré con una nueva herramienta nueva de Google, DataStudio y puse a visualizar algunos de esos datos (click en la imágen para ampliar):</p>
+<p><a href="https://datastudio.google.com/reporting/0B9saNutQ5ZYhLVZaLW0zejAtTkk/page/b6NG"><img class="aligncenter wp-image-358 size-full" src="blog/wp-content/uploads/2017/07/Selecci%C3%B3n_605.png" alt="" width="925" height="551"></a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/" class="u-url">Datos de la programación del Canal Encuentro 2013-2016</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-11-16T02:40:07Z" itemprop="datePublished" title="2016-11-16 02:40">2016-11-16 02:40</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/#disqus_thread" data-disqus-identifier="cache/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p>Hasta hace muy pocos días en el sitio web del <a href="http://www.encuentro.gob.ar/">Canal Encuentro</a> se publicaban archivos PDF con la programación diaria del canal. Bastante feos pero datos al fin.</p>
+<p><a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/grillaPDF/GrillaEncuentro-01-01-2014.pdf"><img class="aligncenter size-full wp-image-337" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_597.png" alt="seleccion_597" width="675" height="275"></a></p>
+<p>Uno podía acceder a todos los archivos PDF simplemente navegando uno por uno todos los días en el almanaque que mostraba. Decidí entonces hacer un pequeño programa de computadora que hiciera el trabajo por mí. Encontré que estos archivos PDF se publicaban desde mayo de 2013. El programa descargo entonces automáticamente los 1286 archivos con datos.</p>
+<p><strong>Lamentablemente y por <em>casualidad</em> el día posterior a descargar los 1286 archivos con datos estos desaparecieron, este análisis no podrá seguirse haciendo. Canal Encuentro al parecer cerró esos datos.
+Hoy la programación se encuentra en <a href="http://www.encuentro.gob.ar/programacion">http://www.encuentro.gob.ar/programacion</a> pero hasta el día que hice este análisis el link era <a href="http://www.encuentro.gob.ar/sitios/encuentro/grilla/index">http://www.encuentro.gob.ar/sitios/encuentro/grilla/index</a> (todavía se redirige).
+</strong></p>
+<p>Transforme a texto esos datos <a href="https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py">con una herramienta</a> disponible y finalmente los organicé con una tabla estructurada. Quedaron entonces dos datasets muy interesantes.</p>
+<p>1.- La programación completa de los tres años y medio de emisiones (2013-2016) en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/final.csv">CSV</a>.
+2 .- Los datos acumulados por programa (sin considerar los capítulos específicos) también en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/acumulado.csv">CSV</a>.</p>
+<p>El primer dataset es más rico, se podrían hacer muchos análisis y visualizaciones con el. El segundo es más general pero también valioso y me permite saber si la programación 2016 (gestión Cambiemos) sigue la línea de los años anteriores (gestión FPV). Ponderando los programas según horario de transmisión (<a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/scrapencuentro.py#L76-L104">a ojo</a>, no soy experto en prime-time, horarios de TV, etc) y tomando los programas más <em>destacados</em> de 2016 puedo conocer cual fue su trayectoria anterior.</p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/"><img class="aligncenter size-large wp-image-338" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_598-1024x457.png" alt="seleccion_598" width="790" height="353"></a></p>
+<p><strong><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/">Click para ampliar</a></strong></p>
+<p>El gráfico muestra lo que cualquier consumidor de este canal de televisión ha podido notar. Hubo (como era de esperar) bastantes cambios en la programación, de los programas más vistos hoy muchos no existían años atrás o se daban con menor relevancia. Sólo algunos programas siguen.</p>
+<p>Análisis detallado de cada programa y sus capítulos a través del tiempo. Ejemplo <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0">Filosofía aquí y ahora</a>:</em></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0"><img class="aligncenter size-medium wp-image-346" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_608-300x141.png" alt="seleccion_608" width="300" height="141"></a></p>
+<p>Puede filtrarse por programa y por año. Ejemplo: <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016">A fondo, 2016</a>:</em></p>
+<p><a href="http://dev/otros/scrapencuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016"><img class="aligncenter size-medium wp-image-347" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_609-300x137.png" alt="seleccion_609" width="300" height="137"></a></p>
+<p>La finalidad de este análisis era también experimentar visualizaciones por lo que deje hechas algunas más.</p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución de la relevancia de los programas más importantes de 2015</a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter wp-image-339 size-medium" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_599-300x136.png" alt="seleccion_599" width="300" height="136"></a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución mensual de los programas más puntuados de toda la serie (2013-2016)</a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter size-medium wp-image-340" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_600-300x138.png" alt="seleccion_600" width="300" height="138"></a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/">Evolución anual de los programas más puntuados de toda la serie (2013-2016)</a></p>
+<p><a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/"><img class="aligncenter size-medium wp-image-341" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_601-300x135.png" alt="seleccion_601" width="300" height="135"></a></p>
+<p>Los datos usados, el código para extraerlo y las visualizaciones quedaron en este repositorio de código abierto:
+<a href="https://github.com/avdata99/ScrapEncuentro">https://github.com/avdata99/ScrapEncuentro</a>. Si te sirven los datos para hacer otros análisis o visualizaciones estaría agradecido que los compartas.</p>
+<p></p>
+</div>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="." rel="prev">Publicaciones posteriores</a>
+            </li>
+            <li class="next">
+                <a href="index-4.html" rel="next">Publicaciones anteriores</a>
+            </li>
+        </ul></nav><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2021         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+<html><body><p>A solicitud del <a style="background-color: #ffffff; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 0.9375rem;" href="http://www.cepyd.org.ar/" target="_blank">Centro de Estudios de Población y Desarrollo</a> desarrollé esta visualización con datos del Censo 2010 sobre nivel educativo en la Ciudad de Córdoba según fracción censal.
+
+<a href="http://andresvazquez.com.ar/data/CEPyD-Cordoba-Capital-2010"><img class="size-full wp-image-320" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_581.png" alt="Educación en la ciudad de Córdoba Censo 2010" width="873" height="404"></a>
+</p><p class="entry-content"><a class="more-link" href="http://andresvazquez.com.ar/data/CEPyD-Cordoba-Capital-2010" target="_blank">VER MAPA.</a></p>
+<p class="entry-content">Los datos de base <a href="http://andresvazquez.com.ar/data/CEPyD-Cordoba-Capital-2010/resources/fracciones-cba.geojson">están en formato GeoJSON</a> disponibles para descarga y reutilización</p></body></html>

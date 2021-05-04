@@ -1,0 +1,7 @@
+<html><body><a href="http://television.data99.com.ar"><img class="alignleft wp-image-134 size-medium" style="padding: 10px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2013/07/Selection_043-300x160.png" alt="Selection_043" width="300" height="160"></a>Hace tiempo que quería hacer algo con el API de youtube y sumado a mi interés por noticias internacionales se me ocurrió juntar los mejores canales de noticias de TV que publican diariamente resúmenes de noticias online en un solo sitio.
+
+No es fácil encontrar sitios con noticias de orígenes variados así que imaginé que con el API de youtube y un cron diario que capturara las noticias sería suficiente. Arme mi lista de canales en mysql, le pedí al API que trajera los últimos videos de cada uno (y lo programé para que lo haga a diario) y monte todo en un lindo template (bootstrap compatible). Use como framework <a href="http://ellislab.com/codeigniter" target="_blank">Codeigniter</a> que además de ser muy simple ya tiene resueltos muchos detalles y es MVC.
+
+Agregue y validé un sitemap, un feed rss, tome algunas sugerencias siempre utiles de Woorank, <a href="http://gtmetrix.com/" target="_blank">GTMetrix</a> y <a href="http://developers.google.com/speed/pagespeed/insights/" target="_blank">PageSpeed de google</a>.
+
+El resultado de esto se puede ver <a href="http://television.data99.com.ar/" target="_blank">television.data99.com.ar</a>, un resumen de noticias por país y ciudad que se actualiza a diario y se puede ampliar simplemente agregando nuevos canales de noticias.</body></html>
