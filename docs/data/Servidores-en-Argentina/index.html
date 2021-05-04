@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+
+	<title>NICathon: 250.000 sitios web argentinos mirados a nivel de servidores.</title>
+	<link rel="stylesheet" type="text/css" href="media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="resources/syntax/shCore.css">
+	<link rel="stylesheet" type="text/css" href="resources/demo.css">
+	<style type="text/css" class="init">
+
+	</style>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/syntax/shCore.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/demo.js"></script>
+        <script type="text/javascript" language="javascript" src="table.js"></script>
+        <script type="text/javascript" language="javascript" src="chart1.js"></script>
+        <script type="text/javascript" language="javascript" src="chart2.js"></script>
+        <script type="text/javascript" language="javascript" src="chart3.js"></script>
+        <script type="text/javascript" language="javascript" src="chart4.js"></script>
+        <script type="text/javascript" language="javascript" src="chart5.js"></script>
+        <script type="text/javascript" language="javascript" src="chart6.js"></script>
+        
+        
+<script type="text/javascript"
+    src="https://www.google.com/jsapi?autoload=
+    {'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}">
+</script>
+
+</head>
+
+<body class="dt-example">
+	<div class="container">
+		<section>
+			<h1>Tecnología de los sitios webs <span>en Argentina</span></h1>
+
+<div class="info">
+<p>Según 
+    <a href='http://news.netcraft.com/archives/2015/02/24/february-2015-web-server-survey.html' target='_blank'>informe de NetCraft</a> 
+    el uso de los servidores webs en sitios activos en el mundo esta liderado por los servidores <b>Apache</b>.
+</p>
+<p>La mitad de los casi 200 millones de sitios webs analizados usan Apache, lo siguen -lejos- los 
+sitios alojados con Nginx, IIS y GSE (Google)</p>
+
+<p>Analizando 250.000 sitios webs argentinos con datos que libera 
+<a href='http://opendatacordoba.org' target='_blank'>OpenDataCordoba</a>
+en su 
+<a href='http://opendatacordoba.org/NICathon/' target='_blank'>#NICathon</a>
+podemos analizar la realidad Argentina.
+</p>
+<p>En este caso la ventaja de <a href='https://es.wikipedia.org/wiki/Servidor_HTTP_Apache' target='_blank'>Apache</a> 
+    sobre los demás es mayor.
+Se puede ver además una paridad entre el uso de servidores 
+<a href='https://es.wikipedia.org/wiki/Internet_Information_Services' target='_blank'>IIS (de Microsoft)</a>
+y <a href='https://es.wikipedia.org/wiki/Nginx' target='_blank'>Nginx</a>.</p>
+<p>El uso de servidores de aplicaciones Google (por ejemplo BlogSpot) es diez 
+    veces menor (8% vs 0.8%) en Argentina en comparación con lo informado 
+    por NetCraft</p>
+<p>Puede notarse (viendo la lista completa) que es frecuente el uso de servidores con versiones
+consideradas inseguras y que ya no deberían estar en uso. Hasta se han 
+encontrado sitios web administrados por Microsift IIS 4.0 o Nginx 0.6</p>
+<p>Otras curiosidades son los 57 sitios alojados en Amazon S3 y los 23 en gitHub.com</p>
+<p>La información para Argentina fue extraida leyendo los <i>headers</i> que informan los 
+    servidores al ser consultado por herramientas simples (CURL se uso en este caso)</p>
+<p>Si bien es posible que los servidores voluntariamente puedan modificar u omitir esta 
+    información no creemos que esta sea una costumbre habitual.</p>
+<p><div id="reg_chart2" style="width: 100%; height: 300px"></div></p>
+<p><div id="reg_chart" style="width: 100%; height: 300px"></div></p>
+
+</div>
+<hr>
+<div class="info">
+<p>Ingresando un poco más en los detalles podemos ver las versiones usadas
+de los tres servidores web mas populares</p>
+</div>
+
+<div id="reg_chart4" style="width: 100%; height: 400px"></div>
+<div id="reg_chart5" style="width: 100%; height: 400px"></div>
+<div id="reg_chart6" style="width: 100%; height: 400px"></div>
+<hr>
+<div class="info">
+    <p><b>Lenguajes de programación usados</b></p>
+<p>Algo que NetCraft no informa es la tecnología detras del servidor web. Nos referimos
+a el lenguaje de programación usado para construir los sitio web.</p>
+<p>En este caso si es más común que los datos no se informen (menos de la mitad no lo hace)
+el siguiente gráfico muestra las tecnologíaas utilizadas en los casos en los que 
+es informado</p>
+<p>Es una lástima que esta forma de deteccíon de sitios no sea capaz de relevar 
+    correctamente el uso de tecnologías Python o Java (usamos para el caso el 
+    <i>header <b>X-Powered-By</b></i>). Seguramente un análisis
+    más detallado del contenido HTML de los sitios permitiría saber un poco
+    mejor las tecnologías y los frameworks utilizados. Quedará para otro estudio.</p>
+<p><div id="reg_chart3" style="width: 100%; height: 300px"></div>
+</div>
+<hr>
+<div class="info">
+    <p><b>Todos los datos de este estudio pueden descargarse:</b>
+        <br/><a href='data/servers-headers-final.json'>[JSON] Todos los servidores revisados (headers completos, 85MB)</a>
+        <br/><a href='data/servers.csv'>Resumen solo con Servidores, X-Powered-By (23.4MB)</a>.
+        <br/><a href='data/servers_resumen.csv'>Acumulado por tipo de servidor (CSV)</a>.
+        <br/><a href='data/servers_version_resumen.csv'>Acumulado por servidor y versión (CSV)</a>.
+        <br/><a href='data/powered_resumen.csv'>Acumulado por tecnología usada (CSV)</a>.
+        <br/><a href='data/powered_version_resumen.csv'>Acumulado por tecnología Y versión usada (CSV)</a>.
+    </p>
+</div>
+
+			
+		</section>
+	</div>
+
+<div class="epilogue">
+	<p>Análisis desarrollado por <a href="https://andresvazquez.com.ar">Andrés Vázquez</a>. Marzo de 2015</p>
+	<p class="copyright">DataTables designed and created by <a href="http://www.sprymedia.co.uk">SpryMedia Ltd</a> © 2007-2015<br>
+	DataTables is licensed under the <a href="http://www.datatables.net/mit">MIT license</a>.</p>
+</div>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24864140-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</body>
+</html>
