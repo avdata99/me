@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="blog personal de Andres Vázquez [@avdata99]">
+<meta name="viewport" content="width=device-width">
+<title>Temimbo'e (publicaciones antiguas, página 8) | Temimbo'e</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/index-8.html">
+<link rel="prev" href="index-9.html" type="text/html">
+<link rel="next" href="index-7.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="archive.html">Archivos</a></li>
+                <li><a href="rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/dominios-artesanales/" class="u-url">Dominios artesanales</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/dominios-artesanales/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-03-06T00:43:23Z" itemprop="datePublished" title="2015-03-06 00:43">2015-03-06 00:43</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/dominios-artesanales/#disqus_thread" data-disqus-identifier="cache/posts/dominios-artesanales.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p>Finalmente, después de años de recolección de datos sobre dominios argentinos de la zona ComAr los datos fueron liberados y <a title="Datos libres sobre dominios argentinos" href="http://opendatacordoba.org/NICathon/data.html" target="_blank">se pueden descargar</a>.</p>
+<p>Antes de hacer un análisis duro de los datos (hay varios muy interesantes para hacer y que esperamos compartir pronto) quiero compartir algunas impresiones sobre estos datos.</p>
+<p>La primera impresión que tengo es que los datos en <a href="https://nic.ar" target="_blank">NIC Argentina</a> son administrados artesanalmente, me refiero a que algunos de los eventos no suceden automáticamente. Más bien parecen administrados a mano. Algunos ejemplos:</p>
+<p><strong>Caída de dominios</strong>
+Según el reglamento de NIC, los dominios vencidos no quedan automáticamente disponibles para registro, hay 30 días extras de tolerancia. Luego de estos 30 días de <em>espera</em> los dominios deberían caer. Nuestra herramienta de monitoreo de sitios detecta en general caídas luego de los 33 días en general. A veces llega a 40 y en otros casos no caen nunca. No hay un evento automático que libere los dominios, <a href="http://nic.opendatacordoba.org/#deberianCaer" target="_blank">no parece tener una lógica</a>.</p>
+<p><strong>Renovación máxima de un año</strong></p>
+<p>Hay dominios que se han renovado por más del año que permite según <a href="https://nic.ar/normativa-vigente.xhtml" target="_blank">reglamento NIC</a>. Además del caso del dominio justich.com.ar que <a href="http://www.lanacion.com.ar/1745843-presentan-una-herramienta-para-analizar-los-dominios-argentinos-registrados" target="_blank">vence dentro de 100 años</a> hay otros casos donde la renovación fue por mas un año. Hemos encontrado casos que luego de reclamos se volvio atrás la fecha vencimiento del dominio. Los datos se pueden analizar en la base, lo que esta a la vista es que no es un sistema automático el que asigna las nuevas fechas de vencimiento al renovar sino que esto puede hacerse a mano. El caso del dominio eventoplus.com.ar que al momento de registrase aparecio con fecha de inicio 16/1/2015 y vencimiento 21/1/2015 (solo 5 días despues) es uno de mucho ejemplos. Quiero decir, los administradores de NIC tienen acceso directo a las fechas de inicio y vencimiento de los dominios. La base de datos muestra muchos ejemplos de esto. Se hace a mano.</p>
+<p><strong>Fechas de vencimiento hacia atrás</strong>
+Hay detectados algunos casos donde la fecha de vencimiento del dominio vuelve hacia atrás. Los casos detectados pueden verse <a href="http://andresvazquez.com.ar/data/Dominios-para-atras/" target="_blank">aquí</a>.</p>
+<p><strong>Situación legal de los dominio</strong>
+Muchos dominios están con <a href="http://nic.opendatacordoba.org/index.html#listByStatus/medida%20cautelar" target="_blank">medidas cautelares pendientes</a> y esto se aclara al hacer la consulta vía web, pero otros, que posiblemente estén sufriendo disputas similares no lo informan y sin embargo siguen funcionando. Este es el caso del dominio argentina.com.ar que no se renovo desde el 01/01/2014 y sin embargo funciona. Quiero decir con esto que no imagino una función interna y automática en NIC que marque el dominio como en disputa legal y proceda a informarlo en la web. Da la sensación que esto también se hace a mano.</p>
+<p><strong>No todo es manual</strong>
+El 5 de marzo de 2014 el registro de dominios comenzó a ser pago. Desde algunas semanas antes muchos dominios que vencían después de esa fecha (o sea, tenían que pagar próximamente) misteriosamente <a href="http://andresvazquez.com.ar/data/Masiva-renovacion-de-dominios-en-NIC/" target="_blank">se dieron de baja y se volvieron a registrar</a>. Fueron miles, algunos perteneciente a registrantes masivos. ¿Se imaginan un administrador de 100 dominios dándolos de baja uno por uno y registrándolos de nuevo para prorrogar unos meses el pago de sus dominios?
+Yo tampoco, algunas cosas, al parecer, se pueden automatizar.</p>
+<p><strong>Formas de esquivar los pagos</strong>
+Hecha la ley siempre hay alguien que encuentra una trampa. La forma que han encontrado algunos usuarios de conservar acaparados los dominios sin pagar es simular un nuevo registro con métodos de pagos <em>off-line</em>, esto le da al usuario algunos días para realizar el pago. Deja al dominio en un estado de <em>reserva</em> que una vez finalizado puede volver a repetirse. <a href="http://andresvazquez.com.ar/data/Reservar-dominios-como-forma-de-apropiacion/" target="_blank">Hemos detectados dominios re-reservados hasta 15 veces</a>.</p>
+<p><strong>Indice de análisis de datos realizados</strong>
+<a href="http://andresvazquez.com.ar/data/Reservar-dominios-como-forma-de-apropiacion/" target="_blank">La reserva de dominios como modo de apropiación</a>.
+<a href="http://andresvazquez.com.ar/data/Masiva-renovacion-de-dominios-en-NIC/" target="_blank">Renovación masiva de dominios</a>.
+<a href="http://andresvazquez.com.ar/data/Dominios-para-atras" target="_blank">Dominios que van hacia atras</a>.
+<a href="http://andresvazquez.com.ar/data/Uso-de-DNSs-en-Argentina/" target="_blank">Uso de los DNSs en Argentina</a>.
+<a href="http://andresvazquez.com.ar/data/Caida-de-dominios-en-NIC/" target="_blank">Cae el 67% de los dominios regsitrados</a>.
+<a href="http://andresvazquez.com.ar/data/Servidores-en-Argentina/" target="_blank">Análisis de 250.000 servidores argentinos</a>.</p>
+<p><strong>Disclaimer</strong>
+Durante la elaboración de estas tareas nos encontramos con muchas personas con una visión muy crítica de NIC, diría, exageradamente crítica. No compartimos esa posición, no hicimos esto para combatir a NIC, construimos <a href="http://nic.opendatacordoba.org/" target="_blank">una herramienta</a> para mirar lo que pasa, proponer mejoras y denunciar si hubiera situaciones irregulares.
+Creo que el paso de gratuito a libre fue muy positivo, muchos dominios dejaron de ser posesión de especuladores. Por otro lado, dominios en poder de ONGs o personas con ganas de expresarse, cayeron.
+La renovación del sitio web y la automatización de los pagos son cosas muy positivas aunque todavía falte.</p>
+<p><strong>Gracias</strong>
+Muchas personas colaboraron para que esto sea posible, espero no olvidarme de ninguno:
+a <a href="https://twitter.com/devpoderopedia" target="_blank">Juan Eduardo</a> por la magia de sus scripts y por convencer a <a href="https://twitter.com/miguelpaz" target="_blank">Miguel</a> de que <a href="http://www.poderopedia.org/poderopedia/index/chapters" target="_blank">Poderopedia</a> nos acompañe
+a <a href="https://twitter.com/scannopolis" target="_blank">Evelin</a>, por los mates y el apoyo de <a href="https://twitter.com/fvialibre" target="_blank">Vía Libre</a>
+a <a href="https://twitter.com/javierpallero" target="_blank">Javier Pallero</a>, por su asesoramiento legal
+a <a href="http://www.estebanmagnani.com.ar/" target="_blank">Esteban</a>, <a href="https://twitter.com/rsametband" target="_blank">Ricardo</a> y <a href="https://twitter.com/unabuenarazon" target="_blank">Leandro</a> por la difusión en los medios
+a Francuza y los chicos de <a href="http://opendatacordoba.org/" target="_blank">OpenDataCordoba</a> por todo, como siempre.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/en-tedxvillaallende/" class="u-url">En TEDxVillaAllende</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/en-tedxvillaallende/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-12-23T23:35:38Z" itemprop="datePublished" title="2014-12-23 23:35">2014-12-23 23:35</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/en-tedxvillaallende/#disqus_thread" data-disqus-identifier="cache/posts/en-tedxvillaallende.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<p>El pasado domingo se organizo el evento <strong>TEDxVillaAllende</strong> y me invitaron a formar parte con una charla. Lamentablemente no hubo registro salvo una grabación particular de la que puede extraer la charla y comparto a continuación.</p>
+<p>Cuento cuatro ejemplos de personas haciendo de sus ratos libres proyectos interesantes:</p>
+<p>[embed]http://andresvazquez.com.ar/data/otros/TEDxVillaAllende-Audio-AndresVazquez.mp3[/embed]</p>
+<p><a href="http://jazzido.com" target="_blank"><img style="padding: 10px; max-height: 100px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/12/200h-Aristaran.jpg" alt="Aristaran"></a> <a href="http://mgaitan.github.io/" target="_blank"><img style="padding: 10px; max-height: 100px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/12/200h-Gaitan.jpg" alt="Gaitan"></a> <a href="http://soviet.com.ar" target="_blank"><img style="padding: 10px; max-height: 100px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/12/200h-Snitcofsky.jpeg" alt="Snitcofsky"></a> <a href="http://andytow.com" target="_blank"><img style="padding: 10px; max-height: 100px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/12/200h-Tow.jpg" alt="Tow"></a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/datos-abiertos-sobre-dominios-com-argentinos/" class="u-url">Datos abiertos sobre dominios COM argentinos</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/datos-abiertos-sobre-dominios-com-argentinos/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-11-14T11:59:30Z" itemprop="datePublished" title="2014-11-14 11:59">2014-11-14 11:59</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/datos-abiertos-sobre-dominios-com-argentinos/#disqus_thread" data-disqus-identifier="cache/posts/datos-abiertos-sobre-dominios-com-argentinos.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p></p>
+<a href="https://nic.ar/" target="_blank" rel="nofollow"><img class="alignleft wp-image-126 size-thumbnail" style="padding: 10px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/11/Selection_007-150x150.png" alt="Selection_007" width="150" height="150">NIC Argentina</a> es la institución argentina encargada de la administración todos los dominios de internet <a href="https://es.wikipedia.org/wiki/.ar" target="_blank">terminados en .AR</a>. Desde hace poco (y con su sitio renovado) NIC Argentina comenzó a cobrar por este servicio que históricamente fue gratuito.
+<p>Esto provocó un efecto positivo en la liberación de miles de dominios que se registraban solamente en carácter especulativo. De todas formas la modalidad de cobro que incluyó la publicación en el Boletín Oficial (creando para esto una <a href="http://www.boletinoficial.gov.ar/CuartaSeccion/index.castle" target="_blank">Cuarta Sección</a>) hizo llevar al costo por encima de los dominios estándares y mas usados<em>.COM</em>. Teniendo en cuenta que existen numerosas modalidades para hacer pública la información de los registrantes de dominios quizás la creación de una sección en el Boletín Oficial (y la contratación de una empresa para esto) no fue la más acertada.</p>
+<p>Basado en <a href="http://andresvazquez.com.ar/blog/api-de-dominios-argentinos/" target="_blank">un análisis de</a><a href="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/11/Selection_010.png"><img class="alignleft wp-image-123 size-thumbnail" style="padding: 10px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/11/Selection_010-150x150.png" alt="Selection_010" width="150" height="150"></a><a href="http://andresvazquez.com.ar/blog/api-de-dominios-argentinos/" target="_blank"> dominios</a> que sigue la evolución de estos desde 2009 es notoria desde finales de marzo de 2014 (fecha en que comenzaron a cobrarse) la caída de dominios. Si bien publicaré más informes al respecto el motivo de este post es compartir con ustedes una primera versión de nuestra aplicación móvil (por ahora solo Android) para la búsqueda de dominios o registrantes. Los datos no son la base completa de dominios argentinos, son solo una muestra de aquellos que se relevaron en el análisis, son mas de 370.000 dominios.</p>
+<p>Los comentarios y opiniones son como siempre bien valorados, la aplicación puede descargarse desde <a href="https://play.google.com/store/apps/details?id=com.phonegap.arnicapp" target="_blank" rel="nofollow">aquí</a> o navegar la versión web <a href="http://nic.opendatacordoba.org/index.html" target="_blank">aquí</a></p>
+<p>Agradezco a <a href="http://www.derechoentrelineas.org/" target="_blank">DerechoEntreLíneas</a> y personalmente a <a href="https://twitter.com/javierpallero" target="_blank">Javier Pallero</a> por el asesoramiento en la publicación de datos de las personas.</p>
+</div>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="index-9.html" rel="prev">Publicaciones posteriores</a>
+            </li>
+            <li class="next">
+                <a href="index-7.html" rel="next">Publicaciones anteriores</a>
+            </li>
+        </ul></nav><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2021         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>
