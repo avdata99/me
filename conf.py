@@ -648,6 +648,7 @@ ATOM_FILENAME_BASE = "feed"
 #
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
+        ["blog/", "/index.html"],
         ["blog/sobre-mi/", "/pages/sobre-mi/"],
         ["blog/proyectos-personales/", "/pages/proyectos-personales/"],
         ["blog/serene/", "/pages/serene/"],
