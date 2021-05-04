@@ -1,2 +1,5 @@
-# me
-Static site for andresvaqzquez.com.ar
+# Personal site
+
+Static site for andresvaqzquez.com.ar  
+Also available at https://avdata99.github.io/me/  
+
