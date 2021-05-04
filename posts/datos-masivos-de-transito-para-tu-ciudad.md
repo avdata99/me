@@ -2,7 +2,8 @@
 
 Este intercambio es bastante conveniente para las ciudades ya que recibimos muchos datos en tiempo real que serían muy caros de obtener y a cambio entregamos información (que es pública para todos por igual) sobre cortes de tránsito planificados de la Ciudad. Este no es un punto menor, los datos que abrimos a Waze son abiertos para todos. Cualquier emprendimiento tecnológico de la Ciudad puede acceder a los mismos datos (de hecho MiAutobus.com los utilizará también). En este hilo esta explicado:
 
-https://twitter.com/GobAbiertoCba/status/992488926639218688
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Todas las integraciones de datos que haremos con empresas serán sobre datos abiertos.<br>Cualquier otro emprendimiento tecnológico podrá usar los mismos datos que compartimos con MiAutobus, Waze o los que vinieran.<a href="https://t.co/UgYqWhRS8y">https://t.co/UgYqWhRS8y</a>!?item=1</p>&mdash; Gobierno Abierto (@GobAbiertoCba) <a href="https://twitter.com/GobAbiertoCba/status/992488926639218688?ref_src=twsrc%5Etfw">May 4, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 Hubo muchas charlas pero destaco y linkeo cada una de las que me pareció más interesante.
 

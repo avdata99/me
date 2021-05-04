@@ -75,7 +75,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Finalmente los colectivos Mendiolaza-Córdoba pueden consultarse en este primer beta desde el sitio: <a href="https://bondi.mendiolaza.com.ar/bondis/mapa/">https://bondi.mendiolaza.com.ar/bondis/mapa/</a></p>
+<p>Finalmente los colectivos Mendiolaza-Córdoba pueden consultarse en este primer beta desde <a href="https://bondi.mendiolaza.com.ar/bondis/mapa/">este sitio</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
