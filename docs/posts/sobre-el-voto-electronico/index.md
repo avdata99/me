@@ -4,4 +4,13 @@ Esta es la grabación, es un tema interesante, escucho opiniones.
 
 Nota: No soy analista de sistemas
 
-[embed]http://andresvazquez.com.ar/data/otros/Andres-Vazquez-en-radio-Mitre-Rafaela-sobre-voto-electronico.mp3[/embed]</p></body></html>
+<p>
+    <audio
+        controls
+        src="http://andresvazquez.com.ar/data/otros/Andres-Vazquez-en-radio-Mitre-Rafaela-sobre-voto-electronico.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</p>
+
+</body></html>

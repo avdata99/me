@@ -21,11 +21,7 @@
 <p>Tan difícil de creer que estos datos era reales que este usuario grabó mientras esperaba el colectivo esperando ser defraudado.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:core-embed/youtube {"url":"https://www.youtube.com/watch?v=beszgsTij4k","type":"video","providerNameSlug":"youtube","className":"wp-embed-aspect-4-3 wp-has-aspect-ratio"} -->
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=beszgsTij4k
-</div></figure>
-<!-- /wp:core-embed/youtube -->
+<iframe src="https://www.youtube.com/embed/beszgsTij4k"></iframe>
 
 <!-- wp:paragraph -->
 <p><a href="https://andresvazquez.com.ar/blog/una-app-mas/">Conté hace un tiempo</a> (con motivo del lanzamiento de otra aplicación) la gran cantidad de trabajo que significa llegar a esto y las oportunidades que se abren luego de estas publicaciones.</p>

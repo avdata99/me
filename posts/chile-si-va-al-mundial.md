@@ -22,7 +22,7 @@ El Concejo participa también de los compromisos con OGP y sirve como entidad pa
 <img class="aligncenter size-medium wp-image-430" src="/blog/wp-content/uploads/2018/04/romina-300x168.png" alt="" width="300" height="168">
 Acá hay una versión imperdible en video de una exposición similar de Romina en la Escuela de Periodismo en Chile. Romina es parte del equipo de <a href="https://twitter.com/lndata?lang=es">La Nación Data</a>, el mejor de Latinoamérica en periodismo de datos.
 
-https://www.youtube.com/watch?v=e1oa3Dv30h4&amp;feature=youtu.be
+<iframe src="https://www.youtube.com/embed/e1oa3Dv30h4"></iframe>
 
 <b>Clase 2 - Martes 10 de abril.</b>
 
