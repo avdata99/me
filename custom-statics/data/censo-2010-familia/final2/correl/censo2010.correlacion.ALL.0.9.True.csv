@@ -1,0 +1,839 @@
+id_prov;prov;var1;var2;svar1;svar2;value;value_abs;covar;len_serie1;len_serie2
+58;Neuquén;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.926;0.926;237.247;794;794
+58;Neuquén;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.981;0.981;1573.687;794;794
+58;Neuquén;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.907;0.907;-471.411;794;794
+58;Neuquén;H__11_01_PORC;H__05_01_PORC;Si tiene cadena y mochila en el baño PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.926;0.926;639.310;794;794
+58;Neuquén;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.965;0.965;615.382;794;794
+58;Neuquén;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.909;0.909;264.294;794;794
+58;Neuquén;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.921;0.921;435.458;794;794
+58;Neuquén;P__08_03_PORC;P__07_02_PORC;Nunca asistio PORC;No sabe leer y escribir PORC;0.905;0.905;19.366;794;794
+58;Neuquén;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.907;0.907;-471.411;794;794
+58;Neuquén;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.909;0.909;264.294;794;794
+58;Neuquén;P__07_02_PORC;P__08_03_PORC;No sabe leer y escribir PORC;Nunca asistio PORC;0.905;0.905;19.366;794;794
+58;Neuquén;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.926;0.926;237.247;794;794
+58;Neuquén;H__05_01_PORC;H__11_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Si tiene cadena y mochila en el baño PORC;0.926;0.926;639.310;794;794
+58;Neuquén;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.903;0.903;610.837;794;794
+58;Neuquén;H__05_01_PORC;H__08_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Por cañeria dentro de la vivienda PORC;0.914;0.914;627.612;794;794
+58;Neuquén;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.963;0.963;147.561;794;794
+58;Neuquén;H__06_06_PORC;V__INMAT_04_PORC;Chapa de cartón PORC;Calidad 4 PORC;0.909;0.909;99.903;794;794
+58;Neuquén;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.921;0.921;435.458;794;794
+58;Neuquén;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.947;0.947;464.250;794;794
+58;Neuquén;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.947;0.947;464.250;794;794
+58;Neuquén;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.981;0.981;1573.687;794;794
+58;Neuquén;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.903;0.903;610.837;794;794
+58;Neuquén;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.995;0.995;585.525;794;794
+58;Neuquén;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.965;0.965;615.382;794;794
+58;Neuquén;H__08_01_PORC;H__05_01_PORC;Por cañeria dentro de la vivienda PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.914;0.914;627.612;794;794
+58;Neuquén;V__INMAT_04_PORC;H__06_06_PORC;Calidad 4 PORC;Chapa de cartón PORC;0.909;0.909;99.903;794;794
+58;Neuquén;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.963;0.963;147.561;794;794
+58;Neuquén;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.995;0.995;585.525;794;794
+62;Río Negro;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.961;0.961;261.599;941;941
+62;Río Negro;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.971;0.971;1507.480;941;941
+62;Río Negro;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.915;0.915;-240.108;941;941
+62;Río Negro;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.949;0.949;278.768;941;941
+62;Río Negro;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.930;0.930;313.968;941;941
+62;Río Negro;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.918;0.918;-309.811;941;941
+62;Río Negro;P__08_03_PORC;P__07_02_PORC;Nunca asistio PORC;No sabe leer y escribir PORC;0.903;0.903;13.512;941;941
+62;Río Negro;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.915;0.915;-240.108;941;941
+62;Río Negro;P__09_02_PORC;H__19B_02_PORC;Primario PORC;Sin computadora PORC;0.900;0.900;245.767;941;941
+62;Río Negro;P__07_02_PORC;P__08_03_PORC;No sabe leer y escribir PORC;Nunca asistio PORC;0.903;0.903;13.512;941;941
+62;Río Negro;H__11_02_PORC;H__08_01_PORC;No tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;-0.910;0.910;-213.308;941;941
+62;Río Negro;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.961;0.961;261.599;941;941
+62;Río Negro;H__05_01_PORC;H__08_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Por cañeria dentro de la vivienda PORC;0.901;0.901;324.675;941;941
+62;Río Negro;H__06_06_PORC;V__INMAT_04_PORC;Chapa de cartón PORC;Calidad 4 PORC;0.929;0.929;50.509;941;941
+62;Río Negro;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.930;0.930;313.968;941;941
+62;Río Negro;H__19B_02_PORC;P__09_02_PORC;Sin computadora PORC;Primario PORC;0.900;0.900;245.767;941;941
+62;Río Negro;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.918;0.918;-309.811;941;941
+62;Río Negro;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.914;0.914;310.757;941;941
+62;Río Negro;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.914;0.914;310.757;941;941
+62;Río Negro;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.971;0.971;1507.480;941;941
+62;Río Negro;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.995;0.995;489.523;941;941
+62;Río Negro;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.949;0.949;278.768;941;941
+62;Río Negro;H__08_01_PORC;H__11_02_PORC;Por cañeria dentro de la vivienda PORC;No tiene cadena y mochila en el baño PORC;-0.910;0.910;-213.308;941;941
+62;Río Negro;H__08_01_PORC;H__05_01_PORC;Por cañeria dentro de la vivienda PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.901;0.901;324.675;941;941
+62;Río Negro;V__INMAT_04_PORC;H__06_06_PORC;Calidad 4 PORC;Chapa de cartón PORC;0.929;0.929;50.509;941;941
+62;Río Negro;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.995;0.995;489.523;941;941
+66;Salta;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.910;0.910;215.583;1358;1358
+66;Salta;H__14_06_PORC;H__05_03_PORC;Leña o carbón PORC;Tierra o ladrillo suelto PORC;0.903;0.903;879.677;1358;1358
+66;Salta;H__14_06_PORC;H__19A_02_PORC;Leña o carbón PORC;Sin Heladera PORC;0.922;0.922;952.739;1358;1358
+66;Salta;H__14_06_PORC;H__19A_01_PORC;Leña o carbón PORC;Con Heladera PORC;-0.911;0.911;-947.000;1358;1358
+66;Salta;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.983;0.983;1596.035;1358;1358
+66;Salta;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.960;0.960;1097.997;1358;1358
+66;Salta;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.902;0.902;293.234;1358;1358
+66;Salta;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.944;0.944;442.416;1358;1358
+66;Salta;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.924;0.924;-429.041;1358;1358
+66;Salta;H__09_01_PORC;V__URP_03_PORC;Red pública PORC;Area Rural disperso PORC;-0.921;0.921;-1568.843;1358;1358
+66;Salta;H__05_03_PORC;H__14_06_PORC;Tierra o ladrillo suelto PORC;Leña o carbón PORC;0.903;0.903;879.677;1358;1358
+66;Salta;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.919;0.919;569.939;1358;1358
+66;Salta;V__TIPVV_01_PORC;V__V00_05_PORC;Viviendas particulares PORC;Hospital PORC;-0.932;0.932;-1.504;1358;1358
+66;Salta;V__TIPVV_01_PORC;V__V00_07_PORC;Viviendas particulares PORC;Cuartel PORC;-0.935;0.935;-5.895;1358;1358
+66;Salta;P__08_03_PORC;P__07_02_PORC;Nunca asistio PORC;No sabe leer y escribir PORC;0.909;0.909;23.605;1358;1358
+66;Salta;V__V00_05_PORC;V__TIPVV_01_PORC;Hospital PORC;Viviendas particulares PORC;-0.932;0.932;-1.504;1358;1358
+66;Salta;V__V00_05_PORC;V__TIPVV_02_PORC;Hospital PORC;Viviendas colectivas PORC;0.932;0.932;1.504;1358;1358
+66;Salta;V__INCALSERV_03_PORC;V__INCALCONS_03_PORC;Calidad de Servicios BasicosInsuficiente PORC;Calidad constructiva Insuficiente PORC;0.930;0.930;744.395;1358;1358
+66;Salta;V__INCALCONS_03_PORC;V__INCALSERV_03_PORC;Calidad constructiva Insuficiente PORC;Calidad de Servicios BasicosInsuficiente PORC;0.930;0.930;744.395;1358;1358
+66;Salta;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.902;0.902;293.234;1358;1358
+66;Salta;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.934;0.934;583.322;1358;1358
+66;Salta;H__19D_02_PORC;H__19B_01_PORC;Sin teléfono de línea PORC;Con computadora PORC;-0.917;0.917;-567.354;1358;1358
+66;Salta;H__19A_02_PORC;H__14_06_PORC;Sin Heladera PORC;Leña o carbón PORC;0.922;0.922;952.739;1358;1358
+66;Salta;P__07_02_PORC;P__08_03_PORC;No sabe leer y escribir PORC;Nunca asistio PORC;0.909;0.909;23.605;1358;1358
+66;Salta;V__V00_07_PORC;V__TIPVV_01_PORC;Cuartel PORC;Viviendas particulares PORC;-0.935;0.935;-5.895;1358;1358
+66;Salta;V__V00_07_PORC;V__TIPVV_02_PORC;Cuartel PORC;Viviendas colectivas PORC;0.935;0.935;5.895;1358;1358
+66;Salta;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.910;0.910;215.583;1358;1358
+66;Salta;H__05_01_PORC;H__19B_02_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Sin computadora PORC;-0.906;0.906;-668.027;1358;1358
+66;Salta;H__05_01_PORC;H__19B_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con computadora PORC;0.927;0.927;677.193;1358;1358
+66;Salta;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.939;0.939;651.103;1358;1358
+66;Salta;H__05_01_PORC;H__19D_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con teléfono de línea PORC;0.900;0.900;802.846;1358;1358
+66;Salta;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.940;0.940;651.475;1358;1358
+66;Salta;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.944;0.944;442.416;1358;1358
+66;Salta;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.934;0.934;583.322;1358;1358
+66;Salta;H__19B_02_PORC;H__05_01_PORC;Sin computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;-0.906;0.906;-668.027;1358;1358
+66;Salta;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.929;0.929;-431.925;1358;1358
+66;Salta;H__19B_02_PORC;H__19D_01_PORC;Sin computadora PORC;Con teléfono de línea PORC;-0.914;0.914;-567.209;1358;1358
+66;Salta;H__14_01_PORC;H__19D_01_PORC;Gas de red PORC;Con teléfono de línea PORC;0.905;0.905;919.156;1358;1358
+66;Salta;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.924;0.924;-429.041;1358;1358
+66;Salta;H__19B_01_PORC;H__19D_02_PORC;Con computadora PORC;Sin teléfono de línea PORC;-0.917;0.917;-567.354;1358;1358
+66;Salta;H__19B_01_PORC;H__05_01_PORC;Con computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.927;0.927;677.193;1358;1358
+66;Salta;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.954;0.954;439.074;1358;1358
+66;Salta;H__19B_01_PORC;H__19D_01_PORC;Con computadora PORC;Con teléfono de línea PORC;0.933;0.933;573.300;1358;1358
+66;Salta;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.929;0.929;-431.925;1358;1358
+66;Salta;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.954;0.954;439.074;1358;1358
+66;Salta;P__12_01_PORC;H__19D_01_PORC;Si tiliza computadora PORC;Con teléfono de línea PORC;0.904;0.904;508.431;1358;1358
+66;Salta;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.983;0.983;1596.035;1358;1358
+66;Salta;H__19A_01_PORC;H__14_06_PORC;Con Heladera PORC;Leña o carbón PORC;-0.911;0.911;-947.000;1358;1358
+66;Salta;H__07_01_PORC;V__INCALCONS_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Calidad constructiva Satisfactoria PORC;0.907;0.907;492.656;1358;1358
+66;Salta;H__07_01_PORC;V__INMAT_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Calidad 1 PORC;0.912;0.912;495.385;1358;1358
+66;Salta;V__URP_03_PORC;H__09_01_PORC;Area Rural disperso PORC;Red pública PORC;-0.921;0.921;-1568.843;1358;1358
+66;Salta;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.939;0.939;651.103;1358;1358
+66;Salta;V__INCALCONS_01_PORC;H__07_01_PORC;Calidad constructiva Satisfactoria PORC;Con revestimiento interior o cielorraso del techo PORC;0.907;0.907;492.656;1358;1358
+66;Salta;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.997;0.997;451.892;1358;1358
+66;Salta;H__19D_01_PORC;H__05_01_PORC;Con teléfono de línea PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.900;0.900;802.846;1358;1358
+66;Salta;H__19D_01_PORC;H__19B_02_PORC;Con teléfono de línea PORC;Sin computadora PORC;-0.914;0.914;-567.209;1358;1358
+66;Salta;H__19D_01_PORC;H__14_01_PORC;Con teléfono de línea PORC;Gas de red PORC;0.905;0.905;919.156;1358;1358
+66;Salta;H__19D_01_PORC;H__19B_01_PORC;Con teléfono de línea PORC;Con computadora PORC;0.933;0.933;573.300;1358;1358
+66;Salta;H__19D_01_PORC;P__12_01_PORC;Con teléfono de línea PORC;Si tiliza computadora PORC;0.904;0.904;508.431;1358;1358
+66;Salta;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.960;0.960;1097.997;1358;1358
+66;Salta;V__TIPVV_02_PORC;V__V00_05_PORC;Viviendas colectivas PORC;Hospital PORC;0.932;0.932;1.504;1358;1358
+66;Salta;V__TIPVV_02_PORC;V__V00_07_PORC;Viviendas colectivas PORC;Cuartel PORC;0.935;0.935;5.895;1358;1358
+66;Salta;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.919;0.919;569.939;1358;1358
+66;Salta;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.940;0.940;651.475;1358;1358
+66;Salta;V__INMAT_01_PORC;H__07_01_PORC;Calidad 1 PORC;Con revestimiento interior o cielorraso del techo PORC;0.912;0.912;495.385;1358;1358
+66;Salta;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.997;0.997;451.892;1358;1358
+82;Santa Fe;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.953;0.953;1443.369;3779;3779
+82;Santa Fe;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.936;0.936;313.843;3779;3779
+82;Santa Fe;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.902;0.902;243.301;3779;3779
+82;Santa Fe;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.951;0.951;326.698;3779;3779
+82;Santa Fe;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.926;0.926;-317.269;3779;3779
+82;Santa Fe;V__INCALCONS_03_PORC;H__11_02_PORC;Calidad constructiva Insuficiente PORC;No tiene cadena y mochila en el baño PORC;0.914;0.914;203.334;3779;3779
+82;Santa Fe;V__V00_10_PORC;H__14_07_PORC;Otros PORC;Otro PORC;0.930;0.930;0.440;3779;3779
+82;Santa Fe;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.902;0.902;243.301;3779;3779
+82;Santa Fe;P__09_02_PORC;H__19B_02_PORC;Primario PORC;Sin computadora PORC;0.905;0.905;281.623;3779;3779
+82;Santa Fe;H__11_02_PORC;V__INCALCONS_03_PORC;No tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;0.914;0.914;203.334;3779;3779
+82;Santa Fe;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.951;0.951;326.698;3779;3779
+82;Santa Fe;H__19B_02_PORC;P__09_02_PORC;Sin computadora PORC;Primario PORC;0.905;0.905;281.623;3779;3779
+82;Santa Fe;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.924;0.924;-322.120;3779;3779
+82;Santa Fe;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.926;0.926;-317.269;3779;3779
+82;Santa Fe;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.957;0.957;332.695;3779;3779
+82;Santa Fe;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.924;0.924;-322.120;3779;3779
+82;Santa Fe;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.957;0.957;332.695;3779;3779
+82;Santa Fe;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.953;0.953;1443.369;3779;3779
+82;Santa Fe;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.993;0.993;393.916;3779;3779
+82;Santa Fe;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.936;0.936;313.843;3779;3779
+82;Santa Fe;H__14_07_PORC;V__V00_10_PORC;Otro PORC;Otros PORC;0.930;0.930;0.440;3779;3779
+82;Santa Fe;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.993;0.993;393.916;3779;3779
+86;Santiago del Estero;H__06_07_PORC;H__05_03_PORC;Caña, palma, tabla o paja con o sin barro PORC;Tierra o ladrillo suelto PORC;0.932;0.932;778.559;1040;1040
+86;Santiago del Estero;H__06_07_PORC;V__01_02_PORC;Caña, palma, tabla o paja con o sin barro PORC;Rancho PORC;0.950;0.950;679.970;1040;1040
+86;Santiago del Estero;H__06_07_PORC;V__INMAT_04_PORC;Caña, palma, tabla o paja con o sin barro PORC;Calidad 4 PORC;0.936;0.936;710.294;1040;1040
+86;Santiago del Estero;H__14_06_PORC;H__05_03_PORC;Leña o carbón PORC;Tierra o ladrillo suelto PORC;0.941;0.941;966.252;1040;1040
+86;Santiago del Estero;H__14_06_PORC;V__INMAT_04_PORC;Leña o carbón PORC;Calidad 4 PORC;0.926;0.926;863.894;1040;1040
+86;Santiago del Estero;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.961;0.961;824.717;1040;1040
+86;Santiago del Estero;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.933;0.933;213.455;1040;1040
+86;Santiago del Estero;H__11_01_PORC;V__INCALSERV_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad de Servicios BasicosInsuficiente PORC;-0.914;0.914;-1013.897;1040;1040
+86;Santiago del Estero;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.951;0.951;-1069.889;1040;1040
+86;Santiago del Estero;H__11_01_PORC;H__05_01_PORC;Si tiene cadena y mochila en el baño PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.957;0.957;1168.147;1040;1040
+86;Santiago del Estero;H__11_01_PORC;P__12_01_PORC;Si tiene cadena y mochila en el baño PORC;Si tiliza computadora PORC;0.901;0.901;654.607;1040;1040
+86;Santiago del Estero;H__11_01_PORC;H__07_01_PORC;Si tiene cadena y mochila en el baño PORC;Con revestimiento interior o cielorraso del techo PORC;0.902;0.902;875.872;1040;1040
+86;Santiago del Estero;H__11_01_PORC;V__INCALCONS_01_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Satisfactoria PORC;0.917;0.917;762.878;1040;1040
+86;Santiago del Estero;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.986;0.986;1311.409;1040;1040
+86;Santiago del Estero;H__11_01_PORC;V__INMAT_01_PORC;Si tiene cadena y mochila en el baño PORC;Calidad 1 PORC;0.912;0.912;753.076;1040;1040
+86;Santiago del Estero;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.930;0.930;355.362;1040;1040
+86;Santiago del Estero;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.939;0.939;374.994;1040;1040
+86;Santiago del Estero;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.910;0.910;-355.149;1040;1040
+86;Santiago del Estero;H__05_03_PORC;H__06_07_PORC;Tierra o ladrillo suelto PORC;Caña, palma, tabla o paja con o sin barro PORC;0.932;0.932;778.559;1040;1040
+86;Santiago del Estero;H__05_03_PORC;H__14_06_PORC;Tierra o ladrillo suelto PORC;Leña o carbón PORC;0.941;0.941;966.252;1040;1040
+86;Santiago del Estero;H__05_03_PORC;V__01_02_PORC;Tierra o ladrillo suelto PORC;Rancho PORC;0.929;0.929;764.808;1040;1040
+86;Santiago del Estero;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.983;0.983;858.140;1040;1040
+86;Santiago del Estero;V__INCALSERV_03_PORC;H__11_01_PORC;Calidad de Servicios BasicosInsuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.914;0.914;-1013.897;1040;1040
+86;Santiago del Estero;V__INCALSERV_03_PORC;V__INCALCONS_03_PORC;Calidad de Servicios BasicosInsuficiente PORC;Calidad constructiva Insuficiente PORC;0.958;0.958;937.471;1040;1040
+86;Santiago del Estero;V__INCALSERV_03_PORC;H__05_01_PORC;Calidad de Servicios BasicosInsuficiente PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;-0.903;0.903;-958.706;1040;1040
+86;Santiago del Estero;V__INCALSERV_03_PORC;H__08_01_PORC;Calidad de Servicios BasicosInsuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.918;0.918;-1061.992;1040;1040
+86;Santiago del Estero;V__INCALSERV_02_PORC;H__12_02_PORC;Calidad de Servicios Basicos Basico PORC;A cámara séptica y pozo ciego PORC;0.921;0.921;544.144;1040;1040
+86;Santiago del Estero;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.951;0.951;-1069.889;1040;1040
+86;Santiago del Estero;V__INCALCONS_03_PORC;V__INCALSERV_03_PORC;Calidad constructiva Insuficiente PORC;Calidad de Servicios BasicosInsuficiente PORC;0.958;0.958;937.471;1040;1040
+86;Santiago del Estero;V__INCALCONS_03_PORC;H__11_02_PORC;Calidad constructiva Insuficiente PORC;No tiene cadena y mochila en el baño PORC;0.908;0.908;782.867;1040;1040
+86;Santiago del Estero;V__INCALCONS_03_PORC;H__05_01_PORC;Calidad constructiva Insuficiente PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;-0.937;0.937;-1009.272;1040;1040
+86;Santiago del Estero;V__INCALCONS_03_PORC;H__08_01_PORC;Calidad constructiva Insuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.953;0.953;-1118.255;1040;1040
+86;Santiago del Estero;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.930;0.930;355.362;1040;1040
+86;Santiago del Estero;P__09_02_PORC;H__19B_02_PORC;Primario PORC;Sin computadora PORC;0.912;0.912;340.902;1040;1040
+86;Santiago del Estero;P__09_02_PORC;P__12_01_PORC;Primario PORC;Si tiliza computadora PORC;-0.901;0.901;-346.727;1040;1040
+86;Santiago del Estero;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.943;0.943;466.151;1040;1040
+86;Santiago del Estero;H__19D_02_PORC;H__19B_01_PORC;Sin teléfono de línea PORC;Con computadora PORC;-0.918;0.918;-443.349;1040;1040
+86;Santiago del Estero;H__07_02_PORC;V__INMAT_01_PORC;Sin revestimiento interior o cielorraso del techo PORC;Calidad 1 PORC;-0.911;0.911;-573.799;1040;1040
+86;Santiago del Estero;H__11_02_PORC;V__INCALCONS_03_PORC;No tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;0.908;0.908;782.867;1040;1040
+86;Santiago del Estero;H__11_02_PORC;H__08_01_PORC;No tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;-0.917;0.917;-935.137;1040;1040
+86;Santiago del Estero;H__05_01_PORC;H__11_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Si tiene cadena y mochila en el baño PORC;0.957;0.957;1168.147;1040;1040
+86;Santiago del Estero;H__05_01_PORC;V__INCALSERV_03_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad de Servicios BasicosInsuficiente PORC;-0.903;0.903;-958.706;1040;1040
+86;Santiago del Estero;H__05_01_PORC;V__INCALCONS_03_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Insuficiente PORC;-0.937;0.937;-1009.272;1040;1040
+86;Santiago del Estero;H__05_01_PORC;H__19B_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con computadora PORC;0.908;0.908;599.676;1040;1040
+86;Santiago del Estero;H__05_01_PORC;P__12_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Si tiliza computadora PORC;0.935;0.935;650.556;1040;1040
+86;Santiago del Estero;H__05_01_PORC;H__07_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con revestimiento interior o cielorraso del techo PORC;0.903;0.903;839.311;1040;1040
+86;Santiago del Estero;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.937;0.937;746.966;1040;1040
+86;Santiago del Estero;H__05_01_PORC;H__08_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Por cañeria dentro de la vivienda PORC;0.959;0.959;1220.962;1040;1040
+86;Santiago del Estero;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.943;0.943;745.715;1040;1040
+86;Santiago del Estero;H__13_01_PORC;H__10_02_PORC;De uso exclusivo del hogar PORC;HOGAR NO Tiene baño o letrina PORC;-0.915;0.915;-192.809;1040;1040
+86;Santiago del Estero;H__13_01_PORC;H__ALGUNBI_01_PORC;De uso exclusivo del hogar PORC;Sin NBI PORC;0.937;0.937;230.667;1040;1040
+86;Santiago del Estero;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.979;0.979;216.985;1040;1040
+86;Santiago del Estero;H__10_02_PORC;H__ALGUNBI_02_PORC;HOGAR NO Tiene baño o letrina PORC;Al menos un indicador NBI PORC;0.933;0.933;213.455;1040;1040
+86;Santiago del Estero;H__10_02_PORC;H__13_01_PORC;HOGAR NO Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;-0.915;0.915;-192.809;1040;1040
+86;Santiago del Estero;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.939;0.939;374.994;1040;1040
+86;Santiago del Estero;H__19B_02_PORC;P__09_02_PORC;Sin computadora PORC;Primario PORC;0.912;0.912;340.902;1040;1040
+86;Santiago del Estero;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.943;0.943;466.151;1040;1040
+86;Santiago del Estero;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.909;0.909;-365.522;1040;1040
+86;Santiago del Estero;H__19B_02_PORC;H__19D_01_PORC;Sin computadora PORC;Con teléfono de línea PORC;-0.908;0.908;-442.894;1040;1040
+86;Santiago del Estero;V__01_02_PORC;H__06_07_PORC;Rancho PORC;Caña, palma, tabla o paja con o sin barro PORC;0.950;0.950;679.970;1040;1040
+86;Santiago del Estero;V__01_02_PORC;H__05_03_PORC;Rancho PORC;Tierra o ladrillo suelto PORC;0.929;0.929;764.808;1040;1040
+86;Santiago del Estero;V__01_02_PORC;V__INMAT_04_PORC;Rancho PORC;Calidad 4 PORC;0.930;0.930;694.930;1040;1040
+86;Santiago del Estero;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.910;0.910;-355.149;1040;1040
+86;Santiago del Estero;H__19B_01_PORC;H__19D_02_PORC;Con computadora PORC;Sin teléfono de línea PORC;-0.918;0.918;-443.349;1040;1040
+86;Santiago del Estero;H__19B_01_PORC;H__05_01_PORC;Con computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.908;0.908;599.676;1040;1040
+86;Santiago del Estero;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.948;0.948;372.529;1040;1040
+86;Santiago del Estero;H__19B_01_PORC;V__INCALCONS_01_PORC;Con computadora PORC;Calidad constructiva Satisfactoria PORC;0.909;0.909;409.228;1040;1040
+86;Santiago del Estero;H__19B_01_PORC;H__19D_01_PORC;Con computadora PORC;Con teléfono de línea PORC;0.942;0.942;448.882;1040;1040
+86;Santiago del Estero;P__12_01_PORC;H__11_01_PORC;Si tiliza computadora PORC;Si tiene cadena y mochila en el baño PORC;0.901;0.901;654.607;1040;1040
+86;Santiago del Estero;P__12_01_PORC;P__09_02_PORC;Si tiliza computadora PORC;Primario PORC;-0.901;0.901;-346.727;1040;1040
+86;Santiago del Estero;P__12_01_PORC;H__05_01_PORC;Si tiliza computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.935;0.935;650.556;1040;1040
+86;Santiago del Estero;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.909;0.909;-365.522;1040;1040
+86;Santiago del Estero;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.948;0.948;372.529;1040;1040
+86;Santiago del Estero;P__12_01_PORC;V__INCALCONS_01_PORC;Si tiliza computadora PORC;Calidad constructiva Satisfactoria PORC;0.916;0.916;434.399;1040;1040
+86;Santiago del Estero;P__12_01_PORC;H__19D_01_PORC;Si tiliza computadora PORC;Con teléfono de línea PORC;0.903;0.903;453.722;1040;1040
+86;Santiago del Estero;P__12_01_PORC;H__08_01_PORC;Si tiliza computadora PORC;Por cañeria dentro de la vivienda PORC;0.905;0.905;686.035;1040;1040
+86;Santiago del Estero;P__12_01_PORC;V__INMAT_01_PORC;Si tiliza computadora PORC;Calidad 1 PORC;0.900;0.900;423.934;1040;1040
+86;Santiago del Estero;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.961;0.961;824.717;1040;1040
+86;Santiago del Estero;H__12_02_PORC;V__INCALSERV_02_PORC;A cámara séptica y pozo ciego PORC;Calidad de Servicios Basicos Basico PORC;0.921;0.921;544.144;1040;1040
+86;Santiago del Estero;H__07_01_PORC;H__11_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Si tiene cadena y mochila en el baño PORC;0.902;0.902;875.872;1040;1040
+86;Santiago del Estero;H__07_01_PORC;H__05_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.903;0.903;839.311;1040;1040
+86;Santiago del Estero;H__07_01_PORC;V__INMAT_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Calidad 1 PORC;0.924;0.924;581.574;1040;1040
+86;Santiago del Estero;V__INCALCONS_01_PORC;H__11_01_PORC;Calidad constructiva Satisfactoria PORC;Si tiene cadena y mochila en el baño PORC;0.917;0.917;762.878;1040;1040
+86;Santiago del Estero;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.937;0.937;746.966;1040;1040
+86;Santiago del Estero;V__INCALCONS_01_PORC;H__19B_01_PORC;Calidad constructiva Satisfactoria PORC;Con computadora PORC;0.909;0.909;409.228;1040;1040
+86;Santiago del Estero;V__INCALCONS_01_PORC;P__12_01_PORC;Calidad constructiva Satisfactoria PORC;Si tiliza computadora PORC;0.916;0.916;434.399;1040;1040
+86;Santiago del Estero;V__INCALCONS_01_PORC;H__19D_01_PORC;Calidad constructiva Satisfactoria PORC;Con teléfono de línea PORC;0.901;0.901;518.199;1040;1040
+86;Santiago del Estero;V__INCALCONS_01_PORC;H__08_01_PORC;Calidad constructiva Satisfactoria PORC;Por cañeria dentro de la vivienda PORC;0.922;0.922;800.600;1040;1040
+86;Santiago del Estero;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.988;0.988;532.676;1040;1040
+86;Santiago del Estero;H__ALGUNBI_01_PORC;H__13_01_PORC;Sin NBI PORC;De uso exclusivo del hogar PORC;0.937;0.937;230.667;1040;1040
+86;Santiago del Estero;H__ALGUNBI_01_PORC;H__10_01_PORC;Sin NBI PORC;HOGAR SI Tiene baño o letrina PORC;0.936;0.936;232.476;1040;1040
+86;Santiago del Estero;H__19D_01_PORC;H__19B_02_PORC;Con teléfono de línea PORC;Sin computadora PORC;-0.908;0.908;-442.894;1040;1040
+86;Santiago del Estero;H__19D_01_PORC;H__19B_01_PORC;Con teléfono de línea PORC;Con computadora PORC;0.942;0.942;448.882;1040;1040
+86;Santiago del Estero;H__19D_01_PORC;P__12_01_PORC;Con teléfono de línea PORC;Si tiliza computadora PORC;0.903;0.903;453.722;1040;1040
+86;Santiago del Estero;H__19D_01_PORC;V__INCALCONS_01_PORC;Con teléfono de línea PORC;Calidad constructiva Satisfactoria PORC;0.901;0.901;518.199;1040;1040
+86;Santiago del Estero;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.986;0.986;1311.409;1040;1040
+86;Santiago del Estero;H__08_01_PORC;V__INCALSERV_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad de Servicios BasicosInsuficiente PORC;-0.918;0.918;-1061.992;1040;1040
+86;Santiago del Estero;H__08_01_PORC;V__INCALCONS_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Insuficiente PORC;-0.953;0.953;-1118.255;1040;1040
+86;Santiago del Estero;H__08_01_PORC;H__11_02_PORC;Por cañeria dentro de la vivienda PORC;No tiene cadena y mochila en el baño PORC;-0.917;0.917;-935.137;1040;1040
+86;Santiago del Estero;H__08_01_PORC;H__05_01_PORC;Por cañeria dentro de la vivienda PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.959;0.959;1220.962;1040;1040
+86;Santiago del Estero;H__08_01_PORC;P__12_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiliza computadora PORC;0.905;0.905;686.035;1040;1040
+86;Santiago del Estero;H__08_01_PORC;V__INCALCONS_01_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Satisfactoria PORC;0.922;0.922;800.600;1040;1040
+86;Santiago del Estero;H__08_01_PORC;V__INMAT_01_PORC;Por cañeria dentro de la vivienda PORC;Calidad 1 PORC;0.914;0.914;787.347;1040;1040
+86;Santiago del Estero;V__INMAT_04_PORC;H__06_07_PORC;Calidad 4 PORC;Caña, palma, tabla o paja con o sin barro PORC;0.936;0.936;710.294;1040;1040
+86;Santiago del Estero;V__INMAT_04_PORC;H__14_06_PORC;Calidad 4 PORC;Leña o carbón PORC;0.926;0.926;863.894;1040;1040
+86;Santiago del Estero;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.983;0.983;858.140;1040;1040
+86;Santiago del Estero;V__INMAT_04_PORC;V__01_02_PORC;Calidad 4 PORC;Rancho PORC;0.930;0.930;694.930;1040;1040
+86;Santiago del Estero;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.979;0.979;216.985;1040;1040
+86;Santiago del Estero;H__10_01_PORC;H__ALGUNBI_01_PORC;HOGAR SI Tiene baño o letrina PORC;Sin NBI PORC;0.936;0.936;232.476;1040;1040
+86;Santiago del Estero;V__INMAT_01_PORC;H__11_01_PORC;Calidad 1 PORC;Si tiene cadena y mochila en el baño PORC;0.912;0.912;753.076;1040;1040
+86;Santiago del Estero;V__INMAT_01_PORC;H__07_02_PORC;Calidad 1 PORC;Sin revestimiento interior o cielorraso del techo PORC;-0.911;0.911;-573.799;1040;1040
+86;Santiago del Estero;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.943;0.943;745.715;1040;1040
+86;Santiago del Estero;V__INMAT_01_PORC;P__12_01_PORC;Calidad 1 PORC;Si tiliza computadora PORC;0.900;0.900;423.934;1040;1040
+86;Santiago del Estero;V__INMAT_01_PORC;H__07_01_PORC;Calidad 1 PORC;Con revestimiento interior o cielorraso del techo PORC;0.924;0.924;581.574;1040;1040
+86;Santiago del Estero;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.988;0.988;532.676;1040;1040
+86;Santiago del Estero;V__INMAT_01_PORC;H__08_01_PORC;Calidad 1 PORC;Por cañeria dentro de la vivienda PORC;0.914;0.914;787.347;1040;1040
+26;Chubut;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.982;0.982;1594.886;753;753
+26;Chubut;H__09_01_PORC;V__URP_03_PORC;Red pública PORC;Area Rural disperso PORC;-0.914;0.914;-1361.639;753;753
+26;Chubut;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.908;0.908;499.533;753;753
+26;Chubut;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.908;0.908;499.533;753;753
+26;Chubut;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.982;0.982;1594.886;753;753
+26;Chubut;V__URP_03_PORC;H__09_01_PORC;Area Rural disperso PORC;Red pública PORC;-0.914;0.914;-1361.639;753;753
+26;Chubut;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.985;0.985;501.047;753;753
+26;Chubut;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.985;0.985;501.047;753;753
+22;Chaco;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.990;0.990;965.541;1483;1483
+22;Chaco;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.941;0.941;-853.880;1483;1483
+22;Chaco;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.965;0.965;1051.965;1483;1483
+22;Chaco;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.909;0.909;302.853;1483;1483
+22;Chaco;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.947;0.947;412.478;1483;1483
+22;Chaco;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.941;0.941;-408.192;1483;1483
+22;Chaco;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.971;0.971;317.870;1483;1483
+22;Chaco;V__INCALSERV_03_PORC;V__INCALCONS_03_PORC;Calidad de Servicios BasicosInsuficiente PORC;Calidad constructiva Insuficiente PORC;0.909;0.909;821.446;1483;1483
+22;Chaco;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.941;0.941;-853.880;1483;1483
+22;Chaco;V__INCALCONS_03_PORC;V__INCALSERV_03_PORC;Calidad constructiva Insuficiente PORC;Calidad de Servicios BasicosInsuficiente PORC;0.909;0.909;821.446;1483;1483
+22;Chaco;V__INCALCONS_03_PORC;H__08_01_PORC;Calidad constructiva Insuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.936;0.936;-929.879;1483;1483
+22;Chaco;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.909;0.909;302.853;1483;1483
+22;Chaco;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.926;0.926;476.447;1483;1483
+22;Chaco;H__19D_02_PORC;H__19B_01_PORC;Sin teléfono de línea PORC;Con computadora PORC;-0.919;0.919;-471.141;1483;1483
+22;Chaco;H__11_02_PORC;H__08_01_PORC;No tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;-0.902;0.902;-790.473;1483;1483
+22;Chaco;H__05_01_PORC;H__19B_02_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Sin computadora PORC;-0.917;0.917;-604.578;1483;1483
+22;Chaco;H__05_01_PORC;H__19B_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con computadora PORC;0.924;0.924;607.404;1483;1483
+22;Chaco;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.939;0.939;682.772;1483;1483
+22;Chaco;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.951;0.951;681.126;1483;1483
+22;Chaco;H__13_01_PORC;H__10_02_PORC;De uso exclusivo del hogar PORC;HOGAR NO Tiene baño o letrina PORC;-0.933;0.933;-146.199;1483;1483
+22;Chaco;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.953;0.953;151.947;1483;1483
+22;Chaco;H__10_02_PORC;H__13_01_PORC;HOGAR NO Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;-0.933;0.933;-146.199;1483;1483
+22;Chaco;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.947;0.947;412.478;1483;1483
+22;Chaco;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.926;0.926;476.447;1483;1483
+22;Chaco;H__19B_02_PORC;H__05_01_PORC;Sin computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;-0.917;0.917;-604.578;1483;1483
+22;Chaco;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.944;0.944;-413.910;1483;1483
+22;Chaco;H__19B_02_PORC;H__19D_01_PORC;Sin computadora PORC;Con teléfono de línea PORC;-0.919;0.919;-471.319;1483;1483
+22;Chaco;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.941;0.941;-408.192;1483;1483
+22;Chaco;H__19B_01_PORC;H__19D_02_PORC;Con computadora PORC;Sin teléfono de línea PORC;-0.919;0.919;-471.141;1483;1483
+22;Chaco;H__19B_01_PORC;H__05_01_PORC;Con computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.924;0.924;607.404;1483;1483
+22;Chaco;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.953;0.953;415.973;1483;1483
+22;Chaco;H__19B_01_PORC;H__19D_01_PORC;Con computadora PORC;Con teléfono de línea PORC;0.926;0.926;472.757;1483;1483
+22;Chaco;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.944;0.944;-413.910;1483;1483
+22;Chaco;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.953;0.953;415.973;1483;1483
+22;Chaco;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.990;0.990;965.541;1483;1483
+22;Chaco;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.939;0.939;682.772;1483;1483
+22;Chaco;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.980;0.980;545.253;1483;1483
+22;Chaco;H__19D_01_PORC;H__19B_02_PORC;Con teléfono de línea PORC;Sin computadora PORC;-0.919;0.919;-471.319;1483;1483
+22;Chaco;H__19D_01_PORC;H__19B_01_PORC;Con teléfono de línea PORC;Con computadora PORC;0.926;0.926;472.757;1483;1483
+22;Chaco;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.965;0.965;1051.965;1483;1483
+22;Chaco;H__08_01_PORC;V__INCALCONS_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Insuficiente PORC;-0.936;0.936;-929.879;1483;1483
+22;Chaco;H__08_01_PORC;H__11_02_PORC;Por cañeria dentro de la vivienda PORC;No tiene cadena y mochila en el baño PORC;-0.902;0.902;-790.473;1483;1483
+22;Chaco;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.971;0.971;317.870;1483;1483
+22;Chaco;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.953;0.953;151.947;1483;1483
+22;Chaco;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.951;0.951;681.126;1483;1483
+22;Chaco;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.980;0.980;545.253;1483;1483
+46;La Rioja;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.970;0.970;136.246;316;316
+46;La Rioja;H__06_07_PORC;V__INMAT_04_PORC;Caña, palma, tabla o paja con o sin barro PORC;Calidad 4 PORC;0.939;0.939;295.705;316;316
+46;La Rioja;H__14_06_PORC;H__05_03_PORC;Leña o carbón PORC;Tierra o ladrillo suelto PORC;0.911;0.911;232.149;316;316
+46;La Rioja;H__14_06_PORC;V__URP_03_PORC;Leña o carbón PORC;Area Rural disperso PORC;0.925;0.925;489.421;316;316
+46;La Rioja;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.988;0.988;1556.762;316;316
+46;La Rioja;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.971;0.971;432.072;316;316
+46;La Rioja;H__11_01_PORC;H__08_02_PORC;Si tiene cadena y mochila en el baño PORC;Fuera de la vivienda pero dentro del terreno PORC;-0.900;0.900;-289.749;316;316
+46;La Rioja;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.940;0.940;196.594;316;316
+46;La Rioja;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.931;0.931;250.311;316;316
+46;La Rioja;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.931;0.931;-250.311;316;316
+46;La Rioja;H__05_03_PORC;H__14_06_PORC;Tierra o ladrillo suelto PORC;Leña o carbón PORC;0.911;0.911;232.149;316;316
+46;La Rioja;V__INCALSERV_02_PORC;H__12_02_PORC;Calidad de Servicios Basicos Basico PORC;A cámara séptica y pozo ciego PORC;0.932;0.932;748.971;316;316
+46;La Rioja;V__INCALCONS_03_PORC;H__08_01_PORC;Calidad constructiva Insuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.907;0.907;-376.689;316;316
+46;La Rioja;V__INCALCONS_03_PORC;V__INMAT_04_PORC;Calidad constructiva Insuficiente PORC;Calidad 4 PORC;0.908;0.908;246.594;316;316
+46;La Rioja;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.940;0.940;196.594;316;316
+46;La Rioja;P__09_02_PORC;H__19B_02_PORC;Primario PORC;Sin computadora PORC;0.908;0.908;215.103;316;316
+46;La Rioja;P__09_02_PORC;H__19B_01_PORC;Primario PORC;Con computadora PORC;-0.908;0.908;-215.103;316;316
+46;La Rioja;P__09_02_PORC;P__12_01_PORC;Primario PORC;Si tiliza computadora PORC;-0.927;0.927;-190.335;316;316
+46;La Rioja;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.970;0.970;136.246;316;316
+46;La Rioja;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.930;0.930;487.189;316;316
+46;La Rioja;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.926;0.926;484.180;316;316
+46;La Rioja;H__13_01_PORC;H__10_02_PORC;De uso exclusivo del hogar PORC;HOGAR NO Tiene baño o letrina PORC;-0.935;0.935;-91.764;316;316
+46;La Rioja;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.935;0.935;91.764;316;316
+46;La Rioja;H__10_02_PORC;H__13_01_PORC;HOGAR NO Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;-0.935;0.935;-91.764;316;316
+46;La Rioja;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.931;0.931;250.311;316;316
+46;La Rioja;H__19B_02_PORC;P__09_02_PORC;Sin computadora PORC;Primario PORC;0.908;0.908;215.103;316;316
+46;La Rioja;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.944;0.944;-249.089;316;316
+46;La Rioja;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.931;0.931;-250.311;316;316
+46;La Rioja;H__19B_01_PORC;P__09_02_PORC;Con computadora PORC;Primario PORC;-0.908;0.908;-215.103;316;316
+46;La Rioja;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.944;0.944;249.089;316;316
+46;La Rioja;P__12_01_PORC;P__09_02_PORC;Si tiliza computadora PORC;Primario PORC;-0.927;0.927;-190.335;316;316
+46;La Rioja;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.944;0.944;-249.089;316;316
+46;La Rioja;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.944;0.944;249.089;316;316
+46;La Rioja;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.988;0.988;1556.762;316;316
+46;La Rioja;H__12_02_PORC;V__INCALSERV_02_PORC;A cámara séptica y pozo ciego PORC;Calidad de Servicios Basicos Basico PORC;0.932;0.932;748.971;316;316
+46;La Rioja;V__URP_03_PORC;H__14_06_PORC;Area Rural disperso PORC;Leña o carbón PORC;0.925;0.925;489.421;316;316
+46;La Rioja;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.930;0.930;487.189;316;316
+46;La Rioja;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.996;0.996;344.592;316;316
+46;La Rioja;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.971;0.971;432.072;316;316
+46;La Rioja;H__08_01_PORC;V__INCALCONS_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Insuficiente PORC;-0.907;0.907;-376.689;316;316
+46;La Rioja;V__INMAT_04_PORC;H__06_07_PORC;Calidad 4 PORC;Caña, palma, tabla o paja con o sin barro PORC;0.939;0.939;295.705;316;316
+46;La Rioja;V__INMAT_04_PORC;V__INCALCONS_03_PORC;Calidad 4 PORC;Calidad constructiva Insuficiente PORC;0.908;0.908;246.594;316;316
+46;La Rioja;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.935;0.935;91.764;316;316
+46;La Rioja;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.926;0.926;484.180;316;316
+46;La Rioja;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.996;0.996;344.592;316;316
+46;La Rioja;H__08_02_PORC;H__11_01_PORC;Fuera de la vivienda pero dentro del terreno PORC;Si tiene cadena y mochila en el baño PORC;-0.900;0.900;-289.749;316;316
+42;La Pampa;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.991;0.991;463.656;769;769
+42;La Pampa;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.979;0.979;1535.937;769;769
+42;La Pampa;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.922;0.922;285.543;769;769
+42;La Pampa;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.991;0.991;463.656;769;769
+42;La Pampa;H__13_01_PORC;H__ALGUNBI_01_PORC;De uso exclusivo del hogar PORC;Sin NBI PORC;0.917;0.917;149.357;769;769
+42;La Pampa;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.968;0.968;146.364;769;769
+42;La Pampa;H__14_01_PORC;V__URP_03_PORC;Gas de red PORC;Area Rural disperso PORC;-0.902;0.902;-1884.137;769;769
+42;La Pampa;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.979;0.979;1535.937;769;769
+42;La Pampa;V__URP_03_PORC;H__14_01_PORC;Area Rural disperso PORC;Gas de red PORC;-0.902;0.902;-1884.137;769;769
+42;La Pampa;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.993;0.993;541.243;769;769
+42;La Pampa;H__ALGUNBI_01_PORC;H__13_01_PORC;Sin NBI PORC;De uso exclusivo del hogar PORC;0.917;0.917;149.357;769;769
+42;La Pampa;H__ALGUNBI_01_PORC;H__10_01_PORC;Sin NBI PORC;HOGAR SI Tiene baño o letrina PORC;0.942;0.942;148.970;769;769
+42;La Pampa;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.922;0.922;285.543;769;769
+42;La Pampa;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.968;0.968;146.364;769;769
+42;La Pampa;H__10_01_PORC;H__ALGUNBI_01_PORC;HOGAR SI Tiene baño o letrina PORC;Sin NBI PORC;0.942;0.942;148.970;769;769
+42;La Pampa;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.993;0.993;541.243;769;769
+2;CABA;H__14_06_PORC;H__08_03_PORC;Leña o carbón PORC;Fuera del terreno PORC;0.915;0.915;1.499;3553;3553
+2;CABA;H__ALGUNBI_02_PORC;H__13_01_PORC;Al menos un indicador NBI PORC;De uso exclusivo del hogar PORC;-0.902;0.902;-84.119;3553;3553
+2;CABA;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.926;0.926;-58.510;3553;3553
+2;CABA;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.929;0.929;105.061;3553;3553
+2;CABA;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.920;0.920;-104.389;3553;3553
+2;CABA;V__INCALSERV_02_PORC;H__12_02_PORC;Calidad de Servicios Basicos Basico PORC;A cámara séptica y pozo ciego PORC;0.960;0.960;1.853;3553;3553
+2;CABA;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.926;0.926;-58.510;3553;3553
+2;CABA;H__08_03_PORC;H__14_06_PORC;Fuera del terreno PORC;Leña o carbón PORC;0.915;0.915;1.499;3553;3553
+2;CABA;H__INDHAC_05_PORC;H__19D_02_PORC;2.00 - 3.00 personas por cuarto PORC;Sin teléfono de línea PORC;0.911;0.911;113.635;3553;3553
+2;CABA;H__INDHAC_05_PORC;H__19D_01_PORC;2.00 - 3.00 personas por cuarto PORC;Con teléfono de línea PORC;-0.906;0.906;-113.393;3553;3553
+2;CABA;H__19D_02_PORC;H__INDHAC_05_PORC;Sin teléfono de línea PORC;2.00 - 3.00 personas por cuarto PORC;0.911;0.911;113.635;3553;3553
+2;CABA;H__07_02_PORC;H__14_04_PORC;Sin revestimiento interior o cielorraso del techo PORC;Gas en garrafa PORC;0.906;0.906;202.869;3553;3553
+2;CABA;H__07_02_PORC;V__INMAT_02_PORC;Sin revestimiento interior o cielorraso del techo PORC;Calidad 2 PORC;0.901;0.901;97.406;3553;3553
+2;CABA;H__07_02_PORC;H__05_02_PORC;Sin revestimiento interior o cielorraso del techo PORC;Cemento o ladrillo fijo PORC;0.906;0.906;116.310;3553;3553
+2;CABA;H__11_02_PORC;H__05_01_PORC;No tiene cadena y mochila en el baño PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;-0.900;0.900;-61.462;3553;3553
+2;CABA;H__11_02_PORC;H__05_02_PORC;No tiene cadena y mochila en el baño PORC;Cemento o ladrillo fijo PORC;0.910;0.910;57.620;3553;3553
+2;CABA;V__02_01_PORC;V__INCALSERV_01_PORC;Con personas presentes PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.907;0.907;100.328;3553;3553
+2;CABA;H__05_01_PORC;H__11_02_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;No tiene cadena y mochila en el baño PORC;-0.900;0.900;-61.462;3553;3553
+2;CABA;H__05_01_PORC;H__14_04_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Gas en garrafa PORC;-0.920;0.920;-177.733;3553;3553
+2;CABA;H__05_01_PORC;H__14_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Gas de red PORC;0.923;0.923;190.170;3553;3553
+2;CABA;H__05_01_PORC;H__07_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con revestimiento interior o cielorraso del techo PORC;0.911;0.911;126.960;3553;3553
+2;CABA;H__14_04_PORC;H__07_02_PORC;Gas en garrafa PORC;Sin revestimiento interior o cielorraso del techo PORC;0.906;0.906;202.869;3553;3553
+2;CABA;H__14_04_PORC;H__05_01_PORC;Gas en garrafa PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;-0.920;0.920;-177.733;3553;3553
+2;CABA;H__14_04_PORC;H__05_02_PORC;Gas en garrafa PORC;Cemento o ladrillo fijo PORC;0.953;0.953;170.693;3553;3553
+2;CABA;V__INMAT_02_PORC;H__07_02_PORC;Calidad 2 PORC;Sin revestimiento interior o cielorraso del techo PORC;0.901;0.901;97.406;3553;3553
+2;CABA;H__13_01_PORC;H__ALGUNBI_02_PORC;De uso exclusivo del hogar PORC;Al menos un indicador NBI PORC;-0.902;0.902;-84.119;3553;3553
+2;CABA;H__13_01_PORC;H__ALGUNBI_01_PORC;De uso exclusivo del hogar PORC;Sin NBI PORC;0.918;0.918;86.763;3553;3553
+2;CABA;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.929;0.929;105.061;3553;3553
+2;CABA;H__14_01_PORC;H__05_01_PORC;Gas de red PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.923;0.923;190.170;3553;3553
+2;CABA;H__14_01_PORC;H__05_02_PORC;Gas de red PORC;Cemento o ladrillo fijo PORC;-0.927;0.927;-177.123;3553;3553
+2;CABA;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.920;0.920;-104.389;3553;3553
+2;CABA;H__05_02_PORC;H__07_02_PORC;Cemento o ladrillo fijo PORC;Sin revestimiento interior o cielorraso del techo PORC;0.906;0.906;116.310;3553;3553
+2;CABA;H__05_02_PORC;H__11_02_PORC;Cemento o ladrillo fijo PORC;No tiene cadena y mochila en el baño PORC;0.910;0.910;57.620;3553;3553
+2;CABA;H__05_02_PORC;H__14_04_PORC;Cemento o ladrillo fijo PORC;Gas en garrafa PORC;0.953;0.953;170.693;3553;3553
+2;CABA;H__05_02_PORC;H__14_01_PORC;Cemento o ladrillo fijo PORC;Gas de red PORC;-0.927;0.927;-177.123;3553;3553
+2;CABA;V__INCALSERV_01_PORC;V__02_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;Con personas presentes PORC;0.907;0.907;100.328;3553;3553
+2;CABA;H__12_02_PORC;V__INCALSERV_02_PORC;A cámara séptica y pozo ciego PORC;Calidad de Servicios Basicos Basico PORC;0.960;0.960;1.853;3553;3553
+2;CABA;H__07_01_PORC;H__05_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.911;0.911;126.960;3553;3553
+2;CABA;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.981;0.981;187.223;3553;3553
+2;CABA;H__ALGUNBI_01_PORC;H__13_01_PORC;Sin NBI PORC;De uso exclusivo del hogar PORC;0.918;0.918;86.763;3553;3553
+2;CABA;H__19D_01_PORC;H__INDHAC_05_PORC;Con teléfono de línea PORC;2.00 - 3.00 personas por cuarto PORC;-0.906;0.906;-113.393;3553;3553
+2;CABA;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.981;0.981;187.223;3553;3553
+6;Buenos Aires;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.960;0.960;362.137;19552;19552
+6;Buenos Aires;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.938;0.938;1471.568;19552;19552
+6;Buenos Aires;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.923;0.923;-202.886;19552;19552
+6;Buenos Aires;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.906;0.906;250.630;19552;19552
+6;Buenos Aires;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.923;0.923;-202.886;19552;19552
+6;Buenos Aires;V__INCALCONS_03_PORC;H__11_02_PORC;Calidad constructiva Insuficiente PORC;No tiene cadena y mochila en el baño PORC;0.938;0.938;178.881;19552;19552
+6;Buenos Aires;H__11_02_PORC;V__INCALCONS_03_PORC;No tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;0.938;0.938;178.881;19552;19552
+6;Buenos Aires;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.960;0.960;362.137;19552;19552
+6;Buenos Aires;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.906;0.906;250.630;19552;19552
+6;Buenos Aires;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.908;0.908;257.768;19552;19552
+6;Buenos Aires;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.908;0.908;257.768;19552;19552
+6;Buenos Aires;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.938;0.938;1471.568;19552;19552
+6;Buenos Aires;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.992;0.992;432.167;19552;19552
+6;Buenos Aires;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.992;0.992;432.167;19552;19552
+74;San Luis;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.983;0.983;1566.039;656;656
+74;San Luis;V__V00_02_PORC;V__01_09_PORC;Hogar de menores PORC;Persona/s viviendo en la calle PORC;0.938;0.938;0.042;656;656
+74;San Luis;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.931;0.931;487.854;656;656
+74;San Luis;V__01_09_PORC;V__V00_02_PORC;Persona/s viviendo en la calle PORC;Hogar de menores PORC;0.938;0.938;0.042;656;656
+74;San Luis;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.948;0.948;398.275;656;656
+74;San Luis;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.918;0.918;-385.164;656;656
+74;San Luis;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.936;0.936;105.951;656;656
+74;San Luis;V__TIPVV_01_PORC;V__V00_07_PORC;Viviendas particulares PORC;Cuartel PORC;-0.913;0.913;-1.239;656;656
+74;San Luis;V__INCALCONS_03_PORC;H__08_01_PORC;Calidad constructiva Insuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.911;0.911;-443.470;656;656
+74;San Luis;V__V00_07_PORC;V__TIPVV_01_PORC;Cuartel PORC;Viviendas particulares PORC;-0.913;0.913;-1.239;656;656
+74;San Luis;V__V00_07_PORC;V__TIPVV_02_PORC;Cuartel PORC;Viviendas colectivas PORC;0.913;0.913;1.239;656;656
+74;San Luis;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.901;0.901;640.409;656;656
+74;San Luis;H__13_01_PORC;H__ALGUNBI_01_PORC;De uso exclusivo del hogar PORC;Sin NBI PORC;0.923;0.923;158.425;656;656
+74;San Luis;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.948;0.948;398.275;656;656
+74;San Luis;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.918;0.918;-385.164;656;656
+74;San Luis;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.936;0.936;388.236;656;656
+74;San Luis;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.936;0.936;388.236;656;656
+74;San Luis;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.983;0.983;1566.039;656;656
+74;San Luis;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.901;0.901;640.409;656;656
+74;San Luis;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.995;0.995;615.042;656;656
+74;San Luis;H__ALGUNBI_01_PORC;H__13_01_PORC;Sin NBI PORC;De uso exclusivo del hogar PORC;0.923;0.923;158.425;656;656
+74;San Luis;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.931;0.931;487.854;656;656
+74;San Luis;H__08_01_PORC;V__INCALCONS_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Insuficiente PORC;-0.911;0.911;-443.470;656;656
+74;San Luis;V__TIPVV_02_PORC;V__V00_07_PORC;Viviendas colectivas PORC;Cuartel PORC;0.913;0.913;1.239;656;656
+74;San Luis;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.936;0.936;105.951;656;656
+74;San Luis;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.995;0.995;615.042;656;656
+70;San Juan;H__06_05_PORC;V__INMAT_03_PORC;Chapa fibrocemento o plástico PORC;Calidad 3 PORC;0.911;0.911;19.495;701;701
+70;San Juan;H__06_07_PORC;V__INCALCONS_03_PORC;Caña, palma, tabla o paja con o sin barro PORC;Calidad constructiva Insuficiente PORC;0.939;0.939;537.247;701;701
+70;San Juan;H__06_07_PORC;V__INMAT_04_PORC;Caña, palma, tabla o paja con o sin barro PORC;Calidad 4 PORC;0.952;0.952;512.292;701;701
+70;San Juan;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.986;0.986;1126.224;701;701
+70;San Juan;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.962;0.962;369.041;701;701
+70;San Juan;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.919;0.919;206.396;701;701
+70;San Juan;V__TIPVV_01_PORC;V__V00_04_PORC;Viviendas particulares PORC;Campamento/obrador PORC;-0.932;0.932;-2.174;701;701
+70;San Juan;P__08_03_PORC;P__07_02_PORC;Nunca asistio PORC;No sabe leer y escribir PORC;0.907;0.907;6.234;701;701
+70;San Juan;V__INCALSERV_02_PORC;H__12_02_PORC;Calidad de Servicios Basicos Basico PORC;A cámara séptica y pozo ciego PORC;0.939;0.939;512.204;701;701
+70;San Juan;V__INCALCONS_03_PORC;H__06_07_PORC;Calidad constructiva Insuficiente PORC;Caña, palma, tabla o paja con o sin barro PORC;0.939;0.939;537.247;701;701
+70;San Juan;V__INCALCONS_03_PORC;V__INMAT_04_PORC;Calidad constructiva Insuficiente PORC;Calidad 4 PORC;0.990;0.990;466.784;701;701
+70;San Juan;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.919;0.919;206.396;701;701
+70;San Juan;P__09_02_PORC;H__19B_02_PORC;Primario PORC;Sin computadora PORC;0.923;0.923;236.662;701;701
+70;San Juan;P__09_02_PORC;H__19B_01_PORC;Primario PORC;Con computadora PORC;-0.923;0.923;-236.662;701;701
+70;San Juan;P__01_03_PORC;P__08_02_PORC;Hijo(a) / Hijastro(a) PORC;Asistió PORC;-0.901;0.901;-46.220;701;701
+70;San Juan;H__19D_02_PORC;H__05_01_PORC;Sin teléfono de línea PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;-0.912;0.912;-690.359;701;701
+70;San Juan;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.904;0.904;448.438;701;701
+70;San Juan;H__19D_02_PORC;H__19B_01_PORC;Sin teléfono de línea PORC;Con computadora PORC;-0.904;0.904;-448.438;701;701
+70;San Juan;P__07_02_PORC;P__08_03_PORC;No sabe leer y escribir PORC;Nunca asistio PORC;0.907;0.907;6.234;701;701
+70;San Juan;H__07_02_PORC;V__INCALCONS_01_PORC;Sin revestimiento interior o cielorraso del techo PORC;Calidad constructiva Satisfactoria PORC;-0.939;0.939;-536.468;701;701
+70;San Juan;H__07_02_PORC;V__INMAT_01_PORC;Sin revestimiento interior o cielorraso del techo PORC;Calidad 1 PORC;-0.941;0.941;-538.021;701;701
+70;San Juan;H__11_02_PORC;H__08_01_PORC;No tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;-0.921;0.921;-271.201;701;701
+70;San Juan;P__08_02_PORC;P__01_03_PORC;Asistió PORC;Hijo(a) / Hijastro(a) PORC;-0.901;0.901;-46.220;701;701
+70;San Juan;V__INMAT_03_PORC;H__06_05_PORC;Calidad 3 PORC;Chapa fibrocemento o plástico PORC;0.911;0.911;19.495;701;701
+70;San Juan;H__05_01_PORC;H__19D_02_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Sin teléfono de línea PORC;-0.912;0.912;-690.359;701;701
+70;San Juan;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.912;0.912;620.538;701;701
+70;San Juan;H__05_01_PORC;H__19D_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con teléfono de línea PORC;0.912;0.912;690.359;701;701
+70;San Juan;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.914;0.914;622.889;701;701
+70;San Juan;V__INCALCONS_02_PORC;V__INMAT_02_PORC;Calidad constructiva Basico PORC;Calidad 2 PORC;0.946;0.946;208.537;701;701
+70;San Juan;V__INMAT_02_PORC;V__INCALCONS_02_PORC;Calidad 2 PORC;Calidad constructiva Basico PORC;0.946;0.946;208.537;701;701
+70;San Juan;H__19B_02_PORC;P__09_02_PORC;Sin computadora PORC;Primario PORC;0.923;0.923;236.662;701;701
+70;San Juan;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.904;0.904;448.438;701;701
+70;San Juan;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.958;0.958;-318.618;701;701
+70;San Juan;H__19B_02_PORC;H__19D_01_PORC;Sin computadora PORC;Con teléfono de línea PORC;-0.904;0.904;-448.438;701;701
+70;San Juan;H__19B_01_PORC;P__09_02_PORC;Con computadora PORC;Primario PORC;-0.923;0.923;-236.662;701;701
+70;San Juan;H__19B_01_PORC;H__19D_02_PORC;Con computadora PORC;Sin teléfono de línea PORC;-0.904;0.904;-448.438;701;701
+70;San Juan;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.958;0.958;318.618;701;701
+70;San Juan;H__19B_01_PORC;H__19D_01_PORC;Con computadora PORC;Con teléfono de línea PORC;0.904;0.904;448.438;701;701
+70;San Juan;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.958;0.958;-318.618;701;701
+70;San Juan;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.958;0.958;318.618;701;701
+70;San Juan;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.986;0.986;1126.224;701;701
+70;San Juan;H__12_02_PORC;V__INCALSERV_02_PORC;A cámara séptica y pozo ciego PORC;Calidad de Servicios Basicos Basico PORC;0.939;0.939;512.204;701;701
+70;San Juan;V__V00_04_PORC;V__TIPVV_01_PORC;Campamento/obrador PORC;Viviendas particulares PORC;-0.932;0.932;-2.174;701;701
+70;San Juan;V__V00_04_PORC;V__TIPVV_02_PORC;Campamento/obrador PORC;Viviendas colectivas PORC;0.932;0.932;2.174;701;701
+70;San Juan;H__07_01_PORC;V__INCALCONS_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Calidad constructiva Satisfactoria PORC;0.939;0.939;536.468;701;701
+70;San Juan;H__07_01_PORC;V__INMAT_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Calidad 1 PORC;0.941;0.941;538.021;701;701
+70;San Juan;V__INCALCONS_01_PORC;H__07_02_PORC;Calidad constructiva Satisfactoria PORC;Sin revestimiento interior o cielorraso del techo PORC;-0.939;0.939;-536.468;701;701
+70;San Juan;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.912;0.912;620.538;701;701
+70;San Juan;V__INCALCONS_01_PORC;H__07_01_PORC;Calidad constructiva Satisfactoria PORC;Con revestimiento interior o cielorraso del techo PORC;0.939;0.939;536.468;701;701
+70;San Juan;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.998;0.998;542.420;701;701
+70;San Juan;H__19D_01_PORC;H__05_01_PORC;Con teléfono de línea PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.912;0.912;690.359;701;701
+70;San Juan;H__19D_01_PORC;H__19B_02_PORC;Con teléfono de línea PORC;Sin computadora PORC;-0.904;0.904;-448.438;701;701
+70;San Juan;H__19D_01_PORC;H__19B_01_PORC;Con teléfono de línea PORC;Con computadora PORC;0.904;0.904;448.438;701;701
+70;San Juan;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.962;0.962;369.041;701;701
+70;San Juan;H__08_01_PORC;H__11_02_PORC;Por cañeria dentro de la vivienda PORC;No tiene cadena y mochila en el baño PORC;-0.921;0.921;-271.201;701;701
+70;San Juan;V__TIPVV_02_PORC;V__V00_04_PORC;Viviendas colectivas PORC;Campamento/obrador PORC;0.932;0.932;2.174;701;701
+70;San Juan;V__INMAT_04_PORC;H__06_07_PORC;Calidad 4 PORC;Caña, palma, tabla o paja con o sin barro PORC;0.952;0.952;512.292;701;701
+70;San Juan;V__INMAT_04_PORC;V__INCALCONS_03_PORC;Calidad 4 PORC;Calidad constructiva Insuficiente PORC;0.990;0.990;466.784;701;701
+70;San Juan;V__INMAT_01_PORC;H__07_02_PORC;Calidad 1 PORC;Sin revestimiento interior o cielorraso del techo PORC;-0.941;0.941;-538.021;701;701
+70;San Juan;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.914;0.914;622.889;701;701
+70;San Juan;V__INMAT_01_PORC;H__07_01_PORC;Calidad 1 PORC;Con revestimiento interior o cielorraso del techo PORC;0.941;0.941;538.021;701;701
+70;San Juan;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.998;0.998;542.420;701;701
+90;Tucumán;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.909;0.909;184.469;1717;1717
+90;Tucumán;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.981;0.981;1442.839;1717;1717
+90;Tucumán;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.942;0.942;658.521;1717;1717
+90;Tucumán;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.946;0.946;335.173;1717;1717
+90;Tucumán;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.954;0.954;440.185;1717;1717
+90;Tucumán;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.933;0.933;-424.323;1717;1717
+90;Tucumán;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.936;0.936;164.655;1717;1717
+90;Tucumán;V__INCALCONS_03_PORC;H__08_01_PORC;Calidad constructiva Insuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.903;0.903;-619.254;1717;1717
+90;Tucumán;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.946;0.946;335.173;1717;1717
+90;Tucumán;P__09_02_PORC;H__19B_02_PORC;Primario PORC;Sin computadora PORC;0.928;0.928;356.859;1717;1717
+90;Tucumán;P__09_02_PORC;H__19B_01_PORC;Primario PORC;Con computadora PORC;-0.913;0.913;-345.616;1717;1717
+90;Tucumán;P__09_02_PORC;P__12_01_PORC;Primario PORC;Si tiliza computadora PORC;-0.921;0.921;-326.128;1717;1717
+90;Tucumán;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.902;0.902;604.583;1717;1717
+90;Tucumán;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.909;0.909;184.469;1717;1717
+90;Tucumán;H__05_01_PORC;H__19B_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con computadora PORC;0.903;0.903;571.628;1717;1717
+90;Tucumán;H__05_01_PORC;H__07_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con revestimiento interior o cielorraso del techo PORC;0.912;0.912;703.236;1717;1717
+90;Tucumán;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.938;0.938;656.450;1717;1717
+90;Tucumán;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.942;0.942;644.925;1717;1717
+90;Tucumán;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.954;0.954;440.185;1717;1717
+90;Tucumán;H__19B_02_PORC;P__09_02_PORC;Sin computadora PORC;Primario PORC;0.928;0.928;356.859;1717;1717
+90;Tucumán;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.902;0.902;604.583;1717;1717
+90;Tucumán;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.923;0.923;-425.712;1717;1717
+90;Tucumán;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.933;0.933;-424.323;1717;1717
+90;Tucumán;H__19B_01_PORC;P__09_02_PORC;Con computadora PORC;Primario PORC;-0.913;0.913;-345.616;1717;1717
+90;Tucumán;H__19B_01_PORC;H__05_01_PORC;Con computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.903;0.903;571.628;1717;1717
+90;Tucumán;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.961;0.961;436.860;1717;1717
+90;Tucumán;H__19B_01_PORC;H__19D_01_PORC;Con computadora PORC;Con teléfono de línea PORC;0.901;0.901;591.127;1717;1717
+90;Tucumán;P__12_01_PORC;P__09_02_PORC;Si tiliza computadora PORC;Primario PORC;-0.921;0.921;-326.128;1717;1717
+90;Tucumán;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.923;0.923;-425.712;1717;1717
+90;Tucumán;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.961;0.961;436.860;1717;1717
+90;Tucumán;P__12_01_PORC;H__19D_01_PORC;Si tiliza computadora PORC;Con teléfono de línea PORC;0.909;0.909;557.488;1717;1717
+90;Tucumán;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.981;0.981;1442.839;1717;1717
+90;Tucumán;H__07_01_PORC;H__05_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.912;0.912;703.236;1717;1717
+90;Tucumán;H__07_01_PORC;V__INCALCONS_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Calidad constructiva Satisfactoria PORC;0.912;0.912;597.430;1717;1717
+90;Tucumán;H__07_01_PORC;V__INMAT_01_PORC;Con revestimiento interior o cielorraso del techo PORC;Calidad 1 PORC;0.918;0.918;587.678;1717;1717
+90;Tucumán;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.938;0.938;656.450;1717;1717
+90;Tucumán;V__INCALCONS_01_PORC;H__07_01_PORC;Calidad constructiva Satisfactoria PORC;Con revestimiento interior o cielorraso del techo PORC;0.912;0.912;597.430;1717;1717
+90;Tucumán;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.993;0.993;577.106;1717;1717
+90;Tucumán;H__19D_01_PORC;H__19B_01_PORC;Con teléfono de línea PORC;Con computadora PORC;0.901;0.901;591.127;1717;1717
+90;Tucumán;H__19D_01_PORC;P__12_01_PORC;Con teléfono de línea PORC;Si tiliza computadora PORC;0.909;0.909;557.488;1717;1717
+90;Tucumán;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.942;0.942;658.521;1717;1717
+90;Tucumán;H__08_01_PORC;V__INCALCONS_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Insuficiente PORC;-0.903;0.903;-619.254;1717;1717
+90;Tucumán;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.936;0.936;164.655;1717;1717
+90;Tucumán;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.942;0.942;644.925;1717;1717
+90;Tucumán;V__INMAT_01_PORC;H__07_01_PORC;Calidad 1 PORC;Con revestimiento interior o cielorraso del techo PORC;0.918;0.918;587.678;1717;1717
+90;Tucumán;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.993;0.993;577.106;1717;1717
+94;Tierra del Fuego;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.958;0.958;265.419;156;156
+94;Tierra del Fuego;H__14_06_PORC;H__19C_02_PORC;Leña o carbón PORC;Sin teléfono celular PORC;0.915;0.915;146.313;156;156
+94;Tierra del Fuego;H__12_01_PORC;H__09_01_PORC;A red publica (cloaca) PORC;Red pública PORC;0.955;0.955;1046.930;156;156
+94;Tierra del Fuego;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.956;0.956;966.914;156;156
+94;Tierra del Fuego;V__01_03_PORC;H__ALGUNBI_02_PORC;Casilla PORC;Al menos un indicador NBI PORC;0.955;0.955;295.703;156;156
+94;Tierra del Fuego;H__ALGUNBI_02_PORC;V__01_03_PORC;Al menos un indicador NBI PORC;Casilla PORC;0.955;0.955;295.703;156;156
+94;Tierra del Fuego;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.944;0.944;305.183;156;156
+94;Tierra del Fuego;H__09_01_PORC;H__12_01_PORC;Red pública PORC;A red publica (cloaca) PORC;0.955;0.955;1046.930;156;156
+94;Tierra del Fuego;H__09_01_PORC;V__INCALSERV_01_PORC;Red pública PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.928;0.928;943.110;156;156
+94;Tierra del Fuego;H__19C_02_PORC;H__14_06_PORC;Sin teléfono celular PORC;Leña o carbón PORC;0.915;0.915;146.313;156;156
+94;Tierra del Fuego;H__19C_01_PORC;H__19A_01_PORC;Con teléfono celular PORC;Con Heladera PORC;0.902;0.902;299.092;156;156
+94;Tierra del Fuego;P__01_03_PORC;P__08_01_PORC;Hijo(a) / Hijastro(a) PORC;Asiste PORC;0.949;0.949;87.805;156;156
+94;Tierra del Fuego;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.958;0.958;265.419;156;156
+94;Tierra del Fuego;P__02_02_PORC;P__12_01_PORC;Mujer PORC;Si tiliza computadora PORC;0.901;0.901;157.393;156;156
+94;Tierra del Fuego;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.992;0.992;204.494;156;156
+94;Tierra del Fuego;P__08_01_PORC;P__01_03_PORC;Asiste PORC;Hijo(a) / Hijastro(a) PORC;0.949;0.949;87.805;156;156
+94;Tierra del Fuego;V__01_02_PORC;H__09_03_PORC;Rancho PORC;Perforación con bomba manual PORC;0.909;0.909;1.731;156;156
+94;Tierra del Fuego;P__12_01_PORC;P__02_02_PORC;Si tiliza computadora PORC;Mujer PORC;0.901;0.901;157.393;156;156
+94;Tierra del Fuego;H__09_03_PORC;V__01_02_PORC;Perforación con bomba manual PORC;Rancho PORC;0.909;0.909;1.731;156;156
+94;Tierra del Fuego;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.956;0.956;966.914;156;156
+94;Tierra del Fuego;V__INCALSERV_01_PORC;H__09_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;Red pública PORC;0.928;0.928;943.110;156;156
+94;Tierra del Fuego;H__19A_01_PORC;H__19C_01_PORC;Con Heladera PORC;Con teléfono celular PORC;0.902;0.902;299.092;156;156
+94;Tierra del Fuego;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.927;0.927;313.334;156;156
+94;Tierra del Fuego;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.944;0.944;305.183;156;156
+94;Tierra del Fuego;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.992;0.992;204.494;156;156
+94;Tierra del Fuego;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.927;0.927;313.334;156;156
+78;Santa Cruz;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.977;0.977;299.749;302;302
+78;Santa Cruz;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.972;0.972;1257.406;302;302
+78;Santa Cruz;H__09_01_PORC;H__14_01_PORC;Red pública PORC;Gas de red PORC;0.936;0.936;1147.928;302;302
+78;Santa Cruz;H__09_01_PORC;V__URP_03_PORC;Red pública PORC;Area Rural disperso PORC;-0.921;0.921;-1150.787;302;302
+78;Santa Cruz;P__01_03_PORC;P__08_02_PORC;Hijo(a) / Hijastro(a) PORC;Asistió PORC;-0.937;0.937;-148.139;302;302
+78;Santa Cruz;P__01_03_PORC;P__08_01_PORC;Hijo(a) / Hijastro(a) PORC;Asiste PORC;0.927;0.927;137.434;302;302
+78;Santa Cruz;H__19A_02_PORC;H__PROP_05_PORC;Sin Heladera PORC;Ocupante por trabajo PORC;0.904;0.904;531.035;302;302
+78;Santa Cruz;H__19A_02_PORC;V__URP_03_PORC;Sin Heladera PORC;Area Rural disperso PORC;0.927;0.927;697.243;302;302
+78;Santa Cruz;P__08_02_PORC;P__01_03_PORC;Asistió PORC;Hijo(a) / Hijastro(a) PORC;-0.937;0.937;-148.139;302;302
+78;Santa Cruz;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.977;0.977;299.749;302;302
+78;Santa Cruz;V__02_01_PORC;V__INMAT_01_PORC;Con personas presentes PORC;Calidad 1 PORC;0.918;0.918;311.834;302;302
+78;Santa Cruz;H__13_01_PORC;H__10_02_PORC;De uso exclusivo del hogar PORC;HOGAR NO Tiene baño o letrina PORC;-0.914;0.914;-72.468;302;302
+78;Santa Cruz;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.914;0.914;72.468;302;302
+78;Santa Cruz;P__08_01_PORC;P__01_03_PORC;Asiste PORC;Hijo(a) / Hijastro(a) PORC;0.927;0.927;137.434;302;302
+78;Santa Cruz;H__10_02_PORC;H__13_01_PORC;HOGAR NO Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;-0.914;0.914;-72.468;302;302
+78;Santa Cruz;H__14_01_PORC;H__09_01_PORC;Gas de red PORC;Red pública PORC;0.936;0.936;1147.928;302;302
+78;Santa Cruz;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.972;0.972;1257.406;302;302
+78;Santa Cruz;H__19A_01_PORC;H__PROP_05_PORC;Con Heladera PORC;Ocupante por trabajo PORC;-0.904;0.904;-531.035;302;302
+78;Santa Cruz;H__19A_01_PORC;V__URP_03_PORC;Con Heladera PORC;Area Rural disperso PORC;-0.927;0.927;-697.243;302;302
+78;Santa Cruz;H__PROP_05_PORC;H__19A_02_PORC;Ocupante por trabajo PORC;Sin Heladera PORC;0.904;0.904;531.035;302;302
+78;Santa Cruz;H__PROP_05_PORC;H__19A_01_PORC;Ocupante por trabajo PORC;Con Heladera PORC;-0.904;0.904;-531.035;302;302
+78;Santa Cruz;H__PROP_05_PORC;V__URP_03_PORC;Ocupante por trabajo PORC;Area Rural disperso PORC;0.906;0.906;884.061;302;302
+78;Santa Cruz;V__URP_03_PORC;H__09_01_PORC;Area Rural disperso PORC;Red pública PORC;-0.921;0.921;-1150.787;302;302
+78;Santa Cruz;V__URP_03_PORC;H__19A_02_PORC;Area Rural disperso PORC;Sin Heladera PORC;0.927;0.927;697.243;302;302
+78;Santa Cruz;V__URP_03_PORC;H__19A_01_PORC;Area Rural disperso PORC;Con Heladera PORC;-0.927;0.927;-697.243;302;302
+78;Santa Cruz;V__URP_03_PORC;H__PROP_05_PORC;Area Rural disperso PORC;Ocupante por trabajo PORC;0.906;0.906;884.061;302;302
+78;Santa Cruz;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.987;0.987;399.595;302;302
+78;Santa Cruz;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.914;0.914;72.468;302;302
+78;Santa Cruz;V__INMAT_01_PORC;V__02_01_PORC;Calidad 1 PORC;Con personas presentes PORC;0.918;0.918;311.834;302;302
+78;Santa Cruz;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.987;0.987;399.595;302;302
+10;Catamarca;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.959;0.959;286.157;561;561
+10;Catamarca;H__14_06_PORC;H__05_03_PORC;Leña o carbón PORC;Tierra o ladrillo suelto PORC;0.907;0.907;577.610;561;561
+10;Catamarca;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.989;0.989;1309.801;561;561
+10;Catamarca;H__ALGUNBI_02_PORC;H__10_02_PORC;Al menos un indicador NBI PORC;HOGAR NO Tiene baño o letrina PORC;0.948;0.948;221.798;561;561
+10;Catamarca;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.940;0.940;720.682;561;561
+10;Catamarca;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.922;0.922;390.685;561;561
+10;Catamarca;H__05_03_PORC;H__14_06_PORC;Tierra o ladrillo suelto PORC;Leña o carbón PORC;0.907;0.907;577.610;561;561
+10;Catamarca;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.959;0.959;286.157;561;561
+10;Catamarca;H__05_01_PORC;H__19B_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con computadora PORC;0.919;0.919;602.590;561;561
+10;Catamarca;H__05_01_PORC;P__12_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Si tiliza computadora PORC;0.908;0.908;544.303;561;561
+10;Catamarca;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.948;0.948;698.456;561;561
+10;Catamarca;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.949;0.949;708.300;561;561
+10;Catamarca;H__13_01_PORC;H__ALGUNBI_01_PORC;De uso exclusivo del hogar PORC;Sin NBI PORC;0.938;0.938;284.381;561;561
+10;Catamarca;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.964;0.964;288.177;561;561
+10;Catamarca;H__10_02_PORC;H__ALGUNBI_02_PORC;HOGAR NO Tiene baño o letrina PORC;Al menos un indicador NBI PORC;0.948;0.948;221.798;561;561
+10;Catamarca;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.922;0.922;390.685;561;561
+10;Catamarca;H__19B_01_PORC;H__05_01_PORC;Con computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.919;0.919;602.590;561;561
+10;Catamarca;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.950;0.950;368.456;561;561
+10;Catamarca;H__19B_01_PORC;V__INCALCONS_01_PORC;Con computadora PORC;Calidad constructiva Satisfactoria PORC;0.908;0.908;432.771;561;561
+10;Catamarca;H__19B_01_PORC;V__INMAT_01_PORC;Con computadora PORC;Calidad 1 PORC;0.904;0.904;436.226;561;561
+10;Catamarca;P__12_01_PORC;H__05_01_PORC;Si tiliza computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.908;0.908;544.303;561;561
+10;Catamarca;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.950;0.950;368.456;561;561
+10;Catamarca;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.989;0.989;1309.801;561;561
+10;Catamarca;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.948;0.948;698.456;561;561
+10;Catamarca;V__INCALCONS_01_PORC;H__19B_01_PORC;Calidad constructiva Satisfactoria PORC;Con computadora PORC;0.908;0.908;432.771;561;561
+10;Catamarca;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.997;0.997;540.852;561;561
+10;Catamarca;H__ALGUNBI_01_PORC;H__13_01_PORC;Sin NBI PORC;De uso exclusivo del hogar PORC;0.938;0.938;284.381;561;561
+10;Catamarca;H__ALGUNBI_01_PORC;H__10_01_PORC;Sin NBI PORC;HOGAR SI Tiene baño o letrina PORC;0.958;0.958;287.353;561;561
+10;Catamarca;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.940;0.940;720.682;561;561
+10;Catamarca;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.964;0.964;288.177;561;561
+10;Catamarca;H__10_01_PORC;H__ALGUNBI_01_PORC;HOGAR SI Tiene baño o letrina PORC;Sin NBI PORC;0.958;0.958;287.353;561;561
+10;Catamarca;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.949;0.949;708.300;561;561
+10;Catamarca;V__INMAT_01_PORC;H__19B_01_PORC;Calidad 1 PORC;Con computadora PORC;0.904;0.904;436.226;561;561
+10;Catamarca;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.997;0.997;540.852;561;561
+38;Jujuy;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.938;0.938;350.953;822;822
+38;Jujuy;H__14_06_PORC;H__05_03_PORC;Leña o carbón PORC;Tierra o ladrillo suelto PORC;0.914;0.914;777.216;822;822
+38;Jujuy;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.973;0.973;1463.325;822;822
+38;Jujuy;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.941;0.941;1012.240;822;822
+38;Jujuy;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.918;0.918;349.345;822;822
+38;Jujuy;H__05_03_PORC;H__14_06_PORC;Tierra o ladrillo suelto PORC;Leña o carbón PORC;0.914;0.914;777.216;822;822
+38;Jujuy;H__05_03_PORC;H__19A_02_PORC;Tierra o ladrillo suelto PORC;Sin Heladera PORC;0.918;0.918;737.071;822;822
+38;Jujuy;V__INCALSERV_03_PORC;V__INCALCONS_03_PORC;Calidad de Servicios BasicosInsuficiente PORC;Calidad constructiva Insuficiente PORC;0.929;0.929;464.535;822;822
+38;Jujuy;V__INCALCONS_03_PORC;V__INCALSERV_03_PORC;Calidad constructiva Insuficiente PORC;Calidad de Servicios BasicosInsuficiente PORC;0.929;0.929;464.535;822;822
+38;Jujuy;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.901;0.901;523.784;822;822
+38;Jujuy;H__19A_02_PORC;H__05_03_PORC;Sin Heladera PORC;Tierra o ladrillo suelto PORC;0.918;0.918;737.071;822;822
+38;Jujuy;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.938;0.938;350.953;822;822
+38;Jujuy;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.918;0.918;349.345;822;822
+38;Jujuy;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.901;0.901;523.784;822;822
+38;Jujuy;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.940;0.940;349.033;822;822
+38;Jujuy;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.940;0.940;349.033;822;822
+38;Jujuy;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.973;0.973;1463.325;822;822
+38;Jujuy;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.994;0.994;368.366;822;822
+38;Jujuy;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.941;0.941;1012.240;822;822
+38;Jujuy;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.994;0.994;368.366;822;822
+14;Córdoba;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.974;0.974;227.830;4752;4752
+14;Córdoba;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.970;0.970;1255.271;4752;4752
+14;Córdoba;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.932;0.932;-177.530;4752;4752
+14;Córdoba;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.948;0.948;223.759;4752;4752
+14;Córdoba;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.933;0.933;313.909;4752;4752
+14;Córdoba;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.930;0.930;-312.992;4752;4752
+14;Córdoba;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.944;0.944;36.935;4752;4752
+14;Córdoba;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.932;0.932;-177.530;4752;4752
+14;Córdoba;V__INCALCONS_03_PORC;H__08_01_PORC;Calidad constructiva Insuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.926;0.926;-192.636;4752;4752
+14;Córdoba;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.974;0.974;227.830;4752;4752
+14;Córdoba;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.933;0.933;313.909;4752;4752
+14;Córdoba;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.939;0.939;-323.080;4752;4752
+14;Córdoba;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.930;0.930;-312.992;4752;4752
+14;Córdoba;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.942;0.942;324.136;4752;4752
+14;Córdoba;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.939;0.939;-323.080;4752;4752
+14;Córdoba;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.942;0.942;324.136;4752;4752
+14;Córdoba;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.970;0.970;1255.271;4752;4752
+14;Córdoba;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.993;0.993;271.180;4752;4752
+14;Córdoba;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.948;0.948;223.759;4752;4752
+14;Córdoba;H__08_01_PORC;V__INCALCONS_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Insuficiente PORC;-0.926;0.926;-192.636;4752;4752
+14;Córdoba;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.944;0.944;36.935;4752;4752
+14;Córdoba;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.993;0.993;271.180;4752;4752
+54;Misiones;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.930;0.930;131.770;1432;1432
+54;Misiones;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.980;0.980;620.075;1432;1432
+54;Misiones;H__11_01_PORC;V__INCALCONS_03_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;-0.933;0.933;-752.135;1432;1432
+54;Misiones;H__11_01_PORC;V__INCALCONS_01_PORC;Si tiene cadena y mochila en el baño PORC;Calidad constructiva Satisfactoria PORC;0.900;0.900;640.955;1432;1432
+54;Misiones;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.942;0.942;779.806;1432;1432
+54;Misiones;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.900;0.900;297.032;1432;1432
+54;Misiones;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.942;0.942;395.649;1432;1432
+54;Misiones;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.918;0.918;-378.609;1432;1432
+54;Misiones;P__08_03_PORC;P__07_02_PORC;Nunca asistio PORC;No sabe leer y escribir PORC;0.948;0.948;36.212;1432;1432
+54;Misiones;V__INCALSERV_03_PORC;V__INCALCONS_03_PORC;Calidad de Servicios BasicosInsuficiente PORC;Calidad constructiva Insuficiente PORC;0.931;0.931;769.172;1432;1432
+54;Misiones;V__INCALSERV_02_PORC;H__12_02_PORC;Calidad de Servicios Basicos Basico PORC;A cámara séptica y pozo ciego PORC;0.913;0.913;550.774;1432;1432
+54;Misiones;V__INCALCONS_03_PORC;H__11_01_PORC;Calidad constructiva Insuficiente PORC;Si tiene cadena y mochila en el baño PORC;-0.933;0.933;-752.135;1432;1432
+54;Misiones;V__INCALCONS_03_PORC;V__INCALSERV_03_PORC;Calidad constructiva Insuficiente PORC;Calidad de Servicios BasicosInsuficiente PORC;0.931;0.931;769.172;1432;1432
+54;Misiones;V__INCALCONS_03_PORC;H__11_02_PORC;Calidad constructiva Insuficiente PORC;No tiene cadena y mochila en el baño PORC;0.909;0.909;629.535;1432;1432
+54;Misiones;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.900;0.900;297.032;1432;1432
+54;Misiones;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.903;0.903;441.054;1432;1432
+54;Misiones;P__07_02_PORC;P__08_03_PORC;No sabe leer y escribir PORC;Nunca asistio PORC;0.948;0.948;36.212;1432;1432
+54;Misiones;H__12_04_PORC;H__11_02_PORC;A hoyo, excavación en la tierra, etc. PORC;No tiene cadena y mochila en el baño PORC;0.903;0.903;510.549;1432;1432
+54;Misiones;H__11_02_PORC;V__INCALCONS_03_PORC;No tiene cadena y mochila en el baño PORC;Calidad constructiva Insuficiente PORC;0.909;0.909;629.535;1432;1432
+54;Misiones;H__11_02_PORC;H__12_04_PORC;No tiene cadena y mochila en el baño PORC;A hoyo, excavación en la tierra, etc. PORC;0.903;0.903;510.549;1432;1432
+54;Misiones;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.930;0.930;131.770;1432;1432
+54;Misiones;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.953;0.953;141.660;1432;1432
+54;Misiones;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.942;0.942;395.649;1432;1432
+54;Misiones;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.903;0.903;441.054;1432;1432
+54;Misiones;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.904;0.904;-382.208;1432;1432
+54;Misiones;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.918;0.918;-378.609;1432;1432
+54;Misiones;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.941;0.941;391.090;1432;1432
+54;Misiones;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.904;0.904;-382.208;1432;1432
+54;Misiones;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.941;0.941;391.090;1432;1432
+54;Misiones;P__12_01_PORC;H__19D_01_PORC;Si tiliza computadora PORC;Con teléfono de línea PORC;0.900;0.900;430.181;1432;1432
+54;Misiones;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.980;0.980;620.075;1432;1432
+54;Misiones;H__12_02_PORC;V__INCALSERV_02_PORC;A cámara séptica y pozo ciego PORC;Calidad de Servicios Basicos Basico PORC;0.913;0.913;550.774;1432;1432
+54;Misiones;V__INCALCONS_01_PORC;H__11_01_PORC;Calidad constructiva Satisfactoria PORC;Si tiene cadena y mochila en el baño PORC;0.900;0.900;640.955;1432;1432
+54;Misiones;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.941;0.941;474.037;1432;1432
+54;Misiones;H__19D_01_PORC;P__12_01_PORC;Con teléfono de línea PORC;Si tiliza computadora PORC;0.900;0.900;430.181;1432;1432
+54;Misiones;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.942;0.942;779.806;1432;1432
+54;Misiones;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.953;0.953;141.660;1432;1432
+54;Misiones;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.941;0.941;474.037;1432;1432
+30;Entre Ríos;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.957;0.957;226.845;2673;2673
+30;Entre Ríos;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.989;0.989;1596.403;2673;2673
+30;Entre Ríos;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.910;0.910;330.333;2673;2673
+30;Entre Ríos;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.914;0.914;373.084;2673;2673
+30;Entre Ríos;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.902;0.902;-366.833;2673;2673
+30;Entre Ríos;H__09_01_PORC;V__URP_03_PORC;Red pública PORC;Area Rural disperso PORC;-0.936;0.936;-2077.598;2673;2673
+30;Entre Ríos;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.957;0.957;226.845;2673;2673
+30;Entre Ríos;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.914;0.914;373.084;2673;2673
+30;Entre Ríos;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.908;0.908;-359.969;2673;2673
+30;Entre Ríos;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.902;0.902;-366.833;2673;2673
+30;Entre Ríos;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.923;0.923;364.304;2673;2673
+30;Entre Ríos;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.908;0.908;-359.969;2673;2673
+30;Entre Ríos;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.923;0.923;364.304;2673;2673
+30;Entre Ríos;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.989;0.989;1596.403;2673;2673
+30;Entre Ríos;V__URP_03_PORC;H__09_01_PORC;Area Rural disperso PORC;Red pública PORC;-0.936;0.936;-2077.598;2673;2673
+30;Entre Ríos;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.978;0.978;442.110;2673;2673
+30;Entre Ríos;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.910;0.910;330.333;2673;2673
+30;Entre Ríos;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.978;0.978;442.110;2673;2673
+50;Mendoza;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.928;0.928;157.608;1867;1867
+50;Mendoza;H__06_07_PORC;V__INMAT_04_PORC;Caña, palma, tabla o paja con o sin barro PORC;Calidad 4 PORC;0.960;0.960;107.087;1867;1867
+50;Mendoza;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.954;0.954;1478.594;1867;1867
+50;Mendoza;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.955;0.955;240.241;1867;1867
+50;Mendoza;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.902;0.902;178.521;1867;1867
+50;Mendoza;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.945;0.945;266.549;1867;1867
+50;Mendoza;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.916;0.916;-257.192;1867;1867
+50;Mendoza;V__INCALSERV_02_PORC;H__12_02_PORC;Calidad de Servicios Basicos Basico PORC;A cámara séptica y pozo ciego PORC;0.904;0.904;375.912;1867;1867
+50;Mendoza;V__INCALCONS_03_PORC;V__INMAT_04_PORC;Calidad constructiva Insuficiente PORC;Calidad 4 PORC;0.926;0.926;152.881;1867;1867
+50;Mendoza;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.902;0.902;178.521;1867;1867
+50;Mendoza;P__09_02_PORC;H__19B_01_PORC;Primario PORC;Con computadora PORC;-0.906;0.906;-233.066;1867;1867
+50;Mendoza;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.928;0.928;157.608;1867;1867
+50;Mendoza;H__05_01_PORC;H__14_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Gas de red PORC;0.900;0.900;802.036;1867;1867
+50;Mendoza;V__INCALCONS_02_PORC;V__INMAT_02_PORC;Calidad constructiva Basico PORC;Calidad 2 PORC;0.923;0.923;183.373;1867;1867
+50;Mendoza;V__INMAT_02_PORC;V__INCALCONS_02_PORC;Calidad 2 PORC;Calidad constructiva Basico PORC;0.923;0.923;183.373;1867;1867
+50;Mendoza;H__13_01_PORC;H__ALGUNBI_01_PORC;De uso exclusivo del hogar PORC;Sin NBI PORC;0.921;0.921;86.042;1867;1867
+50;Mendoza;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.945;0.945;266.549;1867;1867
+50;Mendoza;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.906;0.906;-265.028;1867;1867
+50;Mendoza;H__14_01_PORC;H__05_01_PORC;Gas de red PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.900;0.900;802.036;1867;1867
+50;Mendoza;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.916;0.916;-257.192;1867;1867
+50;Mendoza;H__19B_01_PORC;P__09_02_PORC;Con computadora PORC;Primario PORC;-0.906;0.906;-233.066;1867;1867
+50;Mendoza;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.946;0.946;275.686;1867;1867
+50;Mendoza;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.906;0.906;-265.028;1867;1867
+50;Mendoza;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.946;0.946;275.686;1867;1867
+50;Mendoza;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.954;0.954;1478.594;1867;1867
+50;Mendoza;H__12_02_PORC;V__INCALSERV_02_PORC;A cámara séptica y pozo ciego PORC;Calidad de Servicios Basicos Basico PORC;0.904;0.904;375.912;1867;1867
+50;Mendoza;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.999;0.999;496.647;1867;1867
+50;Mendoza;H__ALGUNBI_01_PORC;H__13_01_PORC;Sin NBI PORC;De uso exclusivo del hogar PORC;0.921;0.921;86.042;1867;1867
+50;Mendoza;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.955;0.955;240.241;1867;1867
+50;Mendoza;V__INMAT_04_PORC;H__06_07_PORC;Calidad 4 PORC;Caña, palma, tabla o paja con o sin barro PORC;0.960;0.960;107.087;1867;1867
+50;Mendoza;V__INMAT_04_PORC;V__INCALCONS_03_PORC;Calidad 4 PORC;Calidad constructiva Insuficiente PORC;0.926;0.926;152.881;1867;1867
+50;Mendoza;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.999;0.999;496.647;1867;1867
+34;Formosa;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.990;0.990;1024.292;773;773
+34;Formosa;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.948;0.948;1064.742;773;773
+34;Formosa;P__12_02_PORC;P__09_02_PORC;No utiliza computadora PORC;Primario PORC;0.922;0.922;262.934;773;773
+34;Formosa;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.939;0.939;360.213;773;773
+34;Formosa;P__12_02_PORC;H__19B_01_PORC;No utiliza computadora PORC;Con computadora PORC;-0.912;0.912;-342.805;773;773
+34;Formosa;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.970;0.970;508.593;773;773
+34;Formosa;V__INCALSERV_03_PORC;V__INCALCONS_03_PORC;Calidad de Servicios BasicosInsuficiente PORC;Calidad constructiva Insuficiente PORC;0.917;0.917;837.813;773;773
+34;Formosa;V__INCALCONS_03_PORC;V__INCALSERV_03_PORC;Calidad constructiva Insuficiente PORC;Calidad de Servicios BasicosInsuficiente PORC;0.917;0.917;837.813;773;773
+34;Formosa;V__INCALCONS_03_PORC;H__08_01_PORC;Calidad constructiva Insuficiente PORC;Por cañeria dentro de la vivienda PORC;-0.921;0.921;-923.120;773;773
+34;Formosa;P__09_02_PORC;P__12_02_PORC;Primario PORC;No utiliza computadora PORC;0.922;0.922;262.934;773;773
+34;Formosa;H__05_01_PORC;H__19B_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Con computadora PORC;0.902;0.902;536.001;773;773
+34;Formosa;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.941;0.941;712.252;773;773
+34;Formosa;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.949;0.949;712.018;773;773
+34;Formosa;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.939;0.939;209.320;773;773
+34;Formosa;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.939;0.939;360.213;773;773
+34;Formosa;H__19B_02_PORC;P__12_01_PORC;Sin computadora PORC;Si tiliza computadora PORC;-0.905;0.905;-349.711;773;773
+34;Formosa;H__19B_01_PORC;P__12_02_PORC;Con computadora PORC;No utiliza computadora PORC;-0.912;0.912;-342.805;773;773
+34;Formosa;H__19B_01_PORC;H__05_01_PORC;Con computadora PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.902;0.902;536.001;773;773
+34;Formosa;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.941;0.941;356.562;773;773
+34;Formosa;P__12_01_PORC;H__19B_02_PORC;Si tiliza computadora PORC;Sin computadora PORC;-0.905;0.905;-349.711;773;773
+34;Formosa;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.941;0.941;356.562;773;773
+34;Formosa;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.990;0.990;1024.292;773;773
+34;Formosa;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.941;0.941;712.252;773;773
+34;Formosa;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.989;0.989;602.922;773;773
+34;Formosa;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.948;0.948;1064.742;773;773
+34;Formosa;H__08_01_PORC;V__INCALCONS_03_PORC;Por cañeria dentro de la vivienda PORC;Calidad constructiva Insuficiente PORC;-0.921;0.921;-923.120;773;773
+34;Formosa;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.970;0.970;508.593;773;773
+34;Formosa;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.939;0.939;209.320;773;773
+34;Formosa;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.949;0.949;712.018;773;773
+34;Formosa;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.989;0.989;602.922;773;773
+18;Corrientes;V__TOTHOG_01_PORC;V__02_01_PORC;Con un hogar PORC;Con personas presentes PORC;0.918;0.918;231.937;1632;1632
+18;Corrientes;H__12_01_PORC;V__INCALSERV_01_PORC;A red publica (cloaca) PORC;Calidad de Servicios Basicos Satisfactorio PORC;0.990;0.990;1338.671;1632;1632
+18;Corrientes;H__11_01_PORC;H__08_01_PORC;Si tiene cadena y mochila en el baño PORC;Por cañeria dentro de la vivienda PORC;0.943;0.943;922.591;1632;1632
+18;Corrientes;P__12_02_PORC;H__19B_02_PORC;No utiliza computadora PORC;Sin computadora PORC;0.903;0.903;441.661;1632;1632
+18;Corrientes;H__09_01_PORC;V__URP_03_PORC;Red pública PORC;Area Rural disperso PORC;-0.939;0.939;-2103.625;1632;1632
+18;Corrientes;H__05_03_PORC;V__INMAT_04_PORC;Tierra o ladrillo suelto PORC;Calidad 4 PORC;0.951;0.951;404.225;1632;1632
+18;Corrientes;H__19D_02_PORC;H__19B_02_PORC;Sin teléfono de línea PORC;Sin computadora PORC;0.907;0.907;466.202;1632;1632
+18;Corrientes;V__02_01_PORC;V__TOTHOG_01_PORC;Con personas presentes PORC;Con un hogar PORC;0.918;0.918;231.937;1632;1632
+18;Corrientes;H__05_01_PORC;V__INCALCONS_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad constructiva Satisfactoria PORC;0.932;0.932;768.622;1632;1632
+18;Corrientes;H__05_01_PORC;V__INMAT_01_PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;Calidad 1 PORC;0.941;0.941;765.468;1632;1632
+18;Corrientes;H__13_01_PORC;H__10_01_PORC;De uso exclusivo del hogar PORC;HOGAR SI Tiene baño o letrina PORC;0.927;0.927;203.885;1632;1632
+18;Corrientes;H__19B_02_PORC;P__12_02_PORC;Sin computadora PORC;No utiliza computadora PORC;0.903;0.903;441.661;1632;1632
+18;Corrientes;H__19B_02_PORC;H__19D_02_PORC;Sin computadora PORC;Sin teléfono de línea PORC;0.907;0.907;466.202;1632;1632
+18;Corrientes;H__19B_01_PORC;P__12_01_PORC;Con computadora PORC;Si tiliza computadora PORC;0.906;0.906;407.886;1632;1632
+18;Corrientes;P__12_01_PORC;H__19B_01_PORC;Si tiliza computadora PORC;Con computadora PORC;0.906;0.906;407.886;1632;1632
+18;Corrientes;V__INCALSERV_01_PORC;H__12_01_PORC;Calidad de Servicios Basicos Satisfactorio PORC;A red publica (cloaca) PORC;0.990;0.990;1338.671;1632;1632
+18;Corrientes;V__URP_03_PORC;H__09_01_PORC;Area Rural disperso PORC;Red pública PORC;-0.939;0.939;-2103.625;1632;1632
+18;Corrientes;V__INCALCONS_01_PORC;H__05_01_PORC;Calidad constructiva Satisfactoria PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.932;0.932;768.622;1632;1632
+18;Corrientes;V__INCALCONS_01_PORC;V__INMAT_01_PORC;Calidad constructiva Satisfactoria PORC;Calidad 1 PORC;0.991;0.991;668.431;1632;1632
+18;Corrientes;H__08_01_PORC;H__11_01_PORC;Por cañeria dentro de la vivienda PORC;Si tiene cadena y mochila en el baño PORC;0.943;0.943;922.591;1632;1632
+18;Corrientes;V__INMAT_04_PORC;H__05_03_PORC;Calidad 4 PORC;Tierra o ladrillo suelto PORC;0.951;0.951;404.225;1632;1632
+18;Corrientes;H__10_01_PORC;H__13_01_PORC;HOGAR SI Tiene baño o letrina PORC;De uso exclusivo del hogar PORC;0.927;0.927;203.885;1632;1632
+18;Corrientes;V__INMAT_01_PORC;H__05_01_PORC;Calidad 1 PORC;Cerámica, baldosa, mosaico, mármol, madera o alfombrado PORC;0.941;0.941;765.468;1632;1632
+18;Corrientes;V__INMAT_01_PORC;V__INCALCONS_01_PORC;Calidad 1 PORC;Calidad constructiva Satisfactoria PORC;0.991;0.991;668.431;1632;1632

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+
+	<title>NICathon: Masiva renovación de dominios antes de la fecha de pago por primera vez de NIC Argentina.</title>
+	<link rel="stylesheet" type="text/css" href="media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="resources/syntax/shCore.css">
+	<link rel="stylesheet" type="text/css" href="resources/demo.css">
+	<style type="text/css" class="init">
+
+	</style>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/syntax/shCore.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/demo.js"></script>
+        <script type="text/javascript" language="javascript" src="table.js"></script>
+        <script type="text/javascript" language="javascript" src="chart.js"></script>
+        
+        
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+
+<body class="dt-example">
+	<div class="container">
+		<section>
+			<h1>Pago por primera vez de dominios <span>en NIC.ar</span></h1>
+
+			<div class="info">
+<p>El pasado 5 de marzo de 2014 <a href='https://nic.ar' target='_blank'>NIC Argentina</a> comenzo a cobrar
+por el uso de los dominios en la zona <i>.AR</i>. Esto fue avisado con tiempo y muchos registrantes tomaron 
+posturas diferentes frente al cobro.</p>
+<p> Algunas personas decidieron dejar de usar estos dominios y pasarse 
+-por ejemplo- a dominios <i>.com</i>, otros continuaron con sus dominios argentinos pero hubo un tercer 
+grupo que decidió prorogar lo más posible la posesión de sus dominios <i>AR</i> en modo gratuito.</p>
+<p>Pongamos el siguiente ejemplo, usted usa 10 dominios en la zona <i>.com.ar</i> y vencen el 
+5 de abril de 2014. ¿No estaría tentado de dar de baja cada dominio (antes del 5 de marzo) y volver 
+registrarlo para ahorrarse 11 meses de pago? ¿Y si usted fuera titular de 100 dominios? ¿Y de 1000?</p>
+<p>Hasta aquí son especulaciones, veamos el gráfico <i>Dominios registrados por día en 2014</i> 
+    (<a href='dominios-segun-dia-y-mes-de-registro-solo-2014'>datos</a>) </p>
+
+</div>
+
+<div id="reg_chart" style="width: 900px; height: 500px"></div>
+
+<div class="info">
+<p>Está claro, algo paso en esos días previos a la fecha de pago. Pensemos ahora nuevamente
+en los administradores masivos de dominios, aquellos que deseaban extender un poco más
+sus dominios en versión gratuita. Con los datos liberados desde en el 
+<a href='http://opendatacordoba.org/NICathon/' target='_blank'>#NICathon</a> se puede saber
+si los dominios registrados en esta fecha estaban registrados previo a ese registro, o sea, 
+se re-registraron.
+</p>
+<p>Los <a href='dominios-actualizados.csv'>datos filtrados</a> incluyen todos los dominios 
+registrados entre el 24 de febrero y 
+el 4 de marzo de 2014. Son mas de 11.000 dominios. El total de dominios en la base registrados
+en esa fecha es de 20.000. Se puede decir que la mitad de los dominios registrados en ese
+período no fueron nuevos registros sino cambios de fecha.
+</p>
+<p>Vale la pena aclarar que la base de datos no es la totalidad de dominios en NIC, es solo
+    una parte relevada por <a href='http://OpenDataCordoba.org' target='_blank'>OpenDataCordoba</a></p>
+<p>Ahora, estos 11.000 dominios que se <i>actualizaron</i> tienen registrantes. ¿Quienes fueron?</p>
+<p>La siguiente tabla muestra aquellos registrantes que <i>actualizaron</i> mas de 50 dominios. 
+No son pocos, al parecer fue una práctica comun en esa fecha.</p>
+<p>Todo esto es notorio ya que NIC no provee herramientas automatizadas para realizar acciones
+masivas sobre los dominios. Todos estos dominios fueron dados de baja y vueltos a renovar a mano.
+</p>
+
+    <p>Los datos de este estudio pueden descargarse en 
+        <a href='Registrantes-que-renovaron-dominios.csv'>CSV</a> o 
+        <a href='Registrantes-que-renovaron-dominios.json'>JSON</a>. 
+    </p>
+</div>
+
+			<table id="reservas" class="display" cellspacing="0" width="100%"></table>
+			
+		</section>
+	</div>
+
+<div class="epilogue">
+	<p>Análisis desarrollado por <a href="https://andresvazquez.com.ar">Andrés Vázquez</a>. Marzo de 2015</p>
+	<p class="copyright">DataTables designed and created by <a href="http://www.sprymedia.co.uk">SpryMedia Ltd</a> © 2007-2015<br>
+	DataTables is licensed under the <a href="http://www.datatables.net/mit">MIT license</a>.</p>
+</div>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24864140-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</body>
+</html>

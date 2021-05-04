@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+
+	<title>NICathon: Dominios hacia atras</title>
+	<link rel="stylesheet" type="text/css" href="media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="resources/syntax/shCore.css">
+	<link rel="stylesheet" type="text/css" href="resources/demo.css">
+	<style type="text/css" class="init">
+
+	</style>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/syntax/shCore.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/demo.js"></script>
+	<script type="text/javascript" language="javascript" class="init"></script>
+        <script type="text/javascript" language="javascript" src="table.js"></script>
+</head>
+
+<body class="dt-example">
+	<div class="container">
+		<section>
+			<h1>Dominios hacia atras en <span>en NIC.ar</span></h1>
+
+			<div class="info">
+<p>Algo que definitivamente no debería suceder en la administración de dominios son
+los cambios de fecha de vencimiento de un dominio. Una vez registrado o renovado
+las fechas de vencimiento de los dominios solo pueden moverse hacia el futuro</p>
+<p>Durante el monitoreo de dominios (de
+    <a href='http://opendatacordoba.org' target='_blank'>OpenDataCordoba</a>
+liberado en el 
+<a href='http://opendatacordoba.org/NICathon/' target='_blank'>#NICathon</a>)
+se han detectado 246 casos en las que las fechas de vencimiento han retrocedido</p>
+<p>Algunos casos son muy pocos días y en algunos estan vinculados a dominios 
+que cambiaron tambien su fecha de registro (posiblemente por transferencia de titulares).</p>
+<p>Cada dominio además incluye el link a conocer la historia de cambios detectados
+para mayor información</p>
+<p>Hay una buena cantidad de casos a donde la fecha se retrotrae al 01/01/2010. 
+Hay centenares de dominio que tiene como fecha de registro el 01/01/2009 y el 
+vencimiento el 01/01/2010. No hemos podido entender el motivo</p>
+<p>Todo esto sucede en el marco de -al parecer- la posibilidad de los administradores
+de hacer <a target='_blank' href='https://andresvazquez.com.ar/blog/dominios-artesanales/'>modificaciones manuales</a> 
+y directas sobre las fechas de los dominios</p>                            
+<p>Los datos de este estudio pueden descargarse 
+en <a href='data/Dominios-para-atras-en-el-vencimiento.csv'>CSV</a>.</p>
+
+</div>
+
+<div>Mostrar/Ocultar campos: <a class="toggle-vis" data-column="4">Registrante</a>
+				</div>
+
+			<table id="reservas" class="display" cellspacing="0" width="100%"></table>
+			
+		</section>
+	</div>
+
+<div class="epilogue">
+	<p>Análisis desarrollado por <a href="https://andresvazquez.com.ar">Andrés Vázquez</a>. Marzo de 2015</p>
+	<p class="copyright">DataTables designed and created by <a href="http://www.sprymedia.co.uk">SpryMedia Ltd</a> © 2007-2015<br>
+	DataTables is licensed under the <a href="http://www.datatables.net/mit">MIT license</a>.</p>
+</div>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24864140-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+</body>
+</html>

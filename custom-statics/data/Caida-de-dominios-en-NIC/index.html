@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+
+	<title>NICathon: Caida de dominios en NIC Argentina.</title>
+	<link rel="stylesheet" type="text/css" href="media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="resources/syntax/shCore.css">
+	<link rel="stylesheet" type="text/css" href="resources/demo.css">
+	<style type="text/css" class="init">
+
+	</style>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/syntax/shCore.js"></script>
+	<script type="text/javascript" language="javascript" src="resources/demo.js"></script>
+        <script type="text/javascript" language="javascript" src="chart.js"></script>
+        
+        
+<script type="text/javascript"
+    src="https://www.google.com/jsapi?autoload=
+    {'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}">
+</script>
+
+</head>
+
+<body class="dt-example">
+	<div class="container">
+		<section>
+			<h1>Caída de dominios en NIC.ar <span> al comenzar el cobro</span></h1>
+
+			<div class="info">
+<p>El pasado 5 de marzo de 2014 <a href='https://nic.ar' target='_blank'>NIC Argentina</a> comenzo a cobrar
+por el uso de los dominios en la zona <i>.AR</i>.</p>
+<p>
+    Descargando los datos del <a href='http://opendatacordoba.org/NICathon/' target='_blank'>#NICathon</a> de 
+<a href='http://opendatacordoba.org' target='_blank'>OpenDataCordoba</a> podemos ver
+que entre el 5 de marzo de 2014 y el 5 de marzo de 2015 hay listados 188.222 dominios que 
+cambiaron su fecha de vencimiento. Esto se puede deber a
+<br/>.- Llegada a la fecha de vencimiento del dominio (con caida, renovación o solicitud de prorroga)
+<br/>.- Cambio de titular o nuevo registro
+(<a target='_blank' href='https://andresvazquez.com.ar/data/Masiva-renovacion-de-dominios-en-NIC/'>ver detalles</a>)
+</p>
+<p>
+    La base de datos muestra los cambios percibidos en cada dominio monitoreado. Si bien esto no es exacto ni
+    sobre la totalidad de los dominios en NIC se puede ver una tendencia en los movimientos de los dominios
+    de la zona <i>AR</i>
+</p>
+<p>
+    Analizando la nueva fecha de vencimiento por la que cambio podemos decir:
+    <br/>.- Si la nueva fecha es 365 días superior a la fecha previa de vencimiento entonces decimos que hubo una renovación <i>limpia</i>
+    <br/>.- Si la nueva fecha de vencimiento es vacia, entonces sabemos que el dominio se venció y no se renovó
+    <br/>.- Si la cantidad de dias es menor a 365 o superior suponemos que se pidio una prorroga, se cambio de 
+    titular y por lo tanto de fecha o el dominio cambio de fecha de vencimiento mediante una 
+    <a target='_blank' href='https://andresvazquez.com.ar/data/Masiva-renovacion-de-dominios-en-NIC/'>baja y re-registracion para evitar el pago</a>
+</p>
+<p>
+    De los más de 188.000 dominio, casi el 67% fue dado de baja. Los datos en el gráfico a continuación muestran
+    la estimación del tamaño de la caida de dominio una vez que comenzo a ser pago.
+</p>
+<p>
+    Aunque no pudimos conocer la cantidad de dominios registrados en la actualidad 
+    (no recibimos respuesta) recordamos que NIC informó en algún momento que teníamos 
+    registrados alrededor de 2.5 millones de dominios.
+</p>
+<p>
+    Si la estimación no es mala (lo entendemos asi por el tamaño de la muestra, 650.000 dominios)
+    entonces en la actualidad podemos tener un poco más de 800.000 dominios para toda la zona <i>AR</i>
+</p>
+</div>
+
+<div id="reg_chart" style="width: 900px; height: 500px"></div>
+
+</section>
+</div>
+
+<div class="epilogue">
+	<p>Análisis desarrollado por <a href="https://andresvazquez.com.ar">Andrés Vázquez</a>. Marzo de 2015</p>
+	<p class="copyright">DataTables designed and created by <a href="http://www.sprymedia.co.uk">SpryMedia Ltd</a> © 2007-2015<br>
+	DataTables is licensed under the <a href="http://www.datatables.net/mit">MIT license</a>.</p>
+</div>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24864140-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</body>
+</html>
