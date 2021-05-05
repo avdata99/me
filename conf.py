@@ -141,6 +141,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     'es': (
         ("https://cadenadedatos.org/", "Podcast"),
+        ("https://github.com/avdata99/", "GitHub"),
+        ("https://twitter.com/avdata99/", "Twitter"),
         ("/pages/proyectos-personales", "Proyectos"),
         ("/pages/sobre-mi", "Sobre mí"),
         # ("/categories/index.html", "Tags"),
