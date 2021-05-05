@@ -300,7 +300,10 @@ TIMEZONE = "UTC"
 # FILES_FOLDERS = {'files': ''}
 # Which means copy 'files' into 'output'
 
-FILES_FOLDERS = {'custom-statics': '' }
+FILES_FOLDERS = {
+    'custom-statics': '',
+    'files/blog/wp-content/uploads': 'blog/wp-content/uploads'
+    }
 
 # One or more folders containing code listings to be processed and published on
 # the site. The format is a dictionary of {source: relative destination}.
