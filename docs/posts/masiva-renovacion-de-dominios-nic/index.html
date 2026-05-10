@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Análisis de la renovación masiva de dominios .com.ar previa al inicio del cobro en marzo 2014, detectada durante el NICathon 2015.">
+<meta name="viewport" content="width=device-width">
+<title>Masiva renovación de dominios en NIC | Temimbo'e</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/posts/masiva-renovacion-de-dominios-nic/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andres Vazquez">
+<link rel="prev" href="../i-encuentro-data-science-cordoba/" title="I Encuentro de Data Science Córdoba" type="text/html">
+<link rel="next" href="../dominios-para-atras/" title="Dominios hacia atrás en NIC.ar" type="text/html">
+<meta property="og:site_name" content="Temimbo'e">
+<meta property="og:title" content="Masiva renovación de dominios en NIC">
+<meta property="og:url" content="https://andresvazquez.com.ar/blog/posts/masiva-renovacion-de-dominios-nic/">
+<meta property="og:description" content="Análisis de la renovación masiva de dominios .com.ar previa al inicio del cobro en marzo 2014, detectada durante el NICathon 2015.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-03-10T12:01:00Z">
+<meta property="article:tag" content="datos">
+<meta property="article:tag" content="dominios-ar">
+<meta property="article:tag" content="NICathon">
+<meta property="article:tag" content="OpenData">
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="../../pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="../../pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="../../archive.html">Archivos</a></li>
+                <li><a href="../../rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Masiva renovación de dominios en NIC</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2015-03-10T12:01:00Z" itemprop="datePublished" title="2015-03-10 12:01">2015-03-10 12:01</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/masiva-renovacion-de-dominios-nic.html">Comentarios</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>Análisis presentado durante el <a href="../../blog/posts/nicathon-2015/">NICathon</a> (marzo 2015).</p>
+<h2>Pago por primera vez de dominios en NIC.ar</h2>
+<p>El pasado 5 de marzo de 2014 <a href="https://nic.ar">NIC Argentina</a> comenzo a cobrar por el uso de los dominios en la zona <em>.AR</em>. Esto fue avisado con tiempo y muchos registrantes tomaron posturas diferentes frente al cobro.</p>
+<p>Algunas personas decidieron dejar de usar estos dominios y pasarse -por ejemplo- a dominios <em>.com</em>, otros continuaron con sus dominios argentinos pero hubo un tercer grupo que decidió prorogar lo más posible la posesión de sus dominios <em>AR</em> en modo gratuito.</p>
+<p>Pongamos el siguiente ejemplo, usted usa 10 dominios en la zona <em>.com.ar</em> y vencen el 5 de abril de 2014. ¿No estaría tentado de dar de baja cada dominio (antes del 5 de marzo) y volver registrarlo para ahorrarse 11 meses de pago? ¿Y si usted fuera titular de 100 dominios? ¿Y de 1000?</p>
+<p>Hasta aquí son especulaciones, veamos el gráfico <em>Dominios registrados por día en 2014</em> (<a href="../../data/Masiva-renovacion-de-dominios-en-NIC/dominios-segun-dia-y-mes-de-registro-solo-2014.csv">datos</a>).</p>
+<p><a href="../../data/Masiva-renovacion-de-dominios-en-NIC/"><img alt="Gráfico Dominios registrados por día en 2014" src="../../img/data/masiva-renovacion-de-dominios-nic/chart.png"></a></p>
+<p>Está claro, algo paso en esos días previos a la fecha de pago. Pensemos ahora nuevamente en los administradores masivos de dominios, aquellos que deseaban extender un poco más sus dominios en versión gratuita. Con los datos liberados desde en el <a href="https://opendatacordoba.org/NICathon/">#NICathon</a> se puede saber si los dominios registrados en esta fecha estaban registrados previo a ese registro, o sea, se re-registraron.</p>
+<p>Los <a href="../../data/Masiva-renovacion-de-dominios-en-NIC/dominios-actualizados.csv">datos filtrados</a> incluyen todos los dominios registrados entre el 24 de febrero y el 4 de marzo de 2014. Son mas de 11.000 dominios. El total de dominios en la base registrados en esa fecha es de 20.000. Se puede decir que la mitad de los dominios registrados en ese período no fueron nuevos registros sino cambios de fecha.</p>
+<p>Vale la pena aclarar que la base de datos no es la totalidad de dominios en NIC, es solo una parte relevada por <a href="https://opendatacordoba.org/">OpenDataCordoba</a>.</p>
+<p>Ahora, estos 11.000 dominios que se <em>actualizaron</em> tienen registrantes. ¿Quienes fueron?</p>
+<p>La siguiente tabla muestra aquellos registrantes que <em>actualizaron</em> mas de 50 dominios. No son pocos, al parecer fue una práctica comun en esa fecha.</p>
+<p><a href="../../data/Masiva-renovacion-de-dominios-en-NIC/"><img alt="Tabla de registrantes con renovaciones masivas" src="../../img/data/masiva-renovacion-de-dominios-nic/table.png"></a></p>
+<p>Todo esto es notorio ya que NIC no provee herramientas automatizadas para realizar acciones masivas sobre los dominios. Todos estos dominios fueron dados de baja y vueltos a renovar a mano.</p>
+<p><strong>Visualización interactiva:</strong> <a href="../../data/Masiva-renovacion-de-dominios-en-NIC/">/data/Masiva-renovacion-de-dominios-en-NIC/</a></p>
+<p>Los datos de este estudio pueden descargarse en <a href="../../data/Masiva-renovacion-de-dominios-en-NIC/Registrantes-que-renovaron-dominios.csv">CSV</a> o <a href="../../data/Masiva-renovacion-de-dominios-en-NIC/Registrantes-que-renovaron-dominios.json">JSON</a>.</p>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/datos/" rel="tag">datos</a></li>
+            <li><a class="tag p-category" href="../../categories/dominios-ar/" rel="tag">dominios-ar</a></li>
+            <li><a class="tag p-category" href="../../categories/nicathon/" rel="tag">NICathon</a></li>
+            <li><a class="tag p-category" href="../../categories/opendata/" rel="tag">OpenData</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../i-encuentro-data-science-cordoba/" rel="prev" title="I Encuentro de Data Science Córdoba">Publicación anterior</a>
+            </li>
+            <li class="next">
+                <a href="../dominios-para-atras/" rel="next" title="Dominios hacia atrás en NIC.ar">Siguiente publicación</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+    
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://andresvazquez.com.ar/blog/posts/masiva-renovacion-de-dominios-nic/",
+        disqus_title="Masiva renovaci\u00f3n de dominios en NIC",
+        disqus_identifier="cache/posts/masiva-renovacion-de-dominios-nic.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>
