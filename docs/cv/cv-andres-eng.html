@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cv-andres-eng</title>
+<style>
+/* ===========================================================
+   Print / PDF - clean professional layout (used by WeasyPrint)
+   =========================================================== */
+@page {
+  size: A4;
+  margin: 1.4cm 1.7cm;
+}
+
+@media print {
+  .toolbar { display: none !important; }
+
+  html, body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+    line-height: 1.4;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 22pt;
+    margin: 0 0 0.1em 0;
+    color: #1a4480;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-size: 11pt;
+    margin: 1.0em 0 0.35em 0;
+    color: #1a4480;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1px solid #1a4480;
+    padding-bottom: 2px;
+  }
+  h3 { font-size: 10pt; margin: 0.5em 0 0.1em 0; }
+  p  { margin: 0.25em 0; }
+  ul { margin: 0.25em 0; padding-left: 1.1em; }
+  li { margin: 0.1em 0; }
+  a  { color: #1a4480; text-decoration: none; }
+  hr { border: none; border-top: 1px solid #d0d0d0; margin: 0.4em 0; }
+  strong { color: #000; }
+  em { color: #555; }
+  h1 + p { color: #555; font-size: 10.5pt; }
+}
+
+/* ===========================================================
+   Screen / browser - hackish dark terminal vibe
+   =========================================================== */
+@media screen {
+  html { background: #0d1117; }
+
+  body {
+    font-family: ui-monospace, "JetBrains Mono", "Fira Code", "SF Mono",
+                 Menlo, Consolas, "DejaVu Sans Mono", monospace;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #c9d1d9;
+    background: #0d1117;
+    max-width: 780px;
+    width: min(60vw, 780px);
+    margin: 2.5rem auto;
+    padding: 2.5rem 2.8rem;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    color: #ffa657;
+    font-size: 1.9em;
+    margin: 0 0 0.15em 0;
+    letter-spacing: -0.01em;
+  }
+  h1::before {
+    content: "~$ ";
+    color: #7ee787;
+  }
+
+  h1 + p {
+    color: #8b949e;
+    margin: 0 0 0.6em 0;
+  }
+
+  h2 {
+    color: #79c0ff;
+    font-size: 1.05em;
+    margin: 1.7em 0 0.5em 0;
+    text-transform: lowercase;
+    letter-spacing: 0.04em;
+    border-bottom: 1px dashed #30363d;
+    padding-bottom: 4px;
+  }
+  h2::before {
+    content: "# ";
+    color: #7ee787;
+  }
+
+  h3 {
+    color: #d2a8ff;
+    font-size: 1em;
+    margin: 0.9em 0 0.2em 0;
+  }
+
+  p  { margin: 0.45em 0; }
+  ul { margin: 0.45em 0; padding-left: 1.4em; }
+  li { margin: 0.25em 0; }
+  ul li::marker { color: #7ee787; }
+
+  a {
+    color: #79c0ff;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+  }
+  a:hover { color: #a5d6ff; }
+
+  strong { color: #f0f6fc; }
+  em { color: #8b949e; font-style: normal; }
+
+  hr {
+    border: none;
+    border-top: 1px dashed #30363d;
+    margin: 0.9em 0;
+  }
+
+  ::selection { background: #264f78; color: #f0f6fc; }
+
+  /* --- Toolbar (lang switcher + PDF download) --- */
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 1.6rem 0;
+    padding: 0.5rem 0.8rem;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    font-size: 0.92em;
+  }
+
+  .toolbar .langs {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+  }
+
+  .toolbar .lang {
+    color: #8b949e;
+    text-decoration: none;
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+  }
+
+  .toolbar .lang:hover {
+    color: #c9d1d9;
+    background: #21262d;
+  }
+
+  .toolbar .lang.active {
+    color: #ffa657;
+    font-weight: bold;
+    background: #21262d;
+  }
+
+  .toolbar .pdf {
+    color: #7ee787;
+    text-decoration: none;
+    border: 1px solid #30363d;
+    padding: 0.3rem 0.75rem;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .toolbar .pdf:hover {
+    background: #21262d;
+    border-color: #7ee787;
+    color: #b3f1c0;
+  }
+
+  main { display: block; }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 1.5rem 1.2rem;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+}
+
+</style>
+</head>
+<body>
+<nav class="toolbar"><div class="langs"><span class="lang active">EN</span><a class="lang" href="cv-andres-spa.html">ES</a></div><a class="pdf" href="cv-andres-eng.pdf" download>↓ Download PDF</a></nav>
+<main>
+<h1>Andrés Vázquez</h1>
+<p><strong>Software Developer &amp; Data/Open-Government Specialist</strong> - 20+ years of experience</p>
+<p>andres@data99.com.ar · Mendiolaza, Córdoba, Argentina
+<a href="http://ar.linkedin.com/pub/andres-vazquez/20/599/160">LinkedIn</a> · <a href="https://github.com/avdata99/">GitHub</a> · <a href="https://gitlab.com/avdata99">GitLab</a> - <strong>@avdata99</strong></p>
+<hr />
+<h2>Profile</h2>
+<p>Senior Python developer focused on open data, civic technology and free software. Comfortable across the full stack, from data pipelines and APIs to deployment and server administration on AWS, GCP and Azure. Strong communicator: lecturer, speaker and podcast host.</p>
+<h2>Core Skills</h2>
+<ul>
+<li><strong>Languages:</strong> Python (10+ yrs), SQL, Bash; working JS / HTML / CSS</li>
+<li><strong>Frameworks:</strong> Django, Flask, CKAN, others</li>
+<li><strong>Data:</strong> ETL, open data standards, Postgres/other DBs, Solr, Elasticsearch, CSV/JSON/XML, REST APIs</li>
+<li><strong>Cloud &amp; DevOps:</strong> AWS, GCP, Azure, Docker, Linux, CI/CD, Git</li>
+</ul>
+<h2>Experience</h2>
+<p><strong>Open Knowledge Foundation</strong> - Python Developer · <em>May 2021 - present</em>
+Multiple international projects on AWS, GCP and Azure. CKAN platform development (Flask + plugins), APIs and large-scale data processing.</p>
+<p><strong>Datopian</strong> - Python Developer · <em>Jun 2019 - May 2021</em>
+Built data services for governments and enterprises around CKAN and open-source tooling. Lead contributor to the U.S. national open-data portal.</p>
+<p><strong>City of Córdoba (Municipalidad de Córdoba)</strong> - Director of Information Systems · <em>Apr 2016 - Jun 2019</em>
+Led the Open Government data portal, the city&rsquo;s free-software policy and strategic decisions on open government.</p>
+<p><strong>Junar / Harriague</strong> - Developer &amp; Sysadmin · <em>Oct 2013 - Apr 2016</em>
+Built the <strong>junar.com</strong> open-data platform with Django. Server administration on Ubuntu/AWS. Promoted and supported open-data adoption in local governments.</p>
+<p><strong>Modelos Digitales</strong> - Web Developer &amp; Sysadmin · <em>Nov 2010 - Oct 2013</em>
+PHP/MySQL applications (Codeigniter and in-house frameworks). Performance optimization, monitoring, caching. Server administration on FreeBSD, Ubuntu and CentOS.</p>
+<h2>Selected Projects</h2>
+<ul>
+<li><strong>Python course</strong> <em>(2025)</em> - Designed and taught a Python course.</li>
+<li><strong>OpenDataCórdoba</strong> <em>(2013 - 2020)</em> - Founder of the NGO. Open-data analysis and publication, data journalism collaborations and hackathons.</li>
+<li><strong>Cadena de Datos</strong> <em>(2019 - 2021)</em> - Host of a podcast interviewing open-data leaders across Latin America.</li>
+<li><strong>Parlarispa</strong> <em>(2019 - 2021)</em> - Django-based podcast platform delivering audience-segmented content; GCP, RSS, audio processing.</li>
+<li><strong>Studbook</strong> <em>(2022)</em> - Django/GCP global Arabian-horse database, multi-site scraping.</li>
+<li><strong>Data Journalism course</strong> <em>(2017)</em> - Designed and taught a course for journalists.</li>
+</ul>
+<h2>Education</h2>
+<ul>
+<li><strong>2019</strong> - Diploma in Data Science, <em>FaMAF, Universidad Nacional de Córdoba</em></li>
+<li><strong>2014-2016</strong> - Postgraduate Specialization in Public-Policy Information, <em>UNC</em> (coursework completed)</li>
+<li><strong>1996-2001</strong> - Electronic Engineering and Systems Analysis coursework, <em>UNC</em></li>
+</ul>
+<h2>Languages</h2>
+<p>Spanish (native) · English (professional working - daily use at current job)</p>
+</main>
+</body>
+</html>
