@@ -42,4 +42,20 @@ Pudimos darle más fuerza e impulso a nuestra iniciativa local <a href="http://O
 
 Este hackathon fue posible gracias al Plan Nacional <a href="http://Program.AR" target="_blank">Program.AR</a>, al <a href="http://www.cordobatechnology.com/" target="_blank">Cluster Córdoba Tecnology</a>, a la Universidad Nacional de Córdoba, al Gobierno de la Provincia de Córdoba y a muchas otras voluntades que se sumaron a colaborar.
 
-<a href="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/09/eu-equipo.jpg"><img class="aligncenter size-medium wp-image-114" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/09/eu-equipo-300x200.jpg" alt="eu-equipo" width="300" height="200"></a></body></html>
+<a href="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/09/eu-equipo.jpg"><img class="aligncenter size-medium wp-image-114" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2014/09/eu-equipo-300x200.jpg" alt="eu-equipo" width="300" height="200"></a>
+
+<hr>
+
+<h2>Recursos del evento</h2>
+<ul>
+<li><a href="http://hackatong-programar.github.io" target="_blank">Sitio del evento</a></li>
+<li><a href="http://hackatong.hackdash.org/" target="_blank">Hackdash de proyectos</a></li>
+<li><a href="https://github.com/HackatONG-ProgramAR" target="_blank">Repositorios de código</a></li>
+</ul>
+
+<h2>En los medios</h2>
+<ul>
+<li><a href="http://www.diaadia.com.ar/cordoba/el-hackatong-dejo-17-aplicaciones-punto" target="_blank">Día a Día — "El HackatONG dejó 17 aplicaciones"</a></li>
+<li><a href="http://www.cadena3.com/contenido/2014/09/08/134336.asp?titulo=Culmino-la-Semana-TIC-con-tecnologia-dedicada-a-ONGs" target="_blank">Cadena 3 — "Culminó la Semana TIC con tecnología dedicada a ONGs"</a></li>
+</ul>
+</body></html>

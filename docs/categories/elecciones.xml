@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre elecciones)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/elecciones.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 17:29:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Elecciones 2015 — PrimerVueltómetro y datos abiertos en Córdoba</title><link>https://andresvazquez.com.ar/blog/posts/elecciones-2015-cordoba-primervueltometro/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;blockquote&gt;
+&lt;p&gt;Proyecto del colectivo &lt;a href="https://opendatacordoba.org/"&gt;OpenDataCordoba&lt;/a&gt;. El sitio del proyecto vive en &lt;a href="https://opendatacordoba.org/elecciones2015/"&gt;opendatacordoba.org/elecciones2015/&lt;/a&gt; — este post es un backup personal de mi participación.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Durante las elecciones nacionales 2015 (PASO, generales, balotaje) en OpenDataCordoba armamos una infraestructura para procesar y exponer los resultados oficiales en formatos abiertos. Yo fui uno más del equipo: trabajé sobre todo en el scraping de los datos de DINE+INDRA, la API en PHP y una visualización rápida llamada &lt;strong&gt;PrimerVueltómetro&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Qué hicimos como equipo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Recolección de datos&lt;/strong&gt; desde el portal oficial DINE/INDRA cada vez que publicaba una nueva tanda. Los CSVs se descargaban y procesaban automáticamente.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API en PHP&lt;/strong&gt; que devolvía JSON listo para usar:&lt;ul&gt;
+&lt;li&gt;totales nacionales por alianza (con y sin lemas), PASO y definitivos&lt;/li&gt;
+&lt;li&gt;totales por provincia, departamento y elección (presidenciales, senadores, diputados, gobernador, etc.)&lt;/li&gt;
+&lt;li&gt;totales por lista en cada sección electoral&lt;/li&gt;
+&lt;li&gt;GeoJSON de departamentos de Córdoba&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualizaciones&lt;/strong&gt; sobre esa API: el PrimerVueltómetro (proyección sobre el resultado de primera vuelta) y un dashboard del balotaje 2015.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dataset abierto&lt;/strong&gt; del balotaje 2015 desagregado por mesa, en CSV, publicado para reutilización.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Backup&lt;/h3&gt;
+&lt;p&gt;El proyecto y el código vivieron en &lt;a href="https://github.com/OpenDataCordoba"&gt;github.com/OpenDataCordoba&lt;/a&gt; y se publicaron desde el sitio de ODC. Si en algún momento ese sitio cae, este post es la nota mínima de qué se hizo y de mi rol concreto.&lt;/p&gt;</description><category>Cordoba</category><category>elecciones</category><category>hackathons</category><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/elecciones-2015-cordoba-primervueltometro/</guid><pubDate>Mon, 26 Oct 2015 12:00:00 GMT</pubDate></item><item><title>Democracia con Códigos 2013</title><link>https://andresvazquez.com.ar/blog/posts/democracia-con-codigos-2013/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Hackathon de noviembre de 2013 que dio origen al grupo &lt;a href="https://groups.google.com/forum/#!forum/open-data-cordoba"&gt;OpenDataCordoba&lt;/a&gt;. Colaboré en la organización del evento y participé del equipo que geolocalizó y cargó los datos de las elecciones legislativas 2013 de Córdoba.&lt;/p&gt;
+&lt;p&gt;El resultado fue un &lt;a href="http://democraciaconcodigos.github.io/election-2013/"&gt;mapa interactivo&lt;/a&gt; que permite entender los resultados por ubicación geográfica.&lt;/p&gt;
+&lt;p&gt;Más en el &lt;a href="http://democraciaconcodigos.github.io/"&gt;sitio del evento&lt;/a&gt;.&lt;/p&gt;</description><category>Cordoba</category><category>elecciones</category><category>hackathons</category><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/democracia-con-codigos-2013/</guid><pubDate>Fri, 01 Nov 2013 12:00:00 GMT</pubDate></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre OpenData)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/opendata.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 14:57:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>is4h</title><link>https://andresvazquez.com.ar/blog/posts/is4h/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Cada vez que vamos a un hospital público o centro de salud en Argentina tengamos o no cobertura social existen resortes legales que le permiten a la institución &lt;a rel="noreferrer noopener" aria-label="recuperar (abre en una nueva pestaña)" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/75000-79999/77280/texact.htm" target="_blank"&gt;recuperar&lt;/a&gt; todo o parte del costo. &lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre OpenData)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/opendata.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 17:29:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>is4h</title><link>https://andresvazquez.com.ar/blog/posts/is4h/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Cada vez que vamos a un hospital público o centro de salud en Argentina tengamos o no cobertura social existen resortes legales que le permiten a la institución &lt;a rel="noreferrer noopener" aria-label="recuperar (abre en una nueva pestaña)" href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/75000-79999/77280/texact.htm" target="_blank"&gt;recuperar&lt;/a&gt; todo o parte del costo. &lt;/p&gt;
 &lt;!-- /wp:paragraph --&gt;
 
 &lt;!-- wp:paragraph --&gt;
@@ -192,7 +192,35 @@
 
 &lt;!-- wp:image {"id":511} --&gt;
 &lt;figure class="wp-block-image"&gt;&lt;img src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2019/01/Selecci%C3%B3n_1430-1024x414.png" alt="" class="wp-image-511"&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/cadena-de-datos/</guid><pubDate>Mon, 14 Jan 2019 00:55:40 GMT</pubDate></item><item><title>Blockchain para certificar datos</title><link>https://andresvazquez.com.ar/blog/posts/blockchain-para-certificar-datos/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Desde los portales de datos abiertos publicamos con frecuencia recursos que pueden ser utilizados por la comunidad para controlar, reutilizar, estudiar o para cualquier otra finalidad. &lt;strong&gt;Los datos generados por los gobiernos no son de su propiedad&lt;/strong&gt; sino que deben ser activos disponibles para la comunidad. &lt;/p&gt;
+&lt;!-- /wp:image --&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/cadena-de-datos/</guid><pubDate>Mon, 14 Jan 2019 00:55:40 GMT</pubDate></item><item><title>Funcionarios Córdoba — monitoreo automático de cambios</title><link>https://andresvazquez.com.ar/blog/posts/funcionarios-cordoba-odc/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;blockquote&gt;
+&lt;p&gt;Proyecto del colectivo &lt;a href="https://opendatacordoba.org/"&gt;OpenDataCordoba&lt;/a&gt;. El sitio de ayuda del proyecto vive en &lt;a href="https://opendatacordoba.org/funcionarios-cordoba/"&gt;opendatacordoba.org/funcionarios-cordoba/&lt;/a&gt; y el código en &lt;a href="https://github.com/OpenDataCordoba/funcionarios-cordoba"&gt;github.com/OpenDataCordoba/funcionarios-cordoba&lt;/a&gt;. Este post es backup personal de mi participación.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Funcionarios Córdoba&lt;/strong&gt; es un proyecto del grupo que se conecta a las listas oficiales de funcionarios públicos de Córdoba (provincia y ciudad) y detecta cambios, designaciones y renuncias. Lo detectado se publica automáticamente en la cuenta de Twitter &lt;a href="https://twitter.com/funcionariosCBA"&gt;@funcionariosCBA&lt;/a&gt;. Trabajé bastante en este proyecto.&lt;/p&gt;
+&lt;h3&gt;Qué hace&lt;/h3&gt;
+&lt;p&gt;Un sistema chico que se conecta periódicamente a la lista de funcionarios de cada institución y detecta diffs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Poder Ejecutivo de la Provincia de Córdoba&lt;/li&gt;
+&lt;li&gt;Poder Ejecutivo de la Municipalidad de Córdoba&lt;/li&gt;
+&lt;li&gt;Tribunal de Cuentas (provincial y municipal)&lt;/li&gt;
+&lt;li&gt;Poder Legislativo provincial&lt;/li&gt;
+&lt;li&gt;Poder Judicial provincial&lt;/li&gt;
+&lt;li&gt;Concejo Deliberante de la Municipalidad de Córdoba&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cada cambio se publica como tuit. La idea es bajísima fricción: no hay que armar una nota, el dato sale solo desde la fuente oficial.&lt;/p&gt;
+&lt;h3&gt;El problema más grande no es técnico&lt;/h3&gt;
+&lt;p&gt;No todas estas instituciones publican y actualizan sus listas en formatos consumibles. Eso fue lo que más nos costó: convivir con páginas que cambian de URL, datos sin DNI (que es lo único que identifica unívocamente), HTMLs que rompen los parsers.&lt;/p&gt;
+&lt;p&gt;Por eso, en el sitio de ayuda del proyecto, lo que pedimos a los gobiernos no es "abran datos" en abstracto sino &lt;strong&gt;lo mínimo concreto&lt;/strong&gt; para que el monitoreo no se rompa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;una planilla simple con DNI + cargo, actualizada el mismo día del cambio&lt;/li&gt;
+&lt;li&gt;URL estable (que no cambie)&lt;/li&gt;
+&lt;li&gt;preferentemente un webservice (la Municipalidad de Córdoba tenía un &lt;a href="https://gobiernoabierto.cordoba.gob.ar/api/funciones/"&gt;ejemplo&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ese pedido lo redacté yo en enero de 2019 cuando reescribí la página de ayuda.&lt;/p&gt;
+&lt;h3&gt;Cómo colaborar&lt;/h3&gt;
+&lt;p&gt;Si sos parte de un gobierno y querés que tu institución entre al monitoreo, escribinos a &lt;a href="mailto:opendatacba@gmail.com"&gt;opendatacba@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si sos desarrollador, el código está en &lt;a href="https://github.com/OpenDataCordoba/funcionarios-cordoba"&gt;github.com/OpenDataCordoba/funcionarios-cordoba&lt;/a&gt; y aceptamos PRs.&lt;/p&gt;
+&lt;h3&gt;Relacionado&lt;/h3&gt;
+&lt;p&gt;Más adelante hice algo parecido a nivel local: &lt;a href="https://andresvazquez.com.ar/blog/blog/posts/mapa-de-funcionarios-de-villa-maria/"&gt;Mapa de funcionarios de Villa María&lt;/a&gt;.&lt;/p&gt;</description><category>Cordoba</category><category>funcionarios</category><category>OpenData</category><category>transparencia</category><guid>https://andresvazquez.com.ar/blog/posts/funcionarios-cordoba-odc/</guid><pubDate>Tue, 08 Jan 2019 12:00:00 GMT</pubDate></item><item><title>Blockchain para certificar datos</title><link>https://andresvazquez.com.ar/blog/posts/blockchain-para-certificar-datos/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Desde los portales de datos abiertos publicamos con frecuencia recursos que pueden ser utilizados por la comunidad para controlar, reutilizar, estudiar o para cualquier otra finalidad. &lt;strong&gt;Los datos generados por los gobiernos no son de su propiedad&lt;/strong&gt; sino que deben ser activos disponibles para la comunidad. &lt;/p&gt;
 &lt;p&gt;Hoy no existe un control de los datos que desaparecen o se modifican. &lt;strong&gt;Si, los datos públicos pueden desaparecer&lt;/strong&gt;. Aunque suene extraño tenemos el caso del portal de datos argentino &lt;em&gt;datospublicos.gob.ar&lt;/em&gt; que &lt;a href="https://www.lanacion.com.ar/1607724-el-gobierno-creo-el-sistema-nacional-de-datos-publicos-para-acceder-a-informacion-oficial"&gt;se lanzo en 2013&lt;/a&gt; y finalmente &lt;a href="http://www.diarioalfil.com.ar/2015/07/20/por-que-desaparecio-datospublicos-gob-ar/"&gt;desapareció en 2015&lt;/a&gt;. &lt;/p&gt;
 
 &lt;!-- wp:image {"id":494} --&gt;
@@ -446,160 +474,4 @@ Hay también interesantes charlas del BID. &lt;a href="https://www.youtube.com/w
 
 Los videos completos de los dos días están disponibles aquí:
 &lt;span style="font-weight: 400;"&gt;Día 1: &lt;/span&gt;&lt;a href="https://www.youtube.com/watch?v=eXK4F-Plz-k"&gt;&lt;span style="font-weight: 400;"&gt;https://www.youtube.com/watch?v=eXK4F-Plz-k
-&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;Día 2: &lt;/span&gt;&lt;a href="https://www.youtube.com/watch?v=p3tookUdMyI"&gt;&lt;span style="font-weight: 400;"&gt;https://www.youtube.com/watch?v=p3tookUdMyI&lt;/span&gt;&lt;/a&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/datos-masivos-de-transito-para-tu-ciudad/</guid><pubDate>Sat, 05 May 2018 20:37:51 GMT</pubDate></item><item><title>Chile si va al mundial</title><link>https://andresvazquez.com.ar/blog/posts/chile-si-va-al-mundial/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;... al mundial del Gobierno Abierto. Chile está a la cabeza de los Gobiernos Abiertos por una serie de hechos y políticas interesantes que en general no es totalmente dimensionada por sus ciudadanos. Es muy común en Latinoamérica desmerecer nuestros logros.
-
-Chile tiene ya una tradición en políticas de Gobierno Abierto y los demás países de Latinoamérica lo vemos como referente en el tema. Recuerdo su &lt;a href="http://datos.gob.cl/"&gt;portal nacional de datos abiertos&lt;/a&gt; lanzado en 2011 como a uno de los primeros (* inserte aquí referencia a la fecha de creación de los otros países). Trabajo en temas de datos abiertos desde 2012 y siempre Chile, sus instituciones y municipios se destacaron en estos temas. Muchos otros países han avanzado muchísimo en estos temas, no quiero desmerecer a ninguno, solo creo que Chile es destacable. Se me vienen a la memoria además los trabajos de la &lt;a href="https://ciudadanointeligente.org"&gt;Fundación Ciudadano Inteligente&lt;/a&gt; y al prócer académico del Gobierno Abierto &lt;a href="https://twitter.com/redmatriz?lang=es"&gt;Álvaro Ramirez-Alujas&lt;/a&gt; pero seguramente hay mucho más para destacar.
-
-Estuvimos (junto a mi compañero de trabajo &lt;a href="https://gobiernoabierto.cordoba.gob.ar/funcionarios/oficina/direccion-de-gobierno-abierto-acceso-a-la-informacion-publica-y-estadisticas-y-censos/298"&gt;Facundo&lt;/a&gt;) durante una semana en Santiago de Chile asistiendo a la Escuela de Gobierno Abierto organizado por &lt;a href="https://gigabierto.org/"&gt;GIGA&lt;/a&gt; (organizado por un muy &lt;a href="https://gigabierto.org/equipo/"&gt;interesante equipo&lt;/a&gt;) y pude verlo un poco de más cerca. En el curso conversamos y aprendimos de algunos de sus funcionarios que se acercaron a contarnos sus experiencias. Comparto un resumen basado en las notas (personales y caóticas) del curso.
-
-&lt;b&gt;Clase 1 - Lunes 9 de abril.&lt;/b&gt;
-
-&lt;a href="http://www.consejotransparencia.cl/quienes-somos/directores/raul-ferrada-carrasco-director-general/"&gt;Raúl Ferrada Carrasco&lt;/a&gt;, Director General  del &lt;a href="http://www.consejotransparencia.cl"&gt;&lt;em&gt;Concejo para la transparencia&lt;/em&gt;&lt;/a&gt; de Chile vino a contarnos de su trabajo.
-
-&lt;img class="aligncenter size-medium wp-image-431" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/raul-300x150.png" alt="" width="300" height="150"&gt;
-
-Este Concejo es una institución nacional con una fuerte autonomía. Esta institución &lt;a href="http://www.consejotransparencia.cl/multas-por-incumplimientos-en-transparencia-suman-mas-de-21-millones-e-involucran-principalmente-a-personal-municipal/"&gt;tiene potestad de hacer multas&lt;/a&gt; directas sobre el sueldo del funcionario que no cumple las normas de transparencia. Muestra de esta autonomía es que han llegado poner &lt;a href="http://200.91.44.244/fundamentos-del-cplt-para-solicitar-instruccion-de-sumario-al-comandante-en-jefe-de-la-fach/consejo/2016-07-08/153322.html"&gt;multa al jefe de la Fuerza Aérea de Chile (FACH)&lt;/a&gt; por no entregar información de la lista de personas que bombardearon la casa de la moneda (&lt;a href="http://200.91.44.244/consejo/site/artic/20160708/asocfile/20160708153322/n__006527_contralor_general_de_la_rep__blica__c2713_15_.pdf"&gt;Oficio completo&lt;/a&gt;, no conozco un ente nacional que tenga este poder en otros países del mundo).
-
-El Concejo participa también de los compromisos con OGP y sirve como entidad para reclamar la no respuesta en pedidos de acceso a la información (lleva además estadísticas detalladas de esto). Nos contó de su trabajo y de sus desafíos.
-
-&lt;b&gt;Clase 1 - Parte 2 - Acceso a la información pública
-&lt;/b&gt;
-
-&lt;a href="https://twitter.com/colmanromi?lang=es"&gt;Romina Colman&lt;/a&gt; nos dio una excelente clase sobre pedido de accesos a la información.
-
-&lt;img class="aligncenter size-medium wp-image-430" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/romina-300x168.png" alt="" width="300" height="168"&gt;
-Acá hay una versión imperdible en video de una exposición similar de Romina en la Escuela de Periodismo en Chile. Romina es parte del equipo de &lt;a href="https://twitter.com/lndata?lang=es"&gt;La Nación Data&lt;/a&gt;, el mejor de Latinoamérica en periodismo de datos.
-
-&lt;iframe src="https://www.youtube.com/embed/e1oa3Dv30h4"&gt;&lt;/iframe&gt;
-
-&lt;b&gt;Clase 2 - Martes 10 de abril.&lt;/b&gt;
-
-&lt;a href="https://twitter.com/carolburle?lang=es"&gt;Caroline Burle&lt;/a&gt; desde Brasil (por Skype) nos conto de su trabajo en Nic.br y cgi.br en (trabaja con estándares W3C). Lamentablemente el streaming se corto &lt;em&gt;:(&lt;/em&gt; y no pudimos finalizar de aprender sobre web semántica y estándares en datos. &lt;b&gt;&lt;/b&gt;
-
-&lt;strong&gt;Clase 3 - Miércoles 11 de abril. Participación Ciudadana con &lt;a href="https://twitter.com/manuelbarrosr"&gt;Manuel Barros&lt;/a&gt;.&lt;/strong&gt;
-
-Manuel es Coordinador de proyectos de Ciudadano Inteligente y vinculado a OGP.
-
-&lt;img class="aligncenter size-medium wp-image-432" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/manuel-300x189.png" alt="" width="300" height="189"&gt;
-
-Nos dice que sin participación no hay gobierno abierto, si un gobierno dispone herramientas pero no hay nadie que use, valide y colabore realmente no es un gobierno abierto. Hoy hay mucho de herramientas y datos pero todavía poco de participación.
-
-Latinobarometro y el Banco Mundial dicen que se incrementa la desconfianza en los gobiernos. Dice Manuel que hablar de Gobierno Abierto &lt;strong&gt;real&lt;/strong&gt; todavía es iluso. La sociedad tiene baja formación ciudadana, hay poco interés en saber, fiscalizar y participar. Propone que la participación tiene que ser vinculante.
-
-Manuel dice que no todo es negativo y destaca:
-&lt;/p&gt;&lt;ul&gt;
-    &lt;li&gt;En Chile existe la ley 20.500 de participación ciudadana&lt;/li&gt;
-    &lt;li&gt;En ley orgánica de municipios hay 4 o 5 métodos descritos (plebiscitos, consultas públicas, etc)&lt;/li&gt;
-    &lt;li&gt;Hay presupuesto participativo en muchas ciudades&lt;/li&gt;
-    &lt;li&gt;Bolivia, Ecuador, Nicaragua, Venezuela y otros hay seguimiento y participación en presupuestos&lt;/li&gt;
-    &lt;li&gt;Nariño y Bs As ya trabajan con la plataforma Consul de Madrid&lt;/li&gt;
-&lt;/ul&gt;
-Manuel pide tener cuidado con los efectos negativos de la partipación ciudadana:
-&lt;ul&gt;
-    &lt;li&gt;Uso políticos del oficialismo (para neutralizar la oposición con procesos falsos y cosméticos).&lt;/li&gt;
-    &lt;li&gt;Cooptación de los espacios de participación por organizaciones de la sociedad civil o sectores específicos.&lt;/li&gt;
-    &lt;li&gt;Disminución de la eficiencia. La participación es menos eficiente en general. Es más cara y más lenta. A veces detiene iniciativas interesantes.&lt;/li&gt;
-    &lt;li&gt;Falta de la interés en la ciudadanía.&lt;/li&gt;
-&lt;/ul&gt;
-Manuel marca los puntos necesarios para el éxito en la participación ciudadana:
-&lt;ul&gt;
-    &lt;li&gt;Tiene que haber voluntad política&lt;/li&gt;
-    &lt;li&gt;Existencia de una sociedad civil organizada (esto como regla general, sin esto no hay gobierno abierto posible)&lt;/li&gt;
-    &lt;li&gt;Diseños institucionales flexibles y ligeros (que tenga un pequeño piloto, que avance en etapas, que se pueda modificar por procesos participativos).&lt;/li&gt;
-    &lt;li&gt;Necesidad de capacidades técnicas en los mandos medios para ejecutar los planes de acción participativos.&lt;/li&gt;
-&lt;/ul&gt;
-En la experiencia de Ciudadano inteligente implementaron la plataforma Cónsul pero le agregaron etapas posteriores donde los participantes tienen tareas. Estas eran de mantenimiento y fiscalización (control y reclamos) a la implementación del proyecto. No se queda con la participación y compromiso del gobierno de ejecutar, acompaña además todo el proceso posterior. Esto alguna manera &lt;strong&gt;fuerza a la gente a que se comprometa en lo que participó&lt;/strong&gt;. Hicieron procesos vinculantes A CONDICIÓN de que la gente firme su corresponsabilidad en algunas tareas.
-
-Manuel nos cuenta que en el tercer plan de acción de Chile se creo una mesa de Gobierno, Academia (Alujas), Sociedad Civil (Manuel Barros) para dar seguimiento. Para el cuarto plan ya están más fortalecidos y habrá espacios de debate en varias regiones de Chile.
-
-Algunos tips de Manuel:
-&lt;ul&gt;
-    &lt;li&gt;La tecnología civica es clave&lt;/li&gt;
-    &lt;li&gt;Decide Madrir (Consul) es muy potente.&lt;/li&gt;
-    &lt;li&gt;En Montreal se juntan todos los jueves a hacer hackatones y es una buena experiencia.&lt;/li&gt;
-    &lt;li&gt;"Wi the people" en USA (no sabe si sigue) pero fue potente.&lt;/li&gt;
-    &lt;li&gt;Londres el departamento de transporte lanza permanentemente consultas a los usuarios.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Critica a Madrid&lt;/strong&gt;: Solo dos propuestas ciudadanas han llegado al 1% de apoyo requerido y todavía ninguna se ejecutó. &lt;strong&gt;Algo bueno&lt;/strong&gt;: Están probando cosas nuevas. Van a crear una segunda cámara (ademas de los concejales). Esta cámara esta formada por ciudadanos (al azar al parecer).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;strong&gt;Recomendación de Manuel&lt;/strong&gt;: Abrir desafíos CONCRETOS sobre políticas específicas. No tanto recibir propuestas cualquiera. Ver que ya tenga presupuesto y solo haya que decidir una vía. Manuel quiere que sea VINCULANTE.
-
-&lt;strong&gt;Clase 3 - Parte 2&lt;/strong&gt;
-
-Analizamos políticas públicas específicas de participación en equipos y las compartimos a la clase. Muy enriquecedor.
-
-&lt;img class="aligncenter size-medium wp-image-433" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/equipos-300x110.png" alt="" width="300" height="110"&gt;
-
-&lt;b&gt;Concepto interesante.&lt;/b&gt;
-
-Se puede evaluar la participación en 3 o 4 dimensiones (según OCDE)
-&lt;ul&gt;
-    &lt;li&gt;Informativo&lt;/li&gt;
-    &lt;li&gt;Consultivo&lt;/li&gt;
-    &lt;li&gt;(Deliberativo)&lt;/li&gt;
-    &lt;li&gt;Participativo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;b&gt;&lt;/b&gt;
-
-&lt;b&gt;Clase 4 - Jueves 12 de abril - &lt;a href="https://www.linkedin.com/in/juanfelipelopez/"&gt;Juan Felipe López&lt;/a&gt;, Director ejecutivo del &lt;a href="http://www.lab.gob.cl"&gt;Laboratorio de Gobierno de Chile&lt;/a&gt;.&lt;/b&gt;
-
-Felipe es historiador e ingreso a este cargo por concurso en la gestión anterior (y aún sigue).
-
-&lt;img class="aligncenter size-medium wp-image-434" src="https://andresvazquez.com.ar/blog/blog/wp-content/uploads/2018/04/felipe-300x200.png" alt="" width="300" height="200"&gt;
-
-Esto se lo pregunté al final ya que me daba mucha curiosidad saber como accedían los funcionarios a puestos tan importantes en Chile.  El Lab le responde a un directorio de ministerios, la &lt;a href="https://www.corfo.cl/sites/cpp/home"&gt;Corfo&lt;/a&gt; y otras instituciones. No tiene vencimiento en su cargo pero el directorio puede sacarlo y designar a otro en cualquier momento.
-
-Felipe nos sugiere que &lt;strong&gt;los gobiernos trabajan sobre los ejes de las palabras y los datos&lt;/strong&gt; mientras que &lt;strong&gt;los ciudadanos se manejan sobre los ejes de las historias y las imágenes&lt;/strong&gt;. He ahí una primera desconexión entre gobierno y ciudadanos
-
-Una falla principal de los gobiernos es que muchas buenas ideas finalmente no son útiles para las personas. Falta más validación y consulta. Este laboratorio es un lugar para experimentar políticas o herramientas antes de avanzar a fondo en ellas. El lab busca un estado innovador al servicio de las personas y está inspirado en laboratorios de México y Bs As.
-
-Tips de Felipe:
-&lt;ul&gt;
-    &lt;li&gt;Foco en las personas&lt;/li&gt;
-    &lt;li&gt;Foco en la experiencia: todo el ambiente tiene que ser distinto. Los que participan tienen que tener un espacio atractivo y convocante.&lt;/li&gt;
-    &lt;li&gt;Enfoque sistémico: Conocer de todo lo que rodea a lo que se esta elaborando.&lt;/li&gt;
-    &lt;li&gt;Co-creación: Una persona no tiene que hacer todo, tiene que estar abierto a equipos interdisciplinarios y a los usuarios.&lt;/li&gt;
-&lt;/ul&gt;
-Se reviso todo el proceso de definición de políticas públicas. Necesidad - evidencia - planificación - implementación - evaluación (posiblemente me olvidé alguna) y se les agregaron herramientas nuevas a &lt;strong&gt;todas las etapas&lt;/strong&gt;. No se cambia el fondo pero para cada etapa se hacen sugerencias innovadoras. De esta forma el proceso de definición de políticas públicas se enriquece.
-
-Toda este proceso de actividades tiene &lt;strong&gt;momentos de divergencia&lt;/strong&gt; donde se puede volar un poco y &lt;strong&gt;etapas de convergencia&lt;/strong&gt; donde se agrupa y se concretan cosas. Esto es clave, no hay que perder el foco.
-
-&lt;strong&gt;Ejemplo: Cuentas claras - simples y transparentes &lt;/strong&gt;junto a la Superintendencia de Electricidad y Combustibles de Chile. Se implemento sobre la boleta de la luz.
-
-Problema "El 51% no entiende la boleta de la luz" (en Chile hay 34 empresas eléctricas, 1 de ellas distribuye el 80%).
-
-Solución propuesta: Se les instruyo a las empresas para que &lt;strong&gt;AGRANDEN LA LETRA&lt;/strong&gt; de la boleta (?). Demuestra la precariedad y falta de validación de como se toman las decisiones. No se midió el resultado.
-
-El laboratorio volvió más atrás en el proceso. Se hicieron &lt;strong&gt;talleres en siete regiones&lt;/strong&gt; sobre cual era su experiencia con la cuenta de la luz.
-&lt;ul&gt;
-    &lt;li&gt;Notaron que:&lt;/li&gt;
-    &lt;li&gt;La gente no entiende muchas palabras, estaba escrita por abogados&lt;/li&gt;
-    &lt;li&gt;La gente no entiende el servicio (decía sistema troncal y pensaron que era del transporte de pasajeros)&lt;/li&gt;
-    &lt;li&gt;Les daba desconfianza, no creían en las empresas.&lt;/li&gt;
-&lt;/ul&gt;
-Hicieron:
-&lt;ul&gt;
-    &lt;li&gt;Preguntaron entonces que datos de la boleta eran clave, se pusieron primero. Se probaron diferentes tipografías.&lt;/li&gt;
-    &lt;li&gt;Unificaron la misma boleta para las 34 empresas.&lt;/li&gt;
-    &lt;li&gt;Hicieron &lt;strong&gt;UN PILOTO&lt;/strong&gt; en tres ciudades&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;MIDIERON&lt;/strong&gt; la confianza en el sistema anterior y el nuevo. Subieron en todas las mediciones.&lt;/li&gt;
-    &lt;li&gt;Le mostraron los resultados al ministro y decidieron extender esto a todo el país.&lt;/li&gt;
-&lt;/ul&gt;
-Todo esto se financió con parte del presupuesto del SEC (ya tenía algo para estos temas) y el laboratorio (que también tiene algo de presupuesto).
-
-&lt;strong&gt;¿Cómo eligen los problemas?&lt;/strong&gt;
-
-El directorio les asignan las tareas. En general reciben pedidos. También pueden pro-activamente solicitar intervenir en algún área pero se dieron cuenta que si no hay un &lt;strong&gt;dueño político interesado el proceso no funciona&lt;/strong&gt;.
-
-Es por esto que si no hay un interesado que va a participar voluntariamente es mejor no hacerlo.
-
-Este Laboratorio hizo un encuentro de innovación pública (dic 2017 en Santiago) donde &lt;strong&gt;400 funcionarios co-organizando talleres y mesas de debate&lt;/strong&gt;
-
-TODO lo que hacen y los casos están acá: http://lab.gob.cl/el-lab/publicaciones/
-
-&lt;strong&gt;Clase 4 - parte 2 - "Colaboración e Innovación Pública" - &lt;a href="https://twitter.com/okactivist?lang=es"&gt;Silvia Da Rosa&lt;/a&gt;&lt;/strong&gt;
-
-Silvia es Asesora del Laboratorio de Innovación Pública de AGESIC, docente de la Universidad Católica del Uruguay y miembro de la Organización de Sociedad Civil "Datos Abiertos, Transparencia y Acceso a la Información" (DATA).
-
-Trabajamos en equipos para definir correctamente problemas específicos de Gobierno Abierto.
-
-Lamentablemente &lt;em&gt;:(&lt;/em&gt; nuestro pasaje de vuelta era antes del horario donde cerrábamos esta clase el viernes por lo que me perdí el final.</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/chile-si-va-al-mundial/</guid><pubDate>Fri, 20 Apr 2018 00:20:15 GMT</pubDate></item></channel></rss>
+&lt;/span&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;Día 2: &lt;/span&gt;&lt;a href="https://www.youtube.com/watch?v=p3tookUdMyI"&gt;&lt;span style="font-weight: 400;"&gt;https://www.youtube.com/watch?v=p3tookUdMyI&lt;/span&gt;&lt;/a&gt;</description><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/datos-masivos-de-transito-para-tu-ciudad/</guid><pubDate>Sat, 05 May 2018 20:37:51 GMT</pubDate></item></channel></rss>

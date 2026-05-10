@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="blog personal de Andres Vázquez [@avdata99]">
+<meta name="viewport" content="width=device-width">
+<title>Temimbo'e (publicaciones antiguas, página 23) | Temimbo'e</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/index-23.html">
+<link rel="prev" href="." type="text/html">
+<link rel="next" href="index-22.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="archive.html">Archivos</a></li>
+                <li><a href="rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/funcionarios-cordoba-odc/" class="u-url">Funcionarios Córdoba — monitoreo automático de cambios</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/funcionarios-cordoba-odc/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-01-08T12:00:00Z" itemprop="datePublished" title="2019-01-08 12:00">2019-01-08 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/funcionarios-cordoba-odc/#disqus_thread" data-disqus-identifier="cache/posts/funcionarios-cordoba-odc.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <blockquote>
+<p>Proyecto del colectivo <a href="https://opendatacordoba.org/">OpenDataCordoba</a>. El sitio de ayuda del proyecto vive en <a href="https://opendatacordoba.org/funcionarios-cordoba/">opendatacordoba.org/funcionarios-cordoba/</a> y el código en <a href="https://github.com/OpenDataCordoba/funcionarios-cordoba">github.com/OpenDataCordoba/funcionarios-cordoba</a>. Este post es backup personal de mi participación.</p>
+</blockquote>
+<p><strong>Funcionarios Córdoba</strong> es un proyecto del grupo que se conecta a las listas oficiales de funcionarios públicos de Córdoba (provincia y ciudad) y detecta cambios, designaciones y renuncias. Lo detectado se publica automáticamente en la cuenta de Twitter <a href="https://twitter.com/funcionariosCBA">@funcionariosCBA</a>. Trabajé bastante en este proyecto.</p>
+<h3>Qué hace</h3>
+<p>Un sistema chico que se conecta periódicamente a la lista de funcionarios de cada institución y detecta diffs:</p>
+<ul>
+<li>Poder Ejecutivo de la Provincia de Córdoba</li>
+<li>Poder Ejecutivo de la Municipalidad de Córdoba</li>
+<li>Tribunal de Cuentas (provincial y municipal)</li>
+<li>Poder Legislativo provincial</li>
+<li>Poder Judicial provincial</li>
+<li>Concejo Deliberante de la Municipalidad de Córdoba</li>
+</ul>
+<p>Cada cambio se publica como tuit. La idea es bajísima fricción: no hay que armar una nota, el dato sale solo desde la fuente oficial.</p>
+<h3>El problema más grande no es técnico</h3>
+<p>No todas estas instituciones publican y actualizan sus listas en formatos consumibles. Eso fue lo que más nos costó: convivir con páginas que cambian de URL, datos sin DNI (que es lo único que identifica unívocamente), HTMLs que rompen los parsers.</p>
+<p>Por eso, en el sitio de ayuda del proyecto, lo que pedimos a los gobiernos no es "abran datos" en abstracto sino <strong>lo mínimo concreto</strong> para que el monitoreo no se rompa:</p>
+<ul>
+<li>una planilla simple con DNI + cargo, actualizada el mismo día del cambio</li>
+<li>URL estable (que no cambie)</li>
+<li>preferentemente un webservice (la Municipalidad de Córdoba tenía un <a href="https://gobiernoabierto.cordoba.gob.ar/api/funciones/">ejemplo</a>)</li>
+</ul>
+<p>Ese pedido lo redacté yo en enero de 2019 cuando reescribí la página de ayuda.</p>
+<h3>Cómo colaborar</h3>
+<p>Si sos parte de un gobierno y querés que tu institución entre al monitoreo, escribinos a <a href="mailto:opendatacba@gmail.com">opendatacba@gmail.com</a>.</p>
+<p>Si sos desarrollador, el código está en <a href="https://github.com/OpenDataCordoba/funcionarios-cordoba">github.com/OpenDataCordoba/funcionarios-cordoba</a> y aceptamos PRs.</p>
+<h3>Relacionado</h3>
+<p>Más adelante hice algo parecido a nivel local: <a href="blog/posts/mapa-de-funcionarios-de-villa-maria/">Mapa de funcionarios de Villa María</a>.</p>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="." rel="prev">Publicaciones posteriores</a>
+            </li>
+            <li class="next">
+                <a href="index-22.html" rel="next">Publicaciones anteriores</a>
+            </li>
+        </ul></nav><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

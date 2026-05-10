@@ -6,8 +6,52 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/cordoba.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/datascience.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/datos-publicos.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/dominios-ar.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/elecciones.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/funcionarios.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/hackathons.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/medios.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/ong.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://andresvazquez.com.ar/blog/categories/opendata.xml</loc>
-  <lastmod>2026-05-10T14:57:00Z</lastmod>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/periodismo.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/transparencia.xml</loc>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/galleries/rss.xml</loc>
@@ -15,10 +59,10 @@
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/rss.xml</loc>
-  <lastmod>2026-05-10T14:57:00Z</lastmod>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/sitemap.xml</loc>
-  <lastmod>2026-05-10T15:27:00Z</lastmod>
+  <lastmod>2026-05-10T17:29:00Z</lastmod>
  </sitemap>
 </sitemapindex>

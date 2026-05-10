@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre transparencia)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/transparencia.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 17:29:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Funcionarios Córdoba — monitoreo automático de cambios</title><link>https://andresvazquez.com.ar/blog/posts/funcionarios-cordoba-odc/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;blockquote&gt;
+&lt;p&gt;Proyecto del colectivo &lt;a href="https://opendatacordoba.org/"&gt;OpenDataCordoba&lt;/a&gt;. El sitio de ayuda del proyecto vive en &lt;a href="https://opendatacordoba.org/funcionarios-cordoba/"&gt;opendatacordoba.org/funcionarios-cordoba/&lt;/a&gt; y el código en &lt;a href="https://github.com/OpenDataCordoba/funcionarios-cordoba"&gt;github.com/OpenDataCordoba/funcionarios-cordoba&lt;/a&gt;. Este post es backup personal de mi participación.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Funcionarios Córdoba&lt;/strong&gt; es un proyecto del grupo que se conecta a las listas oficiales de funcionarios públicos de Córdoba (provincia y ciudad) y detecta cambios, designaciones y renuncias. Lo detectado se publica automáticamente en la cuenta de Twitter &lt;a href="https://twitter.com/funcionariosCBA"&gt;@funcionariosCBA&lt;/a&gt;. Trabajé bastante en este proyecto.&lt;/p&gt;
+&lt;h3&gt;Qué hace&lt;/h3&gt;
+&lt;p&gt;Un sistema chico que se conecta periódicamente a la lista de funcionarios de cada institución y detecta diffs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Poder Ejecutivo de la Provincia de Córdoba&lt;/li&gt;
+&lt;li&gt;Poder Ejecutivo de la Municipalidad de Córdoba&lt;/li&gt;
+&lt;li&gt;Tribunal de Cuentas (provincial y municipal)&lt;/li&gt;
+&lt;li&gt;Poder Legislativo provincial&lt;/li&gt;
+&lt;li&gt;Poder Judicial provincial&lt;/li&gt;
+&lt;li&gt;Concejo Deliberante de la Municipalidad de Córdoba&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cada cambio se publica como tuit. La idea es bajísima fricción: no hay que armar una nota, el dato sale solo desde la fuente oficial.&lt;/p&gt;
+&lt;h3&gt;El problema más grande no es técnico&lt;/h3&gt;
+&lt;p&gt;No todas estas instituciones publican y actualizan sus listas en formatos consumibles. Eso fue lo que más nos costó: convivir con páginas que cambian de URL, datos sin DNI (que es lo único que identifica unívocamente), HTMLs que rompen los parsers.&lt;/p&gt;
+&lt;p&gt;Por eso, en el sitio de ayuda del proyecto, lo que pedimos a los gobiernos no es "abran datos" en abstracto sino &lt;strong&gt;lo mínimo concreto&lt;/strong&gt; para que el monitoreo no se rompa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;una planilla simple con DNI + cargo, actualizada el mismo día del cambio&lt;/li&gt;
+&lt;li&gt;URL estable (que no cambie)&lt;/li&gt;
+&lt;li&gt;preferentemente un webservice (la Municipalidad de Córdoba tenía un &lt;a href="https://gobiernoabierto.cordoba.gob.ar/api/funciones/"&gt;ejemplo&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ese pedido lo redacté yo en enero de 2019 cuando reescribí la página de ayuda.&lt;/p&gt;
+&lt;h3&gt;Cómo colaborar&lt;/h3&gt;
+&lt;p&gt;Si sos parte de un gobierno y querés que tu institución entre al monitoreo, escribinos a &lt;a href="mailto:opendatacba@gmail.com"&gt;opendatacba@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si sos desarrollador, el código está en &lt;a href="https://github.com/OpenDataCordoba/funcionarios-cordoba"&gt;github.com/OpenDataCordoba/funcionarios-cordoba&lt;/a&gt; y aceptamos PRs.&lt;/p&gt;
+&lt;h3&gt;Relacionado&lt;/h3&gt;
+&lt;p&gt;Más adelante hice algo parecido a nivel local: &lt;a href="https://andresvazquez.com.ar/blog/blog/posts/mapa-de-funcionarios-de-villa-maria/"&gt;Mapa de funcionarios de Villa María&lt;/a&gt;.&lt;/p&gt;</description><category>Cordoba</category><category>funcionarios</category><category>OpenData</category><category>transparencia</category><guid>https://andresvazquez.com.ar/blog/posts/funcionarios-cordoba-odc/</guid><pubDate>Tue, 08 Jan 2019 12:00:00 GMT</pubDate></item></channel></rss>

@@ -51,4 +51,17 @@ Hasta aquí llega este informe, quedan <strong>propuestas y caminos abiertos par
 </a>.- Hay numerosos municipios que tienen esa categorización sin tener los 2.000 habitantes requeridos por ley. ¿Por que sucede?
 .- Analizar los municipios que si tienen página web y estudiar cuales de ellos liberan información (hay casos interesantes).
 .- Cruzar este mapa con información del <a href="http://andresvazquez.com.ar/blog/cordoba-a-nivel-de-radio-censal/" target="_blank">censo nacional 2010</a> o con datos de las <a href="http://democraciaconcodigos.github.io/election-2013/" target="_blank">elecciones en córdoba</a> que ya están disponibles.
-.-  Uno de los coeficientes calculados y disponibles en el mapa es el de <strong>coparticipación / habitante</strong> (uso datos de censo Cba 2008). Este tiene valores similares pero no iguales para todos los casos. ¿Es posible que la provincia haya aplicado los datos del censo 2010 (que <a href="http://andresvazquez.com.ar/blog/los-municipios-de-cordoba-no-existen/" target="_blank">no esta oficialmente calculado para municipios</a>)?</body></html>
+.-  Uno de los coeficientes calculados y disponibles en el mapa es el de <strong>coparticipación / habitante</strong> (uso datos de censo Cba 2008). Este tiene valores similares pero no iguales para todos los casos. ¿Es posible que la provincia haya aplicado los datos del censo 2010 (que <a href="http://andresvazquez.com.ar/blog/los-municipios-de-cordoba-no-existen/" target="_blank">no esta oficialmente calculado para municipios</a>)?
+
+<hr>
+
+<h2>Sobre el hackathon "La ruta del dinero"</h2>
+
+<p>Este análisis fue parte de "La ruta del dinero", hackathon regional sobre transparencia presupuestaria.</p>
+
+<h3>En los medios</h3>
+<ul>
+<li><a href="http://blogs.lanacion.com.ar/data/argentina/hackaton-regional-larutadeldinero/" target="_blank">La Nación — "Hackathon regional #LaRutaDelDinero"</a></li>
+<li><a href="http://larutadeldinero.info/" target="_blank">larutadeldinero.info</a> (Telam)</li>
+</ul>
+</body></html>

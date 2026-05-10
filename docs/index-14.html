@@ -45,148 +45,236 @@
     
     
     </ul></nav></header><main id="content"><div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/jugando-con-cartas-marinas/" class="u-url">Jugando con Cartas Marinas</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/elecciones-2015-cordoba-primervueltometro/" class="u-url">Elecciones 2015 — PrimerVueltómetro y datos abiertos en Córdoba</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/jugando-con-cartas-marinas/" rel="bookmark">
-            <time class="published dt-published" datetime="2017-07-14T00:22:55Z" itemprop="datePublished" title="2017-07-14 00:22">2017-07-14 00:22</time></a>
+            <a href="posts/elecciones-2015-cordoba-primervueltometro/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-10-26T12:00:00Z" itemprop="datePublished" title="2015-10-26 12:00">2015-10-26 12:00</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/jugando-con-cartas-marinas/#disqus_thread" data-disqus-identifier="cache/posts/jugando-con-cartas-marinas.html">Comentarios</a>
+    <a href="posts/elecciones-2015-cordoba-primervueltometro/#disqus_thread" data-disqus-identifier="cache/posts/elecciones-2015-cordoba-primervueltometro.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p>Hace algunos días estuve trabajando con Cartas Marinas Electorales. Los detalles quedaron <span style="font-size: 0.9375rem;">un resumen disponible en el Blog de Open Data Córdoba:</span>
-
- 
-
-http://blog.opendatacordoba.org/demografia-con-cartas-marinas/
-
-Además contamos el caso en <a href="http://radiocut.fm/audiocut/en-nuestra-columna-de-open-data-andres-vazquez/">nuestra columna en Radio La Gen</a>.
-
-Después de esto se sumaron además los datos de 2007 y 2011, 2013. Están disponibles en el portal de Gobierno Abierto de la Municipalidad de Córdoba <a href="https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/sociedad/electores-por-circuito-en-la-provincia-de-cordoba/216">[VER]</a>
-
-Además me encontré con una nueva herramienta nueva de Google, DataStudio y puse a visualizar algunos de esos datos (click en la imágen para ampliar):
-
-<a href="https://datastudio.google.com/reporting/0B9saNutQ5ZYhLVZaLW0zejAtTkk/page/b6NG"><img class="aligncenter wp-image-358 size-full" src="blog/wp-content/uploads/2017/07/Selecci%C3%B3n_605.png" alt="" width="925" height="551"></a></p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/" class="u-url">Datos de la programación del Canal Encuentro 2013-2016</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Andres Vazquez
-            </span></p>
-            <p class="dateline">
-            <a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/" rel="bookmark">
-            <time class="published dt-published" datetime="2016-11-16T02:40:07Z" itemprop="datePublished" title="2016-11-16 02:40">2016-11-16 02:40</time></a>
-            </p>
-                <p class="commentline">
-    
-    <a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/#disqus_thread" data-disqus-identifier="cache/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016.html">Comentarios</a>
-
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <p>Hasta hace muy pocos días en el sitio web del <a href="http://www.encuentro.gob.ar/">Canal Encuentro</a> se publicaban archivos PDF con la programación diaria del canal. Bastante feos pero datos al fin.
-
-<a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/grillaPDF/GrillaEncuentro-01-01-2014.pdf"><img class="aligncenter size-full wp-image-337" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_597.png" alt="seleccion_597" width="675" height="275"></a>
-
-Uno podía acceder a todos los archivos PDF simplemente navegando uno por uno todos los días en el almanaque que mostraba. Decidí entonces hacer un pequeño programa de computadora que hiciera el trabajo por mí. Encontré que estos archivos PDF se publicaban desde mayo de 2013. El programa descargo entonces automáticamente los 1286 archivos con datos.
-
-<strong>Lamentablemente y por <em>casualidad</em> el día posterior a descargar los 1286 archivos con datos estos desaparecieron, este análisis no podrá seguirse haciendo. Canal Encuentro al parecer cerró esos datos.
-Hoy la programación se encuentra en <a href="http://www.encuentro.gob.ar/programacion">http://www.encuentro.gob.ar/programacion</a> pero hasta el día que hice este análisis el link era <a href="http://www.encuentro.gob.ar/sitios/encuentro/grilla/index">http://www.encuentro.gob.ar/sitios/encuentro/grilla/index</a> (todavía se redirige).
-</strong>
-
-Transforme a texto esos datos <a href="https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py">con una herramienta</a> disponible y finalmente los organicé con una tabla estructurada. Quedaron entonces dos datasets muy interesantes.
-
-1.- La programación completa de los tres años y medio de emisiones (2013-2016) en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/final.csv">CSV</a>.
-2 .- Los datos acumulados por programa (sin considerar los capítulos específicos) también en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/acumulado.csv">CSV</a>.
-
-El primer dataset es más rico, se podrían hacer muchos análisis y visualizaciones con el. El segundo es más general pero también valioso y me permite saber si la programación 2016 (gestión Cambiemos) sigue la línea de los años anteriores (gestión FPV). Ponderando los programas según horario de transmisión (<a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/scrapencuentro.py#L76-L104">a ojo</a>, no soy experto en prime-time, horarios de TV, etc) y tomando los programas más <em>destacados</em> de 2016 puedo conocer cual fue su trayectoria anterior.
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/"><img class="aligncenter size-large wp-image-338" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_598-1024x457.png" alt="seleccion_598" width="790" height="353"></a>
-
-<strong><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/">Click para ampliar</a></strong>
-
-El gráfico muestra lo que cualquier consumidor de este canal de televisión ha podido notar. Hubo (como era de esperar) bastantes cambios en la programación, de los programas más vistos hoy muchos no existían años atrás o se daban con menor relevancia. Sólo algunos programas siguen.
-
-Análisis detallado de cada programa y sus capítulos a través del tiempo. Ejemplo <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0">Filosofía aquí y ahora</a>:</em>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0"><img class="aligncenter size-medium wp-image-346" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_608-300x141.png" alt="seleccion_608" width="300" height="141"></a>
-
-Puede filtrarse por programa y por año. Ejemplo: <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016">A fondo, 2016</a>:</em>
-
-<a href="http://dev/otros/scrapencuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016"><img class="aligncenter size-medium wp-image-347" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_609-300x137.png" alt="seleccion_609" width="300" height="137"></a>
-
-La finalidad de este análisis era también experimentar visualizaciones por lo que deje hechas algunas más.
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución de la relevancia de los programas más importantes de 2015</a>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter wp-image-339 size-medium" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_599-300x136.png" alt="seleccion_599" width="300" height="136"></a>
-
- 
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución mensual de los programas más puntuados de toda la serie (2013-2016)</a>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter size-medium wp-image-340" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_600-300x138.png" alt="seleccion_600" width="300" height="138"></a>
-
- 
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/">Evolución anual de los programas más puntuados de toda la serie (2013-2016)</a>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/"><img class="aligncenter size-medium wp-image-341" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_601-300x135.png" alt="seleccion_601" width="300" height="135"></a>
-
- 
-
-Los datos usados, el código para extraerlo y las visualizaciones quedaron en este repositorio de código abierto:
-<a href="https://github.com/avdata99/ScrapEncuentro">https://github.com/avdata99/ScrapEncuentro</a>. Si te sirven los datos para hacer otros análisis o visualizaciones estaría agradecido que los compartas.
-
- </p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/mapa-de-funcionarios-de-villa-maria/" class="u-url">Mapa de funcionarios de Villa María</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Andres Vazquez
-            </span></p>
-            <p class="dateline">
-            <a href="posts/mapa-de-funcionarios-de-villa-maria/" rel="bookmark">
-            <time class="published dt-published" datetime="2016-11-06T03:53:34Z" itemprop="datePublished" title="2016-11-06 03:53">2016-11-06 03:53</time></a>
-            </p>
-                <p class="commentline">
-    
-    <a href="posts/mapa-de-funcionarios-de-villa-maria/#disqus_thread" data-disqus-identifier="cache/posts/mapa-de-funcionarios-de-villa-maria.html">Comentarios</a>
-
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <p>Con motivo del Congreso Ecosistema de Datos (<a href="http://www.conecos.com.ar/">CONECOS16</a>) fuimos invitados como equipo de <a href="http://opendatacordoba.org/">OpenDataCordoba</a> a organizar el Hackathon que allí iba a desarrollarse.
-
-En contra de lo que esperaba por ser organizado un día de semana por la mañana asistieron más de 50 personas y pudimos hacer 8 equipos de trabajo.
-
-En mi caso decidí trabajar con la base de datos de funcionarios de la Ciudad de Villa María que el municipio <a href="http://datos.villamaria.gob.ar/dataviews/225794/funcionarios-municipales/">ya libera en su portal de datos</a>. La idea fue replicar el <a href="https://modernizacionmunicba.github.io/visualizaciones/dendograma/?radio=600">dendrograma que ya habíamos desarrollado desde la Municipalidad de Córdoba</a> y que dejamos como <a href="https://github.com/ModernizacionMuniCBA/visualizaciones/tree/gh-pages/dendograma">código abierto</a> para que cualquier gobierno reutilice con la línea con la idea de la <a href="http://andresvazquez.com.ar/blog/la-cooperacion-como-estrategia-de-desarrollo/">cooperación como estrategia para el desarrollo</a>.
-</p>
-<blockquote class="twitter-tweet" data-lang="en">
-<p dir="ltr" lang="es">2 gobiernos de distintos signos políticos cooperan en Gobierno Abierto. Impresionante#CONECOS16 <a href="https://twitter.com/martinrgill">@martinrgill</a> <a href="https://twitter.com/MuniVillaMaria">@MuniVillaMaria</a> <a href="https://twitter.com/cossarmarcelo">@cossarmarcelo</a> <a href="https://t.co/28IipeXDy3">https://t.co/28IipeXDy3</a></p>
-— Mariano Mosquera (@MarianoMosquera) <a href="https://twitter.com/MarianoMosquera/status/794973609638895617">November 5, 2016</a>
+    <blockquote>
+<p>Proyecto del colectivo <a href="https://opendatacordoba.org/">OpenDataCordoba</a>. El sitio del proyecto vive en <a href="https://opendatacordoba.org/elecciones2015/">opendatacordoba.org/elecciones2015/</a> — este post es un backup personal de mi participación.</p>
 </blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Durante las elecciones nacionales 2015 (PASO, generales, balotaje) en OpenDataCordoba armamos una infraestructura para procesar y exponer los resultados oficiales en formatos abiertos. Yo fui uno más del equipo: trabajé sobre todo en el scraping de los datos de DINE+INDRA, la API en PHP y una visualización rápida llamada <strong>PrimerVueltómetro</strong>.</p>
+<h3>Qué hicimos como equipo</h3>
+<ul>
+<li>
+<strong>Recolección de datos</strong> desde el portal oficial DINE/INDRA cada vez que publicaba una nueva tanda. Los CSVs se descargaban y procesaban automáticamente.</li>
+<li>
+<strong>API en PHP</strong> que devolvía JSON listo para usar:<ul>
+<li>totales nacionales por alianza (con y sin lemas), PASO y definitivos</li>
+<li>totales por provincia, departamento y elección (presidenciales, senadores, diputados, gobernador, etc.)</li>
+<li>totales por lista en cada sección electoral</li>
+<li>GeoJSON de departamentos de Córdoba</li>
+</ul>
+</li>
+<li>
+<strong>Visualizaciones</strong> sobre esa API: el PrimerVueltómetro (proyección sobre el resultado de primera vuelta) y un dashboard del balotaje 2015.</li>
+<li>
+<strong>Dataset abierto</strong> del balotaje 2015 desagregado por mesa, en CSV, publicado para reutilización.</li>
+</ul>
+<h3>Backup</h3>
+<p>El proyecto y el código vivieron en <a href="https://github.com/OpenDataCordoba">github.com/OpenDataCordoba</a> y se publicaron desde el sitio de ODC. Si en algún momento ese sitio cae, este post es la nota mínima de qué se hizo y de mi rol concreto.</p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/jornadas-gobernet-2015/" class="u-url">Jornadas GoberNET 2015</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/jornadas-gobernet-2015/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-10-17T12:00:00Z" itemprop="datePublished" title="2015-10-17 12:00">2015-10-17 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/jornadas-gobernet-2015/#disqus_thread" data-disqus-identifier="cache/posts/jornadas-gobernet-2015.html">Comentarios</a>
 
-Los datos liberados eran bastante completos pero no tenían información de la relación entre los funcionarios. O sea, estaban todos los nodos pero no información a cerca de las conexiones entre ellos. Para esto conté con la colaboración de dos politólogos (Guido López Avakian (<a href="https://twitter.com/glopezavakian">@glopezavakian</a>) y Facundo Londero) que me ayudaron <a href="https://docs.google.com/spreadsheets/d/1rxLsTBDRPu5SRB5i0k8i3E3aJQGX1ZX-KyLC4TqzbBU/edit?usp=sharing">vía un documento compartido</a> a completar la información faltante. Los funcionarios del municipio de Villa María nos ayudaron también a obtener la información necesaria. Agregamos tambien el <em>género</em> de cada funcionario para que la visualización final permita conocer también este dato.
 
-Luego un <a href="https://github.com/VillaMaria/dendrograma-funcionarios-villa-maria/blob/gh-pages/convert-csv-to-json.py">script simple para transformar estos datos</a> al formato necesario en la visualización y <em>voilà</em>, un nuevo dendrograma funcionando
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <blockquote>
+<p>Proyecto del colectivo <a href="https://opendatacordoba.org/">OpenDataCordoba</a> en conjunto con COPEC, el Concejo Deliberante de Córdoba, ICDA y Junar. El sitio del evento vive en <a href="https://opendatacordoba.org/jornadas/GoberNET/">opendatacordoba.org/jornadas/GoberNET/</a> — este post es un backup personal de mi participación.</p>
+</blockquote>
+<p><strong>GoberNET 2015 — Nuevos Espacios de Transparencia.</strong> Dos días en el auditorio Diego De Torres del ICDA (Obispo Trejo 323, Córdoba):</p>
+<ul>
+<li>
+<strong>Sábado 17 de octubre:</strong> hackathon, 9 a 18 hs.</li>
+<li>
+<strong>Martes 20 de octubre:</strong> conferencia, 9 a 13 hs.</li>
+</ul>
+<p><img alt="Auditorio ICDA" src="img/odc/gobernet/auditorio-ICDA.jpg"></p>
+<h3>Qué hicimos como equipo</h3>
+<p><strong>Hackathon (17/10).</strong> Trabajamos en cinco desafíos:</p>
+<ul>
+<li>Plataforma virtual de Políticas Públicas (COPEC).</li>
+<li>Transparencia de compras públicas — escalando <em>Medusapp</em> para que las empresas proveedoras del Estado adhieran voluntariamente a publicar información de licitaciones.</li>
+<li>Datos abiertos del Concejo Deliberante de Córdoba.</li>
+<li>Herramientas para analizar elecciones, preparándonos para las nacionales del 25/10.</li>
+<li>Cabildear.org — plataforma web/móvil para impulsar proyectos legislativos.</li>
+</ul>
+<p><strong>Conferencia (20/10).</strong> Panel de gobiernos contando experiencias de transparencia, panel de expertos sobre los desafíos de implementación, y exposición de los resultados del hackathon.</p>
+<p>Más de 100 participantes entre los dos días, con adhesión de Universidad Empresarial Siglo 21, Instituto Universitario Aeronáutico, Fundación Mediterránea, IERAL, Santex, Red Nuestra Córdoba, Cluster Córdoba Technology, FIDE, Fundación E+E, Incubadora UNC, Incutex, Mundos E, Startup Weekend, Subsecretaría Pyme, y el Ministerio de Comunicación Pública.</p>
+<h3>Mi parte</h3>
+<p>Fui <strong>disertante</strong> del evento y también colaboré en la organización (fue un evento colectivo).</p>
+<p><img alt="Andrés Vázquez — disertante GoberNET 2015" src="img/odc/gobernet/vazquez.jpg"></p>
+<h3>Material</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=iWa203R28CU">Hackathon 17/10 — video</a></li>
+<li><a href="https://www.youtube.com/watch?v=DPPM2xQ3SrA">Conferencia 20/10 — 1º panel</a></li>
+<li><a href="https://www.youtube.com/watch?v=Sj2jWG5pGfQ">Conferencia 20/10 — 2º panel</a></li>
+</ul>
+<p><img alt="Flyer GoberNET" src="img/odc/gobernet/flyer.jpg"></p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/comparando-padrones-electorales/" class="u-url">Comparando padrones electorales</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/comparando-padrones-electorales/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-08-17T01:46:31Z" itemprop="datePublished" title="2015-08-17 01:46">2015-08-17 01:46</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/comparando-padrones-electorales/#disqus_thread" data-disqus-identifier="cache/posts/comparando-padrones-electorales.html">Comentarios</a>
 
-<a href="https://villamaria.github.io/dendrograma-funcionarios-villa-maria/dendrograma/?radio=550"><img class="aligncenter wp-image-330 size-full" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_582.png" alt="dendrograma villa maría" width="776" height="291"></a>
 
- 
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <p>Hace algunos días hice un <a href="http://blog.opendatacordoba.org/cuantas-personas-votan-por-cada-domicilio/" target="_blank">análisis sobre el padrón electoral de Villa Allende</a> (Córdoba, AR). Luego de esto algunas personas de la ciudad vecina de Mendiolaza (mi ciudad, limítrofe con Villa Allende) me enviaron copia del padrón para hacer un proceso similar.
 
-El código completo de esta visualización quedó también <a href="https://github.com/VillaMaria/dendrograma-funcionarios-villa-maria">abierto y libre</a> para reutilizarse en otros gobiernos.
+Este segundo padrón me permitió además hacer la siguiente prueba
+</p>
+<blockquote>¿Hay electores repetidos?</blockquote>
+<img class="aligncenter size-medium wp-image-207" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2015/08/Selecci%C3%B3n_009-300x158.png" alt="Selección_009" width="300" height="158">
+
+Uno podría intuir que no. Las elecciones fueron muy cercanas.
+El padrón de Villa Allende corresponde a las elecciones para intendente del 26/7/2015, el de Mendiolaza fue el usado 21 días antes en las elecciones a Gobernador (aún no esta listo el que se usará para las elecciones a intendente el próximo 6/9/2015).
+
+Sin embargo hay ocho electores repetidos en ambos padrones. Algunos incluso tienen la misma dirección en ambos. <a href="https://github.com/avdata99/padrones-electorales/blob/master/comparativa-padrones-Mendiolaza-y-Villa-Allende-2015.csv" target="_blank">Ver</a>.
+<table border="1" cellspacing="0">
+<colgroup width="75"></colgroup>
+<colgroup span="2" width="78"></colgroup>
+<colgroup width="966"></colgroup>
+<colgroup width="901"></colgroup>
+<tbody>
+<tr>
+<th align="left" height="17">DNI</th>
+<th align="left">Padron 1</th>
+<th align="left">Padron 2</th>
+<th align="left">Datos en Padron 1</th>
+<th align="left">Datos en Padron 2</th>
+</tr>
+<tr>
+<td align="right" height="17">16833139</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">AMUCHASTEGUI, MARIA IRIS DEL VALLE.
+<strong>QUITO 407</strong>
+</td>
+<td align="left">AMUCHASTEGUI MARIA IRIS DEL VALLE.
+<strong>MZA 24 L 1</strong>
+</td>
+</tr>
+<tr>
+<td align="right" height="17">20528421</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">CONTRERAS, PATRICIA DEL CARMEN.
+<strong>BIALET MASSE 54</strong>
+</td>
+<td align="left">CONTRERAS PATRICIA DEL CARMEN.
+<strong>MZA 10 L 17</strong>
+</td>
+</tr>
+<tr>
+<td align="right" height="17">28268614</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">DE MARCO, FLORENCIA.
+<strong>GERONA 1205</strong>
+</td>
+<td align="left">DE MARCO FLORENCIA.
+<strong>MZ.65LT.3-ECIA.Q2</strong>
+</td>
+</tr>
+<tr>
+<td align="right" height="17">26313446</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">JUAREZ, RICARDO OSCAR.
+<strong>LONDRES 540</strong>
+</td>
+<td align="left">JUAREZ RICARDO OSCAR.
+<strong>LONDRES 540</strong>
+</td>
+</tr>
+<tr>
+<td align="right" height="17">29605760</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">JULIA, MARIA GUADALUPE.
+<strong>PJE VERGOGCANE 83</strong>
+</td>
+<td align="left">JULIA MARIA GUADALUPE.
+<strong>LOS TILOS 1520</strong>
+</td>
+</tr>
+<tr>
+<td align="right" height="17">30189179</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">MONJE, VALERIA EDITH.
+<strong>LOS ANDES 1184</strong>
+</td>
+<td align="left">MONJE VALERIA EDITH.
+<strong>MALVINAS 130</strong>
+</td>
+</tr>
+<tr>
+<td align="right" height="17">23513076</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">OCANTO, HECTOR GUILLERMO.
+<strong>NUEVA GRANADA 268</strong>
+</td>
+<td align="left">OCANTO HECTOR G.
+<strong>DEL TALAR-LAVANDA M291L 7 399</strong>
+</td>
+</tr>
+<tr>
+<td align="right" height="17">35612915</td>
+<td align="left">Villa Allende</td>
+<td align="left">Mendiolaza</td>
+<td align="left">SOSA HEREDIA, MARCELO ERNESTO.
+<strong>NUEVA ZELANDIA 778</strong>
+</td>
+<td align="left">SOSA HEREDIA MARCELO ERNESTO.
+<strong>DE LA LUNA 585</strong>
+</td>
+</tr>
+</tbody>
+</table>
+¿Podemos saber si estas personas efectivamente votaron en ambas elecciones?
+
+No, no es información pública quienes votaron y quienes no. Tampoco lo son los padrones de una forma orgánica. No se distribuyen (en formatos útiles) por internet.
+
+Esto no supone un caso grave de corrupción, mas bien parece una desprolijidad preocupante. Revisando el padrón de Mendiolaza se puede ver también como muchos votantes no tienen un domicilio claro. Domicilios como <em>Calle pública s/n</em> o con nombres de calles sin número o direcciones descritas como la intersección entre dos calles.
+<blockquote><strong>Los padrones electorales necesitan pasar procesos de aprobación mas elaborados. La justicia electoral tiene mucho trabajo interesante para hacer (y para mostrar). </strong></blockquote>
+Los datos usado y el código fuente del análisis están disponibles aquí:
+<a href="https://github.com/avdata99/padrones-electorales" target="_blank">github.com/avdata99/padrones-electorales</a>
     </div>
     </article>
 </div>
