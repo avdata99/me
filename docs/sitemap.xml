@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://andresvazquez.com.ar/blog/</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/2012/</loc>
@@ -42,8 +42,12 @@
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/2026/</loc>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/archive.html</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/blog/</loc>
@@ -291,7 +295,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/boletin-oficial/</loc>
@@ -382,6 +386,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/twitter/</loc>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/cv/cv-andres-eng.html</loc>
   <lastmod>2026-05-10T15:25:00Z</lastmod>
  </url>
@@ -391,7 +399,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/data/</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/data/CEPyD-Cordoba-Capital-2010/</loc>
@@ -575,7 +583,11 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-26.html</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-27.html</loc>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-3.html</loc>
@@ -884,6 +896,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/nicathon-2015/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/outliers-en-registros-de-dominios/</loc>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/padrones-por-localidad-2015/</loc>

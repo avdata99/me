@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre dominios-ar)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/dominios-ar.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 19:30:22 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Análisis de 250.000 servidores argentinos</title><link>https://andresvazquez.com.ar/blog/posts/servidores-en-argentina/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Análisis presentado durante el &lt;a href="https://andresvazquez.com.ar/blog/blog/posts/nicathon-2015/"&gt;NICathon&lt;/a&gt; (marzo 2015).&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre dominios-ar)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/dominios-ar.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 20:51:30 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Outliers en registros de dominios</title><link>https://andresvazquez.com.ar/blog/posts/outliers-en-registros-de-dominios/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;&lt;a href="https://x.com/dominiosAR/status/2047857513932951600"&gt;Originalmente publicado como hilo en Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Estos son los más de 500.000 dominios que seguimos (casi la totalidad existentes hoy) ordenados por fecha del próximo vencimiento. Cada barra es un día de año.
+¿A alguien se le ocurre que es ese pico?
+¿Se imaginan?
+Respuesta mañana.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vencimientos por día" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/vencimientos-por-dia.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Vamos con algunos sospechosos.
+En 2014 los dominios dejaron de ser gratis. Antes de eso uno podia registrar todos los dominios que queria y sin costo.
+Habia más de 2 millones de dominios registrados.&lt;/p&gt;
+&lt;p&gt;El último día y los anteriores fue un caos. Una hecatombe, una debacle total. Una seguidilla de hechos bochornosos donde la gente daba de baja sus dominios para volver a registrarlos y tener unos meses más sin pagar.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="2014 es pago" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/2014-pago.png"&gt;&lt;/p&gt;
+&lt;p&gt;Nuestro primer sospechoso fue este. Imaginamos que esa distorción se había arrastrado hasta nuestros dias.
+Pero no fue así, eso fue un 5 de marzo y el día raro es el 15 de septiembre (además de algunas otros días).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="picos por fecha" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/picos.png"&gt;&lt;/p&gt;
+&lt;p&gt;Esos registros luego de este momento rateril de la historia de internet argentina cayeron mayormente al año siguente.
+Eso no explica el pico actual el 15 de septiembre.
+¿Y entonces?&lt;/p&gt;
+&lt;p&gt;¿Fue algun registrante que hizo muchos registros ese día?
+Estos son la cantidad de dominios de ese día por registrante.
+Solo dos registrantes ese día hicieron más de 100 registros.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="dominios por registrante" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/dominios-por-registrante.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Uno de ellos fue Dattatec (que es el mayor registrante de dominios en Argentina) que en general registra año a nombre de terceros.
+Al otro registrante ya lo vamos a ver. El motivo no fue alguien entrandso bruscamente al mercado.&lt;/p&gt;
+&lt;p&gt;¿Y si vemos en que año se registraron?
+Estos son los dominios que vencen en septiembre de 2026 (cada día en eje Y) por el año en que fueron registrados
+Algo paso en 2019 y despues en 2020. Raro, ¿un evento bianual?
+¿Ahora si te acordas?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="heatmap registros por dia" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/heatmap.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Sigamos: Estos son los dominios que vencen el 15 de septiembre por zona
+La mayoría de los dominos en Argentina son .com.ar (el 80% aprox según https://nic.ar/es/dominios/estadisticas)
+Pero ese día la proporcion cambia rotundamente.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vencimientos por zona ese dia" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/vto-por-zona.png"&gt;&lt;/p&gt;
+&lt;p&gt;Claro! El nacimiento de los dominios .AR!
+Las fases de lanzamiento fueron:&lt;br&gt;
+1- Los que tenian un .com.ar podía reclamar el .ar (septiembre 2019)&lt;br&gt;
+2- La gente podía manifestar su interes en algun dominio.&lt;br&gt;
+3- Se analizaban y se asignaban esos dominio de interés (13 de mayo de 2020)&lt;br&gt;
+4- Se abrieron al público general el registro de dominios en la zona .AR  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="timeline-con-registros-por-dia" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/timeline-con-registros-por-dia.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Quien fue ese gran registrante ese día?
+Fue Victor Ma, extranjero (basandonos en su CUIT)
+Victor sigue siendo hoy registrante. &lt;a href="https://whoare.io/registrante-a92d9fba-de68-476b-8c24-62e06fbfde35"&gt;Aca podes ver más&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="171-registros-de-victor-ma-ese-dia" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/171-registros-de-victor-ma-ese-dia.png"&gt;&lt;/p&gt;
+&lt;p&gt;¿Que pasó con esa camada de los nuevos .AR abiertos al público?
+Más del 80 renovo luego de 6 años, al parecer fue una buena idea.
+Había y sigue habiendo interés real en esos dominios.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="preservacion-punto-ar" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/preservacion-punto-ar.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://andresvazquez.com.ar/blog/img/twitter/outliers-en-registros-de-dominios/"&gt;&lt;/p&gt;</description><category>datos</category><category>dominios-ar</category><category>OpenData</category><category>twitter</category><guid>https://andresvazquez.com.ar/blog/posts/outliers-en-registros-de-dominios/</guid><pubDate>Sat, 25 Apr 2026 22:57:00 GMT</pubDate></item><item><title>Análisis de 250.000 servidores argentinos</title><link>https://andresvazquez.com.ar/blog/posts/servidores-en-argentina/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Análisis presentado durante el &lt;a href="https://andresvazquez.com.ar/blog/blog/posts/nicathon-2015/"&gt;NICathon&lt;/a&gt; (marzo 2015).&lt;/p&gt;
 &lt;h2&gt;Tecnología de los sitios webs en Argentina&lt;/h2&gt;
 &lt;p&gt;Según &lt;a href="http://news.netcraft.com/archives/2015/02/24/february-2015-web-server-survey.html"&gt;informe de NetCraft&lt;/a&gt; el uso de los servidores webs en sitios activos en el mundo esta liderado por los servidores &lt;strong&gt;Apache&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;La mitad de los casi 200 millones de sitios webs analizados usan Apache, lo siguen -lejos- los sitios alojados con Nginx, IIS y GSE (Google).&lt;/p&gt;

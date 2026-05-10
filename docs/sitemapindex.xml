@@ -31,11 +31,11 @@
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/categories/datos.xml</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/categories/dominios-ar.xml</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/categories/educacion.xml</loc>
@@ -79,7 +79,7 @@
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/categories/opendata.xml</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/categories/padrones.xml</loc>
@@ -94,15 +94,19 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://andresvazquez.com.ar/blog/categories/twitter.xml</loc>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://andresvazquez.com.ar/blog/galleries/rss.xml</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/rss.xml</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://andresvazquez.com.ar/blog/sitemap.xml</loc>
-  <lastmod>2026-05-10T20:04:00Z</lastmod>
+  <lastmod>2026-05-10T20:40:00Z</lastmod>
  </sitemap>
 </sitemapindex>
