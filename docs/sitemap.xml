@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://andresvazquez.com.ar/blog/</loc>
-  <lastmod>2026-05-10T20:40:00Z</lastmod>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/2012/</loc>
@@ -42,12 +42,16 @@
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/2021/</loc>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/2026/</loc>
   <lastmod>2026-05-10T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/archive.html</loc>
-  <lastmod>2026-05-10T22:35:00Z</lastmod>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/blog/</loc>
@@ -295,7 +299,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/</loc>
-  <lastmod>2026-05-10T20:40:00Z</lastmod>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/boletin-oficial/</loc>
@@ -338,6 +342,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/entrevistas/</loc>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/categories/funcionarios/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
@@ -360,6 +368,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/medios/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/nic/</loc>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/nicathon/</loc>
@@ -587,7 +599,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-27.html</loc>
-  <lastmod>2026-05-10T22:35:00Z</lastmod>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-3.html</loc>
@@ -788,6 +800,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/entre-los-datos-y-los-ciudadanos/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/entrevista-telefe-cordoba-dominio-google-com-ar/</loc>
+  <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/escuelas-docentes-y-matriculados-en-cordoba-entre-1998-y-2010/</loc>
