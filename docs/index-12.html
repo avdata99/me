@@ -45,118 +45,119 @@
     
     
     </ul></nav></header><main id="content"><div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/transparencia-cuando-y-para-que/" class="u-url">Transparencia: cuando y para qué</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/servidores-en-argentina/" class="u-url">Análisis de 250.000 servidores argentinos</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/transparencia-cuando-y-para-que/" rel="bookmark">
-            <time class="published dt-published" datetime="2015-07-18T16:53:14Z" itemprop="datePublished" title="2015-07-18 16:53">2015-07-18 16:53</time></a>
+            <a href="posts/servidores-en-argentina/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-03-10T12:05:00Z" itemprop="datePublished" title="2015-03-10 12:05">2015-03-10 12:05</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/transparencia-cuando-y-para-que/#disqus_thread" data-disqus-identifier="cache/posts/transparencia-cuando-y-para-que.html">Comentarios</a>
+    <a href="posts/servidores-en-argentina/#disqus_thread" data-disqus-identifier="cache/posts/servidores-en-argentina.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <img class="alignright size-medium wp-image-185" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2015/07/transparencia-300x158.jpg" alt="transparencia" width="300" height="158">Asistimos desde hace tiempo sobre la ley de acceso a la información pública en Argentina. No es un debate solamente por aquí, ni solamente de estados nacionales. La transparencia en los gobiernos <strong>no</strong> siempre depende de la buena voluntad de los funcionarios públicos. He asistido a casos de funcionarios de gobiernos locales que toman la decisión de abrir datos pero que se encuentran con que estos existen sólo en papel.
-
-En casos de gobiernos superiores esto sucede mucho menos, muchos procesos ya están informatizados (básicamente en bases de datos dependientes de sistemas de software). De todas formas no puede tomarse una base de datos y así como está y exponerla al público. Se requiere un pre-procesamiento de los datos, incluso por motivos legales y de privacidad de las personas.
-
-Cada vez esta mas claro que los datos son un activo importante. Los datos son una ventaja, las decisiones basadas en ellos tienen mas posibilidades de arribar a acciones más eficientes. Entonces la pregunta es:
-
-<strong>¿Necesitamos producir datos para eficientizar y monitorear las políticas públicas o para cumplir con la transparencia de la gestión?</strong>
-
-No son cuestiones excluyentes claramente pero tenemos que pensar en quienes atienden estos temas posiblemente tengan que estar vinculados. Existen en muchas estructuras burocráticas <em>oficinas de estadísticas</em> y <em>oficinas de acceso a la información</em>. Desde que un ciudadano pide un dato a la administración publica hasta que lo consigue pasa esta solicitud por muchas manos. El encargado de entregar la información tiene que consultar a la oficina de estadísticas para saber si este dato esta procesado allí o recurrir a otras oficinas a consultar por él. No es un proceso claro, no hay un <em>inventario de datos oficiales</em>. Incluso con buena voluntad para entregar los datos estos en algunos casos están en forma de:
+    <p>Análisis presentado durante el <a href="blog/posts/nicathon-2015/">NICathon</a> (marzo 2015).</p>
+<h2>Tecnología de los sitios webs en Argentina</h2>
+<p>Según <a href="http://news.netcraft.com/archives/2015/02/24/february-2015-web-server-survey.html">informe de NetCraft</a> el uso de los servidores webs en sitios activos en el mundo esta liderado por los servidores <strong>Apache</strong>.</p>
+<p>La mitad de los casi 200 millones de sitios webs analizados usan Apache, lo siguen -lejos- los sitios alojados con Nginx, IIS y GSE (Google).</p>
+<p>Analizando 250.000 sitios webs argentinos con datos que libera <a href="https://opendatacordoba.org/">OpenDataCordoba</a> en su <a href="https://opendatacordoba.org/NICathon/">#NICathon</a> podemos analizar la realidad Argentina.</p>
+<p>En este caso la ventaja de <a href="https://es.wikipedia.org/wiki/Servidor_HTTP_Apache">Apache</a> sobre los demás es mayor. Se puede ver además una paridad entre el uso de servidores <a href="https://es.wikipedia.org/wiki/Internet_Information_Services">IIS (de Microsoft)</a> y <a href="https://es.wikipedia.org/wiki/Nginx">Nginx</a>.</p>
+<p>El uso de servidores de aplicaciones Google (por ejemplo BlogSpot) es diez veces menor (8% vs 0.8%) en Argentina en comparación con lo informado por NetCraft.</p>
+<p>Puede notarse (viendo la lista completa) que es frecuente el uso de servidores con versiones consideradas inseguras y que ya no deberían estar en uso. Hasta se han encontrado sitios web administrados por Microsift IIS 4.0 o Nginx 0.6.</p>
+<p>Otras curiosidades son los 57 sitios alojados en Amazon S3 y los 23 en gitHub.com.</p>
+<p>La información para Argentina fue extraida leyendo los <em>headers</em> que informan los servidores al ser consultado por herramientas simples (CURL se uso en este caso). Si bien es posible que los servidores voluntariamente puedan modificar u omitir esta información no creemos que esta sea una costumbre habitual.</p>
+<p><a href="data/Servidores-en-Argentina/"><img alt="Servidores en el mundo según NetCraft y en Argentina según NICathon" src="img/data/servidores-en-argentina/servidores-top.png"></a></p>
+<p>Ingresando un poco más en los detalles podemos ver las versiones usadas de los tres servidores web mas populares:</p>
+<p><a href="data/Servidores-en-Argentina/"><img alt="Versiones de Apache, Microsoft IIS y Nginx en sitios argentinos" src="img/data/servidores-en-argentina/versiones-servidores.png"></a></p>
+<h3>Lenguajes de programación usados</h3>
+<p>Algo que NetCraft no informa es la tecnología detras del servidor web. Nos referimos a el lenguaje de programación usado para construir los sitio web.</p>
+<p>En este caso si es más común que los datos no se informen (menos de la mitad no lo hace) el siguiente gráfico muestra las tecnologíaas utilizadas en los casos en los que es informado.</p>
+<p>Es una lástima que esta forma de deteccíon de sitios no sea capaz de relevar correctamente el uso de tecnologías Python o Java (usamos para el caso el <em>header </em><em>X-Powered-By</em>**). Seguramente un análisis más detallado del contenido HTML de los sitios permitiría saber un poco mejor las tecnologías y los frameworks utilizados. Quedará para otro estudio.</p>
+<p><a href="data/Servidores-en-Argentina/"><img alt="Tecnología detrás del webserver — PHP vs ASP.NET" src="img/data/servidores-en-argentina/lenguajes.png"></a></p>
+<p><strong>Visualización interactiva:</strong> <a href="data/Servidores-en-Argentina/">/data/Servidores-en-Argentina/</a></p>
+<p><strong>Todos los datos de este estudio pueden descargarse:</strong></p>
 <ul>
-<li>centenas o miles de hojas a las que hay que fotocopiar o escanear (luego de buscar o recolectar).</li>
-    <li>planillas de cálculo en la computadora de a<em>lguien </em>que esta de vacaciones.</li>
-    <li>en la base de datos de un sistema informático para lo cual se necesita un técnico.</li>
+<li><a href="data/Servidores-en-Argentina/data/servers-headers-final.json">JSON — Todos los servidores revisados (headers completos, 85MB)</a></li>
+<li><a href="data/Servidores-en-Argentina/data/servers.csv">Resumen solo con Servidores, X-Powered-By (23.4MB)</a></li>
+<li><a href="data/Servidores-en-Argentina/data/servers_resumen.csv">Acumulado por tipo de servidor (CSV)</a></li>
+<li><a href="data/Servidores-en-Argentina/data/servers_version_resumen.csv">Acumulado por servidor y versión (CSV)</a></li>
+<li><a href="data/Servidores-en-Argentina/data/powered_resumen.csv">Acumulado por tecnología usada (CSV)</a></li>
+<li><a href="data/Servidores-en-Argentina/data/powered_version_resumen.csv">Acumulado por tecnología Y versión usada (CSV)</a></li>
 </ul>
-La transparencia en la forma de <em>oficinas de información pública </em>puede tener muchas limitaciones. En general no esta claro el poder de estas oficinas sobre las demás dependencias de un mismo gobierno. ¿Puede exigirle esta oficina a otras secretarías que entregue X dato? ¿En que plazos? Si el dato no esta producido correctamente: ¿puede exigir que mejoren esos datos? ¿se lo debe pedir a la oficina de estadísticas donde hay especialistas en estos temas? ¿Quien se asegura de anonimizar esos datos para que no se exponga información privada de los ciudadanos? ¿En que formato entrego los datos?
-
-Tal parece que el manejo de datos (producirlos, procesarlos, mejorarlos, liberarlos prolijamente, usarlos para tomar decisiones) es una tarea transversal a todas las oficinas de gobierno. Hoy cada funcionario lleva adelante su propia política en este sentido.
-
-Es necesaria entonces una intervención transversal. Alguien tiene que hacer un inventario de todos los datos de gestión, de los procesos internos que los generan. Sobre este inventario es necesario detectar fallas, ausencias o mejoras posibles. Cada política pública podría comenzar a ser más sustentada en datos oficiales y durante su ejecución ser monitoreada con instrumentos existentes o preparados para cada caso.
-<a name="transparencia"></a>
-
-<strong>Pero ... y la transparencia?</strong>
-
-
-Quiero decir con todo esto que la transparencia es difícil cuando los datos no son tratados y valoreados previamente desde la administración pública. Como los datos son poder y estos permiten hacer análisis agudos de la realidad es posible que un gobierno que atienda la transparencia pero no tome control cabal de los datos se enfrente a diferentes problemas.
-
-Organizaciones, ciudadanos o empresas privadas podrán detectar errores, mostrar malas decisiones, generar polémicas con mayor nivel de profundidad que los mismos funcionarios públicos. En algunos casos estas serán bienintencionadas y en otros no.
-
-La transparencia <strong>no</strong> puede esperar hasta que los gobiernos tomen un control estricto de sus datos. Estos (cuando existan) deben ser de libre acceso. Lo que no podemos seguir dejando pasar es la oportunidad de usar el poder que tienen los datos desde la administración pública.
-
-Es por esto que si bien me preocupa mucho la transparencia pienso siempre <strong>primero</strong> en los datos como una herramienta de gobierno y un deber de que sean accesibles <strong>después</strong>.
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/sobre-el-voto-electronico/" class="u-url">Sobre el voto electrónico</a></h1>
+</div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/caida-de-dominios-en-nic/" class="u-url">Caída de dominios en NIC.ar al comenzar el cobro</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/sobre-el-voto-electronico/" rel="bookmark">
-            <time class="published dt-published" datetime="2015-07-02T15:44:40Z" itemprop="datePublished" title="2015-07-02 15:44">2015-07-02 15:44</time></a>
+            <a href="posts/caida-de-dominios-en-nic/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-03-10T12:04:00Z" itemprop="datePublished" title="2015-03-10 12:04">2015-03-10 12:04</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/sobre-el-voto-electronico/#disqus_thread" data-disqus-identifier="cache/posts/sobre-el-voto-electronico.html">Comentarios</a>
+    <a href="posts/caida-de-dominios-en-nic/#disqus_thread" data-disqus-identifier="cache/posts/caida-de-dominios-en-nic.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p>En el programa <a href="https://twitter.com/comollegamosa" target="_blank">¿<em>Cómo llegamos a esto?</em></a> radio <a href="http://mitrerafaela.com.ar" target="_blank">Mitre de la ciudad de Rafaela</a> me invitaron a conversar sobre el voto electrónico.
-
-Esta es la grabación, es un tema interesante, escucho opiniones.
-
-Nota: No soy analista de sistemas
-
-</p>
-<p>
-    <audio controls src="http://andresvazquez.com.ar/data/otros/Andres-Vazquez-en-radio-Mitre-Rafaela-sobre-voto-electronico.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio></p>
+    <p>Análisis presentado durante el <a href="blog/posts/nicathon-2015/">NICathon</a> (marzo 2015).</p>
+<h2>Caída de dominios en NIC.ar al comenzar el cobro</h2>
+<p>El pasado 5 de marzo de 2014 <a href="https://nic.ar">NIC Argentina</a> comenzo a cobrar por el uso de los dominios en la zona <em>.AR</em>.</p>
+<p>Descargando los datos del <a href="https://opendatacordoba.org/NICathon/">#NICathon</a> de <a href="https://opendatacordoba.org/">OpenDataCordoba</a> podemos ver que entre el 5 de marzo de 2014 y el 5 de marzo de 2015 hay listados 188.222 dominios que cambiaron su fecha de vencimiento. Esto se puede deber a:</p>
+<ul>
+<li>Llegada a la fecha de vencimiento del dominio (con caída, renovación o solicitud de prórroga).</li>
+<li>Cambio de titular o nuevo registro (<a href="blog/posts/masiva-renovacion-de-dominios-nic/">ver detalles</a>).</li>
+</ul>
+<p>La base de datos muestra los cambios percibidos en cada dominio monitoreado. Si bien esto no es exacto ni sobre la totalidad de los dominios en NIC se puede ver una tendencia en los movimientos de los dominios de la zona <em>AR</em>.</p>
+<p>Analizando la nueva fecha de vencimiento por la que cambio podemos decir:</p>
+<ul>
+<li>Si la nueva fecha es 365 días superior a la fecha previa de vencimiento entonces decimos que hubo una renovación <em>limpia</em>.</li>
+<li>Si la nueva fecha de vencimiento es vacía, entonces sabemos que el dominio se venció y no se renovó.</li>
+<li>Si la cantidad de dias es menor a 365 o superior suponemos que se pidio una prórroga, se cambio de titular y por lo tanto de fecha o el dominio cambio de fecha de vencimiento mediante una <a href="blog/posts/masiva-renovacion-de-dominios-nic/">baja y re-registración para evitar el pago</a>.</li>
+</ul>
+<p>De los más de 188.000 dominio, casi el 67% fue dado de baja. Los datos en el gráfico a continuación muestran la estimación del tamaño de la caída de dominio una vez que comenzo a ser pago.</p>
+<p>Aunque no pudimos conocer la cantidad de dominios registrados en la actualidad (no recibimos respuesta) recordamos que NIC informó en algún momento que teníamos registrados alrededor de 2.5 millones de dominios.</p>
+<p>Si la estimación no es mala (lo entendemos asi por el tamaño de la muestra, 650.000 dominios) entonces en la actualidad podemos tener un poco más de 800.000 dominios para toda la zona <em>AR</em>.</p>
+<p><a href="data/Caida-de-dominios-en-NIC/"><img alt="Gráfico de caída de dominios luego del cobro" src="img/data/caida-de-dominios-en-nic/screenshot.png"></a></p>
+<p><strong>Visualización interactiva:</strong> <a href="data/Caida-de-dominios-en-NIC/">/data/Caida-de-dominios-en-NIC/</a></p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/emprendiendo-en-tecnologia-sin-ser-programador/" class="u-url">Emprendiendo en tecnología sin ser programador</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/uso-de-dns-en-argentina/" class="u-url">DNSs usados en Argentina</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/emprendiendo-en-tecnologia-sin-ser-programador/" rel="bookmark">
-            <time class="published dt-published" datetime="2015-06-15T22:25:53Z" itemprop="datePublished" title="2015-06-15 22:25">2015-06-15 22:25</time></a>
+            <a href="posts/uso-de-dns-en-argentina/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-03-10T12:03:00Z" itemprop="datePublished" title="2015-03-10 12:03">2015-03-10 12:03</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/emprendiendo-en-tecnologia-sin-ser-programador/#disqus_thread" data-disqus-identifier="cache/posts/emprendiendo-en-tecnologia-sin-ser-programador.html">Comentarios</a>
+    <a href="posts/uso-de-dns-en-argentina/#disqus_thread" data-disqus-identifier="cache/posts/uso-de-dns-en-argentina.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p>Hace algunos meses alguien me consultó sobre como liderar la tecnología en una empresa y <a href="http://andresvazquez.com.ar/blog/el-equipo-y-la-tecnologia-de-tu-empresa/" target="_blank">publiqué</a> algunas ideas.
-Hoy veo que es muy común que pequeños emprendedores con conocimiento en tecnología pero no programadores inicien el camino de hacer negocios en la web.
-
-Conversando con un amigo hice una lista de sugerencias para no perderse en ese camino. He aplicado esto mismo en proyectos personales y me ha sido de utilidad, por eso lo comparto. La idea es poder coordinar actividades con el/los programadores que estén contigo. Incluso será útil para pedir cotizaciones concretas sobre avances que necesites.
-
-<img class="alignleft size-medium wp-image-161" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2015/06/GitHub-200x300.png" alt="GitHub" width="200" height="300">.- Pedile a tu desarrollador que suba el código a <a href="http://conociendogithub.readthedocs.org/en/latest/data/introduccion/" target="_blank">GitHub</a> . Vos también create una cuenta allí, la vas a necesitar.
-
-.- Pedile a tu programador que describa el proceso, desde cero, para hacer correr tu producto en una computadora <em>vacía</em>. Este proceso debe estar documentado en el archivo <em>readme</em> de tu repositorio. El objetivo es que cualquier programador que siga los pasos pueda echar a correr un entorno de pruebas. Sin esto cada programador que pase por tu proyecto deberá perder mucho tiempo inicializando. Si no lo pides, en general, no lo vas a tener y esto es importante,
-
-.- Según el estado de tu emprendimiento definí en un borrador tres o más etapas para avanzar. En mi caso me sirvió la trilogía: <em>Urgente</em> - <em>Necesario</em> - <em>Listo para vender</em>. Pueden ser otras, la idea es que definas etapas y que cada una tenga una lista de detalles a resolver en cada una. Seguramente tenés ese mapa en tu cabeza, llevalo a papel.
-
-.- Ingresa a GitHub, allí hay una a la sección de <em>issues</em> (problemas o mejoras a realizar). Estos pueden estar agrupados en <em>milestones </em>(hitos). La idea es que tus <em>milestones</em> sean tus etapas, cada una debe tener una fecha esperada.  Luego que definas las etapas puedes cargar cada uno de los puntos a resolver en cada una de estos <em>milestones.</em>
-
-.- Pedile a tu programador que para cada <em>issue</em> o ticket agregue o complemente con descripciones técnicas de los cambios a realizar. En algunos casos un ticket tuyo puede derivar en varios tickets técnicos. Mientras mejor definidos estén estos tickets más fácil te será pedir presupuesto por ellos. Dividir problemas muy grandes en muchas piezas simples y pequeñas es la mejor forma de encarar la solución.
-
-<span style="line-height: 1.5;"><img class="alignright size-medium wp-image-164" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2015/06/keep-calm-and-use-open-source-300x225.png" alt="keep-calm-and-use-open-source" width="300" height="225">Nota sobre el codigo en GitHub: para usarlo de modo gratuito el código debe ser libre (y si no es bastante barato). Si no vas a necesitar formulas de como producir uranio enriquecido no es mala idea que sea libre. Esto permite a otras personas reusarlo y mejorarlo sin costo para vos. Te abre a tu comunidad, permite recibir ayuda y algo muy importante: tu programador sentirá vergüenza de liberar código de mala calidad y por lo tanto mejorará su producción.</span></p>
+    <p>Análisis presentado durante el <a href="blog/posts/nicathon-2015/">NICathon</a> (marzo 2015).</p>
+<h2>DNSs usados en Argentina</h2>
+<p>Analizar los datos de los DNSs que usan los sitios webs argentinos (vía <a href="https://opendatacordoba.org/NICathon/">#NICathon</a> de <a href="https://opendatacordoba.org/">OpenDataCordoba</a>) nos permite conocer algunos datos interesantes.</p>
+<p>Podemos conocer información del mercado de hosting local y saber que dominios están en venta (via el DNS de la empresa <a href="https://sedo.com/es/?language=es">SEDO</a>).</p>
+<p>La lista de todos los DNSs detectados en este análisis es el siguiente:</p>
+<p><a href="data/Uso-de-DNSs-en-Argentina/"><img alt="Tabla de DNSs detectados por cantidad de sitios" src="img/data/uso-de-dns-en-argentina/table.png"></a></p>
+<p>Muchas empresas de hosting tienen más de un DNS, agrupando a algunas podemos ver un gráfico un poco más claro. Estos son los proveedores que detectamos con al menos 1.000 sitios web:</p>
+<p><a href="data/Uso-de-DNSs-en-Argentina/"><img alt="Gráfico de torta de proveedores de DNS en Argentina" src="img/data/uso-de-dns-en-argentina/chart.png"></a></p>
+<p>El mercado esta bastante repartido, a grandes rasgos podemos decir que el 23% del mercado se reparte entre cuatro grandes proveedores <a href="http://donweb.com/es-ar/">DonWeb (ex Dattatec)</a>, <a href="http://www.elserver.com/">El Server</a>, <a href="http://www.towebs.com/">ToWebs</a>, y <a href="https://www.nuthost.com/">Nuthost</a>.</p>
+<p>Por otro lado, un 12% de dominios sin ningún uso (sin DNS), el 3.7% de dominios que estan formalmente en venta vía SEDO y un saldo muy variado de proveedores.</p>
+<p><strong>Visualización interactiva:</strong> <a href="data/Uso-de-DNSs-en-Argentina/">/data/Uso-de-DNSs-en-Argentina/</a></p>
+<p>Los datos de este estudio pueden descargarse en <a href="data/Uso-de-DNSs-en-Argentina/data/DNSs-usados.csv">CSV</a>.</p>
     </div>
     </article>
 </div>

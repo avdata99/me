@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://andresvazquez.com.ar/blog/</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/2012/</loc>
@@ -43,7 +43,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/archive.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/blog/</loc>
@@ -291,7 +291,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/cordoba/</loc>
@@ -304,6 +304,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/datos-publicos/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/datos/</loc>
+  <lastmod>2026-05-10T18:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/dominios-ar/</loc>
@@ -322,8 +326,16 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/hosting/</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/categories/medios/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/nicathon/</loc>
+  <lastmod>2026-05-10T18:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/ong/</loc>
@@ -467,43 +479,43 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-10.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-11.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-12.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-13.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-14.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-15.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-16.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-17.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-18.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-19.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-2.html</loc>
@@ -511,19 +523,27 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-20.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-21.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-22.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-23.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-24.html</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-25.html</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-3.html</loc>
@@ -588,6 +608,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/cadena-de-datos/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/caida-de-dominios-en-nic/</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/cambios-para-nic-argentina/</loc>
@@ -664,6 +688,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/dominios-artesanales/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/dominios-para-atras/</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/educacion-en-ciudad-de-cordoba-segun-censo-2010/</loc>
@@ -794,6 +822,10 @@
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/masiva-renovacion-de-dominios-nic/</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/posts/medicina-de-datos/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
@@ -816,6 +848,14 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/que-tecnologia-se-usa-en-los-censos-de-latinoamerica/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/reservar-dominios-como-apropiacion/</loc>
+  <lastmod>2026-05-10T18:48:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/servidores-en-argentina/</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/siglos-de-fundacion-de-las-ciudades-argentinas/</loc>
@@ -844,5 +884,9 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/una-app-mas/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/uso-de-dns-en-argentina/</loc>
+  <lastmod>2026-05-10T19:30:00Z</lastmod>
  </url>
 </urlset>
