@@ -38,6 +38,7 @@ PHP/MySQL applications (Codeigniter and in-house frameworks). Performance optimi
 ## Selected Projects
 
 - **Python course** *(2025)* - Designed and taught a Python course.
+- **WhoAre.io** *(2010-present)* - A historic database of .AR domains.
 - **OpenDataCórdoba** *(2013 - 2020)* - Founder of the NGO. Open-data analysis and publication, data journalism collaborations and hackathons.
 - **Cadena de Datos** *(2019 - 2021)* - Host of a podcast interviewing open-data leaders across Latin America.
 - **Parlarispa** *(2019 - 2021)* - Django-based podcast platform delivering audience-segmented content; GCP, RSS, audio processing.

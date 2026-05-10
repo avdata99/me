@@ -37,6 +37,8 @@ Aplicaciones PHP/MySQL (Codeigniter y frameworks propios). Optimización de rend
 
 ## Proyectos destacados
 
+- **Curso de Python** *(2025)* - Diseñé e impartí un curso de Python.
+- **WhoAre.io** *(2010-present)* - Base de datos histórica de dominios en la zona .AR.
 - **OpenDataCórdoba** *(2013 – presente)* - Fundador de la ONG. Análisis y publicación de datos abiertos, colaboraciones en periodismo de datos y hackatones.
 - **Cadena de Datos** *(2019 – presente)* - Conductor de un podcast con entrevistas a referentes de datos abiertos en Latinoamérica.
 - **Parlarispa** *(2019)* - Plataforma de podcasts en Django con contenidos diferenciados por audiencia; GCP, RSS, procesamiento de audio.
