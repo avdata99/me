@@ -1,0 +1,1 @@
+Jornadas sobre gobierno abierto y tecnología organizadas por [OpenDataCordoba](http://opendatacordoba.org/) en octubre de 2015. Colaboré en la organización general y armé el [sitio web del evento](http://opendatacordoba.org/jornadas/GoberNET).
