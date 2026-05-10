@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    google.setOnLoadCallback(drawChart);
+    google.charts.setOnLoadCallback(drawChart);
     });
 
 
