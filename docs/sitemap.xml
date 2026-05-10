@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://andresvazquez.com.ar/blog/</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/2012/</loc>
@@ -43,7 +43,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/archive.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/blog/</loc>
@@ -291,7 +291,19 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/boletin-oficial/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/censo/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/cepyd/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/cordoba/</loc>
@@ -314,6 +326,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/educacion/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/categories/elecciones/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
@@ -322,12 +338,20 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/gobierno-abierto/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/categories/hackathons/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/hosting/</loc>
   <lastmod>2026-05-10T19:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/mapas/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/medios/</loc>
@@ -344,6 +368,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/opendata/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/padrones/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/periodismo/</loc>
@@ -475,103 +503,107 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-1.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-10.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-11.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-12.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-13.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-14.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-15.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-16.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-17.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-18.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-19.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-2.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-20.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-21.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-22.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-23.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-24.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-25.html</loc>
-  <lastmod>2026-05-10T19:30:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-26.html</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-3.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-4.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-5.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-6.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-7.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-8.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-9.html</loc>
-  <lastmod>2026-05-10T17:29:00Z</lastmod>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/listings/</loc>
@@ -682,6 +714,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/designacion-de-funcionarios-2011-2012/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/posts/desigualdada-de-genero-segun-sueldos-en-cordoba/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
@@ -692,6 +728,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/dominios-para-atras/</loc>
   <lastmod>2026-05-10T19:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/educacion-cordoba-capital-cepyd-2010/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/educacion-en-ciudad-de-cordoba-segun-censo-2010/</loc>
@@ -782,6 +822,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/incendio-en-cordoba-septiembre-2013/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/posts/informatizacion-de-los-municipios/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
@@ -842,12 +886,20 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/padrones-por-localidad-2015/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/posts/publico-y-libre/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/que-tecnologia-se-usa-en-los-censos-de-latinoamerica/</loc>
   <lastmod>2026-05-10T14:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/radios-municipales-cordoba-2014/</loc>
+  <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/reservar-dominios-como-apropiacion/</loc>

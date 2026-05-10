@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre censo)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/censo.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 20:04:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Educación en Córdoba Capital por fracción censal (2010)</title><link>https://andresvazquez.com.ar/blog/posts/educacion-cordoba-capital-cepyd-2010/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;blockquote&gt;
+&lt;p&gt;Análisis desarrollado en colaboración con el &lt;a href="http://www.cepyd.org.ar/"&gt;Centro de Estudios de Población y Desarrollo (CEPyD)&lt;/a&gt;, basado en datos del Censo 2010.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Educación en Córdoba Capital por fracción censal (2010)&lt;/h2&gt;
+&lt;p&gt;Mapa interactivo de la ciudad de Córdoba que muestra siete indicadores educativos a nivel de &lt;strong&gt;fracción censal&lt;/strong&gt;, calculados sobre los datos del Censo Nacional 2010. Cada fracción es un polígono pinta-coreado según el indicador seleccionado, y al hacer click se despliegan los siete valores para esa zona.&lt;/p&gt;
+&lt;h3&gt;Indicadores disponibles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tasa de analfabetismo en menores de 15 años&lt;/li&gt;
+&lt;li&gt;Tasa de asistencia escolar de 6 a 11 años&lt;/li&gt;
+&lt;li&gt;Tasa de asistencia escolar de 12 a 17 años&lt;/li&gt;
+&lt;li&gt;Tasa de asistencia escolar de 18 a 24 años&lt;/li&gt;
+&lt;li&gt;Tasa neta de escolaridad primaria&lt;/li&gt;
+&lt;li&gt;Tasa neta de escolaridad secundaria&lt;/li&gt;
+&lt;li&gt;Tasa neta de escolaridad superior&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Datos crudos&lt;/h3&gt;
+&lt;p&gt;Todos los indicadores están embebidos en el GeoJSON con la geometría de cada fracción censal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://andresvazquez.com.ar/blog/data/CEPyD-Cordoba-Capital-2010/resources/fracciones-cba.geojson"&gt;GeoJSON con fracciones censales y todos los indicadores&lt;/a&gt; (93 KB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los polígonos en formato Shapefile (ESRI) también están disponibles bajo &lt;code&gt;/data/CEPyD-Cordoba-Capital-2010/resources/fraciones-cba-manu/&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Visualización interactiva&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ La versión interactiva del mapa usa Google Maps con una API key que ya no es válida. Para volver a verla en funcionamiento haría falta migrarla a Leaflet u OpenStreetMap (la geometría y los datos siguen disponibles arriba) o renovar la API key de Google. La carpeta del proyecto está en &lt;a href="https://andresvazquez.com.ar/blog/data/CEPyD-Cordoba-Capital-2010/"&gt;&lt;code&gt;/data/CEPyD-Cordoba-Capital-2010/&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description><category>censo</category><category>CEPyD</category><category>Cordoba</category><category>datos</category><category>educacion</category><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/educacion-cordoba-capital-cepyd-2010/</guid><pubDate>Fri, 15 Aug 2014 12:00:00 GMT</pubDate></item><item><title>Radios municipales en Córdoba (2014)</title><link>https://andresvazquez.com.ar/blog/posts/radios-municipales-cordoba-2014/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Trabajo realizado en mayo de 2014 sobre los &lt;strong&gt;radios municipales definidos y en conflicto&lt;/strong&gt; en la provincia de Córdoba, montado como capa de un mapa interactivo a nivel de radio censal del &lt;a href="https://andresvazquez.com.ar/blog/blog/posts/cordoba-a-nivel-de-radio-censal/"&gt;Censo 2010&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;El radio municipal es el límite legal del territorio que cada municipio cordobés puede administrar. La definición y delimitación de varios de estos radios estaba (y sigue, en muchos casos) sin resolver, generando conflictos entre municipios vecinos y zonas grises de jurisdicción.&lt;/p&gt;
+&lt;p&gt;La aplicación que mostraba esa capa era parte del proyecto &lt;em&gt;Córdoba según el Censo 2010&lt;/em&gt;, surgido del &lt;a href="https://andresvazquez.com.ar/blog/blog/posts/hackathon-fopea-2014/"&gt;Hackathon FOPEA 2014&lt;/a&gt;. Su código quedó abierto en &lt;a href="https://github.com/HackathonFOPEA/CensoCordoba2010"&gt;GitHub — HackathonFOPEA/CensoCordoba2010&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; la aplicación interactiva (&lt;code&gt;cordoba-argentina-segun-censo-2010/&lt;/code&gt;) ya no está disponible en este sitio. El código fuente sigue en GitHub para quien quiera revivirla.&lt;/p&gt;
+&lt;/blockquote&gt;</description><category>censo</category><category>Cordoba</category><category>datos</category><category>mapas</category><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/radios-municipales-cordoba-2014/</guid><pubDate>Thu, 15 May 2014 12:00:00 GMT</pubDate></item></channel></rss>

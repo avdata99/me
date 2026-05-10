@@ -45,140 +45,157 @@
     
     
     </ul></nav></header><main id="content"><div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/columna-genfm-2017-07-03/" class="u-url">Columna en GenFM 107.5 — datos abiertos</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/una-app-mas/" class="u-url">Una app más?</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/columna-genfm-2017-07-03/" rel="bookmark">
-            <time class="published dt-published" datetime="2017-07-03T12:00:00Z" itemprop="datePublished" title="2017-07-03 12:00">2017-07-03 12:00</time></a>
+            <a href="posts/una-app-mas/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-09-08T11:00:01Z" itemprop="datePublished" title="2016-09-08 11:00">2016-09-08 11:00</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/columna-genfm-2017-07-03/#disqus_thread" data-disqus-identifier="cache/posts/columna-genfm-2017-07-03.html">Comentarios</a>
+    <a href="posts/una-app-mas/#disqus_thread" data-disqus-identifier="cache/posts/una-app-mas.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p><a href="https://opendatacordoba.org/">OpenDataCordoba</a> tuvo durante 2017 una columna semanal en el programa <strong>Tarde para Chequear</strong> de <a href="http://genfm.com.ar/">Radio GenFM 107.5</a> sobre datos abiertos y gobierno abierto. El 3 de julio de 2017 me tocó a mí ser el invitado de la columna.</p>
-<p>Tema: <em>"Carta marina a todas las escuelas que se van a usar para todas las elecciones"</em>.</p>
-<p>Audio original en <a href="https://radiocut.fm/audiocut/en-nuestra-columna-de-open-data-andres-vazquez/">RadioCut</a>. También guardo una <a href="audio/odc/columna-genfm-2017-07-03.mp3">copia local</a> por las dudas:</p>
-<p><audio controls preload="none" src="audio/odc/columna-genfm-2017-07-03.mp3"></audio></p>
-<p>El listado completo de columnas (con varios compañeros del grupo) estaba en <a href="https://opendatacordoba.org/columna-radial/">opendatacordoba.org/columna-radial/</a>.</p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/" class="u-url">Datos de la programación del Canal Encuentro 2013-2016</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Andres Vazquez
-            </span></p>
-            <p class="dateline">
-            <a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/" rel="bookmark">
-            <time class="published dt-published" datetime="2016-11-16T02:40:07Z" itemprop="datePublished" title="2016-11-16 02:40">2016-11-16 02:40</time></a>
-            </p>
-                <p class="commentline">
-    
-    <a href="posts/datos-de-la-programacion-del-canal-encuentro-2013-2016/#disqus_thread" data-disqus-identifier="cache/posts/datos-de-la-programacion-del-canal-encuentro-2013-2016.html">Comentarios</a>
+    <p>Con motivo de la <a href="http://cultura.cordoba.gov.ar/2016/09/el-jueves-8-abrira-la-31-a-edicion-de-la-feria-del-libro-cordoba/" target="_blank" rel="noopener">Feria del Libro Córdoba 2016</a> nos propusimos en la Municipalidad de Córdoba* desarrollar una aplicación móvil para que la agenda de actividades esté disponible al público.
 
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <p>Hasta hace muy pocos días en el sitio web del <a href="http://www.encuentro.gob.ar/">Canal Encuentro</a> se publicaban archivos PDF con la programación diaria del canal. Bastante feos pero datos al fin.
-
-<a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/grillaPDF/GrillaEncuentro-01-01-2014.pdf"><img class="aligncenter size-full wp-image-337" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_597.png" alt="seleccion_597" width="675" height="275"></a>
-
-Uno podía acceder a todos los archivos PDF simplemente navegando uno por uno todos los días en el almanaque que mostraba. Decidí entonces hacer un pequeño programa de computadora que hiciera el trabajo por mí. Encontré que estos archivos PDF se publicaban desde mayo de 2013. El programa descargo entonces automáticamente los 1286 archivos con datos.
-
-<strong>Lamentablemente y por <em>casualidad</em> el día posterior a descargar los 1286 archivos con datos estos desaparecieron, este análisis no podrá seguirse haciendo. Canal Encuentro al parecer cerró esos datos.
-Hoy la programación se encuentra en <a href="http://www.encuentro.gob.ar/programacion">http://www.encuentro.gob.ar/programacion</a> pero hasta el día que hice este análisis el link era <a href="http://www.encuentro.gob.ar/sitios/encuentro/grilla/index">http://www.encuentro.gob.ar/sitios/encuentro/grilla/index</a> (todavía se redirige).
-</strong>
-
-Transforme a texto esos datos <a href="https://github.com/euske/pdfminer/blob/master/tools/pdf2txt.py">con una herramienta</a> disponible y finalmente los organicé con una tabla estructurada. Quedaron entonces dos datasets muy interesantes.
-
-1.- La programación completa de los tres años y medio de emisiones (2013-2016) en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/final.csv">CSV</a>.
-2 .- Los datos acumulados por programa (sin considerar los capítulos específicos) también en <a href="https://raw.githubusercontent.com/avdata99/ScrapEncuentro/gh-pages/acumulado.csv">CSV</a>.
-
-El primer dataset es más rico, se podrían hacer muchos análisis y visualizaciones con el. El segundo es más general pero también valioso y me permite saber si la programación 2016 (gestión Cambiemos) sigue la línea de los años anteriores (gestión FPV). Ponderando los programas según horario de transmisión (<a href="https://github.com/avdata99/ScrapEncuentro/blob/gh-pages/scrapencuentro.py#L76-L104">a ojo</a>, no soy experto en prime-time, horarios de TV, etc) y tomando los programas más <em>destacados</em> de 2016 puedo conocer cual fue su trayectoria anterior.
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/"><img class="aligncenter size-large wp-image-338" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_598-1024x457.png" alt="seleccion_598" width="790" height="353"></a>
-
-<strong><a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2016/">Click para ampliar</a></strong>
-
-El gráfico muestra lo que cualquier consumidor de este canal de televisión ha podido notar. Hubo (como era de esperar) bastantes cambios en la programación, de los programas más vistos hoy muchos no existían años atrás o se daban con menor relevancia. Sólo algunos programas siguen.
-
-Análisis detallado de cada programa y sus capítulos a través del tiempo. Ejemplo <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0">Filosofía aquí y ahora</a>:</em>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=filosofia-aqui-y-ahora&amp;anio=0"><img class="aligncenter size-medium wp-image-346" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_608-300x141.png" alt="seleccion_608" width="300" height="141"></a>
-
-Puede filtrarse por programa y por año. Ejemplo: <em><a href="https://avdata99.github.io/ScrapEncuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016">A fondo, 2016</a>:</em>
-
-<a href="http://dev/otros/scrapencuentro/viz/detalle-programas/index.html?programa=a-fondo&amp;anio=2016"><img class="aligncenter size-medium wp-image-347" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_609-300x137.png" alt="seleccion_609" width="300" height="137"></a>
-
-La finalidad de este análisis era también experimentar visualizaciones por lo que deje hechas algunas más.
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución de la relevancia de los programas más importantes de 2015</a>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter wp-image-339 size-medium" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_599-300x136.png" alt="seleccion_599" width="300" height="136"></a>
-
- 
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/">Evolución mensual de los programas más puntuados de toda la serie (2013-2016)</a>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/historia-programas-mas-vistos-2015/"><img class="aligncenter size-medium wp-image-340" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_600-300x138.png" alt="seleccion_600" width="300" height="138"></a>
-
- 
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/">Evolución anual de los programas más puntuados de toda la serie (2013-2016)</a>
-
-<a href="https://avdata99.github.io/ScrapEncuentro/viz/programas-por-anio/"><img class="aligncenter size-medium wp-image-341" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_601-300x135.png" alt="seleccion_601" width="300" height="135"></a>
-
- 
-
-Los datos usados, el código para extraerlo y las visualizaciones quedaron en este repositorio de código abierto:
-<a href="https://github.com/avdata99/ScrapEncuentro">https://github.com/avdata99/ScrapEncuentro</a>. Si te sirven los datos para hacer otros análisis o visualizaciones estaría agradecido que los compartas.
-
- </p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/mapa-de-funcionarios-de-villa-maria/" class="u-url">Mapa de funcionarios de Villa María</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Andres Vazquez
-            </span></p>
-            <p class="dateline">
-            <a href="posts/mapa-de-funcionarios-de-villa-maria/" rel="bookmark">
-            <time class="published dt-published" datetime="2016-11-06T03:53:34Z" itemprop="datePublished" title="2016-11-06 03:53">2016-11-06 03:53</time></a>
-            </p>
-                <p class="commentline">
-    
-    <a href="posts/mapa-de-funcionarios-de-villa-maria/#disqus_thread" data-disqus-identifier="cache/posts/mapa-de-funcionarios-de-villa-maria.html">Comentarios</a>
-
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <p>Con motivo del Congreso Ecosistema de Datos (<a href="http://www.conecos.com.ar/">CONECOS16</a>) fuimos invitados como equipo de <a href="http://opendatacordoba.org/">OpenDataCordoba</a> a organizar el Hackathon que allí iba a desarrollarse.
-
-En contra de lo que esperaba por ser organizado un día de semana por la mañana asistieron más de 50 personas y pudimos hacer 8 equipos de trabajo.
-
-En mi caso decidí trabajar con la base de datos de funcionarios de la Ciudad de Villa María que el municipio <a href="http://datos.villamaria.gob.ar/dataviews/225794/funcionarios-municipales/">ya libera en su portal de datos</a>. La idea fue replicar el <a href="https://modernizacionmunicba.github.io/visualizaciones/dendograma/?radio=600">dendrograma que ya habíamos desarrollado desde la Municipalidad de Córdoba</a> y que dejamos como <a href="https://github.com/ModernizacionMuniCBA/visualizaciones/tree/gh-pages/dendograma">código abierto</a> para que cualquier gobierno reutilice con la línea con la idea de la <a href="http://andresvazquez.com.ar/blog/la-cooperacion-como-estrategia-de-desarrollo/">cooperación como estrategia para el desarrollo</a>.
+Este desarrollo se termino convirtiendo en la excusa perfecta para varios lineamientos que impulsamos desde nuestro trabajo diario.
 </p>
-<blockquote class="twitter-tweet" data-lang="en">
-<p dir="ltr" lang="es">2 gobiernos de distintos signos políticos cooperan en Gobierno Abierto. Impresionante#CONECOS16 <a href="https://twitter.com/martinrgill">@martinrgill</a> <a href="https://twitter.com/MuniVillaMaria">@MuniVillaMaria</a> <a href="https://twitter.com/cossarmarcelo">@cossarmarcelo</a> <a href="https://t.co/28IipeXDy3">https://t.co/28IipeXDy3</a></p>
-— Mariano Mosquera (@MarianoMosquera) <a href="https://twitter.com/MarianoMosquera/status/794973609638895617">November 5, 2016</a>
+<h4>
+<a href="https://modernizacionmunicba.github.io/feria-del-libro/www/"><img class="alignleft size-medium wp-image-276" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/09/screen-mobile-01-174x300.png" alt="screen-mobile-01" width="174" height="300"></a>Dejar la aplicación disponible como software libre</h4>
+Queremos fomentar la <strong>colaboración</strong> entre Gobiernos para atacar las necesidades que tenemos en común. Lo primero que notamos al hacer esta aplicación es que muchos otros gobiernos (y por que no otro tipo de organizaciones) seguramente van a necesitar este tipo de productos. Lamentablemente no es común que los gobiernos abran sus desarrollos tecnológicos. Cualquiera que haya asistido a eventos donde los gobiernos presentan al público productos modernos e innovadores lo notarán. <strong>Todos los gobiernos estamos haciendo los mismos desarrollos, cada uno por su parte</strong>. Queremos empezar a cambiar este paradigma.
+<h4>Ordenar los datos de gestión interna</h4>
+Esta aplicación no podía ser de diseño estático. Las 300 actividades que forman esta Feria del Libro pueden sufrir modificaciones durante su curso. Es por esto que decidimos colocar su contenido en una base de datos externa. De esta forma los cambios que aparezcan serán actualizados en un sistema externo y automáticamente se reflejarán en los dispositivos móviles de los asistentes al evento.
+
+La actividad cultural en Córdoba es muy importante y excede a esta Feria del Libro. Hacer que la Secretaría de Cultura cargue la agenda completa de eventos y note los beneficios de tener una app conectada online a estos datos nos permite continuar del mismo modo a futuro. En adelante entonces toda la actividad Cultural de la Municipalidad podrá estar disponible para una aplicación cultural del Municipio. Esto es <em>win-win</em> con <a href="https://gobiernoabierto.cordoba.gob.ar/funcionarios/oficina/direccion-de-sistemas-de-informacion/5" target="_blank" rel="noopener">mi trabajo</a>, voy a disponer de todos los datos de la actividad cultural sin tener que pedirlos, limpiarlos y analizarlos. <strong>Una clave importante para mi trabajo es brindar herramientas que simplifiquen procesos a personas que trabajan a diario con datos de</strong> <strong>gestión</strong>.<strong> </strong>El desarrollo de visualizaciones y estadísticas se simplifica enormemente cuando la fuente de datos usada es alimentada a diario por terceros.
+<h4>Ecosistema de emprendimientos tecnológicos de la ciudad</h4>
+Los datos que consume esta aplicación <strong><a href="https://gobiernoabierto.cordoba.gob.ar/api/actividad-publica/" target="_blank" rel="noopener">están abiertos en formato reutilizable</a></strong>. Eso es importante porque no sólo el Municipio gana cuando esta actividad se difunde, existen emprendimientos dedicados a difundir la movida cultural de nuestra ciudad. Hemos contactado a algunos de ellos y han visto de muy buena gana la posibilidad de consumir estos datos en vivo, no van a volver a necesitar recibir las gacetillas y transcribirlas a sus sistemas. En el mismo momento que publiquemos un evento las aplicaciones de terceros lo tendrán publicados en sus portales o aplicaciones.
+<h4>Articular aplicaciones de uso conjunto entre diferentes oficinas municipales</h4>
+Otro detalle que pensamos es que una agenda de eventos públicos es algo necesario para muchas áreas además de la oficina de cultura. Después de esta oficina podrán sumarse la Dirección de Juventud con la agenda para este público. Deportes, turismo, tercera edad, etc; todos los que tengan agendas las van a poder cargar en nuestra base de datos centralizada y ver estos datos en diferentes apps municipales (y por supuesto de terceros).
+<h4>Links</h4>
+Esta aplicación está disponible en el market de Android pero también en versión web.
+
+Web: <a href="https://modernizacionmunicba.github.io/feria-del-libro">https://modernizacionmunicba.github.io/feria-del-libro
+</a>Google Play (Android): <a href="https://play.google.com/store/apps/details?id=ar.gob.cordoba.gobiernoabierto.feriadellibro">https://play.google.com/store/apps/details?id=ar.gob.cordoba.gobiernoabierto.feriadellibro
+</a>Código fuente libre: <a href="https://github.com/ModernizacionMuniCBA/feria-del-libro">https://github.com/ModernizacionMuniCBA/feria-del-libro
+</a>Datos abiertos vía API: <a href="https://gobiernoabierto.cordoba.gob.ar/api/actividad-publica/">https://gobiernoabierto.cordoba.gob.ar/api/actividad-publica/</a>
+<blockquote>
+
+<hr>
+
+En resumen, ésta no es una app más, hay un grupo de ideas detrás que nos vincula al software libre, datos abiertos en formatos reutilizables y a fomentar al ecosistema tecnológico que nos acerca a la ciudadanía.
+<strong>No se termina este desarrollo después de la Feria, empieza con la Feria.</strong>
+
+<hr>
 </blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+* Como trabajo en equipo entre la <a href="https://gobiernoabierto.cordoba.gob.ar/funcionarios/oficina/mapa-secretario-de-modernizacion-comunicacion-y-desarrollo-estrategico/290">Secretaría de Modernización</a> y la <a href="https://gobiernoabierto.cordoba.gob.ar/funcionarios/oficina/mapa-secretario-de-cultura/238">Secretaría de Cultura</a>.
+<h4>Actualización 2017</h4>
+<img class="alignleft wp-image-391" src="blog/wp-content/uploads/2016/09/icono-512x512-300x300.png" alt="" width="145" height="145">Esta nueva edición de la Feria del Libro 2017 también se  permite que desde cualquier medio de comunicación se replique la agenda con actualización de los cambios de agenda que hubiera.
 
-Los datos liberados eran bastante completos pero no tenían información de la relación entre los funcionarios. O sea, estaban todos los nodos pero no información a cerca de las conexiones entre ellos. Para esto conté con la colaboración de dos politólogos (Guido López Avakian (<a href="https://twitter.com/glopezavakian">@glopezavakian</a>) y Facundo Londero) que me ayudaron <a href="https://docs.google.com/spreadsheets/d/1rxLsTBDRPu5SRB5i0k8i3E3aJQGX1ZX-KyLC4TqzbBU/edit?usp=sharing">vía un documento compartido</a> a completar la información faltante. Los funcionarios del municipio de Villa María nos ayudaron también a obtener la información necesaria. Agregamos tambien el <em>género</em> de cada funcionario para que la visualización final permita conocer también este dato.
-
-Luego un <a href="https://github.com/VillaMaria/dendrograma-funcionarios-villa-maria/blob/gh-pages/convert-csv-to-json.py">script simple para transformar estos datos</a> al formato necesario en la visualización y <em>voilà</em>, un nuevo dendrograma funcionando
-
-<a href="https://villamaria.github.io/dendrograma-funcionarios-villa-maria/dendrograma/?radio=550"><img class="aligncenter wp-image-330 size-full" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_582.png" alt="dendrograma villa maría" width="776" height="291"></a>
+Concretamente podes embeber este link:
+<a href="https://modernizacionmunicba.github.io/feria-del-libro/www/">https://modernizacionmunicba.github.io/feria-del-libro/www/</a>
 
  
 
-El código completo de esta visualización quedó también <a href="https://github.com/VillaMaria/dendrograma-funcionarios-villa-maria">abierto y libre</a> para reutilizarse en otros gobiernos.
+<a href="https://modernizacionmunicba.github.io/feria-del-libro/www/"><img class="alignleft wp-image-390 size-medium" src="blog/wp-content/uploads/2016/09/screen-mobile-01-1-174x300.png" alt="" width="174" height="300"></a>
+
+Si queres embeber una versión modificada podes tomar el código y cambiarlo a gusto
+Este es el repositorio abierto:
+<a href="https://github.com/ModernizacionMuniCBA/feria-del-libro">https://github.com/ModernizacionMuniCBA/feria-del-libro</a>
+
+Finalmente si queres hacer tu propia versión desde cero, este es el API con toda la agenda de la feria del libro:
+<a href="https://gobiernoabierto.cordoba.gob.ar/api/actividad-publica/">https://gobiernoabierto.cordoba.gob.ar/api/actividad-publica/</a>
+(filtro evento_id=16 es la feria 2017)
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/desigualdada-de-genero-segun-sueldos-en-cordoba/" class="u-url">Desigualdad de género según sueldos en Córdoba</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/desigualdada-de-genero-segun-sueldos-en-cordoba/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-08-27T18:37:46Z" itemprop="datePublished" title="2016-08-27 18:37">2016-08-27 18:37</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/desigualdada-de-genero-segun-sueldos-en-cordoba/#disqus_thread" data-disqus-identifier="cache/posts/desigualdada-de-genero-segun-sueldos-en-cordoba.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <p>¿Cual es el promedio de las jubilaciones por genero en Córdoba?
+
+¿Hay desigualdad de genero?  ¿En que sectores esta diferencia es mayor?
+
+Intenté avanzar sobre estos temas en una publicación en el blog de OpenDataCórdoba
+
+http://blog.opendatacordoba.org/evolucion-de-sueldos-por-genero-en-cordoba/
+<a href="http://blog.opendatacordoba.org/evolucion-de-sueldos-por-genero-en-cordoba/"><img class="aligncenter size-medium wp-image-262" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/08/Selecci%C3%B3n_307-1-300x146.png" alt="Selección_307" width="300" height="146"></a></p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/el-arbol-y-el-bosque/" class="u-url">El árbol y el bosque</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/el-arbol-y-el-bosque/" rel="bookmark">
+            <time class="published dt-published" datetime="2016-07-05T02:52:13Z" itemprop="datePublished" title="2016-07-05 02:52">2016-07-05 02:52</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/el-arbol-y-el-bosque/#disqus_thread" data-disqus-identifier="cache/posts/el-arbol-y-el-bosque.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <h4>¿Se pueden liberar todos los datos <em>individualmente</em> pero en realidad no liberar una base de datos completa?</h4>
+Si, veamos el caso de NICAr.
+
+Después de varios días sin servicio (planificados) y muchos cambios en su sistema, <a href="https://es.wikipedia.org/wiki/NIC_Argentina" target="_blank">NIC Argentina</a> apareció con un <a href="https://es.wikipedia.org/wiki/Captcha" target="_blank">captcha</a>:
+
+<img class="aligncenter size-medium wp-image-252" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/07/Selecci%C3%B3n_055-300x176.png" alt="Selección_055" width="300" height="176">
+
+NIC Argentina es la oficina (pública) encarga de la gestión de todos los dominios de la zona .AR (dominios <em>.com.ar</em>, <em>.org.ar</em>, etc). Todos los sitios webs registrados y en uso en esta zona son administrados por esta oficina. Desde hace muchos años uno puede acceder al sitio <a href="https://nic.ar" target="_blank">nic.ar</a> y consultar información acerca de un dominio en particular. Por ejemplo, usted puede saber quien es el dueño de este dominio, andresvazquez.com.ar:
+
+<img class="aligncenter size-medium wp-image-253" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/07/Selecci%C3%B3n_057-300x204.png" alt="Selección_057" width="300" height="204">
+
+Ahora, si usted quisiera saber cosas como:
+<ul>
+<li>¿Que otros dominios tiene un registrante?</li>
+    <li>¿Quien es el que tiene más dominios registrados?</li>
+    <li>¿Cuantos dominios se registran por día?</li>
+</ul>
+y muchos otras cosas, no podría. Quiero decir, <strong>usted puede ver cada árbol pero nunca el bosque</strong>.
+
+Pero ¿y si tomara lápiz y papel e ingresara a cada uno de los dominios existentes (aunque no exista la lista, adivinando palabras y combinaciones de letras) e hiciera una lista manual para analizar?
+
+De esta forma podría ver el bosque. Podría saber mucho más. Podría revisar que los dominios -por ejemplo- no tengan mas de un año de vigencia como especifica el reglamento. O podría encontrar que no es así (<a href="http://www.lanacion.com.ar/1745843-presentan-una-herramienta-para-analizar-los-dominios-argentinos-registrados" target="_blank">ver dominio que vence dentro de 100 años</a>).
+
+En la vida real no es viable humanamente leer millones de sitios webs para tomar notas y construir una base de datos de este tamaño. Desde hace mucho tiempo y mediante técnicas de <a href="https://es.wikipedia.org/wiki/Web_scraping" target="_blank">scraping</a> uno puede delegar esa tarea a una computadora. De esta forma la computadora puede pasar horas consultando uno o más sitios webs simultáneamente (cada uno de los dominios en NIC.ar por ejemplo) y guardando los datos importantes en forma de una base de datos organizada.
+
+De esta forma <strong>uno puede construir la base de datos</strong> (el bosque) a la que se le niega el acceso. Si la información de cada dominio es libre (los árboles), entonces se entiende que es una base de datos libre. Más aún se entiende ya que desde hace algún tiempo NIC Argentina publica en una nueva sección del Boletín Oficial (construida ad-hoc) todos los días, todos los dominios que se registran junto a los datos completos del registrante.
+
+¿Como hace un gobierno o empresa que quiere limitar el consumo masivo de sus datos?
+
+<img class="aligncenter" src="http://www.extremetech.com/wp-content/uploads/2011/11/captcha-selection1.jpg" width="926" height="431">
+Usa un <strong>captcha</strong>, una especie de <em>validador de humanos</em> que impide que las computadoras accedan a la información que se desea ocultar.
+
+NIC Argentina entonces (como ya han hecho muchos otros antes) libera <strong>todos</strong> los datos pero sólo de a uno por vez.
+
+Desde la agrupación <a href="http://opendatacordoba.org/" target="_blank">OpenDataCórdoba</a> desde hace algunos años mantenemos una base de datos muy detallada de dominios en NIC Argentina. Todos los datos se publican en <a href="http://nic.opendatacordoba.org/" target="_blank">un sitio web</a> y <a href="https://play.google.com/store/apps/details?id=com.phonegap.arnicapp" target="_blank">aplicación móvil</a>.
+
+<img class="aligncenter size-medium wp-image-254" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2016/07/Selecci%C3%B3n_058-300x238.png" alt="Selección_058" width="300" height="238">
+
+Los datos acerca de dominios de internet en el mundo en general escasean, no se liberan en general ya que representan activos muy valiosos. Sin embargo hemos liberado nuestra base de datos completa el año pasado en un evento llamando <a href="http://opendatacordoba.org/NICathon/" target="_blank">NICAthon</a> que invitaba a analistas de datos a producir información basada en estos datos.
+
+Lamentablemente este trabajo de años debe discontinuarse hasta que NIC Argentina revea su decisión o exponga otros canales de información que nos permitan continuar con esta aplicación.
     </div>
     </article>
 </div>

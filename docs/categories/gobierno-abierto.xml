@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Temimbo'e (Publicaciones sobre gobierno-abierto)</title><link>https://andresvazquez.com.ar/blog/</link><description></description><atom:link href="https://andresvazquez.com.ar/blog/categories/gobierno-abierto.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2026 &lt;a href="mailto:andres@data99.com.ar"&gt;Andres Vazquez&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 May 2026 20:04:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Designación de funcionarios 2011-2012</title><link>https://andresvazquez.com.ar/blog/posts/designacion-de-funcionarios-2011-2012/</link><dc:creator>Andres Vazquez</dc:creator><description>&lt;p&gt;Datos extraídos del boletín oficial que me compartieron en un hackathon (lamento no recordar quién) y re-comparto por aquí: &lt;strong&gt;designación de funcionarios públicos argentinos entre abril de 2011 y junio de 2012&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;El CSV contiene 5.015 designaciones scrapeadas de los PDFs del Boletín Oficial argentino, con los campos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;fecha&lt;/code&gt; — fecha de publicación&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;persona&lt;/code&gt; — nombre del designado&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;codigo_tipo&lt;/code&gt; y &lt;code&gt;codigo_numero&lt;/code&gt; — tipo y número de documento (típicamente DNI)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dependencia&lt;/code&gt; — organismo del Estado&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;puesto&lt;/code&gt; — cargo asumido&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;texto&lt;/code&gt; — extracto del artículo del Boletín Oficial con los detalles formales&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Descargar&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://andresvazquez.com.ar/blog/data/designacion-de-funcionarios/designacion-puestos-boletin-oficial.csv"&gt;&lt;code&gt;designacion-puestos-boletin-oficial.csv&lt;/code&gt;&lt;/a&gt; (5.015 filas)&lt;/p&gt;</description><category>boletin-oficial</category><category>datos</category><category>gobierno-abierto</category><category>OpenData</category><guid>https://andresvazquez.com.ar/blog/posts/designacion-de-funcionarios-2011-2012/</guid><pubDate>Thu, 15 Nov 2012 12:00:00 GMT</pubDate></item></channel></rss>

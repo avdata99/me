@@ -44,32 +44,7 @@
     
     
     </ul></nav></header><main id="content"><div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/aprovechando-el-api-de-youtube/" class="u-url">Aprovechando el API de Youtube</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Andres Vazquez
-            </span></p>
-            <p class="dateline">
-            <a href="posts/aprovechando-el-api-de-youtube/" rel="bookmark">
-            <time class="published dt-published" datetime="2013-07-28T15:25:35Z" itemprop="datePublished" title="2013-07-28 15:25">2013-07-28 15:25</time></a>
-            </p>
-                <p class="commentline">
-    
-    <a href="posts/aprovechando-el-api-de-youtube/#disqus_thread" data-disqus-identifier="cache/posts/aprovechando-el-api-de-youtube.html">Comentarios</a>
-
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <a href="http://television.data99.com.ar"><img class="alignleft wp-image-134 size-medium" style="padding: 10px;" src="http://andresvazquez.com.ar/blog/wp-content/uploads/2013/07/Selection_043-300x160.png" alt="Selection_043" width="300" height="160"></a>Hace tiempo que quería hacer algo con el API de youtube y sumado a mi interés por noticias internacionales se me ocurrió juntar los mejores canales de noticias de TV que publican diariamente resúmenes de noticias online en un solo sitio.
-
-No es fácil encontrar sitios con noticias de orígenes variados así que imaginé que con el API de youtube y un cron diario que capturara las noticias sería suficiente. Arme mi lista de canales en mysql, le pedí al API que trajera los últimos videos de cada uno (y lo programé para que lo haga a diario) y monte todo en un lindo template (bootstrap compatible). Use como framework <a href="http://ellislab.com/codeigniter" target="_blank">Codeigniter</a> que además de ser muy simple ya tiene resueltos muchos detalles y es MVC.
-
-Agregue y validé un sitemap, un feed rss, tome algunas sugerencias siempre utiles de Woorank, <a href="http://gtmetrix.com/" target="_blank">GTMetrix</a> y <a href="http://developers.google.com/speed/pagespeed/insights/" target="_blank">PageSpeed de google</a>.
-
-El resultado de esto se puede ver <a href="http://television.data99.com.ar/" target="_blank">television.data99.com.ar</a>, un resumen de noticias por país y ciudad que se actualiza a diario y se puede ampliar simplemente agregando nuevos canales de noticias.
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/consideraciones-para-tercerizar-el-desarrollo-de-software/" class="u-url">Consideraciones para tercerizar el desarrollo de software</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/consideraciones-para-tercerizar-el-desarrollo-de-software/" class="u-url">Consideraciones para tercerizar el desarrollo de software</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
@@ -105,6 +80,42 @@ Otras consideraciones.
 .- Es posible que los alcances del producto varíen durante el proceso de desarrollo, consulta costos por desarrollos u horas extras. Asegúrate que hay flexibilidad para implementar cambios.
 .- Incluye en el costo final el deploy a tu servidor de producción, nadie mejor que quien lo desarrolló para hacer los ajustes finales en el servidor de producción. Trabaja con personas de confianza y modifica los datos de acceso luego de finalizado el período de desarrollo.
 .- Los productos con pocos datos en general funcionan muy bien. Asegurate de testear el producto a fondo con muchos usuarios concurrentes y con una gran cantidad de datos.
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/designacion-de-funcionarios-2011-2012/" class="u-url">Designación de funcionarios 2011-2012</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/designacion-de-funcionarios-2011-2012/" rel="bookmark">
+            <time class="published dt-published" datetime="2012-11-15T12:00:00Z" itemprop="datePublished" title="2012-11-15 12:00">2012-11-15 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/designacion-de-funcionarios-2011-2012/#disqus_thread" data-disqus-identifier="cache/posts/designacion-de-funcionarios-2011-2012.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <p>Datos extraídos del boletín oficial que me compartieron en un hackathon (lamento no recordar quién) y re-comparto por aquí: <strong>designación de funcionarios públicos argentinos entre abril de 2011 y junio de 2012</strong>.</p>
+<p>El CSV contiene 5.015 designaciones scrapeadas de los PDFs del Boletín Oficial argentino, con los campos:</p>
+<ul>
+<li>
+<code>fecha</code> — fecha de publicación</li>
+<li>
+<code>persona</code> — nombre del designado</li>
+<li>
+<code>codigo_tipo</code> y <code>codigo_numero</code> — tipo y número de documento (típicamente DNI)</li>
+<li>
+<code>dependencia</code> — organismo del Estado</li>
+<li>
+<code>puesto</code> — cargo asumido</li>
+<li>
+<code>texto</code> — extracto del artículo del Boletín Oficial con los detalles formales</li>
+</ul>
+<h3>Descargar</h3>
+<p><a href="data/designacion-de-funcionarios/designacion-puestos-boletin-oficial.csv"><code>designacion-puestos-boletin-oficial.csv</code></a> (5.015 filas)</p>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/datafest-la-nacion-2012/" class="u-url">Datafest La Nación 2012</a></h1>
         <div class="metadata">
