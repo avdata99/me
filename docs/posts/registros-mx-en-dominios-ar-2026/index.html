@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="A quién le delegan el correo los dominios .AR. Análisis de registros MX sobre 322k dominios: Google y Hostinger lideran el mercado externo; en gobierno manda Microsoft.">
+<meta name="viewport" content="width=device-width">
+<title>Registros MX en dominios .AR (2026) | Temimbo'e</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/posts/registros-mx-en-dominios-ar-2026/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andres Vazquez">
+<link rel="prev" href="../outliers-en-registros-de-dominios/" title="Outliers en registros de dominios" type="text/html">
+<link rel="next" href="../tecnologia-de-dominios-argentinos-2026/" title="Tecnología detrás de 600.000 dominios argentinos (2026)" type="text/html">
+<meta property="og:site_name" content="Temimbo'e">
+<meta property="og:title" content="Registros MX en dominios .AR (2026)">
+<meta property="og:url" content="https://andresvazquez.com.ar/blog/posts/registros-mx-en-dominios-ar-2026/">
+<meta property="og:description" content="A quién le delegan el correo los dominios .AR. Análisis de registros MX sobre 322k dominios: Google y Hostinger lideran el mercado externo; en gobierno manda Microsoft.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-04-29T12:00:00Z">
+<meta property="article:tag" content="datos">
+<meta property="article:tag" content="dominios-ar">
+<meta property="article:tag" content="email">
+<meta property="article:tag" content="MX">
+<meta property="article:tag" content="OpenData">
+<meta property="article:tag" content="twitter">
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="../../pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="../../pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="../../archive.html">Archivos</a></li>
+                <li><a href="../../rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Registros MX en dominios .AR (2026)</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2026-04-29T12:00:00Z" itemprop="datePublished" title="2026-04-29 12:00">2026-04-29 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/registros-mx-en-dominios-ar-2026.html">Comentarios</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p><a href="https://x.com/dominiosAR/status/2049662721180774532">Originalmente publicado como hilo en Twitter</a>.</p>
+<p>¿A quién le delegan el correo los dominios argentinos? Para responderlo miramos los registros MX de DNS sobre nuestra base de <a href="../../blog/posts/tecnologia-de-dominios-argentinos-2026/">dominiosAR</a>.</p>
+<p>De los ~585.000 dominios que tenemos relevados, 421.000 están delegados a algún DNS y 322.000 tienen al menos un registro MX. A marzo de 2026 NIC declara 692.000 dominios totales, así que la muestra es bastante representativa.</p>
+<p><img alt="Total de dominios relevados y delegados a DNS" src="../../img/twitter/registros-mx-en-dominios-ar-2026/1.png"></p>
+<p><img alt="Dominios con registro MX detectado: 322.000 sobre 421.000 delegados" src="../../img/twitter/registros-mx-en-dominios-ar-2026/2.jpeg"></p>
+<p>Casi el 60% de esos dominios con MX apunta a su <strong>propio dominio</strong>*. Cerca del 1% (unos 2.500) son inválidos: apuntan a <code>localhost</code>. Y a un 4,5% nuestra expresión regular no logró clasificarlo.</p>
+<p><img alt="Distribución de destinos MX: ~60% dominio propio, ~1% localhost, 4,5% sin clasificar" src="../../img/twitter/registros-mx-en-dominios-ar-2026/3.jpeg"></p>
+<p>De los 115.000 dominios que apuntan <strong>explícitamente</strong> a proveedores externos, Google y Hostinger comparten el primer lugar con cerca del 70% del mercado entre los dos. ¿Se imaginaban a <a href="https://x.com/Hostinger">@Hostinger</a> ahí, por encima de <a href="https://x.com/Microsoft">@Microsoft</a>?</p>
+<p><img alt="Ranking de proveedores externos de MX: Google y Hostinger lideran con ~70% combinado" src="../../img/twitter/registros-mx-en-dominios-ar-2026/4.jpeg"></p>
+<p>¿Y los sitios de gobierno (<code>gov.ar</code> + <code>gob.ar</code>)? El 64% apunta a dominio propio*.</p>
+<p><img alt="Dominios .gov.ar y .gob.ar: 64% apunta a dominio propio" src="../../img/twitter/registros-mx-en-dominios-ar-2026/5.jpeg"></p>
+<p>De los 328 dominios de gobierno que sí declaran un proveedor externo, el principal —como suponíamos— es Microsoft.</p>
+<p><img alt="Proveedores externos de MX en dominios de gobierno: Microsoft lidera" src="../../img/twitter/registros-mx-en-dominios-ar-2026/6.jpeg"></p>
+<hr>
+<p>* Con seguridad no existen tantos sitios que gestionen sus propios mails. Ese 60% seguramente esconde cosas por detrás. ¿Cuál te parece que sería la mejor estrategia para descubrir el proveedor real?</p>
+<p><strong>Nota extra.</strong> El uso de <code>localhost</code> como MX no es un descuido: es política de uno de los proveedores de hosting.</p>
+<p>¿Qué más le preguntarían a estos datos?</p>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/datos/" rel="tag">datos</a></li>
+            <li><a class="tag p-category" href="../../categories/dominios-ar/" rel="tag">dominios-ar</a></li>
+            <li><a class="tag p-category" href="../../categories/email/" rel="tag">email</a></li>
+            <li><a class="tag p-category" href="../../categories/mx/" rel="tag">MX</a></li>
+            <li><a class="tag p-category" href="../../categories/opendata/" rel="tag">OpenData</a></li>
+            <li><a class="tag p-category" href="../../categories/twitter/" rel="tag">twitter</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../outliers-en-registros-de-dominios/" rel="prev" title="Outliers en registros de dominios">Publicación anterior</a>
+            </li>
+            <li class="next">
+                <a href="../tecnologia-de-dominios-argentinos-2026/" rel="next" title="Tecnología detrás de 600.000 dominios argentinos (2026)">Siguiente publicación</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+    
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://andresvazquez.com.ar/blog/posts/registros-mx-en-dominios-ar-2026/",
+        disqus_title="Registros MX en dominios .AR (2026)",
+        disqus_identifier="cache/posts/registros-mx-en-dominios-ar-2026.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

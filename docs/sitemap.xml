@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://andresvazquez.com.ar/blog/</loc>
-  <lastmod>2026-05-10T22:47:00Z</lastmod>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/2012/</loc>
@@ -42,6 +42,10 @@
   <lastmod>2026-05-10T14:35:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/2020/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/2021/</loc>
   <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
@@ -51,7 +55,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/archive.html</loc>
-  <lastmod>2026-05-10T22:47:00Z</lastmod>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/blog/</loc>
@@ -299,11 +303,15 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/</loc>
-  <lastmod>2026-05-10T22:47:00Z</lastmod>
+  <lastmod>2026-05-11T22:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/boletin-oficial/</loc>
   <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/cadena-de-datos/</loc>
+  <lastmod>2026-05-11T22:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/censo/</loc>
@@ -342,6 +350,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/email/</loc>
+  <lastmod>2026-05-11T22:31:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/categories/entrevistas/</loc>
   <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
@@ -370,6 +382,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/mx/</loc>
+  <lastmod>2026-05-11T22:31:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/categories/nic/</loc>
   <lastmod>2026-05-10T22:47:00Z</lastmod>
  </url>
@@ -394,6 +410,10 @@
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/podcast/</loc>
+  <lastmod>2026-05-11T22:31:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/categories/transparencia/</loc>
   <lastmod>2026-05-10T17:29:00Z</lastmod>
  </url>
@@ -403,11 +423,11 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/cv/cv-andres-eng.html</loc>
-  <lastmod>2026-05-10T15:25:00Z</lastmod>
+  <lastmod>2026-05-11T22:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/cv/cv-andres-spa.html</loc>
-  <lastmod>2026-05-10T15:25:00Z</lastmod>
+  <lastmod>2026-05-11T22:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/data/</loc>
@@ -599,15 +619,71 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-27.html</loc>
-  <lastmod>2026-05-10T22:47:00Z</lastmod>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-28.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-29.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-3.html</loc>
   <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/index-30.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-31.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-32.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-33.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-34.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-35.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-36.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-37.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-38.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-39.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/index-4.html</loc>
   <lastmod>2026-05-10T20:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-40.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-41.html</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-5.html</loc>
@@ -934,8 +1010,168 @@
   <lastmod>2026-05-10T20:04:00Z</lastmod>
  </url>
  <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/registros-mx-en-dominios-ar-2026/</loc>
+  <lastmod>2026-05-11T22:31:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://andresvazquez.com.ar/blog/posts/reservar-dominios-como-apropiacion/</loc>
   <lastmod>2026-05-10T18:48:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/ruso/</loc>
+  <lastmod>2026-05-11T22:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e02-alalu/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e03-selvood/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e04-tony/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e05-secchi/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e06-mirofsky/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e07-juanibelbis/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e08-manu/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e09-arteaga/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e10-fumega/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e11-chisnerman/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e12-aznar/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e13-vanni/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e14-olivan/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e15-pala/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e16-runixo/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e17-julian-moyano/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e18-carfi/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e19-scrollini/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e20-encina/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e21-tobar/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e22-suarez-font/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e23-lucca/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s01e24-FINAL/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e01-merce-figols-puigbo/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e02-mariano-mosquera/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e03-oleguer-sagarra/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e04-martin-alvarez-espinar/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e05-Entrevista-a-Juan-Pablo-Carranza/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e06-xhardez/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e07-facundo-barrionuevo/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e08-serale/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e09-bea-hernandez/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e34-pandemia-de-datos/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e35-pandemia-de-datos-ii/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e36-pablo-de-grande/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e37-yanina-bellini/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e38-adria-mercader/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/s02e39-laura-alonso-alemany/</loc>
+  <lastmod>2026-05-11T22:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/servidores-en-argentina/</loc>
