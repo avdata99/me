@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Un análisis breve de las ventas históricas de un comercio mediano de ropa entre 2011 y 2016: picos por Día del Padre y Día de la Madre, separación entre ventas en pesos y unidades, y una lectura del consumo de clase media a través de las urnas.">
+<meta name="viewport" content="width=device-width">
+<title>Ventas de un comercio de ropa — estacionalidad, inflación y elecciones | Temimbo'e</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/posts/ventas-de-un-comercio-de-ropa/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andres Vazquez">
+<link rel="prev" href="../datos-de-la-programacion-del-canal-encuentro-2013-2016/" title="Datos de la programación del Canal Encuentro 2013-2016" type="text/html">
+<link rel="next" href="../cordoba-en-el-mapa-de-densidad-poblacional/" title="Córdoba en el mapa de densidad poblacional de Datos Argentina" type="text/html">
+<meta property="og:site_name" content="Temimbo'e">
+<meta property="og:title" content="Ventas de un comercio de ropa — estacionalidad, inflación y elecciones">
+<meta property="og:url" content="https://andresvazquez.com.ar/blog/posts/ventas-de-un-comercio-de-ropa/">
+<meta property="og:description" content="Un análisis breve de las ventas históricas de un comercio mediano de ropa entre 2011 y 2016: picos por Día del Padre y Día de la Madre, separación entre ventas en pesos y unidades, y una lectura del c">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-01-05T02:02:39Z">
+<meta property="article:tag" content="datascience">
+<meta property="article:tag" content="datos">
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="../../pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="../../pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="../../archive.html">Archivos</a></li>
+                <li><a href="../../rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Ventas de un comercio de ropa — estacionalidad, inflación y elecciones</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2017-01-05T02:02:39Z" itemprop="datePublished" title="2017-01-05 02:02">2017-01-05 02:02</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/ventas-de-un-comercio-de-ropa.html">Comentarios</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>Retomé un sistema en PHP hecho entre 2010 y 2011 para un cliente. Es doloroso a los ojos, pero funciona y no necesita ningún arreglo. A cambio del trabajo me llevé los datos —anonimizados— para jugar un poco.</p>
+<p>Se trata de las ventas históricas de un comercio mediano de ropa, principalmente masculina.</p>
+<h3>Ventas mensuales</h3>
+<p>Estas son las ventas mensuales a lo largo de los años. Es clarísima la repetición de picos por Día del Padre, Día de la Madre y Navidad.</p>
+<p><img alt="Ventas mensuales" src="../../img/twitter/ventas-de-un-comercio-de-ropa/1-ventas-mensuales.jpg"></p>
+<h3>Gráfico diario</h3>
+<p>Por si quedan dudas, el mismo dato con resolución diaria:</p>
+<p><img alt="Ventas diarias" src="../../img/twitter/ventas-de-un-comercio-de-ropa/2-grafico-diario.jpg"></p>
+<p>Para tener idea del tamaño del pico: el último Día del Padre el comercio facturó alrededor de 55.000 pesos en un solo día.</p>
+<h3>Sacando la inflación de la ecuación</h3>
+<p>Cuando uno trabaja con series largas en Argentina, ver pesos no alcanza. Por suerte el sistema también guarda estadísticas por cantidad de productos vendidos. Acá podemos quitar la inflación de la ecuación y mirar unidades:</p>
+<p><img alt="Unidades vendidas a lo largo del tiempo" src="../../img/twitter/ventas-de-un-comercio-de-ropa/3-unidades-vendidas.jpg"></p>
+<p>Y la comparación entre ventas totales (en pesos) y unidades vendidas, mes a mes, entre 2011 y 2016:</p>
+<p><img alt="Ventas totales vs unidades vendidas — mensual, 2011/2016" src="../../img/twitter/ventas-de-un-comercio-de-ropa/4-totales-vs-unidades.jpg"></p>
+<h3>Una lectura política</h3>
+<p>Pensemos en los resultados de las elecciones 2011, 2013 y 2015. Yo hubiera apostado a que en 2016 las ventas caían. Pero, mirando las unidades, no caen. Este negocio le vende a un público de clase media — y los datos sugieren que ese consumo, al menos en este caso particular, se mantuvo durante 2016.</p>
+<p>Es solo un comercio, no una muestra representativa de nada. Pero es interesante cómo los datos privados de un negocio pueden funcionar también como termómetro complementario a las estadísticas oficiales.</p>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/datascience/" rel="tag">datascience</a></li>
+            <li><a class="tag p-category" href="../../categories/datos/" rel="tag">datos</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../datos-de-la-programacion-del-canal-encuentro-2013-2016/" rel="prev" title="Datos de la programación del Canal Encuentro 2013-2016">Publicación anterior</a>
+            </li>
+            <li class="next">
+                <a href="../cordoba-en-el-mapa-de-densidad-poblacional/" rel="next" title="Córdoba en el mapa de densidad poblacional de Datos Argentina">Siguiente publicación</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+    
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://andresvazquez.com.ar/blog/posts/ventas-de-un-comercio-de-ropa/",
+        disqus_title="Ventas de un comercio de ropa \u2014 estacionalidad, inflaci\u00f3n y elecciones",
+        disqus_identifier="cache/posts/ventas-de-un-comercio-de-ropa.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>
