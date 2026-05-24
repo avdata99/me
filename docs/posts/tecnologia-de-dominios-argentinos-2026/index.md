@@ -7,7 +7,7 @@ Analizamos casi 600.000 dominios Argentinos. Intentamos hacer una peticion a la 
 
 ![Tablero de dominiosAR: 597.659 sitios analizados, 66,2% responden, 84,7% HTTPS, 23,1% HSTS, 25% CSP](/img/twitter/tecnologia-de-dominios-argentinos-2026/2.jpeg)
 
-Analisis del header `server`. Si bien el servidor puede responder lo que quiera aquí, estos son nuestros resultados. 380k dominios devolvieron ese encabezado (casi todos). ¿Te sorprende ver a Apache todavía primero? En 2015 era 67% ([nuestro análisis anterior](/blog/posts/servidores-en-argentina/)).
+Analisis del header `server`. Si bien el servidor puede responder lo que quiera aquí, estos son nuestros resultados. 380k dominios devolvieron ese encabezado (casi todos). ¿Te sorprende ver a Apache todavía primero? En 2015 era 67% ([nuestro análisis anterior](/posts/servidores-en-argentina/)).
 
 ![Distribución del header server en 2026: apache 34,2%, cloudflare 21,5%, nginx 12,8%, litespeed 11,8%](/img/twitter/tecnologia-de-dominios-argentinos-2026/3.jpeg)
 

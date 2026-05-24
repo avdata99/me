@@ -2,4 +2,4 @@ Segunda edición del HackatONG, hackathon donde se desarrollan proyectos para ON
 
 Colaboré en la organización general y armé el [sitio del evento con la convocatoria y los resúmenes](http://opendatacordoba.org/HackatONG/2015/).
 
-Más sobre la edición en [semanatic.com/hackatong](http://www.semanatic.com/hackatong/). Mi resumen de la edición 2014 está en [HackatONG + Program.AR](/blog/posts/hackatong-programar/).
+Más sobre la edición en [semanatic.com/hackatong](http://www.semanatic.com/hackatong/). Mi resumen de la edición 2014 está en [HackatONG + Program.AR](/posts/hackatong-programar/).

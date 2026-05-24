@@ -1,6 +1,6 @@
 [Originalmente publicado como hilo en Twitter](https://x.com/dominiosAR/status/2049662721180774532).
 
-¿A quién le delegan el correo los dominios argentinos? Para responderlo miramos los registros MX de DNS sobre nuestra base de [dominiosAR](/blog/posts/tecnologia-de-dominios-argentinos-2026/).
+¿A quién le delegan el correo los dominios argentinos? Para responderlo miramos los registros MX de DNS sobre nuestra base de [dominiosAR](/posts/tecnologia-de-dominios-argentinos-2026/).
 
 De los ~585.000 dominios que tenemos relevados, 421.000 están delegados a algún DNS y 322.000 tienen al menos un registro MX. A marzo de 2026 NIC declara 692.000 dominios totales, así que la muestra es bastante representativa.
 

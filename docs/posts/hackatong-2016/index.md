@@ -17,5 +17,5 @@ Mi participación: una más de las muchas manos que armaron esto. Es difícil se
 
 ## Otras ediciones
 
-- 2014: [HackatONG + Program.AR](/blog/posts/hackatong-programar/)
-- 2015: [HackatONG 2015](/blog/posts/hackatong-2015/)
+- 2014: [HackatONG + Program.AR](/posts/hackatong-programar/)
+- 2015: [HackatONG 2015](/posts/hackatong-2015/)

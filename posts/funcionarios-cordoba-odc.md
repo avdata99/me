@@ -35,4 +35,4 @@ Si sos desarrollador, el código está en [github.com/OpenDataCordoba/funcionari
 
 ## Relacionado
 
-Más adelante hice algo parecido a nivel local: [Mapa de funcionarios de Villa María](/blog/posts/mapa-de-funcionarios-de-villa-maria/).
+Más adelante hice algo parecido a nivel local: [Mapa de funcionarios de Villa María](/posts/mapa-de-funcionarios-de-villa-maria/).

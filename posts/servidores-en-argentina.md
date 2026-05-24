@@ -1,4 +1,4 @@
-Análisis presentado durante el [NICathon](/blog/posts/nicathon-2015/) (marzo 2015).
+Análisis presentado durante el [NICathon](/posts/nicathon-2015/) (marzo 2015).
 
 # Tecnología de los sitios webs en Argentina
 

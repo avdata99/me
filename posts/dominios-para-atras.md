@@ -1,4 +1,4 @@
-Análisis presentado durante el [NICathon](/blog/posts/nicathon-2015/) (marzo 2015).
+Análisis presentado durante el [NICathon](/posts/nicathon-2015/) (marzo 2015).
 
 # Dominios hacia atras en NIC.ar
 
@@ -12,7 +12,7 @@ Cada dominio además incluye el link a conocer la historia de cambios detectados
 
 Hay una buena cantidad de casos a donde la fecha se retrotrae al 01/01/2010. Hay centenares de dominio que tiene como fecha de registro el 01/01/2009 y el vencimiento el 01/01/2010. No hemos podido entender el motivo.
 
-Todo esto sucede en el marco de -al parecer- la posibilidad de los administradores de hacer [modificaciones manuales](/blog/posts/dominios-artesanales/) y directas sobre las fechas de los dominios.
+Todo esto sucede en el marco de -al parecer- la posibilidad de los administradores de hacer [modificaciones manuales](/posts/dominios-artesanales/) y directas sobre las fechas de los dominios.
 
 [![Tabla de dominios con fecha de vencimiento hacia atrás](/img/data/dominios-para-atras/screenshot.png)](/data/Dominios-para-atras/)
 

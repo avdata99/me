@@ -33,7 +33,7 @@ Cada país administra su zona de dominios. En Argentina lo hace NIC.ar. Durante 
 
 ## El análisis técnico
 
-Quedó en otro post: [Datos abiertos sobre dominios .com argentinos](/blog/posts/datos-abiertos-sobre-dominios-com-argentinos/).
+Quedó en otro post: [Datos abiertos sobre dominios .com argentinos](/posts/datos-abiertos-sobre-dominios-com-argentinos/).
 
 ## Apoyaron el evento
 
