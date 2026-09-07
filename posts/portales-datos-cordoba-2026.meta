@@ -1,0 +1,5 @@
+.. title: Migrar dos portales de datos abiertos después de una década sin actualizar
+.. slug: portales-datos-cordoba-2026
+.. date: 2026-08-25 12:00:00
+.. tags: datos, OpenData, CKAN, Cordoba, gobierno-abierto, software-libre
+.. description: Cómo llevamos los dos portales de datos de la Provincia de Córdoba de un CKAN 2.6 abandonado a CKAN 2.11 en AWS, y qué quedó publicado como software libre en el camino.

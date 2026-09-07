@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="blog personal de Andres Vázquez [@avdata99]">
+<meta name="viewport" content="width=device-width">
+<title>Temimbo'e (publicaciones antiguas, página 49) | Temimbo'e</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/index-49.html">
+<link rel="prev" href="." type="text/html">
+<link rel="next" href="index-48.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="archive.html">Archivos</a></li>
+                <li><a href="rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/tecnologia-de-dominios-argentinos-2026/" class="u-url">Tecnología detrás de 600.000 dominios argentinos (2026)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/tecnologia-de-dominios-argentinos-2026/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-05-10T12:00:00Z" itemprop="datePublished" title="2026-05-10 12:00">2026-05-10 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/tecnologia-de-dominios-argentinos-2026/#disqus_thread" data-disqus-identifier="cache/posts/tecnologia-de-dominios-argentinos-2026.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <p><a href="https://x.com/dominiosAR/status/2052559441145323558">Originalmente publicado como hilo en Twitter</a>.</p>
+<p>Analizamos casi 600.000 dominios Argentinos. Intentamos hacer una peticion a la home page de cada uno. Conseguimos casi 400k respuestas (66%). Miramos tambien los encabezados de las respuestas y algunas partes del contenido HTML.</p>
+<p><img alt="Total de dominios .AR vigentes en abril de 2026: 697.130" src="img/twitter/tecnologia-de-dominios-argentinos-2026/1.jpeg"></p>
+<p><img alt="Tablero de dominiosAR: 597.659 sitios analizados, 66,2% responden, 84,7% HTTPS, 23,1% HSTS, 25% CSP" src="img/twitter/tecnologia-de-dominios-argentinos-2026/2.jpeg"></p>
+<p>Analisis del header <code>server</code>. Si bien el servidor puede responder lo que quiera aquí, estos son nuestros resultados. 380k dominios devolvieron ese encabezado (casi todos). ¿Te sorprende ver a Apache todavía primero? En 2015 era 67% (<a href="posts/servidores-en-argentina/">nuestro análisis anterior</a>).</p>
+<p><img alt="Distribución del header server en 2026: apache 34,2%, cloudflare 21,5%, nginx 12,8%, litespeed 11,8%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/3.jpeg"></p>
+<p><img alt="Distribución del header server en 2015: Apache 67%, Microsoft-IIS 14,6%, nginx 14,5%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/4.jpeg"></p>
+<p>La novedad es Cloudflare. Para sorpresa de nadie Microsoft IIS cae bruscamente. Nginx se mantiene.</p>
+<p>Vamos al header <code>X-Powered-By</code>. La principal novedad aqui es que se esta dejando de usar. Solo 84k de los casi 400k de sitios que respondieron lo usan. Para sorpresa de nadie Mumm-Ra sigue vivo. ASP se desploma.</p>
+<p><img alt="Stack tecnológico por X-Powered-By en 2026: php 72%, asp.net 10,9%, next.js 5,5%, hostingerwebsitebuilder 3,6%, express 2,6%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/5.jpeg"></p>
+<p><img alt="Mumm-Ra, el villano de ThunderCats, como metáfora de ASP.NET resucitando" src="img/twitter/tecnologia-de-dominios-argentinos-2026/6.png"></p>
+<p><img alt="Distribución de X-Powered-By en 2015: PHP 66,4%, ASP.NET 28,6%, Plesk 3,6%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/7.jpeg"></p>
+<p>Vamos al HTML. Analizamos el meta <code>generator</code>. Hay que decir que el 68% de los sitios no lo declara. Son otras cosas. Solo 126k sitios usa algun generador de contenido. Aqui WP y sus amigos lideran. Sorprende que el Wordpress a secas no es el 1°.</p>
+<p><img alt="Productos detectados via meta generator: elementor (WP) 31,6%, wordpress 20,3%, slider revolution (WP) 9,7%, site kit (WP) 5,4%, wix 4,5%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/8.jpeg"></p>
+<p>Finalmente si los agrupamos podemos decir que el 82% de los sitios generados por algún CMS son Wordpress. Posiblemente PHP sigue vivo solo por esto. ¿Vos que pensas?</p>
+<p><img alt="CMS real (plataforma subyacente): wordpress 82%, wix 4,7%, hostinger 2,6%, joomla 1,8%, mobirise 1%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/9.jpeg"></p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/registros-mx-en-dominios-ar-2026/" class="u-url">Registros MX en dominios .AR (2026)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/registros-mx-en-dominios-ar-2026/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-04-29T12:00:00Z" itemprop="datePublished" title="2026-04-29 12:00">2026-04-29 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/registros-mx-en-dominios-ar-2026/#disqus_thread" data-disqus-identifier="cache/posts/registros-mx-en-dominios-ar-2026.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <p><a href="https://x.com/dominiosAR/status/2049662721180774532">Originalmente publicado como hilo en Twitter</a>.</p>
+<p>¿A quién le delegan el correo los dominios argentinos? Para responderlo miramos los registros MX de DNS sobre nuestra base de <a href="posts/tecnologia-de-dominios-argentinos-2026/">dominiosAR</a>.</p>
+<p>De los ~585.000 dominios que tenemos relevados, 421.000 están delegados a algún DNS y 322.000 tienen al menos un registro MX. A marzo de 2026 NIC declara 692.000 dominios totales, así que la muestra es bastante representativa.</p>
+<p><img alt="Total de dominios relevados y delegados a DNS" src="img/twitter/registros-mx-en-dominios-ar-2026/1.png"></p>
+<p><img alt="Dominios con registro MX detectado: 322.000 sobre 421.000 delegados" src="img/twitter/registros-mx-en-dominios-ar-2026/2.jpeg"></p>
+<p>Casi el 60% de esos dominios con MX apunta a su <strong>propio dominio</strong>*. Cerca del 1% (unos 2.500) son inválidos: apuntan a <code>localhost</code>. Y a un 4,5% nuestra expresión regular no logró clasificarlo.</p>
+<p><img alt="Distribución de destinos MX: ~60% dominio propio, ~1% localhost, 4,5% sin clasificar" src="img/twitter/registros-mx-en-dominios-ar-2026/3.jpeg"></p>
+<p>De los 115.000 dominios que apuntan <strong>explícitamente</strong> a proveedores externos, Google y Hostinger comparten el primer lugar con cerca del 70% del mercado entre los dos. ¿Se imaginaban a <a href="https://x.com/Hostinger">@Hostinger</a> ahí, por encima de <a href="https://x.com/Microsoft">@Microsoft</a>?</p>
+<p><img alt="Ranking de proveedores externos de MX: Google y Hostinger lideran con ~70% combinado" src="img/twitter/registros-mx-en-dominios-ar-2026/4.jpeg"></p>
+<p>¿Y los sitios de gobierno (<code>gov.ar</code> + <code>gob.ar</code>)? El 64% apunta a dominio propio*.</p>
+<p><img alt="Dominios .gov.ar y .gob.ar: 64% apunta a dominio propio" src="img/twitter/registros-mx-en-dominios-ar-2026/5.jpeg"></p>
+<p>De los 328 dominios de gobierno que sí declaran un proveedor externo, el principal —como suponíamos— es Microsoft.</p>
+<p><img alt="Proveedores externos de MX en dominios de gobierno: Microsoft lidera" src="img/twitter/registros-mx-en-dominios-ar-2026/6.jpeg"></p>
+<hr>
+<p>* Con seguridad no existen tantos sitios que gestionen sus propios mails. Ese 60% seguramente esconde cosas por detrás. ¿Cuál te parece que sería la mejor estrategia para descubrir el proveedor real?</p>
+<p><strong>Nota extra.</strong> El uso de <code>localhost</code> como MX no es un descuido: es política de uno de los proveedores de hosting.</p>
+<p>¿Qué más le preguntarían a estos datos?</p>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="." rel="prev">Publicaciones posteriores</a>
+            </li>
+            <li class="next">
+                <a href="index-48.html" rel="next">Publicaciones anteriores</a>
+            </li>
+        </ul></nav><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

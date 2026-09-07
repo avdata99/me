@@ -14,8 +14,8 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://andresvazquez.com.ar/blog/">
-<link rel="next" href="index-48.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/tecnologia-de-dominios-argentinos-2026/" type="text/html">
+<link rel="next" href="index-49.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/presupuesto-abierto-cordoba/" type="text/html">
 </head>
 <body class="hack dark">
 
@@ -44,147 +44,147 @@
     
     
     </ul></nav></header><main id="content"><div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/tecnologia-de-dominios-argentinos-2026/" class="u-url">Tecnología detrás de 600.000 dominios argentinos (2026)</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/presupuesto-abierto-cordoba/" class="u-url">Presupuesto Abierto: seis años de scraping y un portal para periodistas</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/tecnologia-de-dominios-argentinos-2026/" rel="bookmark">
-            <time class="published dt-published" datetime="2026-05-10T12:00:00Z" itemprop="datePublished" title="2026-05-10 12:00">2026-05-10 12:00</time></a>
+            <a href="posts/presupuesto-abierto-cordoba/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-09-05T12:00:00Z" itemprop="datePublished" title="2026-09-05 12:00">2026-09-05 12:00</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/tecnologia-de-dominios-argentinos-2026/#disqus_thread" data-disqus-identifier="cache/posts/tecnologia-de-dominios-argentinos-2026.html">Comentarios</a>
+    <a href="posts/presupuesto-abierto-cordoba/#disqus_thread" data-disqus-identifier="cache/posts/presupuesto-abierto-cordoba.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p><a href="https://x.com/dominiosAR/status/2052559441145323558">Originalmente publicado como hilo en Twitter</a>.</p>
-<p>Analizamos casi 600.000 dominios Argentinos. Intentamos hacer una peticion a la home page de cada uno. Conseguimos casi 400k respuestas (66%). Miramos tambien los encabezados de las respuestas y algunas partes del contenido HTML.</p>
-<p><img alt="Total de dominios .AR vigentes en abril de 2026: 697.130" src="img/twitter/tecnologia-de-dominios-argentinos-2026/1.jpeg"></p>
-<p><img alt="Tablero de dominiosAR: 597.659 sitios analizados, 66,2% responden, 84,7% HTTPS, 23,1% HSTS, 25% CSP" src="img/twitter/tecnologia-de-dominios-argentinos-2026/2.jpeg"></p>
-<p>Analisis del header <code>server</code>. Si bien el servidor puede responder lo que quiera aquí, estos son nuestros resultados. 380k dominios devolvieron ese encabezado (casi todos). ¿Te sorprende ver a Apache todavía primero? En 2015 era 67% (<a href="posts/servidores-en-argentina/">nuestro análisis anterior</a>).</p>
-<p><img alt="Distribución del header server en 2026: apache 34,2%, cloudflare 21,5%, nginx 12,8%, litespeed 11,8%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/3.jpeg"></p>
-<p><img alt="Distribución del header server en 2015: Apache 67%, Microsoft-IIS 14,6%, nginx 14,5%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/4.jpeg"></p>
-<p>La novedad es Cloudflare. Para sorpresa de nadie Microsoft IIS cae bruscamente. Nginx se mantiene.</p>
-<p>Vamos al header <code>X-Powered-By</code>. La principal novedad aqui es que se esta dejando de usar. Solo 84k de los casi 400k de sitios que respondieron lo usan. Para sorpresa de nadie Mumm-Ra sigue vivo. ASP se desploma.</p>
-<p><img alt="Stack tecnológico por X-Powered-By en 2026: php 72%, asp.net 10,9%, next.js 5,5%, hostingerwebsitebuilder 3,6%, express 2,6%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/5.jpeg"></p>
-<p><img alt="Mumm-Ra, el villano de ThunderCats, como metáfora de ASP.NET resucitando" src="img/twitter/tecnologia-de-dominios-argentinos-2026/6.png"></p>
-<p><img alt="Distribución de X-Powered-By en 2015: PHP 66,4%, ASP.NET 28,6%, Plesk 3,6%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/7.jpeg"></p>
-<p>Vamos al HTML. Analizamos el meta <code>generator</code>. Hay que decir que el 68% de los sitios no lo declara. Son otras cosas. Solo 126k sitios usa algun generador de contenido. Aqui WP y sus amigos lideran. Sorprende que el Wordpress a secas no es el 1°.</p>
-<p><img alt="Productos detectados via meta generator: elementor (WP) 31,6%, wordpress 20,3%, slider revolution (WP) 9,7%, site kit (WP) 5,4%, wix 4,5%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/8.jpeg"></p>
-<p>Finalmente si los agrupamos podemos decir que el 82% de los sitios generados por algún CMS son Wordpress. Posiblemente PHP sigue vivo solo por esto. ¿Vos que pensas?</p>
-<p><img alt="CMS real (plataforma subyacente): wordpress 82%, wix 4,7%, hostinger 2,6%, joomla 1,8%, mobirise 1%" src="img/twitter/tecnologia-de-dominios-argentinos-2026/9.jpeg"></p>
+    <p>En mayo de 2020 consolidé una serie de scripts que venían procesando (desde hacía algunos años y con otros investigadores) la ejecución presupuestaria de la Provincia de Córdoba desde su portal de transparencia. Seis años después eso es FreeData: un portal con más de seis millones de comprobantes de pago, de 2016 a 2026, y más de medio millón de proveedores. Esta semana Ruido, la red de periodismo de investigación con la que trabajamos, lo <a href="https://elruido.org/freedata-una-herramienta-para-transparentar-la-opacidad-de-los-datos-publicos/">presentó públicamente</a>.</p>
+<p><img alt="Portada de Presupuesto Abierto" src="img/presupuesto-abierto-cordoba/2-portada.jpg"></p>
+<h3>El origen del dato</h3>
+<p>La Provincia publica cada comprobante que paga. Eso es mucho más de lo que publica la mayoría de los gobiernos argentinos y es bueno reconocerlo. El problema es cómo: un portal donde para llegar a un comprobante hay que elegir el año, después la jurisdicción, después el programa, el subprograma, la partida, y recién ahí aparece una lista paginada de a diez. No hay descarga, no hay API, no hay forma de preguntar "cuánto cobró este CUIT".</p>
+<p><img alt="Portal de transparencia de la Provincia de Córdoba" src="img/presupuesto-abierto-cordoba/1-portal-de-transparencia.jpg"></p>
+<p>Lo que hice fue recorrer ese árbol completo, año por año, nodo por nodo, guardando cada comprobante con sus items. Es scraping paciente: millones de pedidos durante alrededor de una decada, muchos reintentos y una base que crece de a poco. En 2026 la Provincia cambió el portal y hubo que reescribir todo el recolector contra la interfaz nueva.</p>
+<h3>El portal</h3>
+<p>Sobre esa base construimos desde cero una aplicación en Django con PostgreSQL. Lo principal:</p>
+<ul>
+<li>Búsqueda por proveedor, CUIT, programa o partida, en toda la serie.</li>
+<li>Montos originales y actualizados por inflación (gracias Sol Monoldo!), mes a mes, para que una compra de 2017 se pueda comparar con una de 2026.</li>
+<li>Tiempos de cobro por proveedor: cuánto tarda el Estado en pagarle a cada uno.</li>
+<li>Seguimiento: cualquier usuario puede seguir un proveedor y recibir avisos cuando aparecen comprobantes nuevos.</li>
+<li>Notas de usuarios sobre proveedores, para que un periodista le ponga nombre conocido a una razón social.</li>
+<li>Descarga en CSV de cualquier búsqueda, con los filtros aplicados.</li>
+<li>Graficos, muchos gráficos por todos lados.</li>
+<li>Descargas de CSV de tablas a la vista para seguir trabajando en la compu o cruzar datos por fuera.</li>
+</ul>
+<p><img alt="Ficha de un proveedor en Presupuesto Abierto" src="img/presupuesto-abierto-cordoba/3-proveedor.jpg"></p>
+<h3>Portal privado</h3>
+<p><strong>Este es un portal cerrado</strong>. Se entra por invitación y con passkeys. Hoy lo usan periodistas y de a poco se va abriendo a investigadores y organizaciones. </p>
+<h4>¿Por qué?</h4>
+<p>La decisión de no abrirlo tiene varias razones (no necesariamente en este orden):</p>
+<ul>
+<li>Alojar esta cantidad de datos y todas las posibilidad que da esta plataforma en un servidor require recursos que este proyecto no tiene. Nada de esto genera ingresos de ninguna forma lamentablemente. Hemos postulado a subsidios pero todavía no hemos tenido suerte. <a href="https://elruido.org/ayudanos-a-investigar/">Acá podes donar a la Red Ruido</a>
+</li>
+<li>El trabajo realizado es muy grande, requiere validación que todo funcione como se espera. Estamos en etapa de pruebas.</li>
+<li>Hay datos que consideramos que no es buena idea que sean públicos. Asumimos que los responsables de este portal son plenamente concientes de lo que publican pero aunque parezca extraño no coincidimos con semejante nivel de apertura. Sin dar ejemplos, hay datos que se refieren a situaciones personales de las personas que si bien como fondos publicos deben ser abiertos no es buena idea que se publiquen de forma indiscriminada. Por eso el portal es privado y con invitación a personas que lo van a usar responsablemente con fines perdiosticos y de investigación.</li>
+<li>Porque si, porque despues de tanto trabajo esta bien ser discrecionales con el uso. Queremos que esto se use bien.</li>
+</ul>
+<h3>Algo de cocina</h3>
+<ul>
+<li>Django y PostgreSQL, sin frameworks de frontend. HTML plano y algo de JavaScript donde hace falta.</li>
+<li>Dos servidores chicos: uno con un webserver y la aplicación detrás de Cloudflare y otro con la base de datos.</li>
+<li>Cache, mucho cache en cada lugar que se pudo.</li>
+<li>El recolector corre aparte: cada año tiene un porcentaje de cobertura que se controla con un informe de integridad para saber que falta</li>
+<li>Autenticación con WebAuthn. Nadie tiene una contraseña que filtrar.</li>
+<li>Respeto por el servidor del que obtenemos datos. Corremos muy lento, en general entre 20 y 40 requests por minuto.</li>
+</ul>
+<h3>Riesgos</h3>
+<p>En 2026 la Provincia cambió la interfaz gráfica y escondió muchos datos. Saco tambien las Agencias de Gobierno (Cultura, Deportes, etc). Muchos subprogramas ya no son visibles. ¿Que pasa si se apaga el portal?
+Esta plataforma puede seguir abierta aún si eso pasara y hoy mismo ya muestra más datos que el portal oficial por lo que se escodió en la última actualización.</p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/registros-mx-en-dominios-ar-2026/" class="u-url">Registros MX en dominios .AR (2026)</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/portales-datos-cordoba-2026/" class="u-url">Migrar dos portales de datos abiertos después de una década sin actualizar</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/registros-mx-en-dominios-ar-2026/" rel="bookmark">
-            <time class="published dt-published" datetime="2026-04-29T12:00:00Z" itemprop="datePublished" title="2026-04-29 12:00">2026-04-29 12:00</time></a>
+            <a href="posts/portales-datos-cordoba-2026/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-08-25T12:00:00Z" itemprop="datePublished" title="2026-08-25 12:00">2026-08-25 12:00</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/registros-mx-en-dominios-ar-2026/#disqus_thread" data-disqus-identifier="cache/posts/registros-mx-en-dominios-ar-2026.html">Comentarios</a>
+    <a href="posts/portales-datos-cordoba-2026/#disqus_thread" data-disqus-identifier="cache/posts/portales-datos-cordoba-2026.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p><a href="https://x.com/dominiosAR/status/2049662721180774532">Originalmente publicado como hilo en Twitter</a>.</p>
-<p>¿A quién le delegan el correo los dominios argentinos? Para responderlo miramos los registros MX de DNS sobre nuestra base de <a href="posts/tecnologia-de-dominios-argentinos-2026/">dominiosAR</a>.</p>
-<p>De los ~585.000 dominios que tenemos relevados, 421.000 están delegados a algún DNS y 322.000 tienen al menos un registro MX. A marzo de 2026 NIC declara 692.000 dominios totales, así que la muestra es bastante representativa.</p>
-<p><img alt="Total de dominios relevados y delegados a DNS" src="img/twitter/registros-mx-en-dominios-ar-2026/1.png"></p>
-<p><img alt="Dominios con registro MX detectado: 322.000 sobre 421.000 delegados" src="img/twitter/registros-mx-en-dominios-ar-2026/2.jpeg"></p>
-<p>Casi el 60% de esos dominios con MX apunta a su <strong>propio dominio</strong>*. Cerca del 1% (unos 2.500) son inválidos: apuntan a <code>localhost</code>. Y a un 4,5% nuestra expresión regular no logró clasificarlo.</p>
-<p><img alt="Distribución de destinos MX: ~60% dominio propio, ~1% localhost, 4,5% sin clasificar" src="img/twitter/registros-mx-en-dominios-ar-2026/3.jpeg"></p>
-<p>De los 115.000 dominios que apuntan <strong>explícitamente</strong> a proveedores externos, Google y Hostinger comparten el primer lugar con cerca del 70% del mercado entre los dos. ¿Se imaginaban a <a href="https://x.com/Hostinger">@Hostinger</a> ahí, por encima de <a href="https://x.com/Microsoft">@Microsoft</a>?</p>
-<p><img alt="Ranking de proveedores externos de MX: Google y Hostinger lideran con ~70% combinado" src="img/twitter/registros-mx-en-dominios-ar-2026/4.jpeg"></p>
-<p>¿Y los sitios de gobierno (<code>gov.ar</code> + <code>gob.ar</code>)? El 64% apunta a dominio propio*.</p>
-<p><img alt="Dominios .gov.ar y .gob.ar: 64% apunta a dominio propio" src="img/twitter/registros-mx-en-dominios-ar-2026/5.jpeg"></p>
-<p>De los 328 dominios de gobierno que sí declaran un proveedor externo, el principal —como suponíamos— es Microsoft.</p>
-<p><img alt="Proveedores externos de MX en dominios de gobierno: Microsoft lidera" src="img/twitter/registros-mx-en-dominios-ar-2026/6.jpeg"></p>
-<hr>
-<p>* Con seguridad no existen tantos sitios que gestionen sus propios mails. Ese 60% seguramente esconde cosas por detrás. ¿Cuál te parece que sería la mejor estrategia para descubrir el proveedor real?</p>
-<p><strong>Nota extra.</strong> El uso de <code>localhost</code> como MX no es un descuido: es política de uno de los proveedores de hosting.</p>
-<p>¿Qué más le preguntarían a estos datos?</p>
+    <p>Terminamos la migración de los dos portales de datos abiertos de la Provincia de Córdoba: <a href="https://datosgestionabierta.cba.gov.ar/">datosgestionabierta.cba.gov.ar</a> y <a href="https://datosestadistica.cba.gov.ar/">datosestadistica.cba.gov.ar</a>. Fue un año de trabajo, desde agosto de 2025 hasta agosto de 2026. Lo cuento porque es el tipo de proyecto que casi nunca se cuenta: no hay nada nuevo para inaugurar, hay algo viejo que dejó de ser un riesgo.</p>
+<p><img alt="Portal de datos abiertos de la Provincia de Córdoba" src="img/portales-datos-cordoba-2026/1-gestion-abierta.jpg"></p>
+<h3>El punto de partida</h3>
+<p>Los dos portales corrían sobre CKAN 2.6.2 con PostgreSQL 9.6, en servidores propios del gobierno. Esa versión de CKAN es de 2017. Nadie la había actualizado en casi diez años. Funcionaban pero cada día que pasaba la brecha con el CKAN actual se hacía más grande y el salto más caro.</p>
+<p>Los que trabajamos con CKAN sabemos que una actualización de 2.6 a 2.11 no es una actualización menor. Cambió Python (de 2 a 3), cambió el framework web (de Pylons a Flask), cambió el esquema de la base y cambió la forma de escribir extensiones. Lo que había que hacer era construir portales nuevos y mover los datos.</p>
+<h3>Dos herramientas libres</h3>
+<p>Decidimos que todo lo que no fuera específico de Córdoba quedara publicado. Salieron dos repositorios:</p>
+<p><a href="https://github.com/avdata99/ckan-to-aws">ckan-to-aws</a> despliega CKAN completo en AWS con Terraform y Docker: una tarea de ECS Fargate con CKAN, Solr y Redis, una base RDS PostgreSQL, imágenes en ECR, secretos en Secrets Manager y logs en CloudWatch. Un script, un <code>.env</code> y ya tenemos un CKAN andando.</p>
+<p><a href="https://github.com/avdata99/ckan-migrator">ckan-migrator</a> hace la migración a nivel base de datos. Levanta el dump viejo en un PostgreSQL 9.6 dockerizado, extrae cada tabla a CSV y JSON, y las inserta en el CKAN nuevo respetando el esquema actual. Datasets, recursos, organizaciones, grupos, usuarios y el historial de actividad. Los archivos subidos se mueven aparte.</p>
+<p>Lo que sí es específico de Córdoba quedó en repositorios privados, uno por portal: una extensión para la interfaz de cada uno (los dos portales pertenecen a ministerios distintos y tienen identidad propia) y la configuración de cada ambiente. Cada equipo del gobierno tiene su repo y puede gestionar sus diferencias sin tocar la base común.</p>
+<p><img alt="Portal de la Dirección de Estadísticas y Censos" src="img/portales-datos-cordoba-2026/2-estadistica-y-censos.jpg"></p>
+<p><img alt="Conjuntos de datos del portal" src="img/portales-datos-cordoba-2026/3-datasets.jpg"></p>
+<h3>Lo que queda</h3>
+<p>Todo el proceso fue documentado exaustivamente para que cualquier equipo técnico pueda actualizar CKAN en el futuro sin depender de un proveedor externo. La migración de datos es reproducible y los portales pueden ser desplegados en cualquier nube o servidor propio.</p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/outliers-en-registros-de-dominios/" class="u-url">Outliers en registros de dominios</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/portal-datos-abiertos-unc/" class="u-url">Un portal de datos abiertos para la Universidad Nacional de Córdoba</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
             </span></p>
             <p class="dateline">
-            <a href="posts/outliers-en-registros-de-dominios/" rel="bookmark">
-            <time class="published dt-published" datetime="2026-04-25T22:57:00Z" itemprop="datePublished" title="2026-04-25 22:57">2026-04-25 22:57</time></a>
+            <a href="posts/portal-datos-abiertos-unc/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-06-02T12:00:00Z" itemprop="datePublished" title="2026-06-02 12:00">2026-06-02 12:00</time></a>
             </p>
                 <p class="commentline">
     
-    <a href="posts/outliers-en-registros-de-dominios/#disqus_thread" data-disqus-identifier="cache/posts/outliers-en-registros-de-dominios.html">Comentarios</a>
+    <a href="posts/portal-datos-abiertos-unc/#disqus_thread" data-disqus-identifier="cache/posts/portal-datos-abiertos-unc.html">Comentarios</a>
 
 
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p><a href="https://x.com/dominiosAR/status/2047857513932951600">Originalmente publicado como hilo en Twitter</a>.</p>
-<p>Estos son los más de 500.000 dominios que seguimos (casi la totalidad existentes hoy) ordenados por fecha del próximo vencimiento. Cada barra es un día de año.
-¿A alguien se le ocurre que es ese pico?
-¿Se imaginan?
-Respuesta mañana.</p>
-<p><img alt="Vencimientos por día" src="img/twitter/outliers-en-registros-de-dominios/vencimientos-por-dia.jpeg"></p>
-<p>Vamos con algunos sospechosos.
-En 2014 los dominios dejaron de ser gratis. Antes de eso uno podia registrar todos los dominios que queria y sin costo.
-Habia más de 2 millones de dominios registrados.</p>
-<p>El último día y los anteriores fue un caos. Una hecatombe, una debacle total. Una seguidilla de hechos bochornosos donde la gente daba de baja sus dominios para volver a registrarlos y tener unos meses más sin pagar.</p>
-<p><img alt="2014 es pago" src="img/twitter/outliers-en-registros-de-dominios/2014-pago.png"></p>
-<p>Nuestro primer sospechoso fue este. Imaginamos que esa distorción se había arrastrado hasta nuestros dias.
-Pero no fue así, eso fue un 5 de marzo y el día raro es el 15 de septiembre (además de algunas otros días).</p>
-<p><img alt="picos por fecha" src="img/twitter/outliers-en-registros-de-dominios/picos.png"></p>
-<p>Esos registros luego de este momento rateril de la historia de internet argentina cayeron mayormente al año siguente.
-Eso no explica el pico actual el 15 de septiembre.
-¿Y entonces?</p>
-<p>¿Fue algun registrante que hizo muchos registros ese día?
-Estos son la cantidad de dominios de ese día por registrante.
-Solo dos registrantes ese día hicieron más de 100 registros.</p>
-<p><img alt="dominios por registrante" src="img/twitter/outliers-en-registros-de-dominios/dominios-por-registrante.jpeg"></p>
-<p>Uno de ellos fue Dattatec (que es el mayor registrante de dominios en Argentina) que en general registra año a nombre de terceros.
-Al otro registrante ya lo vamos a ver. El motivo no fue alguien entrandso bruscamente al mercado.</p>
-<p>¿Y si vemos en que año se registraron?
-Estos son los dominios que vencen en septiembre de 2026 (cada día en eje Y) por el año en que fueron registrados
-Algo paso en 2019 y despues en 2020. Raro, ¿un evento bianual?
-¿Ahora si te acordas?</p>
-<p><img alt="heatmap registros por dia" src="img/twitter/outliers-en-registros-de-dominios/heatmap.jpeg"></p>
-<p>Sigamos: Estos son los dominios que vencen el 15 de septiembre por zona
-La mayoría de los dominos en Argentina son .com.ar (el 80% aprox según https://nic.ar/es/dominios/estadisticas)
-Pero ese día la proporcion cambia rotundamente.</p>
-<p><img alt="Vencimientos por zona ese dia" src="img/twitter/outliers-en-registros-de-dominios/vto-por-zona.png"></p>
-<p>Claro! El nacimiento de los dominios .AR!
-Las fases de lanzamiento fueron:<br>
-1- Los que tenian un .com.ar podía reclamar el .ar (septiembre 2019)<br>
-2- La gente podía manifestar su interes en algun dominio.<br>
-3- Se analizaban y se asignaban esos dominio de interés (13 de mayo de 2020)<br>
-4- Se abrieron al público general el registro de dominios en la zona .AR  </p>
-<p><img alt="timeline-con-registros-por-dia" src="img/twitter/outliers-en-registros-de-dominios/timeline-con-registros-por-dia.jpeg"></p>
-<p>Quien fue ese gran registrante ese día?
-Fue Victor Ma, extranjero (basandonos en su CUIT)
-Victor sigue siendo hoy registrante. <a href="https://whoare.io/registrante-a92d9fba-de68-476b-8c24-62e06fbfde35">Aca podes ver más</a></p>
-<p><img alt="171-registros-de-victor-ma-ese-dia" src="img/twitter/outliers-en-registros-de-dominios/171-registros-de-victor-ma-ese-dia.png"></p>
-<p>¿Que pasó con esa camada de los nuevos .AR abiertos al público?
-Más del 80 renovo luego de 6 años, al parecer fue una buena idea.
-Había y sigue habiendo interés real en esos dominios.</p>
-<p><img alt="preservacion-punto-ar" src="img/twitter/outliers-en-registros-de-dominios/preservacion-punto-ar.jpeg"></p>
-<p><img alt="" src="img/twitter/outliers-en-registros-de-dominios/"></p>
+    <p>La Universidad Nacional de Córdoba tiene portal de datos abiertos: <a href="https://datosabiertos.unc.edu.ar/">datosabiertos.unc.edu.ar</a>. Lo hicimos desde cero sobre CKAN 2.11 y es de los trabajos que más disfruté en los últimos años, así que va un poco de detalle.</p>
+<p><img alt="Portada del portal de datos abiertos de la UNC" src="img/portal-datos-abiertos-unc/1-portada.jpg"></p>
+<h3>De dónde viene</h3>
+<p>La idea de un CKAN para universidades la venimos planeando desde 2019 con el equipo de la UNC. De aquella época quedaron en GitHub un cosechador para los sistemas SIU (los que usan casi todas las universidades públicas argentinas), una librería para sacar datos de ahí y otra para conectarse a la API de SIGEVA de CONICET. Eran experimentos. El portal de verdad arrancó a fines de 2024, cuando se redefinió mejor como extraer datos y publicar.</p>
+<h3>De donde vienen los datos?</h3>
+<p>La UNC hizo un gran trabajo sobre Apache Superset, que es la herramienta de visualización de datos que usan para sus tableros internos. La idea fue conectar CKAN con Superset y publicar como datasets lo que ya estaba en los tableros. Para eso hicimos la extensión <a href="https://github.com/unckan/ckanext-superset">ckanext-superset</a>.
+No había otra extensión que hiciera esto asi que la dejamos abiertas para poder ser reutilizada por otros.</p>
+<h3>Qué quedó publicado</h3>
+<p>Todo lo que no es específico de la UNC vive en la organización <a href="https://github.com/unckan">UnCKAN</a> en GitHub, pensando en que otra universidad pueda reutilizarlo:</p>
+<ul>
+<li>
+<a href="https://github.com/unckan/ckanext-superset">ckanext-superset</a>: conecta CKAN con Apache Superset para publicar como datasets lo que ya está en los tableros de la universidad.</li>
+<li>
+<a href="https://github.com/unckan/ckanext-dbquery">ckanext-dbquery</a>: consultas a la base desde el propio CKAN, para los administradores y solo para casos especiales. En muchos casos los administradores de CKAN no tienen acceso a la base de datos y esta extensión permite hacer consultas SQL desde la interfaz web.</li>
+<li>
+<a href="https://github.com/unckan/ckanext-push-errors">ckanext-push-errors</a>: cuando algo se rompe en producción, el error llega a Slack antes de que alguien lo reporte.</li>
+<li>
+<a href="https://github.com/unckan/ckan-env">ckan-env</a>: el entorno Docker completo para levantar el portal en cualquier máquina. Esto es solo para entorno de desarrollo local. Hay un repositorio privado con la configuración de producción que gestiona el equipo de la UNC.</li>
+<li>
+<a href="https://github.com/unckan/ckanext-citeproc">ckanext-citeproc</a>: hicimos un fork de esta extensión y la adaptamos para que funcione en nuestro caso. Esta extensión permite citar datasets en formato APA, Chicago y MLA.</li>
+</ul>
+<p><img alt="Conjuntos de datos del portal de la UNC" src="img/portal-datos-abiertos-unc/2-datasets.jpg"></p>
+<h3>Otras universidades</h3>
+<p>Todo esto fue hecho pensando que otras universidades puedan reutilizarlo. La idea es que cada universidad pueda tener su propio portal de datos abiertos, con su identidad y sus datasets, pero usando la misma base común.
+Solo sería necesario que cada universidad conecte una instancia de Apache Superset con sus propios datos (usalmente de los sistemas SIU) y haga una extension de interfaz gráfica adaptada a su caso. El resto es común y puede ser reutilizado tal cual.</p>
     </div>
     </article>
 </div>
 
         <nav class="postindexpager"><ul class="pager">
 <li class="next">
-                <a href="index-48.html" rel="next">Publicaciones anteriores</a>
+                <a href="index-49.html" rel="next">Publicaciones anteriores</a>
             </li>
         </ul></nav><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             

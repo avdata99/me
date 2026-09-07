@@ -1,0 +1,5 @@
+.. title: Presupuesto Abierto: seis años de scraping y un portal para periodistas
+.. slug: presupuesto-abierto-cordoba
+.. date: 2026-09-05 12:00:00
+.. tags: datos, OpenData, transparencia, Cordoba, periodismo, presupuesto
+.. description: Desde 2020 extraigo comprobante por comprobante la ejecución presupuestaria de la Provincia de Córdoba. En 2026 eso se convirtió en Presupuesto Abierto, un portal en Python y PostgreSQL con más de seis millones de comprobantes, cerrado a periodistas e investigadores.

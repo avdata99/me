@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Desde 2020 extraigo comprobante por comprobante la ejecución presupuestaria de la Provincia de Córdoba. En 2026 eso se convirtió en Presupuesto Abierto, un portal en Python y PostgreSQL con más de seis millones de comprobantes, cerrado a periodistas e investigadores.">
+<meta name="viewport" content="width=device-width">
+<title>Presupuesto Abierto: seis años de scraping y un portal para periodistas | Temimbo'e</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/posts/presupuesto-abierto-cordoba/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andres Vazquez">
+<link rel="prev" href="../portales-datos-cordoba-2026/" title="Migrar dos portales de datos abiertos después de una década sin actualizar" type="text/html">
+<meta property="og:site_name" content="Temimbo'e">
+<meta property="og:title" content="Presupuesto Abierto: seis años de scraping y un portal para periodista">
+<meta property="og:url" content="https://andresvazquez.com.ar/blog/posts/presupuesto-abierto-cordoba/">
+<meta property="og:description" content="Desde 2020 extraigo comprobante por comprobante la ejecución presupuestaria de la Provincia de Córdoba. En 2026 eso se convirtió en Presupuesto Abierto, un portal en Python y PostgreSQL con más de sei">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-09-05T12:00:00Z">
+<meta property="article:tag" content="Cordoba">
+<meta property="article:tag" content="datos">
+<meta property="article:tag" content="OpenData">
+<meta property="article:tag" content="periodismo">
+<meta property="article:tag" content="presupuesto">
+<meta property="article:tag" content="transparencia">
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="../../pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="../../pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="../../archive.html">Archivos</a></li>
+                <li><a href="../../rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Presupuesto Abierto: seis años de scraping y un portal para periodistas</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2026-09-05T12:00:00Z" itemprop="datePublished" title="2026-09-05 12:00">2026-09-05 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/presupuesto-abierto-cordoba.html">Comentarios</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>En mayo de 2020 consolidé una serie de scripts que venían procesando (desde hacía algunos años y con otros investigadores) la ejecución presupuestaria de la Provincia de Córdoba desde su portal de transparencia. Seis años después eso es FreeData: un portal con más de seis millones de comprobantes de pago, de 2016 a 2026, y más de medio millón de proveedores. Esta semana Ruido, la red de periodismo de investigación con la que trabajamos, lo <a href="https://elruido.org/freedata-una-herramienta-para-transparentar-la-opacidad-de-los-datos-publicos/">presentó públicamente</a>.</p>
+<p><img alt="Portada de Presupuesto Abierto" src="../../img/presupuesto-abierto-cordoba/2-portada.jpg"></p>
+<h3>El origen del dato</h3>
+<p>La Provincia publica cada comprobante que paga. Eso es mucho más de lo que publica la mayoría de los gobiernos argentinos y es bueno reconocerlo. El problema es cómo: un portal donde para llegar a un comprobante hay que elegir el año, después la jurisdicción, después el programa, el subprograma, la partida, y recién ahí aparece una lista paginada de a diez. No hay descarga, no hay API, no hay forma de preguntar "cuánto cobró este CUIT".</p>
+<p><img alt="Portal de transparencia de la Provincia de Córdoba" src="../../img/presupuesto-abierto-cordoba/1-portal-de-transparencia.jpg"></p>
+<p>Lo que hice fue recorrer ese árbol completo, año por año, nodo por nodo, guardando cada comprobante con sus items. Es scraping paciente: millones de pedidos durante alrededor de una decada, muchos reintentos y una base que crece de a poco. En 2026 la Provincia cambió el portal y hubo que reescribir todo el recolector contra la interfaz nueva.</p>
+<h3>El portal</h3>
+<p>Sobre esa base construimos desde cero una aplicación en Django con PostgreSQL. Lo principal:</p>
+<ul>
+<li>Búsqueda por proveedor, CUIT, programa o partida, en toda la serie.</li>
+<li>Montos originales y actualizados por inflación (gracias Sol Monoldo!), mes a mes, para que una compra de 2017 se pueda comparar con una de 2026.</li>
+<li>Tiempos de cobro por proveedor: cuánto tarda el Estado en pagarle a cada uno.</li>
+<li>Seguimiento: cualquier usuario puede seguir un proveedor y recibir avisos cuando aparecen comprobantes nuevos.</li>
+<li>Notas de usuarios sobre proveedores, para que un periodista le ponga nombre conocido a una razón social.</li>
+<li>Descarga en CSV de cualquier búsqueda, con los filtros aplicados.</li>
+<li>Graficos, muchos gráficos por todos lados.</li>
+<li>Descargas de CSV de tablas a la vista para seguir trabajando en la compu o cruzar datos por fuera.</li>
+</ul>
+<p><img alt="Ficha de un proveedor en Presupuesto Abierto" src="../../img/presupuesto-abierto-cordoba/3-proveedor.jpg"></p>
+<h3>Portal privado</h3>
+<p><strong>Este es un portal cerrado</strong>. Se entra por invitación y con passkeys. Hoy lo usan periodistas y de a poco se va abriendo a investigadores y organizaciones. </p>
+<h4>¿Por qué?</h4>
+<p>La decisión de no abrirlo tiene varias razones (no necesariamente en este orden):</p>
+<ul>
+<li>Alojar esta cantidad de datos y todas las posibilidad que da esta plataforma en un servidor require recursos que este proyecto no tiene. Nada de esto genera ingresos de ninguna forma lamentablemente. Hemos postulado a subsidios pero todavía no hemos tenido suerte. <a href="https://elruido.org/ayudanos-a-investigar/">Acá podes donar a la Red Ruido</a>
+</li>
+<li>El trabajo realizado es muy grande, requiere validación que todo funcione como se espera. Estamos en etapa de pruebas.</li>
+<li>Hay datos que consideramos que no es buena idea que sean públicos. Asumimos que los responsables de este portal son plenamente concientes de lo que publican pero aunque parezca extraño no coincidimos con semejante nivel de apertura. Sin dar ejemplos, hay datos que se refieren a situaciones personales de las personas que si bien como fondos publicos deben ser abiertos no es buena idea que se publiquen de forma indiscriminada. Por eso el portal es privado y con invitación a personas que lo van a usar responsablemente con fines perdiosticos y de investigación.</li>
+<li>Porque si, porque despues de tanto trabajo esta bien ser discrecionales con el uso. Queremos que esto se use bien.</li>
+</ul>
+<h3>Algo de cocina</h3>
+<ul>
+<li>Django y PostgreSQL, sin frameworks de frontend. HTML plano y algo de JavaScript donde hace falta.</li>
+<li>Dos servidores chicos: uno con un webserver y la aplicación detrás de Cloudflare y otro con la base de datos.</li>
+<li>Cache, mucho cache en cada lugar que se pudo.</li>
+<li>El recolector corre aparte: cada año tiene un porcentaje de cobertura que se controla con un informe de integridad para saber que falta</li>
+<li>Autenticación con WebAuthn. Nadie tiene una contraseña que filtrar.</li>
+<li>Respeto por el servidor del que obtenemos datos. Corremos muy lento, en general entre 20 y 40 requests por minuto.</li>
+</ul>
+<h3>Riesgos</h3>
+<p>En 2026 la Provincia cambió la interfaz gráfica y escondió muchos datos. Saco tambien las Agencias de Gobierno (Cultura, Deportes, etc). Muchos subprogramas ya no son visibles. ¿Que pasa si se apaga el portal?
+Esta plataforma puede seguir abierta aún si eso pasara y hoy mismo ya muestra más datos que el portal oficial por lo que se escodió en la última actualización.</p>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/cordoba/" rel="tag">Cordoba</a></li>
+            <li><a class="tag p-category" href="../../categories/datos/" rel="tag">datos</a></li>
+            <li><a class="tag p-category" href="../../categories/opendata/" rel="tag">OpenData</a></li>
+            <li><a class="tag p-category" href="../../categories/periodismo/" rel="tag">periodismo</a></li>
+            <li><a class="tag p-category" href="../../categories/presupuesto/" rel="tag">presupuesto</a></li>
+            <li><a class="tag p-category" href="../../categories/transparencia/" rel="tag">transparencia</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../portales-datos-cordoba-2026/" rel="prev" title="Migrar dos portales de datos abiertos después de una década sin actualizar">Publicación anterior</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+    
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://andresvazquez.com.ar/blog/posts/presupuesto-abierto-cordoba/",
+        disqus_title="Presupuesto Abierto: seis a\u00f1os de scraping y un portal para periodistas",
+        disqus_identifier="cache/posts/presupuesto-abierto-cordoba.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>
