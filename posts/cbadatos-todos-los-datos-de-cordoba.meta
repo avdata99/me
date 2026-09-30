@@ -1,0 +1,5 @@
+.. title: Todos los datos de Córdoba en un solo lugar (y sobre un CKAN diferente)
+.. slug: cbadatos-todos-los-datos-de-cordoba
+.. date: 2026-09-29 12:00:00
+.. tags: datos, OpenData, CKAN, Cordoba, gobierno-abierto, software-libre, IA
+.. description: cbadatos.com.ar reúne casi dos mil conjuntos de datos de once portales de Córdoba gracias al harvesting de CKAN. Por debajo corre un experimento: un CKAN que funciona solo con PostgreSQL, hecho en gran parte por una IA. Qué hacemos con eso queda abierto.

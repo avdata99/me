@@ -15,7 +15,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://andresvazquez.com.ar/blog/">
 <link rel="next" href="index-49.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/presupuesto-abierto-cordoba/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/cbadatos-todos-los-datos-de-cordoba/" type="text/html">
 </head>
 <body class="hack dark">
 
@@ -44,7 +44,97 @@
     
     
     </ul></nav></header><main id="content"><div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/presupuesto-abierto-cordoba/" class="u-url">Presupuesto Abierto: seis años de scraping y un portal para periodistas</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/cbadatos-todos-los-datos-de-cordoba/" class="u-url">Todos los datos de Córdoba en un solo lugar (y sobre un CKAN diferente)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/cbadatos-todos-los-datos-de-cordoba/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-09-29T12:00:00Z" itemprop="datePublished" title="2026-09-29 12:00">2026-09-29 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/cbadatos-todos-los-datos-de-cordoba/#disqus_thread" data-disqus-identifier="cache/posts/cbadatos-todos-los-datos-de-cordoba.html">Comentarios</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <p>Hay un portal nuevo de datos abiertos de Córdoba: <a href="https://cbadatos.com.ar/">cbadatos.com.ar</a>. No es oficial, es una iniciativa personal. Reúne en un solo lugar lo que publican los portales de la provincia, de algunos municipios, de la Legislatura y de la UNC: hoy son 1.935 conjuntos de datos de once fuentes distintas. En este post van dos historias: cómo se juntaron tan rápido todos esos datos y el experimento técnico que corre por debajo, un CKAN que funciona sin Solr ni Redis.</p>
+<p><img alt="Portada de Córdoba Datos" src="img/cbadatos-todos-los-datos-de-cordoba/1-portada.jpg"></p>
+<h3>Parte 1: todos los datos de Córdoba en un solo lugar</h3>
+<h4>Harvesting: la parte fácil</h4>
+<p>CKAN tiene desde hace años un mecanismo para cosechar (<em>harvest</em>) datos de otros portales. Si el portal de origen también es CKAN, traer todo su catálogo es casi trivial: se configura la URL, se elige cada cuánto actualizar y listo. CKAN habla con CKAN a través de su API y trae datasets, recursos, organizaciones y metadatos.</p>
+<p>Eso fue lo que pasó con los dos portales de la provincia que migramos este año, <a href="https://datosgestionabierta.cba.gov.ar/">datosgestionabierta.cba.gov.ar</a> y <a href="https://datosestadistica.cba.gov.ar/">datosestadistica.cba.gov.ar</a> (lo conté en <a href="posts/portales-datos-cordoba-2026/">este post</a>), con el <a href="posts/portal-datos-abiertos-unc/">portal de datos abiertos de la UNC</a> que también hicimos desde cero y con el portal de Río Tercero. Cuatro portales CKAN, más de mil conjuntos de datos, en muy poco tiempo. Es lo que pasa cuando los portales usan software libre y estándares abiertos: se pueden conectar entre ellos muy facilmente.</p>
+<p><img alt="Fuentes de importación de Córdoba Datos" src="img/cbadatos-todos-los-datos-de-cordoba/2-fuentes-de-importacion.jpg"></p>
+<p>Le agregamos al cosechador de CKAN dos cosas que nos parecían importantes:</p>
+<ul>
+<li>
+<strong>Copiar los archivos, no solo los enlaces.</strong> Cada archivo se descarga una vez, de a uno y con pausas para no molestar al portal de origen. Así el sitio sirve también como respaldo: si un dato desaparece del portal original, acá sigue.</li>
+<li>
+<strong>Que cada dato diga de dónde viene.</strong> Cada conjunto de datos guarda el portal de origen, el enlace al original y la organización que lo produjo. Las organizaciones de cada portal quedan separadas para que no se mezclen datos de fuentes distintas.</li>
+</ul>
+<h4>Los portales que no son CKAN</h4>
+<p>La parte difícil fueron los que no usan CKAN. Para cada uno hubo que escribir un cosechador personalizado:</p>
+<ul>
+<li>
+<a href="https://gobiernoabierto.cordoba.gob.ar/">Gobierno Abierto de la Municipalidad de Córdoba</a> (donde <a href="posts/despedida-modernizacion-cordoba/">trabajé tres años</a>): tiene una API abierta, así que fue de los más simples.</li>
+<li>
+<a href="https://www.mapascordoba.gob.ar/#/descargas">IDECOR - Mapas Córdoba</a>, el geoportal de la provincia: dos catálogos JSON que hubo que cruzar por nombre de capa. Una capa es un conjunto de datos con su GeoJSON, su simbología, sus metadatos y sus servicios WMS/WFS.</li>
+<li>
+<a href="https://datos.villamaria.gob.ar/">Datos abiertos de Villa María</a>: sin API, leyendo el sitemap y cada página HTML.</li>
+<li>
+<a href="https://legislaturacba.gob.ar/portal-de-datos-abiertos/">Portal de datos abiertos de la Legislatura</a>: páginas de WordPress leídas por su API REST.</li>
+<li>
+<a href="https://economiariocuarto.gob.ar/transparencia">Transparencia de Río Cuarto</a>, <a href="https://www.villaallende.gov.ar/transparencia/">Transparencia de Villa Allende</a> y el <a href="https://bellville.gob.ar/presupuesto/">presupuesto de Bell Ville</a>: cada uno con su propia forma de publicar documentos.</li>
+</ul>
+<p>Todos se actualizan solos, la mayoría una vez por semana.</p>
+<h4>El gran portal que falta</h4>
+<p>Hay uno que todavía no está: el <a href="https://transparencia.cba.gov.ar/">portal de transparencia de la Provincia de Córdoba</a>, el que (entre otras cosas) publica cada comprobante de pago del Estado provincial. Es probablemente el conjunto de datos más valioso de la provincia y también el más difícil de usar. Tenemos esos datos disponible en un portal cerrado hecho con la <a href="https://elruido.org/">Red Ruido</a>, todavía no esta listo para compartir, lo conté en <a href="posts/presupuesto-abierto-cordoba/">este post</a>.</p>
+<p><img alt="Portada de Presupuesto Abierto" src="img/presupuesto-abierto-cordoba/2-portada.jpg"></p>
+<h4>Por qué juntar todo</h4>
+<p>Los datos de Córdoba existen pero están distribuidos en muchos lugares distintos, cada uno con su buscador, su formato y su forma de organizar las cosas.</p>
+<p><img alt="Conjuntos de datos por portal de origen" src="img/cbadatos-todos-los-datos-de-cordoba/3-portal-de-origen.jpg"></p>
+<p>Tenerlos en un solo lugar cambia la pregunta: ya no es "¿dónde está este dato?" sino "¿qué hay sobre este tema?". Un buscador sobre todo, filtros por portal de origen, por organización, por formato, 166 grupos temáticos. Y una sola API para todo lo de la provincia, que es algo que ningún organismo por sí solo puede ofrecer.</p>
+<p><img alt="Un conjunto de datos de la UNC con su procedencia" src="img/cbadatos-todos-los-datos-de-cordoba/4-procedencia-unc.jpg"></p>
+<p>Además todos los datos tabulares se cargan al <em>datastore</em> de CKAN, así que se pueden consultar por API, ver como tabla y filtrar sin descargar nada. Los datos geográficos de IDECOR (muchos, son 627 conjuntos de datos) se ven en un mapa.</p>
+<p><img alt="Barrios de Villa Allende, desde IDECOR" src="img/cbadatos-todos-los-datos-de-cordoba/5-mapa-idecor.jpg"></p>
+<p>Todo el código del portal es público: <a href="https://github.com/parripollo/ckanext-cordoba-portal">parripollo/ckanext-cordoba-portal</a>. Ahí están los cosechadores de cada fuente, por si alguien quiere reutilizarlos en otro lado.</p>
+<h3>Parte 2: un CKAN sin Solr ni Redis</h3>
+<p>Si entrás a <a href="https://cbadatos.com.ar/pages/sobre-este-ckan">la página "Sobre este CKAN"</a> vas a ver que este portal no corre sobre el CKAN oficial.</p>
+<p><img alt="Sobre este CKAN y este experimento" src="img/cbadatos-todos-los-datos-de-cordoba/6-sobre-este-ckan.jpg"></p>
+<h4>El problema</h4>
+<p>Un sitio CKAN son tres servicios: PostgreSQL para el catálogo, Apache Solr para las búsquedas y Redis para las tareas en segundo plano. Cada uno hay que instalarlo, monitorearlo y actualizarlo en sintonía con la versión de CKAN. Para un portal chico o mediano (que son casi todos) es mucha infraestructura alrededor de lo que al final es una aplicación Python sobre una base de datos.</p>
+<p>Simplificar CKAN no es un problema nuevo, se ha discutido muchas veces pero el desafió es muy grande.</p>
+<h4>El experimento</h4>
+<p>Así que lo intentamos. La propuesta está documentada en <a href="https://ckan.cbadatos.com.ar/">ckan.cbadatos.com.ar</a> y el código es público en <a href="https://github.com/parripollo/ckanito">parripollo/ckanito</a>. La idea es que CKAN sea para los datos abiertos lo que Django es para las aplicaciones web: instalar, apuntar a una base de datos y correr.</p>
+<p><img alt="CKAN on PostgreSQL only" src="img/cbadatos-todos-los-datos-de-cordoba/7-ckan-solo-postgresql.jpg"></p>
+<p>En resumen:</p>
+<ul>
+<li>La búsqueda (texto completo, facetas, filtros y orden) corre sobre el <em>full text search</em> de PostgreSQL.</li>
+<li>Las tareas en segundo plano son filas en una tabla que los <em>workers</em> toman con <code>SELECT ... FOR UPDATE SKIP LOCKED</code>.</li>
+<li>Las sesiones y un pequeño almacén clave/valor para extensiones también viven en PostgreSQL.</li>
+<li>Cada una de esas piezas quedó detrás de una interfaz. Si alguien quiere volver a usar Solr o Redis (<em>vade retro</em>!) puede escribir su implementación en una extensión sin tocar el núcleo. Nosotros (?) solo hicimos la de PostgreSQL. Creo que el error original de CKAN no fue usar Solr y Redis sino hablar con ellos desde todos lados, sin un contrato que se pueda reemplazar.</li>
+<li>La API pública, las interfaces de plugins y la línea de comandos son las mismas. Pasan todos los tests de CKAN (unos 3.500), los linters y la construcción de la documentación.</li>
+<li>Las extensiones se probaron una por una. La mayoría funcionaron sin cambios o con cambios mínimos. Harvest y spatial necesitaron un backend nuevo.</li>
+</ul>
+<p>Todos los cambios están juntos en <a href="https://github.com/parripollo/ckan/pull/1">un solo pull request contra un fork de CKAN</a>, que existe solo para poder leer la diferencia: 107 archivos, unas 4.000 líneas agregadas y otras tantas borradas. La mayor parte de lo que se borra es Solr.</p>
+<p><img alt="El pull request: Solr y Redis afuera" src="img/cbadatos-todos-los-datos-de-cordoba/8-pr-sin-solr-ni-redis.jpg"></p>
+<p>Hay mucho para seguir revisando. El trabajo fue mayormente hecho por IA (Claude, Fable 5).
+Nosotros dirigimos el trabajo y tomamos las decisiones. Claude (el modelo de Anthropic) hizo el trabajo técnico: leyó el código de CKAN, propuso alternativas, escribió el código, los tests y la documentación. <code>parripollo</code> es la cuenta de GitHub que le dimos para trabajar aislado. Los tests de CKAN fueron el árbitro en cada paso.</p>
+<p>Trabajo con CKAN hace años. Aun así, no puedo decir que entiendo al 100% cada una de las miles de líneas que cambiaron. Puedo leerlas, puedo ver que los tests pasan, puedo ver dos portales funcionando con miles de datos reales. Pero no las escribí yo, y entender un cambio así de profundo en CKAN requiere mucho más que leerlo.</p>
+<p>Y al mismo tiempo el resultado es real: un portal de datos que se instala con PostgreSQL y un par de comandos. Si esto funciona bien, levantar un portal de datos abiertos para un municipio chico, una universidad o una organización deja de requerir tres servicios y alguien que sepa mantenerlos.</p>
+<h4>¿Y ahora?</h4>
+<p>No tengo una respuesta y me gustaría dejar el debate abierto:</p>
+<ul>
+<li>¿Tiene sentido proponer esto a la comunidad de CKAN? ¿Alguien va a querer revisar miles de líneas escritas mayormente por una IA?</li>
+<li>¿Es razonable usarlo en portales de verdad? Hoy lo usa cbadatos, que es un experimento ciudadano. ¿Lo pondríamos en un portal de gobierno?</li>
+<li>¿Quién lo mantiene? CKAN sigue avanzando y cada cambio del CKAN oficial hay que traerlo a esta versión.</li>
+<li>¿Cuánto tengo que entender de un código para confiar en él? ¿Alcanza con los tests, con verlo funcionando, con que otras personas lo revisen?</li>
+</ul>
+</div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/presupuesto-abierto-cordoba/" class="u-url">Presupuesto Abierto: seis años de scraping y un portal para periodistas</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
@@ -135,49 +225,6 @@ Esta plataforma puede seguir abierta aún si eso pasara y hoy mismo ya muestra m
 <p><img alt="Conjuntos de datos del portal" src="img/portales-datos-cordoba-2026/3-datasets.jpg"></p>
 <h3>Lo que queda</h3>
 <p>Todo el proceso fue documentado exaustivamente para que cualquier equipo técnico pueda actualizar CKAN en el futuro sin depender de un proveedor externo. La migración de datos es reproducible y los portales pueden ser desplegados en cualquier nube o servidor propio.</p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/portal-datos-abiertos-unc/" class="u-url">Un portal de datos abiertos para la Universidad Nacional de Córdoba</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Andres Vazquez
-            </span></p>
-            <p class="dateline">
-            <a href="posts/portal-datos-abiertos-unc/" rel="bookmark">
-            <time class="published dt-published" datetime="2026-06-02T12:00:00Z" itemprop="datePublished" title="2026-06-02 12:00">2026-06-02 12:00</time></a>
-            </p>
-                <p class="commentline">
-    
-    <a href="posts/portal-datos-abiertos-unc/#disqus_thread" data-disqus-identifier="cache/posts/portal-datos-abiertos-unc.html">Comentarios</a>
-
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <p>La Universidad Nacional de Córdoba tiene portal de datos abiertos: <a href="https://datosabiertos.unc.edu.ar/">datosabiertos.unc.edu.ar</a>. Lo hicimos desde cero sobre CKAN 2.11 y es de los trabajos que más disfruté en los últimos años, así que va un poco de detalle.</p>
-<p><img alt="Portada del portal de datos abiertos de la UNC" src="img/portal-datos-abiertos-unc/1-portada.jpg"></p>
-<h3>De dónde viene</h3>
-<p>La idea de un CKAN para universidades la venimos planeando desde 2019 con el equipo de la UNC. De aquella época quedaron en GitHub un cosechador para los sistemas SIU (los que usan casi todas las universidades públicas argentinas), una librería para sacar datos de ahí y otra para conectarse a la API de SIGEVA de CONICET. Eran experimentos. El portal de verdad arrancó a fines de 2024, cuando se redefinió mejor como extraer datos y publicar.</p>
-<h3>De donde vienen los datos?</h3>
-<p>La UNC hizo un gran trabajo sobre Apache Superset, que es la herramienta de visualización de datos que usan para sus tableros internos. La idea fue conectar CKAN con Superset y publicar como datasets lo que ya estaba en los tableros. Para eso hicimos la extensión <a href="https://github.com/unckan/ckanext-superset">ckanext-superset</a>.
-No había otra extensión que hiciera esto asi que la dejamos abiertas para poder ser reutilizada por otros.</p>
-<h3>Qué quedó publicado</h3>
-<p>Todo lo que no es específico de la UNC vive en la organización <a href="https://github.com/unckan">UnCKAN</a> en GitHub, pensando en que otra universidad pueda reutilizarlo:</p>
-<ul>
-<li>
-<a href="https://github.com/unckan/ckanext-superset">ckanext-superset</a>: conecta CKAN con Apache Superset para publicar como datasets lo que ya está en los tableros de la universidad.</li>
-<li>
-<a href="https://github.com/unckan/ckanext-dbquery">ckanext-dbquery</a>: consultas a la base desde el propio CKAN, para los administradores y solo para casos especiales. En muchos casos los administradores de CKAN no tienen acceso a la base de datos y esta extensión permite hacer consultas SQL desde la interfaz web.</li>
-<li>
-<a href="https://github.com/unckan/ckanext-push-errors">ckanext-push-errors</a>: cuando algo se rompe en producción, el error llega a Slack antes de que alguien lo reporte.</li>
-<li>
-<a href="https://github.com/unckan/ckan-env">ckan-env</a>: el entorno Docker completo para levantar el portal en cualquier máquina. Esto es solo para entorno de desarrollo local. Hay un repositorio privado con la configuración de producción que gestiona el equipo de la UNC.</li>
-<li>
-<a href="https://github.com/unckan/ckanext-citeproc">ckanext-citeproc</a>: hicimos un fork de esta extensión y la adaptamos para que funcione en nuestro caso. Esta extensión permite citar datasets en formato APA, Chicago y MLA.</li>
-</ul>
-<p><img alt="Conjuntos de datos del portal de la UNC" src="img/portal-datos-abiertos-unc/2-datasets.jpg"></p>
-<h3>Otras universidades</h3>
-<p>Todo esto fue hecho pensando que otras universidades puedan reutilizarlo. La idea es que cada universidad pueda tener su propio portal de datos abiertos, con su identidad y sus datasets, pero usando la misma base común.
-Solo sería necesario que cada universidad conecte una instancia de Apache Superset con sus propios datos (usalmente de los sistemas SIU) y haga una extension de interfaz gráfica adaptada a su caso. El resto es común y puede ser reutilizado tal cual.</p>
     </div>
     </article>
 </div>

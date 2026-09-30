@@ -71,7 +71,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/archive.html</loc>
-  <lastmod>2026-09-06T23:32:00Z</lastmod>
+  <lastmod>2026-09-29T17:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/blog/</loc>
@@ -319,7 +319,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/</loc>
-  <lastmod>2026-09-06T23:32:00Z</lastmod>
+  <lastmod>2026-09-29T17:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/boletin-oficial/</loc>
@@ -392,6 +392,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/hosting/</loc>
   <lastmod>2026-05-22T14:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/ia/</loc>
+  <lastmod>2026-09-29T17:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/mapas/</loc>
@@ -751,7 +755,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-49.html</loc>
-  <lastmod>2026-09-06T23:32:00Z</lastmod>
+  <lastmod>2026-09-29T17:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-5.html</loc>
@@ -828,6 +832,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/cartas-marinas-y-partidos-politicos/</loc>
   <lastmod>2026-05-22T14:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/cbadatos-todos-los-datos-de-cordoba/</loc>
+  <lastmod>2026-09-29T17:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/charla-con-radio-universidad-de-la-plata-sobre-opendata/</loc>

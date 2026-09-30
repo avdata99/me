@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="cbadatos.com.ar reúne casi dos mil conjuntos de datos de once portales de Córdoba gracias al harvesting de CKAN. Por debajo corre un experimento: un CKAN que funciona solo con PostgreSQL, hecho en gran parte por una IA. Qué hacemos con eso queda abierto.">
+<meta name="viewport" content="width=device-width">
+<title>Todos los datos de Córdoba en un solo lugar (y sobre un CKAN diferente) | Temimbo'e</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/posts/cbadatos-todos-los-datos-de-cordoba/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andres Vazquez">
+<link rel="prev" href="../presupuesto-abierto-cordoba/" title="Presupuesto Abierto: seis años de scraping y un portal para periodistas" type="text/html">
+<meta property="og:site_name" content="Temimbo'e">
+<meta property="og:title" content="Todos los datos de Córdoba en un solo lugar (y sobre un CKAN diferente">
+<meta property="og:url" content="https://andresvazquez.com.ar/blog/posts/cbadatos-todos-los-datos-de-cordoba/">
+<meta property="og:description" content="cbadatos.com.ar reúne casi dos mil conjuntos de datos de once portales de Córdoba gracias al harvesting de CKAN. Por debajo corre un experimento: un CKAN que funciona solo con PostgreSQL, hecho en gra">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-09-29T12:00:00Z">
+<meta property="article:tag" content="CKAN">
+<meta property="article:tag" content="Cordoba">
+<meta property="article:tag" content="datos">
+<meta property="article:tag" content="gobierno-abierto">
+<meta property="article:tag" content="IA">
+<meta property="article:tag" content="OpenData">
+<meta property="article:tag" content="software-libre">
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="../../pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="../../pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="../../archive.html">Archivos</a></li>
+                <li><a href="../../rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Todos los datos de Córdoba en un solo lugar (y sobre un CKAN diferente)</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2026-09-29T12:00:00Z" itemprop="datePublished" title="2026-09-29 12:00">2026-09-29 12:00</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/cbadatos-todos-los-datos-de-cordoba.html">Comentarios</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>Hay un portal nuevo de datos abiertos de Córdoba: <a href="https://cbadatos.com.ar/">cbadatos.com.ar</a>. No es oficial, es una iniciativa personal. Reúne en un solo lugar lo que publican los portales de la provincia, de algunos municipios, de la Legislatura y de la UNC: hoy son 1.935 conjuntos de datos de once fuentes distintas. En este post van dos historias: cómo se juntaron tan rápido todos esos datos y el experimento técnico que corre por debajo, un CKAN que funciona sin Solr ni Redis.</p>
+<p><img alt="Portada de Córdoba Datos" src="../../img/cbadatos-todos-los-datos-de-cordoba/1-portada.jpg"></p>
+<h3>Parte 1: todos los datos de Córdoba en un solo lugar</h3>
+<h4>Harvesting: la parte fácil</h4>
+<p>CKAN tiene desde hace años un mecanismo para cosechar (<em>harvest</em>) datos de otros portales. Si el portal de origen también es CKAN, traer todo su catálogo es casi trivial: se configura la URL, se elige cada cuánto actualizar y listo. CKAN habla con CKAN a través de su API y trae datasets, recursos, organizaciones y metadatos.</p>
+<p>Eso fue lo que pasó con los dos portales de la provincia que migramos este año, <a href="https://datosgestionabierta.cba.gov.ar/">datosgestionabierta.cba.gov.ar</a> y <a href="https://datosestadistica.cba.gov.ar/">datosestadistica.cba.gov.ar</a> (lo conté en <a href="../portales-datos-cordoba-2026/">este post</a>), con el <a href="../portal-datos-abiertos-unc/">portal de datos abiertos de la UNC</a> que también hicimos desde cero y con el portal de Río Tercero. Cuatro portales CKAN, más de mil conjuntos de datos, en muy poco tiempo. Es lo que pasa cuando los portales usan software libre y estándares abiertos: se pueden conectar entre ellos muy facilmente.</p>
+<p><img alt="Fuentes de importación de Córdoba Datos" src="../../img/cbadatos-todos-los-datos-de-cordoba/2-fuentes-de-importacion.jpg"></p>
+<p>Le agregamos al cosechador de CKAN dos cosas que nos parecían importantes:</p>
+<ul>
+<li>
+<strong>Copiar los archivos, no solo los enlaces.</strong> Cada archivo se descarga una vez, de a uno y con pausas para no molestar al portal de origen. Así el sitio sirve también como respaldo: si un dato desaparece del portal original, acá sigue.</li>
+<li>
+<strong>Que cada dato diga de dónde viene.</strong> Cada conjunto de datos guarda el portal de origen, el enlace al original y la organización que lo produjo. Las organizaciones de cada portal quedan separadas para que no se mezclen datos de fuentes distintas.</li>
+</ul>
+<h4>Los portales que no son CKAN</h4>
+<p>La parte difícil fueron los que no usan CKAN. Para cada uno hubo que escribir un cosechador personalizado:</p>
+<ul>
+<li>
+<a href="https://gobiernoabierto.cordoba.gob.ar/">Gobierno Abierto de la Municipalidad de Córdoba</a> (donde <a href="../despedida-modernizacion-cordoba/">trabajé tres años</a>): tiene una API abierta, así que fue de los más simples.</li>
+<li>
+<a href="https://www.mapascordoba.gob.ar/#/descargas">IDECOR - Mapas Córdoba</a>, el geoportal de la provincia: dos catálogos JSON que hubo que cruzar por nombre de capa. Una capa es un conjunto de datos con su GeoJSON, su simbología, sus metadatos y sus servicios WMS/WFS.</li>
+<li>
+<a href="https://datos.villamaria.gob.ar/">Datos abiertos de Villa María</a>: sin API, leyendo el sitemap y cada página HTML.</li>
+<li>
+<a href="https://legislaturacba.gob.ar/portal-de-datos-abiertos/">Portal de datos abiertos de la Legislatura</a>: páginas de WordPress leídas por su API REST.</li>
+<li>
+<a href="https://economiariocuarto.gob.ar/transparencia">Transparencia de Río Cuarto</a>, <a href="https://www.villaallende.gov.ar/transparencia/">Transparencia de Villa Allende</a> y el <a href="https://bellville.gob.ar/presupuesto/">presupuesto de Bell Ville</a>: cada uno con su propia forma de publicar documentos.</li>
+</ul>
+<p>Todos se actualizan solos, la mayoría una vez por semana.</p>
+<h4>El gran portal que falta</h4>
+<p>Hay uno que todavía no está: el <a href="https://transparencia.cba.gov.ar/">portal de transparencia de la Provincia de Córdoba</a>, el que (entre otras cosas) publica cada comprobante de pago del Estado provincial. Es probablemente el conjunto de datos más valioso de la provincia y también el más difícil de usar. Tenemos esos datos disponible en un portal cerrado hecho con la <a href="https://elruido.org/">Red Ruido</a>, todavía no esta listo para compartir, lo conté en <a href="../presupuesto-abierto-cordoba/">este post</a>.</p>
+<p><img alt="Portada de Presupuesto Abierto" src="../../img/presupuesto-abierto-cordoba/2-portada.jpg"></p>
+<h4>Por qué juntar todo</h4>
+<p>Los datos de Córdoba existen pero están distribuidos en muchos lugares distintos, cada uno con su buscador, su formato y su forma de organizar las cosas.</p>
+<p><img alt="Conjuntos de datos por portal de origen" src="../../img/cbadatos-todos-los-datos-de-cordoba/3-portal-de-origen.jpg"></p>
+<p>Tenerlos en un solo lugar cambia la pregunta: ya no es "¿dónde está este dato?" sino "¿qué hay sobre este tema?". Un buscador sobre todo, filtros por portal de origen, por organización, por formato, 166 grupos temáticos. Y una sola API para todo lo de la provincia, que es algo que ningún organismo por sí solo puede ofrecer.</p>
+<p><img alt="Un conjunto de datos de la UNC con su procedencia" src="../../img/cbadatos-todos-los-datos-de-cordoba/4-procedencia-unc.jpg"></p>
+<p>Además todos los datos tabulares se cargan al <em>datastore</em> de CKAN, así que se pueden consultar por API, ver como tabla y filtrar sin descargar nada. Los datos geográficos de IDECOR (muchos, son 627 conjuntos de datos) se ven en un mapa.</p>
+<p><img alt="Barrios de Villa Allende, desde IDECOR" src="../../img/cbadatos-todos-los-datos-de-cordoba/5-mapa-idecor.jpg"></p>
+<p>Todo el código del portal es público: <a href="https://github.com/parripollo/ckanext-cordoba-portal">parripollo/ckanext-cordoba-portal</a>. Ahí están los cosechadores de cada fuente, por si alguien quiere reutilizarlos en otro lado.</p>
+<h3>Parte 2: un CKAN sin Solr ni Redis</h3>
+<p>Si entrás a <a href="https://cbadatos.com.ar/pages/sobre-este-ckan">la página "Sobre este CKAN"</a> vas a ver que este portal no corre sobre el CKAN oficial.</p>
+<p><img alt="Sobre este CKAN y este experimento" src="../../img/cbadatos-todos-los-datos-de-cordoba/6-sobre-este-ckan.jpg"></p>
+<h4>El problema</h4>
+<p>Un sitio CKAN son tres servicios: PostgreSQL para el catálogo, Apache Solr para las búsquedas y Redis para las tareas en segundo plano. Cada uno hay que instalarlo, monitorearlo y actualizarlo en sintonía con la versión de CKAN. Para un portal chico o mediano (que son casi todos) es mucha infraestructura alrededor de lo que al final es una aplicación Python sobre una base de datos.</p>
+<p>Simplificar CKAN no es un problema nuevo, se ha discutido muchas veces pero el desafió es muy grande.</p>
+<h4>El experimento</h4>
+<p>Así que lo intentamos. La propuesta está documentada en <a href="https://ckan.cbadatos.com.ar/">ckan.cbadatos.com.ar</a> y el código es público en <a href="https://github.com/parripollo/ckanito">parripollo/ckanito</a>. La idea es que CKAN sea para los datos abiertos lo que Django es para las aplicaciones web: instalar, apuntar a una base de datos y correr.</p>
+<p><img alt="CKAN on PostgreSQL only" src="../../img/cbadatos-todos-los-datos-de-cordoba/7-ckan-solo-postgresql.jpg"></p>
+<p>En resumen:</p>
+<ul>
+<li>La búsqueda (texto completo, facetas, filtros y orden) corre sobre el <em>full text search</em> de PostgreSQL.</li>
+<li>Las tareas en segundo plano son filas en una tabla que los <em>workers</em> toman con <code>SELECT ... FOR UPDATE SKIP LOCKED</code>.</li>
+<li>Las sesiones y un pequeño almacén clave/valor para extensiones también viven en PostgreSQL.</li>
+<li>Cada una de esas piezas quedó detrás de una interfaz. Si alguien quiere volver a usar Solr o Redis (<em>vade retro</em>!) puede escribir su implementación en una extensión sin tocar el núcleo. Nosotros (?) solo hicimos la de PostgreSQL. Creo que el error original de CKAN no fue usar Solr y Redis sino hablar con ellos desde todos lados, sin un contrato que se pueda reemplazar.</li>
+<li>La API pública, las interfaces de plugins y la línea de comandos son las mismas. Pasan todos los tests de CKAN (unos 3.500), los linters y la construcción de la documentación.</li>
+<li>Las extensiones se probaron una por una. La mayoría funcionaron sin cambios o con cambios mínimos. Harvest y spatial necesitaron un backend nuevo.</li>
+</ul>
+<p>Todos los cambios están juntos en <a href="https://github.com/parripollo/ckan/pull/1">un solo pull request contra un fork de CKAN</a>, que existe solo para poder leer la diferencia: 107 archivos, unas 4.000 líneas agregadas y otras tantas borradas. La mayor parte de lo que se borra es Solr.</p>
+<p><img alt="El pull request: Solr y Redis afuera" src="../../img/cbadatos-todos-los-datos-de-cordoba/8-pr-sin-solr-ni-redis.jpg"></p>
+<p>Hay mucho para seguir revisando. El trabajo fue mayormente hecho por IA (Claude, Fable 5).
+Nosotros dirigimos el trabajo y tomamos las decisiones. Claude (el modelo de Anthropic) hizo el trabajo técnico: leyó el código de CKAN, propuso alternativas, escribió el código, los tests y la documentación. <code>parripollo</code> es la cuenta de GitHub que le dimos para trabajar aislado. Los tests de CKAN fueron el árbitro en cada paso.</p>
+<p>Trabajo con CKAN hace años. Aun así, no puedo decir que entiendo al 100% cada una de las miles de líneas que cambiaron. Puedo leerlas, puedo ver que los tests pasan, puedo ver dos portales funcionando con miles de datos reales. Pero no las escribí yo, y entender un cambio así de profundo en CKAN requiere mucho más que leerlo.</p>
+<p>Y al mismo tiempo el resultado es real: un portal de datos que se instala con PostgreSQL y un par de comandos. Si esto funciona bien, levantar un portal de datos abiertos para un municipio chico, una universidad o una organización deja de requerir tres servicios y alguien que sepa mantenerlos.</p>
+<h4>¿Y ahora?</h4>
+<p>No tengo una respuesta y me gustaría dejar el debate abierto:</p>
+<ul>
+<li>¿Tiene sentido proponer esto a la comunidad de CKAN? ¿Alguien va a querer revisar miles de líneas escritas mayormente por una IA?</li>
+<li>¿Es razonable usarlo en portales de verdad? Hoy lo usa cbadatos, que es un experimento ciudadano. ¿Lo pondríamos en un portal de gobierno?</li>
+<li>¿Quién lo mantiene? CKAN sigue avanzando y cada cambio del CKAN oficial hay que traerlo a esta versión.</li>
+<li>¿Cuánto tengo que entender de un código para confiar en él? ¿Alcanza con los tests, con verlo funcionando, con que otras personas lo revisen?</li>
+</ul>
+</div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/ckan/" rel="tag">CKAN</a></li>
+            <li><a class="tag p-category" href="../../categories/cordoba/" rel="tag">Cordoba</a></li>
+            <li><a class="tag p-category" href="../../categories/datos/" rel="tag">datos</a></li>
+            <li><a class="tag p-category" href="../../categories/gobierno-abierto/" rel="tag">gobierno-abierto</a></li>
+            <li><a class="tag p-category" href="../../categories/ia/" rel="tag">IA</a></li>
+            <li><a class="tag p-category" href="../../categories/opendata/" rel="tag">OpenData</a></li>
+            <li><a class="tag p-category" href="../../categories/software-libre/" rel="tag">software-libre</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../presupuesto-abierto-cordoba/" rel="prev" title="Presupuesto Abierto: seis años de scraping y un portal para periodistas">Publicación anterior</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+    
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://andresvazquez.com.ar/blog/posts/cbadatos-todos-los-datos-de-cordoba/",
+        disqus_title="Todos los datos de C\u00f3rdoba en un solo lugar (y sobre un CKAN diferente)",
+        disqus_identifier="cache/posts/cbadatos-todos-los-datos-de-cordoba.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>
