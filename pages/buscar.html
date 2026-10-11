@@ -1,0 +1,46 @@
+<!--
+.. title: Buscar
+.. slug: buscar
+.. description: Buscar en el sitio
+.. pagefind: no
+-->
+
+<link href="../../pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="../../pagefind/pagefind-ui.js"></script>
+<style>
+    /* Colores del theme hack (dark) para la UI de Pagefind */
+    #search {
+        --pagefind-ui-scale: 0.9;
+        --pagefind-ui-primary: #5670d4;
+        --pagefind-ui-text: #ccc;
+        --pagefind-ui-background: #000;
+        --pagefind-ui-border: #444;
+        --pagefind-ui-tag: #222;
+        --pagefind-ui-border-radius: 0;
+        --pagefind-ui-font: inherit;
+    }
+    #search .pagefind-ui__result-link { color: #5670d4; }
+    #search mark { background: #5670d4; color: #fff; }
+</style>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        var q = new URLSearchParams(window.location.search).get('q');
+        var ui = new PagefindUI({
+            element: '#search',
+            showSubResults: true,
+            showImages: false,
+            // Raiz del sitio relativa a esta pagina (/pages/buscar/), asi
+            // los resultados funcionan en el dominio, en github.io/me/ y en
+            // `nikola serve` (/blog/).
+            baseUrl: new URL('../../', window.location.href).pathname,
+            translations: {
+                placeholder: 'Buscar en el sitio',
+                zero_results: 'Sin resultados para [SEARCH_TERM]'
+            }
+        });
+        if (q) {
+            ui.triggerSearch(q);
+        }
+    });
+</script>

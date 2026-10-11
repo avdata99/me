@@ -24,7 +24,14 @@ ${template_hooks['extra_head']()}
 <a href="#content" class="sr-only sr-only-focusable">${messages("Skip to main content")}</a>
     <div id="container">
          ${header.html_header()}
+         ## Solo posts y paginas entran al indice de Pagefind (no los listados).
+         <% pf_post = context.get('post') %>
+         % if pf_post and pf_post.meta('pagefind') != 'no':
+         <main id="content" data-pagefind-body>
+         <span data-pagefind-meta="title" data-pagefind-ignore hidden>${pf_post.title()|h}</span>
+         % else:
          <main id="content">
+         % endif
             <%block name="content"></%block>
          </main>
          ${footer.html_footer()}
