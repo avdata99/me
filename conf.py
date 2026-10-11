@@ -147,7 +147,6 @@ NAVIGATION_LINKS = {
         ("/pages/sobre-mi", "Sobre mí"),
         # ("/categories/index.html", "Tags"),
         ("/archive.html", "Archivos"),
-        ("/pages/buscar", "Buscar"),
         ("/rss.xml", "Blog RSS"),
         
     )
@@ -1272,6 +1271,23 @@ INDEX_DISPLAY_POST_COUNT = 3
 # Default is no search form.
 # (translatable)
 # SEARCH_FORM = ""
+# Caja de busqueda en el header de todas las paginas. Lleva a la pagina
+# del buscador (pages/buscar.html), donde Pagefind hace la busqueda.
+SEARCH_FORM = """
+<form method="get" action="/pages/buscar/" class="site-search">
+<input type="search" name="q" placeholder="Buscar..." aria-label="Buscar en el sitio" required>
+<button type="submit">Buscar</button>
+</form>
+<style>
+.site-search { display: flex; gap: .5em; margin: 0 0 1em; }
+.site-search input { flex: 1; max-width: 22em; padding: .3em .6em; font: inherit;
+    background: #000; color: #ccc; border: 1px solid #444; }
+.site-search input:focus { outline: none; border-color: #5670d4; }
+.site-search button { padding: .3em .9em; font: inherit; cursor: pointer;
+    background: #000; color: #5670d4; border: 1px solid #5670d4; }
+.site-search button:hover { background: #5670d4; color: #fff; }
+</style>
+"""
 #
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:

@@ -22,7 +22,8 @@ Output goes to `docs/` (committed - GitHub Pages serves from there). After a bui
 
 - Solo se indexan posts y paginas: `themes/hack/templates/base.tmpl` marca su `<main>` con `data-pagefind-body` (los listados, tags y archivo no entran).
 - Para excluir una pagina o post puntual, agregar la metadata `.. pagefind: no` (asi esta `pages/buscar.html`).
-- La UI esta en `pages/buscar.html`; acepta `?q=termino` en la URL.
+- Caja de busqueda en el header de todas las paginas: `SEARCH_FORM` en `conf.py`. Es un form simple (sin JS) que lleva a `pages/buscar/?q=...`.
+- La UI de Pagefind esta en `pages/buscar.html` y lee `?q=termino` de la URL.
 
 ## CV
 

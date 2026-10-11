@@ -20,7 +20,7 @@
 <meta property="og:url" content="https://andresvazquez.com.ar/blog/pages/buscar/">
 <meta property="og:description" content="Buscar en el sitio">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2026-10-11T22:11:16Z">
+<meta property="article:published_time" content="2026-10-11T22:49:24Z">
 </head>
 <body class="hack dark">
 
@@ -42,14 +42,28 @@
                 <li><a href="../proyectos-personales">Proyectos</a></li>
                 <li><a href="../sobre-mi">Sobre mí</a></li>
                 <li><a href="../../archive.html">Archivos</a></li>
-                <li><a href="../buscar">Buscar</a></li>
                 <li><a href="../../rss.xml">Blog RSS</a></li>
 
     
 
     
     
-    </ul></nav></header><main id="content"><article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Buscar</a></h1>
+    </ul></nav><div class="searchform" role="search">
+                
+<form method="get" action="." class="site-search">
+<input type="search" name="q" placeholder="Buscar..." aria-label="Buscar en el sitio" required><button type="submit">Buscar</button>
+</form>
+<style>
+.site-search { display: flex; gap: .5em; margin: 0 0 1em; }
+.site-search input { flex: 1; max-width: 22em; padding: .3em .6em; font: inherit;
+    background: #000; color: #ccc; border: 1px solid #444; }
+.site-search input:focus { outline: none; border-color: #5670d4; }
+.site-search button { padding: .3em .9em; font: inherit; cursor: pointer;
+    background: #000; color: #5670d4; border: 1px solid #5670d4; }
+.site-search button:hover { background: #5670d4; color: #fff; }
+</style>
+</div>
+    </header><main id="content"><article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Buscar</a></h1>
 
         
 
@@ -67,6 +81,8 @@
         --pagefind-ui-border-radius: 0;
         --pagefind-ui-font: inherit;
     }
+    /* En esta pagina ya esta la caja de Pagefind, no repetir la del header */
+    .searchform { display: none; }
     #search .pagefind-ui__result-link { color: #5670d4; }
     #search mark { background: #5670d4; color: #fff; }
 </style>
