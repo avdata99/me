@@ -147,6 +147,7 @@ NAVIGATION_LINKS = {
         ("/pages/sobre-mi", "Sobre mí"),
         # ("/categories/index.html", "Tags"),
         ("/archive.html", "Archivos"),
+        ("/pages/buscar", "Buscar"),
         ("/rss.xml", "Blog RSS"),
         
     )

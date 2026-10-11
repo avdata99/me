@@ -5,17 +5,24 @@ Also available at https://avdata99.github.io/me/
 
 ## Build
 
-Built with [Nikola](https://getnikola.com/). Use [`uv`](https://github.com/astral-sh/uv) to manage the Python env so we don't pollute the system:
+Built with [Nikola](https://getnikola.com/) + [Pagefind](https://pagefind.app/) (buscador estatico). Versiones fijadas en `requirements.txt`. Use [`uv`](https://github.com/astral-sh/uv) to manage the Python env so we don't pollute the system.
+
+**Siempre buildear con `./build.sh`**, no con `nikola build` solo: el script corre `nikola build` y despues `pagefind --site docs`, que regenera el indice del buscador en `docs/pagefind/`. Si se saltea Pagefind, el buscador (`/pages/buscar/`) queda desactualizado.
 
 ```bash
-uv venv
-uv pip install "Nikola[extras]"
-
-uv run nikola build      # regenerate docs/
-uv run nikola serve -b   # local preview at http://localhost:8000
+./build.sh                                        # crea .venv si hace falta, instala requirements.txt, nikola build + pagefind
+uv run python -m http.server 8000 -d docs        # preview local en http://localhost:8000 (buscador incluido)
 ```
 
-Output goes to `docs/` (committed — GitHub Pages serves from there). After a build, commit both the source changes and the regenerated `docs/`.
+`uv run nikola serve -b` tambien sirve para previsualizar (bajo `/blog/`).
+
+Output goes to `docs/` (committed - GitHub Pages serves from there). After a build, commit both the source changes and the regenerated `docs/` (incluido `docs/pagefind/`).
+
+### Buscador
+
+- Solo se indexan posts y paginas: `themes/hack/templates/base.tmpl` marca su `<main>` con `data-pagefind-body` (los listados, tags y archivo no entran).
+- Para excluir una pagina o post puntual, agregar la metadata `.. pagefind: no` (asi esta `pages/buscar.html`).
+- La UI esta en `pages/buscar.html`; acepta `?q=termino` en la URL.
 
 ## CV
 
