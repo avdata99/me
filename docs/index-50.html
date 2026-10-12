@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html prefix="" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="blog personal de Andres Vázquez [@avdata99]">
+<meta name="viewport" content="width=device-width">
+<title>Temimbo'e (publicaciones antiguas, página 50) | Temimbo'e</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/dark.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://andresvazquez.com.ar/blog/index-50.html">
+<link rel="prev" href="." type="text/html">
+<link rel="next" href="index-49.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body class="hack dark">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="Temimbo'e" rel="home">
+
+        <span id="blog-title">Temimbo'e</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cadenadedatos.org/">Podcast</a></li>
+                <li><a href="https://github.com/avdata99/">GitHub</a></li>
+                <li><a href="https://twitter.com/avdata99/">Twitter</a></li>
+                <li><a href="pages/proyectos-personales">Proyectos</a></li>
+                <li><a href="pages/sobre-mi">Sobre mí</a></li>
+                <li><a href="archive.html">Archivos</a></li>
+                <li><a href="rss.xml">Blog RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav><div class="searchform" role="search">
+                
+<form method="get" action="pages/buscar/" class="site-search">
+<input type="search" name="q" placeholder="Buscar..." aria-label="Buscar en el sitio" required><button type="submit">Buscar</button>
+</form>
+<style>
+.site-search { display: flex; gap: .5em; margin: 0 0 1em; }
+.site-search input { flex: 1; max-width: 22em; padding: .3em .6em; font: inherit;
+    background: #000; color: #ccc; border: 1px solid #444; }
+.site-search input:focus { outline: none; border-color: #5670d4; }
+.site-search button { padding: .3em .9em; font: inherit; cursor: pointer;
+    background: #000; color: #5670d4; border: 1px solid #5670d4; }
+.site-search button:hover { background: #5670d4; color: #fff; }
+</style>
+</div>
+    </header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/portales-datos-cordoba-2026/" class="u-url">Migrar dos portales de datos abiertos después de una década sin actualizar</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/portales-datos-cordoba-2026/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-08-25T12:00:00Z" itemprop="datePublished" title="2026-08-25 12:00">2026-08-25 12:00</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>Terminamos la migración de los dos portales de datos abiertos de la Provincia de Córdoba: <a href="https://datosgestionabierta.cba.gov.ar/">datosgestionabierta.cba.gov.ar</a> y <a href="https://datosestadistica.cba.gov.ar/">datosestadistica.cba.gov.ar</a>. Fue un año de trabajo, desde agosto de 2025 hasta agosto de 2026. Lo cuento porque es el tipo de proyecto que casi nunca se cuenta: no hay nada nuevo para inaugurar, hay algo viejo que dejó de ser un riesgo.</p>
+<p><img alt="Portal de datos abiertos de la Provincia de Córdoba" src="img/portales-datos-cordoba-2026/1-gestion-abierta.jpg"></p>
+<h3>El punto de partida</h3>
+<p>Los dos portales corrían sobre CKAN 2.6.2 con PostgreSQL 9.6, en servidores propios del gobierno. Esa versión de CKAN es de 2017. Nadie la había actualizado en casi diez años. Funcionaban pero cada día que pasaba la brecha con el CKAN actual se hacía más grande y el salto más caro.</p>
+<p>Los que trabajamos con CKAN sabemos que una actualización de 2.6 a 2.11 no es una actualización menor. Cambió Python (de 2 a 3), cambió el framework web (de Pylons a Flask), cambió el esquema de la base y cambió la forma de escribir extensiones. Lo que había que hacer era construir portales nuevos y mover los datos.</p>
+<h3>Dos herramientas libres</h3>
+<p>Decidimos que todo lo que no fuera específico de Córdoba quedara publicado. Salieron dos repositorios:</p>
+<p><a href="https://github.com/avdata99/ckan-to-aws">ckan-to-aws</a> despliega CKAN completo en AWS con Terraform y Docker: una tarea de ECS Fargate con CKAN, Solr y Redis, una base RDS PostgreSQL, imágenes en ECR, secretos en Secrets Manager y logs en CloudWatch. Un script, un <code>.env</code> y ya tenemos un CKAN andando.</p>
+<p><a href="https://github.com/avdata99/ckan-migrator">ckan-migrator</a> hace la migración a nivel base de datos. Levanta el dump viejo en un PostgreSQL 9.6 dockerizado, extrae cada tabla a CSV y JSON, y las inserta en el CKAN nuevo respetando el esquema actual. Datasets, recursos, organizaciones, grupos, usuarios y el historial de actividad. Los archivos subidos se mueven aparte.</p>
+<p>Lo que sí es específico de Córdoba quedó en repositorios privados, uno por portal: una extensión para la interfaz de cada uno (los dos portales pertenecen a ministerios distintos y tienen identidad propia) y la configuración de cada ambiente. Cada equipo del gobierno tiene su repo y puede gestionar sus diferencias sin tocar la base común.</p>
+<p><img alt="Portal de la Dirección de Estadísticas y Censos" src="img/portales-datos-cordoba-2026/2-estadistica-y-censos.jpg"></p>
+<p><img alt="Conjuntos de datos del portal" src="img/portales-datos-cordoba-2026/3-datasets.jpg"></p>
+<h3>Lo que queda</h3>
+<p>Todo el proceso fue documentado exaustivamente para que cualquier equipo técnico pueda actualizar CKAN en el futuro sin depender de un proveedor externo. La migración de datos es reproducible y los portales pueden ser desplegados en cualquier nube o servidor propio.</p>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="." rel="prev">Publicaciones posteriores</a>
+            </li>
+            <li class="next">
+                <a href="index-49.html" rel="next">Publicaciones anteriores</a>
+            </li>
+        </ul></nav></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

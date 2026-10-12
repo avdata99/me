@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://andresvazquez.com.ar/blog/</loc>
-  <lastmod>2026-10-11T22:08:00Z</lastmod>
+  <lastmod>2026-10-12T17:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/2012/</loc>
@@ -71,7 +71,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/archive.html</loc>
-  <lastmod>2026-10-11T22:49:00Z</lastmod>
+  <lastmod>2026-10-12T17:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/blog/</loc>
@@ -319,7 +319,7 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/</loc>
-  <lastmod>2026-09-29T17:10:00Z</lastmod>
+  <lastmod>2026-10-12T17:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/boletin-oficial/</loc>
@@ -356,6 +356,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/datos/</loc>
   <lastmod>2026-05-22T14:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/categories/dns/</loc>
+  <lastmod>2026-10-12T17:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/categories/dominios-ar/</loc>
@@ -755,11 +759,15 @@
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-49.html</loc>
-  <lastmod>2026-10-11T22:49:00Z</lastmod>
+  <lastmod>2026-10-12T17:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-5.html</loc>
   <lastmod>2026-10-11T22:49:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/index-50.html</loc>
+  <lastmod>2026-10-12T17:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/index-6.html</loc>
@@ -852,6 +860,10 @@
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/ciencia-reutilizable/</loc>
   <lastmod>2026-05-22T14:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://andresvazquez.com.ar/blog/posts/cloudflare-dns-dominios-argentinos-2026/</loc>
+  <lastmod>2026-10-12T17:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://andresvazquez.com.ar/blog/posts/columna-genfm-2017-07-03/</loc>

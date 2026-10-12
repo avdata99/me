@@ -14,8 +14,8 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://andresvazquez.com.ar/blog/">
-<link rel="next" href="index-49.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/cbadatos-todos-los-datos-de-cordoba/" type="text/html">
+<link rel="next" href="index-50.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/cloudflare-dns-dominios-argentinos-2026/" type="text/html">
 </head>
 <body class="hack dark">
 
@@ -59,7 +59,77 @@
 </style>
 </div>
     </header><main id="content"><div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/cbadatos-todos-los-datos-de-cordoba/" class="u-url">Todos los datos de Córdoba en un solo lugar (y sobre un CKAN diferente)</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/cloudflare-dns-dominios-argentinos-2026/" class="u-url">Cloudflare será el nuevo jefe de los dominios argentinos</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Andres Vazquez
+            </span></p>
+            <p class="dateline">
+            <a href="posts/cloudflare-dns-dominios-argentinos-2026/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-10-12T12:00:00Z" itemprop="datePublished" title="2026-10-12 12:00">2026-10-12 12:00</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>Informe de situación a la semana del 12 de octubre de 2026. Miramos los servidores de nombres (DNS) de los <strong>531.224 dominios .ar</strong> que tienen DNS delegado y contamos quién los gestiona, semana a semana.</p>
+<p>La noticia: <strong>Cloudflare está a punto de pasar a DonWeb</strong> como el proveedor que más dominios argentinos resuelve.</p>
+<p><img alt="Ranking de proveedores de DNS de la semana del 12/10/2026 con variación de 1 semana, 4 semanas y desde el 24/11/2025" src="img/cloudflare-dns-argentina-2026/3-ranking.jpeg"></p>
+<p><em>pp = puntos porcentuales de participación: cuánto del total gana o pierde cada proveedor.</em></p>
+<p><img alt="Porcentaje de dominios .ar por proveedor de DNS, semanal desde noviembre de 2025: DonWeb baja de 20,3% a 19,7% y Cloudflare sube de 10,9% a 17,7%" src="img/cloudflare-dns-argentina-2026/1-share.jpeg"></p>
+<h3>Cloudflare duplicó sus dominios en diez meses</h3>
+<p>Desde fines de noviembre de 2025 Cloudflare pasó de 44.408 a 94.102 dominios .ar (+112%) y de 10,9% a 17,7% del total. En el mismo período DonWeb creció en cantidad (+21.464) pero perdió participación (de 20,3% a 19,7%).</p>
+<p>De los 122.651 dominios netos que se sumaron en ese período, <strong>4 de cada 10 eligieron Cloudflare</strong>.</p>
+<p>La distancia hoy es de 10.354 dominios (1,95 puntos). En el último mes Cloudflare le descontó a DonWeb unos 1.800 dominios por semana. Si el ritmo sigue, <strong>el cruce sería hacia fines de noviembre de 2026</strong>.</p>
+<p><img alt="Dominios .ar por proveedor de DNS, barras apiladas semanales: el total pasa de 408.000 a 531.000 y la franja de Cloudflare es la que más crece" src="img/cloudflare-dns-argentina-2026/2-stack.jpeg"></p>
+<h3>DonWeb sigue siendo el número uno (en lo que importa para ellos)</h3>
+<p>Que Cloudflare pase a DonWeb en DNS no quiere decir que se quede con el negocio de los dominios argentinos:</p>
+<ul>
+<li>
+<strong>Cloudflare no vende dominios .ar.</strong> Los dominios se registran en NIC Argentina, directamente o a través de proveedores como DonWeb. Después, el titular delega el DNS a Cloudflare.</li>
+<li>
+<strong>DNS no es hosting.</strong> Muchos de esos 94.000 sitios siguen alojados en DonWeb, Hostinger u otro proveedor y usan Cloudflare adelante como DNS, CDN y certificado gratuito. Es coherente con lo que vimos en abril: el 21,5% de los sitios ya respondía con el encabezado <code>server: cloudflare</code> (<a href="posts/tecnologia-de-dominios-argentinos-2026/">Tecnología detrás de 600.000 dominios argentinos</a>).</li>
+<li>
+<strong>El plan gratuito es la puerta de entrada.</strong> DNS rápido, SSL y protección básica sin costo es una oferta difícil de igualar para un hosting local.</li>
+</ul>
+<p>Entonces: DonWeb sigue siendo donde la gente compra y aloja, pero cada vez más dominios argentinos le entregan las llaves (quién responde por el dominio) a Cloudflare.</p>
+<h3>Lo que más nos llama la atención</h3>
+<ul>
+<li>
+<strong>Concentración.</strong> DonWeb y Cloudflare juntos ya resuelven el 37% de los dominios .ar, y los 10 primeros pasaron de 56% a 65% del total. Todos los demás proveedores juntos perdieron 8,4 puntos desde noviembre.</li>
+</ul>
+<h3>Además de Cloudflare: quiénes crecieron</h3>
+<p><img alt="Cambio de participación por proveedor de DNS entre noviembre de 2025 y octubre de 2026, sin Cloudflare: ganan Vercel, NS1 (Netlify), Hostinger y Amazon AWS; pierden DonWeb, LatinCloud, NutHost, WNPower, Towebs, GoDaddy, Wiroos, Wix, Allytech y Empretienda" src="img/cloudflare-dns-argentina-2026/4-ganadores-perdedores.png"></p>
+<ul>
+<li>
+<strong>Vercel se multiplicó por 5</strong>: de 2.503 a 13.180 dominios (+1,87 puntos) y ya es el quinto proveedor de DNS de los dominios .ar.</li>
+<li>
+<strong>NS1, usado principalmente por Netlify, creció 4,5 veces</strong>: de 1.550 a 6.925 dominios (+0,92 puntos) y entró al top 10. NS1 (hoy de IBM) es el servicio sobre el que funciona <a href="https://docs.netlify.com/manage/domains/configure-domains/netlify-name-servers/">Netlify DNS</a> y también da DNS a otras empresas, pero en los dominios .ar casi todo es Netlify: en una muestra de 35 dominios con NS1 que responden, 33 estaban alojados en Netlify.</li>
+<li>
+<strong>Hostinger</strong> sumó 13.936 dominios (+39%, +0,63 puntos) y se consolida tercero.</li>
+<li>
+<strong>Amazon AWS</strong> sumó 9.946 (+34%, +0,22 puntos).</li>
+</ul>
+<p>Vercel y Netlify son plataformas donde se despliegan sitios hechos con frameworks modernos: son proyectos que nacen en la nube y nunca pasan por un hosting tradicional. Junto con Cloudflare, se llevan más de la mitad del crecimiento del período (54%).</p>
+<h3>Quiénes perdieron</h3>
+<p>Casi todos los demás proveedores relevantes suman dominios, pero crecen menos que el mercado y pierden participación:</p>
+<ul>
+<li>
+<strong>DonWeb</strong> es el que más puntos pierde (-0,65), aunque sumó 21.464 dominios (+26%).</li>
+<li>
+<strong>Los hostings argentinos medianos</strong> retroceden: LatinCloud (-0,52), NutHost (-0,46), WNPower (-0,33) y Towebs (-0,32). Towebs es el único de ellos que además perdió dominios (de 5.171 a 5.030).</li>
+<li>
+<strong>GoDaddy, Wiroos y Wix</strong> pierden entre 0,23 y 0,27 puntos cada uno.</li>
+<li>En cantidad, la caída más fuerte entre los proveedores con más de 2.000 dominios es la de <strong>Mercado Libre</strong>: de 2.230 a 1.290 dominios (-42%).</li>
+</ul>
+<p>Para tener perspectiva: en marzo de 2015 hicimos un relevamiento parecido (<a href="posts/uso-de-dns-en-argentina/">DNSs usados en Argentina</a>). Cloudflare ya existía y tenía <strong>918 dominios .ar, el 0,28%</strong> de los que tenían DNS. Hoy son más de 94.000.</p>
+<h3>Cómo medimos</h3>
+<ul>
+<li>No tenemos el 100% de los dominios argentinos. Relevamos la gran mayoría de los dominios .ar vigentes (NIC declaraba 697.130 en abril de 2026) y volvemos a consultar cada uno periódicamente, así que esto es una muestra muy amplia y representativa, no un censo exacto.</li>
+<li>Para cada dominio .ar tomamos su primer servidor de nombres y lo asignamos a una empresa (por ejemplo, <code>*.ns.cloudflare.com</code> es Cloudflare). Los servidores que todavía no identificamos con ninguna empresa se suman en "Otros". Los datos salen de las lecturas whois de <a href="https://whoare.io">whoare.io</a>.</li>
+<li>Arrancamos en noviembre de 2025 a propósito: entre mediados de 2022 y septiembre de 2025 nuestras lecturas fueron irregulares, y las series de esos años no son comparables.</li>
+</ul>
+<p>¿Tu dominio está en Cloudflare?</p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/cbadatos-todos-los-datos-de-cordoba/" class="u-url">Todos los datos de Córdoba en un solo lugar (y sobre un CKAN diferente)</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Andres Vazquez
@@ -197,38 +267,12 @@ Nosotros dirigimos el trabajo y tomamos las decisiones. Claude (el modelo de Ant
 <p>En 2026 la Provincia cambió la interfaz gráfica y escondió muchos datos. Saco tambien las Agencias de Gobierno (Cultura, Deportes, etc). Muchos subprogramas ya no son visibles. ¿Que pasa si se apaga el portal?
 Esta plataforma puede seguir abierta aún si eso pasara y hoy mismo ya muestra más datos que el portal oficial por lo que se escodió en la última actualización.</p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/portales-datos-cordoba-2026/" class="u-url">Migrar dos portales de datos abiertos después de una década sin actualizar</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Andres Vazquez
-            </span></p>
-            <p class="dateline">
-            <a href="posts/portales-datos-cordoba-2026/" rel="bookmark">
-            <time class="published dt-published" datetime="2026-08-25T12:00:00Z" itemprop="datePublished" title="2026-08-25 12:00">2026-08-25 12:00</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>Terminamos la migración de los dos portales de datos abiertos de la Provincia de Córdoba: <a href="https://datosgestionabierta.cba.gov.ar/">datosgestionabierta.cba.gov.ar</a> y <a href="https://datosestadistica.cba.gov.ar/">datosestadistica.cba.gov.ar</a>. Fue un año de trabajo, desde agosto de 2025 hasta agosto de 2026. Lo cuento porque es el tipo de proyecto que casi nunca se cuenta: no hay nada nuevo para inaugurar, hay algo viejo que dejó de ser un riesgo.</p>
-<p><img alt="Portal de datos abiertos de la Provincia de Córdoba" src="img/portales-datos-cordoba-2026/1-gestion-abierta.jpg"></p>
-<h3>El punto de partida</h3>
-<p>Los dos portales corrían sobre CKAN 2.6.2 con PostgreSQL 9.6, en servidores propios del gobierno. Esa versión de CKAN es de 2017. Nadie la había actualizado en casi diez años. Funcionaban pero cada día que pasaba la brecha con el CKAN actual se hacía más grande y el salto más caro.</p>
-<p>Los que trabajamos con CKAN sabemos que una actualización de 2.6 a 2.11 no es una actualización menor. Cambió Python (de 2 a 3), cambió el framework web (de Pylons a Flask), cambió el esquema de la base y cambió la forma de escribir extensiones. Lo que había que hacer era construir portales nuevos y mover los datos.</p>
-<h3>Dos herramientas libres</h3>
-<p>Decidimos que todo lo que no fuera específico de Córdoba quedara publicado. Salieron dos repositorios:</p>
-<p><a href="https://github.com/avdata99/ckan-to-aws">ckan-to-aws</a> despliega CKAN completo en AWS con Terraform y Docker: una tarea de ECS Fargate con CKAN, Solr y Redis, una base RDS PostgreSQL, imágenes en ECR, secretos en Secrets Manager y logs en CloudWatch. Un script, un <code>.env</code> y ya tenemos un CKAN andando.</p>
-<p><a href="https://github.com/avdata99/ckan-migrator">ckan-migrator</a> hace la migración a nivel base de datos. Levanta el dump viejo en un PostgreSQL 9.6 dockerizado, extrae cada tabla a CSV y JSON, y las inserta en el CKAN nuevo respetando el esquema actual. Datasets, recursos, organizaciones, grupos, usuarios y el historial de actividad. Los archivos subidos se mueven aparte.</p>
-<p>Lo que sí es específico de Córdoba quedó en repositorios privados, uno por portal: una extensión para la interfaz de cada uno (los dos portales pertenecen a ministerios distintos y tienen identidad propia) y la configuración de cada ambiente. Cada equipo del gobierno tiene su repo y puede gestionar sus diferencias sin tocar la base común.</p>
-<p><img alt="Portal de la Dirección de Estadísticas y Censos" src="img/portales-datos-cordoba-2026/2-estadistica-y-censos.jpg"></p>
-<p><img alt="Conjuntos de datos del portal" src="img/portales-datos-cordoba-2026/3-datasets.jpg"></p>
-<h3>Lo que queda</h3>
-<p>Todo el proceso fue documentado exaustivamente para que cualquier equipo técnico pueda actualizar CKAN en el futuro sin depender de un proveedor externo. La migración de datos es reproducible y los portales pueden ser desplegados en cualquier nube o servidor propio.</p>
-    </div>
     </article>
 </div>
 
         <nav class="postindexpager"><ul class="pager">
 <li class="next">
-                <a href="index-49.html" rel="next">Publicaciones anteriores</a>
+                <a href="index-50.html" rel="next">Publicaciones anteriores</a>
             </li>
         </ul></nav></main><footer id="footer"><p>Contents © 2026         <a href="mailto:andres@data99.com.ar">Andres Vazquez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
